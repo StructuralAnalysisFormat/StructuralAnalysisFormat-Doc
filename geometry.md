@@ -7,33 +7,33 @@ Following geometrical types are available:
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Geometry type</th>
-      <th style="text-align:left">Type definition</th>
-      <th style="text-align:left">Insertion data explanation</th>
-      <th style="text-align:left">SAF geometry strings</th>
-      <th style="text-align:left">Notes</th>
+      <th style="text-align:middle">Geometry type</th>
+      <th style="text-align:middle">Type definition</th>
+      <th style="text-align:middle">Insertion data explanation</th>
+      <th style="text-align:middle">SAF geometry strings</th>
+      <th style="text-align:middle">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Straight line between two nodes</td>
-      <td style="text-align:left">
+      <td style="text-align:middle"></td>
+      <td style="text-align:middle">Straight line between two nodes</td>
+      <td style="text-align:middle">
         <p>Start point , End point</p>
         <p>N1;N2</p>
       </td>
-      <td style="text-align:left">Line</td>
-      <td style="text-align:left">-</td>
+      <td style="text-align:middle">Line</td>
+      <td style="text-align:middle">-</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Arch defined with 3 nodes</td>
-      <td style="text-align:left">
+      <td style="text-align:middle"></td>
+      <td style="text-align:middle">Arch defined with 3 nodes</td>
+      <td style="text-align:middle">
         <p>Start point, Intermediate point, End point</p>
         <p>N3;N4;N5</p>
       </td>
-      <td style="text-align:left">Circular Arc</td>
-      <td style="text-align:left">-</td>
+      <td style="text-align:middle">Circular Arc</td>
+      <td style="text-align:middle">-</td>
     </tr>
   </tbody>
 </table>
