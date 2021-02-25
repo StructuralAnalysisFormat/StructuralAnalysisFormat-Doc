@@ -17,7 +17,7 @@ Following geometrical types are available:
   <tbody>
     <tr>
       <td style="text-align:middle"></td>
-      <td style="text-align:middle">Straight line between two nodes</td>
+      <td style="text-align:middle">TEST</td>
       <td style="text-align:middle">
         <p>Start point , End point</p>
         <p>N1;N2</p>
