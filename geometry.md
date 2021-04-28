@@ -118,7 +118,9 @@ Following geometrical types are available:
         defining the spline</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+       <td style="text-align:left">
+        <img src=".gitbook/assets/4_geometry_circle.png" alt="1" />
+      </td>
       <td style="text-align:left">Circle</td>
       <td style="text-align:left">Circle</td>
       <td style="text-align:left">
