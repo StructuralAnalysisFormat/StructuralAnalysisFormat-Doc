@@ -159,9 +159,9 @@ Following geometrical types are available:
 * Spline  $$Q(t)=\sum_{i=0}^{m}P_iN_i^n(t)$$ ; $$t\epsilon<t_i,t_{i+1}>$$  $$N_i^0(t)=1$$for$$t\epsilon<t_i,t_{i+1}>$$ $$N_i^0(t)=0$$otherwise $$N{i}^{k}{(t)}=\frac{t-t_i}{t_{i+k}-t_i}N_{i}^{k-1}{(t)}+\frac{t_{i+k+1}-t}{t_{i+k+1}-t_{i+1}}N_{i+1}^{k-1}{(t)} $$  $$Q(t)$$is for the Spline curve $$P_i$$is for the coordinates $$N_i^n(t)$$is for basis function $$n$$is for the degree of curve $$m$$is for points of the control polygon
 
 **Polyline schematics:**
+{% endhint %}
 
 ![1](.gitbook/assets/4_Geometry_poly_line_2.png)
-{% endhint %}
 
 
 
