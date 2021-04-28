@@ -95,7 +95,7 @@ Following geometrical types are available:
     </tr>
     <tr>
        <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_spline.png" alt="1" />
+        <img src=".gitbook/assets/4_geomery_spline.png" alt="1" />
       </td>
       <td style="text-align:left">Spline</td>
       <td style="text-align:left">Curved line defined by polynomial function</td>
