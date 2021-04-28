@@ -6,3 +6,6 @@ Browse version history
 
 1.0.5
 
+$$
+a \ne 0
+$$
