@@ -21,7 +21,7 @@ Following geometrical types are available:
         <img src=".gitbook/assets/4_geometry_line.png" alt="1" />
       </td>
       <td style="text-align:left">Line</td>
-      <td style="text-align:left">Straight line between two nodes</td>
+      <td style="text-align:left">Straight-line between two nodes</td>
       <td style="text-align:left">
         <p>Start point , End point</p>
         <p>N1;N2</p>
