@@ -43,31 +43,22 @@ Following geometrical types are available:
       <td style="text-align:left">-</td>
     </tr>
     <tr>
-       <td style="text-align:left">
+      <td style="text-align:left">
         <img src=".gitbook/assets/4_geometry_PA.png" alt="1" />
       </td>
       <td style="text-align:left">Parabolic Arc</td>
-      <td style="text-align:left">
-        <p>Parabolic arch defined with 3 nodes
-          <br />
-        </p>
-        <p></p>
+      <td style="text-align:left">Parabolic arch defined with 3 nodes
+        <br />
       </td>
       <td style="text-align:left">
-        <p>Start point, Intermediate point, End point
-          <br />
-          <br />
-        </p>
-        <p>
-          <br />
-        </p>
+        <p>Start point, Intermediate point, End point</p>
         <p>N6;N7;N8</p>
       </td>
       <td style="text-align:left">Parabolic Arc</td>
       <td style="text-align:left">-</td>
     </tr>
     <tr>
-       <td style="text-align:left">
+      <td style="text-align:left">
         <img src=".gitbook/assets/4_geometry_bezier.png" alt="1" />
       </td>
       <td style="text-align:left">Bezier</td>
@@ -79,10 +70,6 @@ Following geometrical types are available:
         <p>Vertex_B1_2;N10
           <br />
         </p>
-        <p>
-          <br />
-        </p>
-        <p></p>
       </td>
       <td style="text-align:left">Bezier</td>
       <td style="text-align:left">
@@ -94,22 +81,14 @@ Following geometrical types are available:
       </td>
     </tr>
     <tr>
-       <td style="text-align:left">
+      <td style="text-align:left">
         <img src=".gitbook/assets/4_geomery_spline.png" alt="1" />
       </td>
       <td style="text-align:left">Spline</td>
       <td style="text-align:left">Curved line defined by polynomial function</td>
       <td style="text-align:left">
-        <p>Start point, Set of mid points, End point
-          <br />
-        </p>
-        <p>
-          <br />
-        </p>
+        <p>Start point, Set of mid points, End point</p>
         <p>N11;N12;N13;N14;N15;N16;N17;N18
-          <br />
-        </p>
-        <p>
           <br />
         </p>
       </td>
@@ -118,51 +97,26 @@ Following geometrical types are available:
         defining the spline</td>
     </tr>
     <tr>
-       <td style="text-align:left">
+      <td style="text-align:left">
         <img src=".gitbook/assets/4_geometry_circle.png" alt="1" />
       </td>
       <td style="text-align:left">Circle</td>
       <td style="text-align:left">Circle</td>
       <td style="text-align:left">
-        <p>Center Point, Point on the perimeter
-          <br />
-        </p>
-        <p>
-          <br />
-        </p>
-        <p>N36;N37
-          <br />
-        </p>
-        <p>
-          <br />
-        </p>
+        <p>Center Point, Point on the perimeter</p>
+        <p>N36;N37</p>
         <p>Or</p>
-        <p>Three point on perimeter
-          <br />
-        </p>
-        <p>
-          <br />
-        </p>
+        <p>Three point on perimeter</p>
         <p>N36;N37;N38
           <br />
         </p>
-        <p>
-          <br />
-        </p>
-        <p></p>
       </td>
       <td style="text-align:left">
         <p>Circle and Point
           <br />
         </p>
-        <p>
-          <br />
-        </p>
         <p>or</p>
         <p>Circle by 3 points
-          <br />
-        </p>
-        <p>
           <br />
         </p>
       </td>
@@ -171,7 +125,7 @@ Following geometrical types are available:
       </td>
     </tr>
     <tr>
-       <td style="text-align:left">
+      <td style="text-align:left">
         <img src=".gitbook/assets/4_Geometry_poly_line.png" alt="1" />
       </td>
       <td style="text-align:left">Polyline</td>
@@ -179,27 +133,15 @@ Following geometrical types are available:
         <br />
       </td>
       <td style="text-align:left">
-        <p>list of nodes
-          <br />
-        </p>
-        <p>
-          <br />
-        </p>
+        <p>List of nodes</p>
         <p>N21;N22;N23;N24;N25;N26;N27;N28;N29; N30;N31;N32;N33;Vertex_B1_1;VertexB_1_2;N34;N35
           <br
           />
         </p>
-        <p>
-          <br />
-        </p>
-        <p></p>
       </td>
       <td style="text-align:left">Line;Line;Spline-7;Line;Circular Arc;Line;Bezier;Line</td>
-      <td style="text-align:left">
-        <p>Detail explanation can be found in notes below
-          <br />
-        </p>
-        <p></p>
+      <td style="text-align:left">Detail explanation can be found in notes below
+        <br />
       </td>
     </tr>
   </tbody>
