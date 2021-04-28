@@ -17,6 +17,6 @@ a comment is left on any topic in the Help system
 An email has been sent to verify your new profile.Please fill out all required fields before submitting your information.
 
 $$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+Q(t)=\sum_{0}^{3}P_iB_i(t)
 $$
 

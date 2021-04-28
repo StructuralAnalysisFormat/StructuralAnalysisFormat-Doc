@@ -126,7 +126,10 @@ Following geometrical types are available:
     </tr>
     <tr>
       <td style="text-align:left">
-        <img src=".gitbook/assets/4_Geometry_poly_line.png" alt="1" />
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/4_Geometry_poly_line.png" alt="1" />
+        </p>
       </td>
       <td style="text-align:left">Polyline</td>
       <td style="text-align:left">Combination of in nodes connected geometric types
@@ -147,9 +150,18 @@ Following geometrical types are available:
   </tbody>
 </table>
 
-Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](https://saf.guide/Content/A_Objects/5_StructuralPointConnection.htm).
+{% hint style="info" %}
+## Notes:
 
-Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](https://saf.guide/Content/A_Objects/5_StructuralPointConnection.htm).
+**Mathematical definitions:**
 
-Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](https://saf.guide/Content/A_Objects/5_StructuralPointConnection.htm).
+* Bezier  $$Q(t)=\sum_{i=0}^{3}P_iB_i(t)$$ ; $$t\epsilon<0,1>$$  $$B_{0t}=(1-t)^3,B_{1t}=3t(1-t)^2,B_{2t}=3t^2(1-t),B_{3t}=t^3$$   $$Q(t)$$ is for the Beyier curve $$P_{i}$$ is for coodinates, and $$B_{it}$$is for basis function 
+* Spline  $$Q(t)=\sum_{i=0}^{m}P_iN_i^n(t)$$ ; $$t\epsilon<t_i,t_{i+1}>$$  $$N_i^0(t)=1$$for$$t\epsilon<t_i,t_{i+1}>$$ $$N_i^0(t)=0$$otherwise $$N{i}^{k}{(t)}=\frac{t-t_i}{t_{i+k}-t_i}N_{i}^{k-1}{(t)}+\frac{t_{i+k+1}-t}{t_{i+k+1}-t_{i+1}}N_{i+1}^{k-1}{(t)} $$  $$Q(t)$$is for the Spline curve $$P_i$$is for the coordinates $$N_i^n(t)$$is for basis function $$n$$is for the degree of curve $$m$$is for points of the control polygon
+
+**Polyline schematics:**
+
+![1](.gitbook/assets/4_Geometry_poly_line_2.png)
+{% endhint %}
+
+
 
