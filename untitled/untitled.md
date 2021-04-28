@@ -4,9 +4,9 @@ Username \*
 
 Email Address \*
 
- Email Notifications
+Email Notifications
 
- I want to receive an email when...
+I want to receive an email when...
 
 a reply is left to one of my comments
 
