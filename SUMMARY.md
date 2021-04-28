@@ -5,6 +5,7 @@
 * [General](general.md)
 * [Introduction](introduction.md)
 * [Geometry](geometry.md)
+* [Project and model specifications](project-and-model-specifications.md)
 * [Untitled](untitled/README.md)
   * [Untitled](untitled/untitled.md)
 
