@@ -18,7 +18,7 @@ Following geometrical types are available:
   <tbody>
     <tr>
       <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_bezier.png" alt="1" />
+        <img src=".gitbook/assets/4_geometry_line.png" alt="1" />
       </td>
       <td style="text-align:left">Line</td>
       <td style="text-align:left">Straight line between two nodes</td>
@@ -31,7 +31,7 @@ Following geometrical types are available:
     </tr>
     <tr>
       <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_spline.png" alt="1" />
+        <img src=".gitbook/assets/4_geometry_CA_2.png" alt="1" />
       </td>
       <td style="text-align:left">Circular Arc</td>
       <td style="text-align:left">Arch defined with 3 nodes</td>
@@ -43,7 +43,9 @@ Following geometrical types are available:
       <td style="text-align:left">-</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+       <td style="text-align:left">
+        <img src=".gitbook/assets/4_geometry_PA.png" alt="1" />
+      </td>
       <td style="text-align:left">Parabolic Arc</td>
       <td style="text-align:left">
         <p>Parabolic arch defined with 3 nodes
@@ -65,7 +67,9 @@ Following geometrical types are available:
       <td style="text-align:left">-</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+       <td style="text-align:left">
+        <img src=".gitbook/assets/4_geometry_bezier.png" alt="1" />
+      </td>
       <td style="text-align:left">Bezier</td>
       <td style="text-align:left">Cubic Bezier curve</td>
       <td style="text-align:left">
@@ -90,7 +94,9 @@ Following geometrical types are available:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+       <td style="text-align:left">
+        <img src=".gitbook/assets/4_geometry_spline.png" alt="1" />
+      </td>
       <td style="text-align:left">Spline</td>
       <td style="text-align:left">Curved line defined by polynomial function</td>
       <td style="text-align:left">
@@ -163,7 +169,9 @@ Following geometrical types are available:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+       <td style="text-align:left">
+        <img src=".gitbook/assets/4_Geometry_poly_line.png" alt="1" />
+      </td>
       <td style="text-align:left">Polyline</td>
       <td style="text-align:left">Combination of in nodes connected geometric types
         <br />
