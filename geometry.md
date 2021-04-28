@@ -147,16 +147,9 @@ Following geometrical types are available:
   </tbody>
 </table>
 
+Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](https://saf.guide/Content/A_Objects/5_StructuralPointConnection.htm).
 
+Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](https://saf.guide/Content/A_Objects/5_StructuralPointConnection.htm).
 
-{% hint style="info" %}
-## Notes:
-
-Mathematical definitions:
-
-* Bezier  
-  Q\(t\)=∑i=03PiBi\(t\),t∈&lt;0,1 &gt; 
-
-  B0\(t\)=\(1-t\)3,B1\(t\)=3t\(1-t\)2,B2\(t\)=3t2\(1-t\),B3\(t\)=t3
-{% endhint %}
+Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](https://saf.guide/Content/A_Objects/5_StructuralPointConnection.htm).
 
