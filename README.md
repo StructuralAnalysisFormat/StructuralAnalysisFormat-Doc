@@ -6,3 +6,11 @@ Browse version history
 
 1.0.5
 
+
+
+```text
+$$
+a \ne 0
+$$
+```
+
