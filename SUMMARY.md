@@ -1,6 +1,7 @@
 # Table of contents
 
-* [SAF versions](README.md)
+* [README](README.md)
+* [SAF Versions](saf-versions.md)
 * [General](general.md)
 * [Introduction](introduction.md)
 * [Geometry](geometry.md)
