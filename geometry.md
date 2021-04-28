@@ -17,7 +17,7 @@ Following geometrical types are available:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">![](.gitbook/assets/introduction3.png)</td>
+      <td style="text-align:left"><img src=".gitbook/assets/introduction3.png"  alt="1" width = 360px height = 640px ></td>
       <td style="text-align:left">Line</td>
       <td style="text-align:left">Straight line between two nodes</td>
       <td style="text-align:left">
