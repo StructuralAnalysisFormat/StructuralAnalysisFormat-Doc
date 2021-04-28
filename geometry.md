@@ -17,7 +17,9 @@ Following geometrical types are available:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><img src=".gitbook/assets/introduction3.png"  alt="1" width = 360px height = 640px ></td>
+      <td style="text-align:left">
+        <img src=".gitbook/assets/introduction3.png" alt="1" />
+      </td>
       <td style="text-align:left">Line</td>
       <td style="text-align:left">Straight line between two nodes</td>
       <td style="text-align:left">
@@ -28,7 +30,9 @@ Following geometrical types are available:
       <td style="text-align:left">-</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <img src=".gitbook/assets/introduction3.png" alt="1" />
+      </td>
       <td style="text-align:left">Circular Arc</td>
       <td style="text-align:left">Arch defined with 3 nodes</td>
       <td style="text-align:left">
