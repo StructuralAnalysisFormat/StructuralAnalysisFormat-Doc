@@ -17,7 +17,7 @@ See below overview tables which will give you an idea who supports SAF and to wh
       <th style="text-align:left">SAF implementation</th>
       <th style="text-align:left">
         <p>
-          <img src=".gitbook/assets/1_scia.png" alt="1" width="100" height="100"/>
+          <img src=".gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
@@ -54,4 +54,6 @@ See below overview tables which will give you an idea who supports SAF and to wh
     </tr>
   </tbody>
 </table>
+
+![1](.gitbook/assets/1_scia.png)
 
