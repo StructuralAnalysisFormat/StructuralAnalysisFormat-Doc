@@ -10,116 +10,19 @@ In the list called “Project”, you can specify basic information about your p
 
 The specification in excel:
 
-<table style="mc-table-style: url('Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="6">
-            <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
-            <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
-            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
-            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
-            <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
-            <tbody>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="color: #ffffff;text-align: center;padding-left: 4px;padding-right: 4px;">Name
-						of the row</p>
-                    </td>
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Type
-						of data</p>
-                    </td>
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Value
-						example or enum definition</p>
-                    </td>
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: center;">Required value</p>
-                    </td>
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
-                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
-                        <p>Name</p>
-                    </td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">Park Office</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">The name of the project</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Description</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Administrative complex</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">The description of the project</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Project nr</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">23/2019</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">Project numerical designation</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Created</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Date Time</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">2018-12-16 15:48:50</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">Creation time, in UTC, in format yyyy-mm-dd hh:mm</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Last update</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Date Time</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">2018-12-23 23:58:59</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">Last update time, in UTC, in format yyyy-mm-dd hh:mm</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Project type</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Building construction</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">The type of the project. The project type can be assigned to e.g. "Building construction" or "Infrastructure construction"</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Project kind</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">New building</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">The kind of the project. The project kind can be assigned to e.g. "Extension", "Finish", "New building", "Reconstruction"</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Building type</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Business</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">Kind of use of the building such as Administrative, Residential, etc…</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Status</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">Planning stage</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">Status of the project</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Location</td>
-                    <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">South Bohemia</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">Location of the designed project</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Id</td>
-                    <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyB-Column1-Body2">String</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">bba1ede8-4106-47fd-b5e1-48637ab87f47</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;text-align: left;">
-                        <p>ID of project.</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+| Name of the row | Type of data | Value example or enum definition | Required value | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| Name | String | Park Office | no | The name of the project |
+| Description | String | Administrative complex | no | The description of the project |
+| Project nr | String | 23/2019 | no | Project numerical designation |
+| Created | Date Time | 2018-12-16 15:48:50 | no | Creation time, in UTC, in format yyyy-mm-dd hh:mm |
+| Last update | Date Time | 2018-12-23 23:58:59 | no | Last update time, in UTC, in format yyyy-mm-dd hh:mm |
+| Project type | String | Building construction | no | The type of the project. The project type can be assigned to e.g. "Building construction" or "Infrastructure construction" |
+| Project kind | String | New building | no | The kind of the project. The project kind can be assigned to e.g. "Extension", "Finish", "New building", "Reconstruction" |
+| Building type | String | Business | no | Kind of use of the building such as Administrative, Residential, etc… |
+| Status | String | Planning stage | no | Status of the project |
+| Location | String | South Bohemia | no | Location of the designed project |
+| Id | String | bba1ede8-4106-47fd-b5e1-48637ab87f50 | no | ID of project. |
 
 ## Model
 
