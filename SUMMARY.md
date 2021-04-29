@@ -2,6 +2,7 @@
 
 * [README](README.md)
 * [SAF Versions](saf-versions.md)
+* [Who supports SAF?](who-supports-saf.md)
 * [General](general.md)
 * [Introduction](introduction.md)
 * [Geometry](geometry.md)
