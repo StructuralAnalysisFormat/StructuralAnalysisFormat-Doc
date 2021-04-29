@@ -11,7 +11,7 @@ In the list called “Project”, you can specify basic information about your p
 The specification in excel:
 
 | Name of the row | Type of data | Value example or enum definition | Required value | Description |
-| :---: | :---: | :---: | :---: | :---: |
+| :--- | :---: | :---: | :---: | :--- |
 | Name | String | Park Office | no | The name of the project |
 | Description | String | Administrative complex | no | The description of the project |
 | Project nr | String | 23/2019 | no | Project numerical designation |
