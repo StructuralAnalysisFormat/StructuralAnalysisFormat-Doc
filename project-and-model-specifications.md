@@ -11,7 +11,7 @@ In the list called “Project”, you can specify basic information about your p
 The specification in excel:
 
 | Name of the row | Type of data | Value example or enum definition | Required value | Description |
-| :--- | :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: | :---: |
 | Name | String | Park Office | no | The name of the project |
 | Description | String | Administrative complex | no | The description of the project |
 | Project nr | String | 23/2019 | no | Project numerical designation |
@@ -33,7 +33,7 @@ The specification in excel:
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">
+      <th style="text-align:centre">
         <p>Name of the row
           <br />
         </p>
@@ -41,7 +41,7 @@ The specification in excel:
           <br />
         </p>
       </th>
-      <th style="text-align:left">
+      <th style="text-align:centre">
         <p>Type of data
           <br />
         </p>
@@ -49,7 +49,7 @@ The specification in excel:
           <br />
         </p>
       </th>
-      <th style="text-align:left">
+      <th style="text-align:centre">
         <p>Value example or enum definition
           <br />
         </p>
@@ -57,7 +57,7 @@ The specification in excel:
           <br />
         </p>
       </th>
-      <th style="text-align:left">
+      <th style="text-align:centre">
         <p>Required value
           <br />
         </p>
@@ -65,34 +65,34 @@ The specification in excel:
           <br />
         </p>
       </th>
-      <th style="text-align:left">Description</th>
+      <th style="text-align:centre">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Park Office - object A</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">The name of the model
+      <td style="text-align:centre">Name</td>
+      <td style="text-align:centre">String</td>
+      <td style="text-align:centre">Park Office - object A</td>
+      <td style="text-align:centre">no</td>
+      <td style="text-align:centre">The name of the model
         <br />
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Description</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Highrise</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">The name of the model
+      <td style="text-align:centre">Description</td>
+      <td style="text-align:centre">String</td>
+      <td style="text-align:centre">Highrise</td>
+      <td style="text-align:centre">no</td>
+      <td style="text-align:centre">The name of the model
         <br />
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Discipline</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Load-bearing structure</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Discipline can be set as Undefined, Architecture, HVAC, Load-bearing structure,
+      <td style="text-align:centre">Discipline</td>
+      <td style="text-align:centre">String</td>
+      <td style="text-align:centre">Load-bearing structure</td>
+      <td style="text-align:centre">no</td>
+      <td style="text-align:centre">Discipline can be set as Undefined, Architecture, HVAC, Load-bearing structure,
         Terrain, Facility etc.
         <br />
       </td>
