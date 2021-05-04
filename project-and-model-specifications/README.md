@@ -264,11 +264,9 @@ The specification in excel:
   </tbody>
 </table>
 
-
+## Notes
 
 {% hint style="info" %}
-## Notes:
-
 ### **Global coordinate system:**  ![](../.gitbook/assets/5_model_gcs.jpg) 
 
 ### **LCS of cross-section:**
