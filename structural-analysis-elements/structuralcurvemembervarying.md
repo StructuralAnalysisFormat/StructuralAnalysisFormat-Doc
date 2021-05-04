@@ -407,3 +407,19 @@ Specification in the excel:
   </tbody>
 </table>
 
+![](../.gitbook/assets/12_structuralcurvemembervarying_2.png)
+
+## Notes
+
+{% hint style="info" %}
+Reference to Alignment enums - direction of alignment in respect of CSS \(LCS respects right hand rule\).
+{% endhint %}
+
+![](../.gitbook/assets/11_structuralcurvemember_alignment.png)
+
+{% hint style="info" %}
+Reference to Alignment enums - examples of alignments. \(LCS independent\)
+{% endhint %}
+
+![](../.gitbook/assets/12_structuralcurvemembervarying_alignment.png)
+
