@@ -12,19 +12,17 @@
 
 ## Structural analysis elements <a id="test"></a>
 
----
-
-* [StructuralMaterial](structuralmaterial.md)
-* [StructuralCrossSection](structuralcrosssection.md)
-* [CompositeShapeDef](compositeshapedef.md)
-* [StructuralPointConnection](structuralpointconnection.md)
-* [StructuralCurveEdge](structuralcurveedge.md)
-* [StructuralCurveMember](structuralcurvemember.md)
-* [StructuralCurveMemberVarying](structuralcurvemembervarying.md)
-* [StructuralCurveMemberRib](structuralcurvememberrib.md)
-* [StructuralSurfaceMember](structuralsurfacemember.md)
-* [StructuralSurfaceMemberOpening](structuralsurfacememberopening.md)
-* [StructuralSurfaceMemberRegion](structuralsurfacememberregion.md)
-* [StructuralStorey](structuralstorey.md)
-* [StructuralProxyElement](structuralproxyelement.md)
+* [StructuralMaterial](test/structuralmaterial.md)
+* [StructuralCrossSection](test/structuralcrosssection.md)
+* [CompositeShapeDef](test/compositeshapedef.md)
+* [StructuralPointConnection](test/structuralpointconnection.md)
+* [StructuralCurveEdge](test/structuralcurveedge.md)
+* [StructuralCurveMember](test/structuralcurvemember.md)
+* [StructuralCurveMemberVarying](test/structuralcurvemembervarying.md)
+* [StructuralCurveMemberRib](test/structuralcurvememberrib.md)
+* [StructuralSurfaceMember](test/structuralsurfacemember.md)
+* [StructuralSurfaceMemberOpening](test/structuralsurfacememberopening.md)
+* [StructuralSurfaceMemberRegion](test/structuralsurfacememberregion.md)
+* [StructuralStorey](test/structuralstorey.md)
+* [StructuralProxyElement](test/structuralproxyelement.md)
 
