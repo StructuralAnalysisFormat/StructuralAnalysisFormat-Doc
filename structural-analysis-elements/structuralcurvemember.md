@@ -123,7 +123,9 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Line</p>
-        <p>Circular Arc Parabolic Arc Bezier</p>
+        <p>Circular Arc</p>
+        <p>Parabolic Arc</p>
+        <p>Bezier</p>
         <p>Spline</p>
         <p>Polyline</p>
       </td>
@@ -185,7 +187,9 @@ Specification in the excel:
         <p>Left</p>
         <p>Right</p>
         <p>Top left</p>
-        <p>Top right Bottom left Bottom right</p>
+        <p>Top right</p>
+        <p>Bottom left</p>
+        <p>Bottom right</p>
       </td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
@@ -315,7 +319,8 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Standard</p>
-        <p>Axial force only Compression only</p>
+        <p>Axial force only</p>
+        <p>Compression only</p>
         <p>Tension only</p>
       </td>
       <td style="text-align:center">yes</td>
@@ -372,9 +377,11 @@ Reference to Alignment enums - examples of alignments.
 
 {% hint style="info" %}
 An example of use of System line type Bottom right can be seen in the picture below. If the shape of the cross-section is not rectangular then boundary box of the cross-section is considered for position of the system line. The results take in count eccentricities, in example: ey=150 mm, ez=250 mm.
-
-IMPORTANT: axis reference is only to illustrate this example, your application can have different cross-section LCS than shown in this example. Alignment of system line should be reflected to your relevant eccentricities based on your cross section LCS.
 {% endhint %}
 
 ![](../.gitbook/assets/11_structuralcurvemember4.png)
+
+{% hint style="danger" %}
+Axis reference is only to illustrate this example, your application can have different cross-section LCS than shown in this example. Alignment of system line should be reflected to your relevant eccentricities based on your cross section LCS.
+{% endhint %}
 
