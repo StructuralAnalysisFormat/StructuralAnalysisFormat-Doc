@@ -6,144 +6,25 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
 
 Specification in excel:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">S235</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Human readable unique name of the material *see notes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Type</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Concrete</p>
-        <p>Steel</p>
-        <p>Timber</p>
-        <p>Aluminium</p>
-        <p>Masonry</p>
-        <p>Other</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The type of material</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Subtype</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Hot rolled</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">The subtype of the material, e.g. hot rolled, cold formed, stainless steel,
-        prestressed concrete, fiber-reinforced concrete, UHPC etc.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Quality</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">S235</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">
-        <p>The quality grade of the material. Use a commonly known naming of grades
-          of specific structural material. Example:</p>
-        <p>Steel - S235, S275, S355...</p>
-        <p>Concrete - C16/20, C25/30, C30/35...</p>
-        <p>Timber - C18, C22, D18...</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Unit mass [kg/m3]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">7850</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Self-weight of the material</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">E modulus [MPa]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">210000</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Young&apos;s modulus of elasticity</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">G modulus [MPa]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">12500</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Shear modulus</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Poisson Coefficient</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,2</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Poisson coefficient</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Thermal expansion [1/K]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,000012</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">The coefficient of thermal expansion of the material</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Design properties</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">1|1.1; 2|4.8; 9|1100</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Custom design characteristics of the material. The format of the data
-        has to follow this convention: &quot;label of the design property&quot;
-        &quot;|&quot; &quot;value of the design property&quot; The list of available
-        properties with indexes can be found in Annex.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Poisson Coefficient</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,2</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Poisson coefficient</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Thermal expansion [1/K]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,000012</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">The coefficient of thermal expansion of the material</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Design properties</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">1|1.1; 2|4.8; 9|1100</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Custom design characteristics of the material. The format of the data
-        has to follow this convention: &quot;label of the design property&quot;
-        &quot;|&quot; &quot;value of the design property&quot; The list of available
-        properties with indexes can be found in Annex.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
-  </tbody>
-</table>
+| Name of   the column header   | Type of data | Value example or enum definition         | Required value                                                                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-------------------------------|--------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              Name             |    String    |                    CS1                   |                                                          yes                                                         | Human readable unique name of the Cross-section                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|            Material           |    String    |                   MAT1                   |                                                          yes                                                         | Name reference to the existing StructuralMaterial object. The   general type of cross-section can have more than one materials. Each material   name is separated by a semicolon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|       Cross-section type      |     Enum     | Parametric Manufactured Compound General |                                                          yes                                                         | Define type of profile library:  General: Serves to define any general shape of the cross-section consisting   of one or more closed polygons including openings.  Shape of the cross-section   (polygons) is defined on separate sheet "CompositeShapeDef"  Parametric: Cross-sections defined by shape and dimensions (parameters).  Manufactured: This option refers to the industrially manufactured cross-sections.  Compound: prepared for compounded section fom more manufactured profiles e.g. for two I-sections. Example of compound cross-section input:  profile =   IPE200 and parameters=10mm (distance between profiles).  All supported shapes of compound section can be found in Annex |
+|             Shape             |     Enum     |                 T Section                |                 yes, if Cross-section type =   Parametricyes,  yes, if Cross-section type = Compound                 | This field defines geometrical   shape of the cross-section, is required only if Cross-section type is not   manufactured. Complete list of supported shapes is attached in Supported   shapes of cross-section.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|        Parameters [mm]        |    String    |             50; 80; 500; 450             |                  yes, if Cross-section type = Parametricyes,  yes, if Cross-section type = Compound                  | The parameters property is required only if Cross-section type   is Parametric and it represents dimensions of the cross-section. The format   of the parameters depends on cross-section shape. Each parameter has to be   divided by a semicolon. Complete list of supported parameters is attached in   Annex.                                                                                                                                                                                                                                                                                                                                                                                         |
+|            Profile            |    String    |                  HEB180                  | yes, if Cross-section type = Manufacturedyes, if Cross-section   type = Compoundyes, if Cross-section type = General | This field is required only if Cross-section type is   Manufactured or Compound. Defines name of the industrially manufactured   profile in the globally common format (naming).For Cross-section type =   general, name reference to valid CompositeShapeDef object is required in the   cell "Profile"                                                                                                                                                                                                                                                                                                                                                                                                  |
+|           Form code           |     Enum     |                     1                    |                                       yes, if Cross-section type = Manufactured                                      | This field is valid only if profile type is Manufactured. It   helps to define hot rolled or cold formed profiles. The shape of the   cross-section is uniquely identified by a so-called Formcode. The   Formcodedefines the shape and in some cases also additional parameters like   distance between bolt holes, unit warping coordinates etc. Complete list of   supported form codes is attached in Formcodes.                                                                                                                                                                                                                                                                                      |
+| Description ID of the profile |     Enum     |                     2                    |                                                          no                                                          | This field is valid only if the cross-section type is   Manufactured. The description of the hot rolled and cold formed cross-section   referring to the source of manufacturer. Complete list  is attached in Description ID of the   profile.                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|             A [m2]            |    Double    |                 0,075484                 |                                                          no                                                          | Section area                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|            Iy [m4]            |    Double    |                 0,000641                 |                                                          no                                                          | Moment of inertia about y-axis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|            Iz [m4]            |    Double    |                 0,013319                 |                                                          no                                                          | Moment of inertia about z-axis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|            It [m4]            |    Double    |                 0,0000591                |                                                          no                                                          | Torsion moment of inertia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|             Iw[m6]            |    Double    |                0,00015548                |                                                          no                                                          | Warping constant                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|           Wply [m3]           |    Double    |                 0,029497                 |                                                          no                                                          | Plastic modulus about the y-axis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|           Wplz [m3]           |    Double    |                 0,029497                 |                                                          no                                                          | Plastic modulus about the z-axis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|               Id              |    String    |   6bbd256e-0225-4ee5-91e5-c7ef791a33cb   |                                                          no                                                          | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|               Id              |    String    |   6bbd256e-0225-4ee5-91e5-c7ef791a33cb   |                                                          no                                                          | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ## Notes
 
