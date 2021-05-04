@@ -26,3 +26,7 @@
 * [StructuralStorey](structural-analysis-elements/structuralstorey.md)
 * [StructuralProxyElement](structural-analysis-elements/structuralproxyelement.md)
 
+## Supports and hinges
+
+* [StructuralPointSupport](supports-and-hinges/structuralpointsupport.md)
+
