@@ -29,10 +29,15 @@ Specification in excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Concrete</p>
+        <p></p>
         <p>Steel</p>
+        <p></p>
         <p>Timber</p>
+        <p></p>
         <p>Aluminium</p>
+        <p></p>
         <p>Masonry</p>
+        <p></p>
         <p>Other</p>
       </td>
       <td style="text-align:center">yes</td>
