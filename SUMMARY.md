@@ -33,4 +33,8 @@
 * [StructuralCurveConnection](supports-and-hinges/structuralcurveconnection.md)
 * [StructuralEdgeConnection](supports-and-hinges/structuraledgeconnection.md)
 * [RelConnectsStructuralMember](supports-and-hinges/relconnectsstructuralmember.md)
+* [RelConnectsSurfaceEdge](supports-and-hinges/relconnectssurfaceedge.md)
+* [RelConnectsRigidCross](supports-and-hinges/relconnectsrigidcross.md)
+* [RelConnectsRigidLink](supports-and-hinges/relconnectsrigidlink.md)
+* [RelConnectsRigidMember](supports-and-hinges/relconnectsrigidmember.md)
 
