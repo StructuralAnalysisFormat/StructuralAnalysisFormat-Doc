@@ -14,11 +14,11 @@ Excel screenshot examples:
 
 **Sheet:**
 
-![](.gitbook/assets/introduction1.png)
+![](.gitbook/assets/3_introduction_sheet.png)
 
 **Columns and rows:**
 
-![](.gitbook/assets/introduction2.png)
+![](.gitbook/assets/3_introduction_columnsandrows.png)
 
 **Cell types:**
 
@@ -55,7 +55,7 @@ The system provides for:
 
 It may help you to determine the direction of the individual structural elements axis if you remember what you \(probably\) learnt at school. Take your right hand, position your thumb, index finger and middle finger so that they are perpendicular to each other. Then the following applies \(see also the image below\):
 
-![](.gitbook/assets/introduction3.png)
+![](.gitbook/assets/3_introduction_righthand.png)
 
 * the thumb points in the direction of the x-axis,
 * the index finger points in the direction of the y-axis,
@@ -80,7 +80,7 @@ When is LCS enum set on **" by point"** explanation is the following:
 * Z-axis direction follow the point
 * Y-axis orientation and direction is defined by the right-hand rule
 
-![](.gitbook/assets/introduction_lcs_by_point_v2.png)
+![](.gitbook/assets/3_introduction_lcs_by_point.png)
 
 ### LCS enum set on **"by vector"** 
 
@@ -91,17 +91,17 @@ When is LCS enum set on **"by vector"** explanation is the following:
 * Z-axis orientation and direction is given by vector coordinates
 * Y-axis orientation and direction is defined by right-hand rule
 
-![](.gitbook/assets/introduction_lcs_by_vector_v2.png)
+![](.gitbook/assets/3_introduction_lcs_by_vector_v2.png)
 
 ### General vector as LCS **"by vector"**
 
 User can set the LCS "by vector" with the vector which is not perpendicular to the centre line of the 1D member. Such a vector is projected to perpendicular as shown in animation below. The user-defined vector is the yellow one. The yellow vector is not in perpendicular plane to the centre line of the member, so blue and yellow vector are not parallel.
 
-![](.gitbook/assets/introduction_lcs_by_general_vector.gif)
+![](.gitbook/assets/3_introduction_lcs_by_general_vector.gif)
 
 The difference between definition of LCS **"axis** y **or** z **by point**" and **"axis** y **or** z **by vector"** is presented on the picture below.
 
-![](.gitbook/assets/introduction5.png)
+![](.gitbook/assets/3_introduction_zbypoint_zbyvector.png)
 
 ### LCS enum set on **"axis** y **or** z **by vector"**
 
@@ -110,9 +110,13 @@ When is LCS enum set on **"axis** y **or** z **by vector"** explanation is simil
 * For non-vertical 2D elements \(slabs\):
   * the Z-axis direction is perpendicular to the plane of the slab, the orientation is always the same as the positive global Z-axis \(in the other words, the local Z-axis is always upwards\)
 * For vertical 2D members \(walls\):
-  * the Z-axis direction is perpendicular to the plane of the wall, the orientation following the positive half-plane of axis X
-* Y or X-axis is given by the vector \(depending on the chosen option in the SAF excel file\)
-* Y or X-axis is given by the vector \(depending on the chosen option in the SAF excel file\)
+  * Y or X axis is given by the vector \(depending on chosen option in the SAF excel file\).
+  * The Z axis direction is perpendicular to the plane of the wall and:
+    * The orientation follows the positive half space defined by positive global X and plane defined by global Z and global Y.
+    * In case, this is not possible \(wall in plane/or parallel to global Y global X plane\), then local Z follows the positive half space defined by positive global Y and plane defined by global X and global Z axis. See picture below.
+  * The last axis of LCS is calculated by the right-hand rule
+
+![](.gitbook/assets/3_wall_lcs.png)
 
 ### LCS enum set on "**Tilt of vector defined by point**"
 
@@ -120,7 +124,7 @@ When is LCS enum set on "**Tilt of vector defined by point**" explanation is the
 
 The tilt of the vector defined by point is a special type of LCS for mesh elements of 2D members. You can define one point in global coordinates and all local x-axis \(y-axis\) of mesh elements follow this point. It is an analogy to LCS by point for 1D members. This special case is mostly used when you need to add data which are depending on LCS of meshes \(e.g. reinforcement, results\) and should follow radial layout \(Circle slabs, silos, etc…\). An example is presented below.
 
-![](.gitbook/assets/introduction6_tilt_of-vector.png)
+![](.gitbook/assets/3_introduction_tilt_of-vector.png)
 
 
 
