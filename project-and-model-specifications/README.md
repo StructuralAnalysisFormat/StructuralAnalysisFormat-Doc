@@ -264,3 +264,27 @@ The specification in excel:
   </tbody>
 </table>
 
+
+
+{% hint style="info" %}
+## Notes:
+
+### **Global coordinate system:**  ![](../.gitbook/assets/5_model_gcs.jpg) 
+
+### **LCS of cross-section:**
+
+*  The graphical interpretation of values for row "**LCS of cross-section**" is represented below. Please keep in mind that x-axis is always in centre-line of the member. "**LCS of cross-section**" desribes how is LCS of CSS library handled and how is CSS applied on the the member.
+* The first axis of the enum is the vertical one, positive direction is Zref. The second axis of the enum is the horizontal one, positive direction is Yref. Last is the axis in cente-line of the member, positive direction is Xref.
+
+![](../.gitbook/assets/5_model_lcs_of_css.jpg) ****
+
+### **System of units**
+
+* Column headers should respect this setting and change unit accordingly, also values should be in specified units
+* See [table](units.md) of units for headers
+
+### **Ignored objects/groups:**
+
+* See [table](ignore.md) of units for headers
+{% endhint %}
+

@@ -55,7 +55,5 @@ See below overview tables which will give you an idea who supports SAF and to wh
   </tbody>
 </table>
 
-<p>
-  <img src=".gitbook/assets/1_scia.png" alt="1" width="150" height="150"/>
-</p>
+![1](.gitbook/assets/1_scia.png)
 
