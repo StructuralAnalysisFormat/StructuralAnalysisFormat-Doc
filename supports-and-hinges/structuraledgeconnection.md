@@ -60,9 +60,9 @@ Specification in the excel:
       <td style="text-align:center">String</td>
       <td style="text-align:center">S3</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> or
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> or
         <a
-        href="https://saf.guide/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm">StructuralSurfaceMemberRegion</a>or <a href="https://saf.guide/Content/A_Objects/9_StructuralSurfaceMemberOpening.htm">StructuralSurfaceMemberOpening</a> of
+        href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md#opening-in-surface-member">StructuralSurfaceMemberOpening </a>of
           affected edge.</td>
     </tr>
     <tr>
@@ -71,7 +71,7 @@ Specification in the excel:
       <td style="text-align:center">1</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">The index of edge of the surface member. The index starting with 1. The
-        order is according to order of &#x201C;edges&#x201D; property at <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a>.</td>
+        order is according to order of &#x201C;edges&#x201D; property at <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a>.</td>
     </tr>
     <tr>
       <td style="text-align:center">ux</td>
