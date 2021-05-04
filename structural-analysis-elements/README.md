@@ -16,7 +16,3 @@ a comment is left on any topic in the Help system
 
 An email has been sent to verify your new profile.Please fill out all required fields before submitting your information.
 
-$$
-Q(t)=\sum_{0}^{3}P_iB_i(t)
-$$
-
