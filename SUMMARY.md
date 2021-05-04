@@ -30,4 +30,5 @@
 
 * [StructuralPointSupport](supports-and-hinges/structuralpointsupport.md)
 * [StructuralSurfaceConnection](supports-and-hinges/structuralsurfaceconnection.md)
+* [StructuralCurveConnection](supports-and-hinges/structuralcurveconnection.md)
 
