@@ -138,10 +138,15 @@ The specification in excel:
       <td style="text-align:left">Enum</td>
       <td style="text-align:left">
         <p>X vertical</p>
+        <p></p>
         <p>Y vertical</p>
+        <p></p>
         <p>Z vertical</p>
+        <p></p>
         <p>minus X vertical</p>
+        <p></p>
         <p>minus Y vertical</p>
+        <p></p>
         <p>minus Z vertical</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -164,12 +169,19 @@ The specification in excel:
       <td style="text-align:left">Enum</td>
       <td style="text-align:left">
         <p>ZYX</p>
+        <p></p>
         <p>MinusYZX</p>
+        <p></p>
         <p>MinusZMinusYX</p>
+        <p></p>
         <p>YMinusZX</p>
+        <p></p>
         <p>YZMinusX</p>
+        <p></p>
         <p>MinusZYMinusX</p>
+        <p></p>
         <p>MinusYMinusZMinusX</p>
+        <p></p>
         <p>ZMinusYMinusX</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -188,6 +200,7 @@ The specification in excel:
       <td style="text-align:left">Enum</td>
       <td style="text-align:left">
         <p>Metric</p>
+        <p></p>
         <p>Imperial</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -198,30 +211,55 @@ The specification in excel:
       <td style="text-align:left">Enum</td>
       <td style="text-align:left">
         <p>EC-Standard-EN</p>
+        <p></p>
         <p>EC-ONORM-EN (Austrian NA)</p>
+        <p></p>
         <p>EC-NBN-EN (Belgian NA)</p>
+        <p></p>
         <p>EC-BS-EN (British NA)</p>
+        <p></p>
         <p>EC-CYS-EN (Cypriot NA)</p>
+        <p></p>
         <p>EC-CSN-EN (Czech NA)</p>
+        <p></p>
         <p>EC-DS-EN (Danish NA)</p>
+        <p></p>
         <p>EC-NEN-EN (Dutch NA)</p>
+        <p></p>
         <p>EC-SFS-EN (Finnish NA)</p>
+        <p></p>
         <p>EC-NF-EN (French NA)</p>
+        <p></p>
         <p>EC-DIN-EN (German NA)</p>
+        <p></p>
         <p>EC-ELOT-EN (Greek NA)</p>
+        <p></p>
         <p>EC-IS-EN (Irish NA)</p>
+        <p></p>
         <p>EC-UNI-EN (Italian NA)</p>
+        <p></p>
         <p>EC-LU-EN (Luxembourgian NA)</p>
+        <p></p>
         <p>EC-MS-EN (Malaysian NA)</p>
+        <p></p>
         <p>EC-NS-EN (Norwegian NA)</p>
+        <p></p>
         <p>EC-PN-EN (Polish NA)</p>
+        <p></p>
         <p>EC-SR-EN (Romanian NA)</p>
+        <p></p>
         <p>EC-SS-EN (Singaporean NA)</p>
+        <p></p>
         <p>EC-STN-EN (Slovakian NA)</p>
+        <p></p>
         <p>EC-SIST-EN (Slovenian NA)</p>
+        <p></p>
         <p>EC-UNE-EN (Spanish NA)</p>
+        <p></p>
         <p>EC-SS-EN (Swedish NA)</p>
+        <p></p>
         <p>IBC</p>
+        <p></p>
         <p>NBR</p>
       </td>
       <td style="text-align:left">yes</td>
