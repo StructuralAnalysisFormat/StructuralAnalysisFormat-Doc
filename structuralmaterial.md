@@ -6,19 +6,23 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
 
 Specification in excel:
 
-| Name of the row | Type of data | Value example or enum definition | Required value | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| Name | String | Park Office | no | The name of the project |
-| Description | String | Administrative complex | no | The description of the project |
-| Project nr | String | 23/2019 | no | Project numerical designation |
-| Created | Date Time | 2018-12-16 15:48:50 | no | Creation time, in UTC, in format yyyy-mm-dd hh:mm |
-| Last update | Date Time | 2018-12-23 23:58:59 | no | Last update time, in UTC, in format yyyy-mm-dd hh:mm |
-| Project type | String | Building construction | no | The type of the project. The project type can be assigned to e.g. "Building construction" or "Infrastructure construction" |
-| Project kind | String | New building | no | The kind of the project. The project kind can be assigned to e.g. "Extension", "Finish", "New building", "Reconstruction" |
-| Building type | String | Business | no | Kind of use of the building such as Administrative, Residential, etc… |
-| Status | String | Planning stage | no | Status of the project |
-| Location | String | South Bohemia | no | Location of the designed project |
-| Id | String | bba1ede8-4106-47fd-b5e1-48637ab87f50 | no | ID of project. |
+| Name of the column header | Type of data | Value example or enum definition         | Required value | Description                                                                                                                                                                                                                                        |
+|---------------------------|--------------|------------------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            Name           |    String    |                   S235                   |       yes      | Human  readable unique name of the   material *see notes                                                                                                                                                                                           |
+|            Type           |     Enum     | ConcreteSteelTimberAluminiumMasonryOther |       yes      | The type of material                                                                                                                                                                                                                               |
+|          Subtype          |    String    |                Hot rolled                |       no       | The subtype of the material, e.g. hot rolled, cold formed, stainless steel,  prestressed concrete, fiber-reinforced concrete, UHPC etc.                                                                                                            |
+|          Quality          |    String    |                   S235                   |       yes      | The quality grade of the material. Use a commonly known naming of grades of specific structural material. Example: Steel - S235, S275, S355...  Concrete   - C16/20, C25/30, C30/35... Timber - C18, C22, D18...                                   |
+|     Unit mass [kg/m3]     |    Double    |                   7850                   |       no       | Self-weight of the material                                                                                                                                                                                                                        |
+|      E modulus [MPa]      |    Double    |                  210000                  |       no       | Young's modulus of elasticity                                                                                                                                                                                                                      |
+|      G modulus [MPa]      |    Double    |                   12500                  |       no       | Shear modulus                                                                                                                                                                                                                                      |
+|    Poisson Coefficient    |    Double    |                    0,2                   |       no       | Poisson coefficient                                                                                                                                                                                                                                |
+|  Thermal expansion [1/K]  |    Double    |                 0,000012                 |       no       | The coefficient of thermal expansion of the material                                                                                                                                                                                               |
+|     Design properties     |    String    |          1\|1.1; 2\|4.8; 9\|1100         |       no       | Custom design characteristics of the material.  The format of the data has   to follow this convention: "label of the design property"   "\|" "value of the design property"  The list of available properties with indexes can be found in Annex. |
+|             Id            |    String    |   6bbd256e-0225-4ee5-91e5-c7ef791a33cb   |       no       | Unique attribute designation                                                                                                                                                                                                                       |
+|    Poisson Coefficient    |    Double    |                    0,2                   |       no       | Poisson coefficient                                                                                                                                                                                                                                |
+|  Thermal expansion [1/K]  |    Double    |                 0,000012                 |       no       | The coefficient of thermal expansion of the material                                                                                                                                                                                               |
+|     Design properties     |    String    |          1\|1.1; 2\|4.8; 9\|1100         |       no       | Custom design characteristics of the material. The format of the data has to follow this convention:  "label of the design property" "\|" "value of the design property" The list of available properties with indexes can be found in Annex.      |
+|             Id            |    String    |   6bbd256e-0225-4ee5-91e5-c7ef791a33cb   |       no       | Unique attribute designation                                                                                                                                                                                                                       |
 
 ## Notes
 
