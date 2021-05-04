@@ -10,19 +10,19 @@
   * [Units table](project-and-model-specifications/units.md)
   * [Ignored objects and groups:](project-and-model-specifications/ignore.md)
 
-## Structural analysis elements <a id="test"></a>
+## Structural analysis elements
 
-* [StructuralMaterial](test/structuralmaterial.md)
-* [StructuralCrossSection](test/structuralcrosssection.md)
-* [CompositeShapeDef](test/compositeshapedef.md)
-* [StructuralPointConnection](test/structuralpointconnection.md)
-* [StructuralCurveEdge](test/structuralcurveedge.md)
-* [StructuralCurveMember](test/structuralcurvemember.md)
-* [StructuralCurveMemberVarying](test/structuralcurvemembervarying.md)
-* [StructuralCurveMemberRib](test/structuralcurvememberrib.md)
-* [StructuralSurfaceMember](test/structuralsurfacemember.md)
-* [StructuralSurfaceMemberOpening](test/structuralsurfacememberopening.md)
-* [StructuralSurfaceMemberRegion](test/structuralsurfacememberregion.md)
-* [StructuralStorey](test/structuralstorey.md)
-* [StructuralProxyElement](test/structuralproxyelement.md)
+* [StructuralMaterial](structural-analysis-elements/structuralmaterial.md)
+* [StructuralCrossSection](structural-analysis-elements/structuralcrosssection.md)
+* [CompositeShapeDef](structural-analysis-elements/compositeshapedef.md)
+* [StructuralPointConnection](structural-analysis-elements/structuralpointconnection.md)
+* [StructuralCurveEdge](structural-analysis-elements/structuralcurveedge.md)
+* [StructuralCurveMember](structural-analysis-elements/structuralcurvemember.md)
+* [StructuralCurveMemberVarying](structural-analysis-elements/structuralcurvemembervarying.md)
+* [StructuralCurveMemberRib](structural-analysis-elements/structuralcurvememberrib.md)
+* [StructuralSurfaceMember](structural-analysis-elements/structuralsurfacemember.md)
+* [StructuralSurfaceMemberOpening](structural-analysis-elements/structuralsurfacememberopening.md)
+* [StructuralSurfaceMemberRegion](structural-analysis-elements/structuralsurfacememberregion.md)
+* [StructuralStorey](structural-analysis-elements/structuralstorey.md)
+* [StructuralProxyElement](structural-analysis-elements/structuralproxyelement.md)
 
