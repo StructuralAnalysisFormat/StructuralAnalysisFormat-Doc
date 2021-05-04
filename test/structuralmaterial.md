@@ -51,9 +51,13 @@ Specification in excel:
       <td style="text-align:left">String</td>
       <td style="text-align:left">S235</td>
       <td style="text-align:left">yes</td>
-      <td style="text-align:left">The quality grade of the material. Use a commonly known naming of grades
-        of specific structural material. Example: Steel - S235, S275, S355... Concrete
-        - C16/20, C25/30, C30/35... Timber - C18, C22, D18...</td>
+      <td style="text-align:left">
+        <p>The quality grade of the material. Use a commonly known naming of grades
+          of specific structural material. Example:</p>
+        <p>Steel - S235, S275, S355...</p>
+        <p>Concrete - C16/20, C25/30, C30/35...</p>
+        <p>Timber - C18, C22, D18...</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Unit mass [kg/m3]</td>
