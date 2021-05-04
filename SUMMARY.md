@@ -12,11 +12,10 @@
 
 ## Structural analysis elements <a id="test"></a>
 
-* [StructuralMaterial](test/structuralmaterial.md)
-* [StructuralCrossSection](test/structuralcrosssection.md)
-
 ---
 
+* [StructuralMaterial](structuralmaterial.md)
+* [StructuralCrossSection](structuralcrosssection.md)
 * [CompositeShapeDef](compositeshapedef.md)
 * [StructuralPointConnection](structuralpointconnection.md)
 * [StructuralCurveEdge](structuralcurveedge.md)
