@@ -123,10 +123,15 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Line</p>
+        <p></p>
         <p>Circular Arc</p>
+        <p></p>
         <p>Parabolic Arc</p>
+        <p></p>
         <p>Bezier</p>
+        <p></p>
         <p>Spline</p>
+        <p></p>
         <p>Polyline</p>
       </td>
       <td style="text-align:center">no</td>
@@ -139,8 +144,11 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>y by vector</p>
+        <p></p>
         <p>z by vector</p>
+        <p></p>
         <p>y by point</p>
+        <p></p>
         <p>z by point</p>
       </td>
       <td style="text-align:center">yes</td>
@@ -182,13 +190,21 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Centre</p>
+        <p></p>
         <p>Top</p>
+        <p></p>
         <p>Bottom</p>
+        <p></p>
         <p>Left</p>
+        <p></p>
         <p>Right</p>
+        <p></p>
         <p>Top left</p>
+        <p></p>
         <p>Top right</p>
+        <p></p>
         <p>Bottom left</p>
+        <p></p>
         <p>Bottom right</p>
       </td>
       <td style="text-align:center">yes</td>
@@ -319,8 +335,11 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Standard</p>
+        <p></p>
         <p>Axial force only</p>
+        <p></p>
         <p>Compression only</p>
+        <p></p>
         <p>Tension only</p>
       </td>
       <td style="text-align:center">yes</td>
