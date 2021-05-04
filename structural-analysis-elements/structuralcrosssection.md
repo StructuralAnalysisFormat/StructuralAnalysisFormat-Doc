@@ -38,10 +38,15 @@ Specification in excel:
     <tr>
       <td style="text-align:center">Cross-section type</td>
       <td style="text-align:center">Enum</td>
-      <td style="text-align:center">Parametric
-        <br />Manufactured
-        <br />Compound
-        <br />General</td>
+      <td style="text-align:center">
+        <p>Parametric</p>
+        <p>
+          <br />Manufactured</p>
+        <p>
+          <br />Compound</p>
+        <p>
+          <br />General</p>
+      </td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">Define the type of profile library:
         <br />
