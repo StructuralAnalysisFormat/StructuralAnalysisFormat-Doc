@@ -207,3 +207,11 @@ Specification in the excel:
   </tbody>
 </table>
 
+## Notes
+
+{% hint style="info" %}
+Reference to surfaces of cross-section where linear temperature can be applied. View is towards the direction of center axis \(looking from end point towards start point\).
+{% endhint %}
+
+
+
