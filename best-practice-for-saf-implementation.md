@@ -4,7 +4,9 @@ Best practice for SAF implementation
 
 This chapter is a list of collected proved and functional approaches for SAF implementation to your application.
 
-**They are not obligatory but by following these rules you ensure smooth export / import of SAF file and you might avoid any un-forseen issues.**
+{% hint style="warning" %}
+**They are not obligatory but following these rules ensures smooth export/import of SAF file and you might avoid any un-foreseen issues.**
+{% endhint %}
 
 Please in case you want to:
 
@@ -56,5 +58,5 @@ On import and export side you should always use culture invariant decimal symbol
 
 ### Units in headers
 
-Import or export should be based on header without unit specification. Missing unit should not block import, either its presence. It si recommended though to include unit information to header for better user read-ability of SAF file.
+Import or export should be based on header without unit specification. Missing unit should not block import, either its presence. It is recommended though to include unit information to header for better user read-ability of SAF file.
 
