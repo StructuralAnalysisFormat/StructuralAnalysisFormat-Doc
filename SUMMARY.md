@@ -40,4 +40,5 @@
 ## Loads
 
 * [StructuralLoadGroup](loads/structuralloadgroup.md)
+* [StructuralLoadCase](loads/structuralloadcase.md)
 
