@@ -317,3 +317,23 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
   </tbody>
 </table>
 
+## Notes
+
+{% hint style="info" %}
+Difference between Location type Length and Projection can be seen in the picture. Location is used only if Coordinate system is Global.
+{% endhint %}
+
+![](../.gitbook/assets/34_structuralcurvemoment2.png)
+
+{% hint style="info" %}
+An example of use of parameter Extent is in the in the picture below. In case of Span the load acts only on the span which is defined by internal nodes
+{% endhint %}
+
+![](../.gitbook/assets/34_structuralcurvemoment4.png)
+
+{% hint style="info" %}
+An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0 and end point 0,3. StructuralCurveAction 1 has origin "From start" and StructuralCurveAction 2 has origin "From end". In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.
+{% endhint %}
+
+![](../.gitbook/assets/34_structuralcurvemoment3.png)
+
