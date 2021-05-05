@@ -10,7 +10,7 @@ The structural analysis software participating in this initiative today are:
 
 The coordination is currently managed by SCIA. If you are interested in joining, please contact Herman Oogink, Director Product and Alliances at SCIA.
 
-Email: h.oogink@scia.net.
+Email: **h.oogink@scia.net**
 
  **You can visit the free web app to test the import of your own SAF!**
 
