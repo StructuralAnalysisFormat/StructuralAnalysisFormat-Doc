@@ -37,3 +37,7 @@
 * [RelConnectsRigidLink](supports-and-hinges/relconnectsrigidlink.md)
 * [RelConnectsRigidMember](supports-and-hinges/relconnectsrigidmember.md)
 
+## Loads
+
+* [StructuralLoadGroup](loads/structuralloadgroup.md)
+
