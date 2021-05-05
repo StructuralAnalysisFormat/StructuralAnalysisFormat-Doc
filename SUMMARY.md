@@ -1,6 +1,7 @@
 # Table of contents
 
-* [What is SAF?](README.md)
+* [Introduction](README.md)
+* [What is SAF?](what-is-saf.md)
 * [Who supports SAF?](who-supports-saf.md)
 * [SAF Versions](saf-versions.md)
 * [Release Notes](release-notes.md)
