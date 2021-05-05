@@ -1,18 +1,8 @@
 # Release Notes
 
-## Structural Analysis Format \(SAF\)
-
 {% hint style="success" %}
-Version 2.0.0
+Current version 2.0.0
 {% endhint %}
-
-Welcome to the SAF website.
-
-SAF is a global format for the exchange data from different analysis software via excel format in the structural engineering discipline.
-
-SAF defines the description of the format of the data in excel and is not providing any excel files or data itself.
-
-Go to Introduction or to the chapters in the menu on the left side.
 
 ## Release notes
 
