@@ -53,7 +53,7 @@ Specification in excel:
           vertex separated by &quot;|&quot;</p>
         <p></p>
         <p>Keep in mind: enter dimensions in millimeters [mm] or inches [inch] (based
-          on System of units set in <a href="../project-and-model-specifications/#model">Project and model</a> specifications)</p>
+          on System of units set in <a href="../getting-started/project-and-model-specifications/#model">Project and model</a> specifications)</p>
       </td>
     </tr>
     <tr>

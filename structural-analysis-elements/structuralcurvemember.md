@@ -153,7 +153,7 @@ Specification in the excel:
       </td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">Local coordinate system. This item specifies the way the local axes of
-        the 1D member are determined. For further understanding see <a href="../introduction.md">Introduction</a>
+        the 1D member are determined. For further understanding see <a href="../getting-started/introduction.md">Introduction</a>
       </td>
     </tr>
     <tr>

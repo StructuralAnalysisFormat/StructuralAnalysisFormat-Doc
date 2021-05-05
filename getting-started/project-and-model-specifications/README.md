@@ -310,7 +310,7 @@ The specification in excel:
 
   
 
-![](../.gitbook/assets/5_model_gcs.jpg)
+![](../../.gitbook/assets/5_model_gcs.jpg)
 
 {% hint style="info" %}
 ### **LCS of cross-section:**
@@ -319,7 +319,7 @@ The specification in excel:
 * The first axis of the enum is the vertical one, positive direction is Zref. The second axis of the enum is the horizontal one, positive direction is Yref. Last is the axis in cente-line of the member, positive direction is Xref.
 {% endhint %}
 
-![](../.gitbook/assets/5_model_lcs_of_css.jpg)
+![](../../.gitbook/assets/5_model_lcs_of_css.jpg)
 
 {% hint style="info" %}
 ### **System of units**

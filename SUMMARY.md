@@ -4,12 +4,15 @@
 * [Who supports SAF?](who-supports-saf.md)
 * [SAF Versions](saf-versions.md)
 * [Release Notes](release-notes.md)
-* [Best practice for SAF implementation](best-practice-for-saf-implementation.md)
-* [Introduction](introduction.md)
-* [Geometry](geometry.md)
-* [Project and model specifications](project-and-model-specifications/README.md)
-  * [Units table](project-and-model-specifications/units.md)
-  * [Ignored objects and groups:](project-and-model-specifications/ignore.md)
+
+## Getting started
+
+* [Introduction](getting-started/introduction.md)
+* [Geometry](getting-started/geometry.md)
+* [Best practice for SAF implementation](getting-started/best-practice-for-saf-implementation.md)
+* [Project and model specifications](getting-started/project-and-model-specifications/README.md)
+  * [Units table](getting-started/project-and-model-specifications/units.md)
+  * [Ignored objects and groups:](getting-started/project-and-model-specifications/ignore.md)
 
 ## Structural analysis elements
 
