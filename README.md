@@ -6,7 +6,7 @@ SAF is an initiative from the Nemetschek Group to improve the collaboration betw
 
 The structural analysis software participating in this initiative today are:
 
- **SCIA, Graphisoft, Allplan, RISA, FRILO, Strusoft, Axis VM, Dlubal, Sofistik, SCAD, LIRA land, Radimpex and IDEA StatiCa.**
+**SCIA, Graphisoft, Allplan, RISA, FRILO, Strusoft, Axis VM, Dlubal, Sofistik, SCAD, LIRA land, Radimpex and IDEA StatiCa.**
 
 The coordination is currently managed by SCIA. If you are interested in joining, please contact Herman Oogink, Director Product and Alliances at SCIA.
 
