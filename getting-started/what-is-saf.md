@@ -1,7 +1,5 @@
 # What is SAF?
 
-## What is SAF?
-
 ### Welcome to SAF website!
 
 SAF is an initiative from the Nemetschek Group to improve the collaboration between structural engineers by developing an open exchange format for exchanging data between structural analysis software based on the Excel format. It is focusing on a practical, easy to use, format that can be used in daily practice by structural engineers. It is meant as an open format and we look forward to you joining this initiative
@@ -17,6 +15,4 @@ Email: **h.oogink@scia.net**
 **You can visit the free web app to test the import of your own SAF!**
 
 [**Free SAF viewer**](https://autoconverter.structuraltoolkit.com/en-GB/saf-viewer)
-
-Added to dev for merge test
 
