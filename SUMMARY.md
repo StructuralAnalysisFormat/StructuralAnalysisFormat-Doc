@@ -4,6 +4,7 @@
 * [Who supports SAF?](who-supports-saf.md)
 * [SAF Versions](saf-versions.md)
 * [Release Notes](release-notes.md)
+* [Best practice for SAF implementation](best-practice-for-saf-implementation.md)
 * [Introduction](introduction.md)
 * [Geometry](geometry.md)
 * [Project and model specifications](project-and-model-specifications/README.md)
