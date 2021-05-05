@@ -16,7 +16,7 @@ See below overview tables which will give you an idea of who supports SAF and to
 <table>
   <thead>
     <tr>
-      <th style="text-align:right"><b>SAF implementation</b>
+      <th style="text-align:left"><b>SAF implementation</b>
       </th>
       <th style="text-align:center">
         <p>
@@ -64,7 +64,7 @@ See below overview tables which will give you an idea of who supports SAF and to
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:right">Supported version</td>
+      <td style="text-align:left">Supported version</td>
       <td style="text-align:center">1.0.5</td>
       <td style="text-align:center">1.0.5</td>
       <td style="text-align:center">1.0.5</td>
@@ -75,7 +75,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">1.0.5</td>
     </tr>
     <tr>
-      <td style="text-align:right">Import</td>
+      <td style="text-align:left">Import</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -86,7 +86,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">Export</td>
+      <td style="text-align:left">Export</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -99,13 +99,12 @@ See below overview tables which will give you an idea of who supports SAF and to
   </tbody>
 </table>
 
-
-### Structural analysis elements 
+### Structural analysis elements
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:right"><b>Structural analysis elements</b>
+      <th style="text-align:left"><b>Structural analysis <br />elements</b>
       </th>
       <th style="text-align:center">
         <p>
@@ -153,7 +152,7 @@ See below overview tables which will give you an idea of who supports SAF and to
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:right">StructuralMaterial</td>
+      <td style="text-align:left">StructuralMaterial</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -164,7 +163,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralCrossSection</td>
+      <td style="text-align:left">StructuralCrossSection</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -175,7 +174,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">CompositeShapeDef
+      <td style="text-align:left">CompositeShapeDef
         <br />
       </td>
       <td style="text-align:center">Yes</td>
@@ -188,7 +187,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">No</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralPointConnection</td>
+      <td style="text-align:left">StructuralPointConnection</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -199,7 +198,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralCurveEdge</td>
+      <td style="text-align:left">StructuralCurveEdge</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -210,7 +209,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralCurveMember</td>
+      <td style="text-align:left">StructuralCurveMember</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -221,7 +220,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralCurveMemberVarying</td>
+      <td style="text-align:left">StructuralCurveMemberVarying</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">No</td>
@@ -232,7 +231,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">No</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralCurveMemberRib</td>
+      <td style="text-align:left">StructuralCurveMemberRib</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -243,7 +242,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">No</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralSurfaceMember</td>
+      <td style="text-align:left">StructuralSurfaceMember</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -254,7 +253,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralSurfaceMemberOpening</td>
+      <td style="text-align:left">StructuralSurfaceMemberOpening</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -265,7 +264,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralSurfaceMemberRegion</td>
+      <td style="text-align:left">StructuralSurfaceMemberRegion</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -276,7 +275,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">No</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralStorey</td>
+      <td style="text-align:left">StructuralStorey</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">No</td>
@@ -287,7 +286,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">No</td>
     </tr>
     <tr>
-      <td style="text-align:right">StructuralProxyElement</td>
+      <td style="text-align:left">StructuralProxyElement</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">No</td>
