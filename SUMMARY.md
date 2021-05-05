@@ -42,4 +42,6 @@
 * [StructuralLoadGroup](loads/structuralloadgroup.md)
 * [StructuralLoadCase](loads/structuralloadcase.md)
 * [StructuralLoadCombination](loads/structuralloadcombination.md)
+* [StructuralPointAction](loads/structuralpointaction.md)
+* [StructuralPointMoment](loads/structuralpointmoment.md)
 
