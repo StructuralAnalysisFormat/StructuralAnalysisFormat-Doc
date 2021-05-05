@@ -60,4 +60,5 @@
 * [Description ID of the profile](annexes/description-id-of-the-profile.md)
 * [Supported shapes of parametric cross-section](annexes/supported-shapes-of-parametric-cross-section.md)
 * [Supported shapes of compound section](annexes/supported-shapes-of-compound-section.md)
+* [Supported design properties of the materials](annexes/supported-design-properties-of-the-materials.md)
 
