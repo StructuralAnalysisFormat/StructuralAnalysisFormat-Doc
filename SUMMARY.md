@@ -51,5 +51,6 @@
 * [StructuralCurveActionThermal](loads/structuralcurveactionthermal.md)
 * [StructuralPointActionFree](loads/structuralpointactionfree.md)
 * [StructuralCurveActionFree](loads/structuralcurveactionfree.md)
+* [StructuralSurfaceActionFree](loads/structuralsurfaceactionfree.md)
 * [StructuralSurfaceActionDistribution](loads/structuralsurfaceactiondistribution.md)
 
