@@ -8,145 +8,30 @@ Formcode of manufactured cross-section, together with the attribute "**LCS of cr
 Formocode set to "**0**" means that receiving application won't do any action ensuring the proper positioning of CSS.
 {% endhint %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:center">Geometry type</th>
-      <th style="text-align:center">Type definition</th>
-      <th style="text-align:left">Insertion data explanation</th>
-      <th style="text-align:left">SAF geometry strings</th>
-      <th style="text-align:left">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_line.png" alt="1" />
-      </td>
-      <td style="text-align:center">Line</td>
-      <td style="text-align:center">Straight-line between two nodes</td>
-      <td style="text-align:left">
-        <p>Start point , End point</p>
-        <p>N1;N2</p>
-      </td>
-      <td style="text-align:left">Line</td>
-      <td style="text-align:left">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_CA_2.png" alt="1" />
-      </td>
-      <td style="text-align:center">Circular Arc</td>
-      <td style="text-align:center">Arch defined with 3 nodes</td>
-      <td style="text-align:left">
-        <p>Start point, Intermediate point, End point</p>
-        <p>N3;N4;N5</p>
-      </td>
-      <td style="text-align:left">Circular Arc</td>
-      <td style="text-align:left">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_PA.png" alt="1" />
-      </td>
-      <td style="text-align:center">Parabolic Arc</td>
-      <td style="text-align:center">Parabolic arch defined with 3 nodes
-        <br />
-      </td>
-      <td style="text-align:left">
-        <p>Start point, Intermediate point, End point</p>
-        <p>N6;N7;N8</p>
-      </td>
-      <td style="text-align:left">Parabolic Arc</td>
-      <td style="text-align:left">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_bezier.png" alt="1" />
-      </td>
-      <td style="text-align:center">Bezier</td>
-      <td style="text-align:center">Cubic Bezier curve</td>
-      <td style="text-align:left">
-        <p>Start point, 2nd point of control polygon (vertex), 3rd point of control
-          polygon (vertex), End point</p>
-        <p>N9;Vertex_B1_1;</p>
-        <p>Vertex_B1_2;N10
-          <br />
-        </p>
-      </td>
-      <td style="text-align:left">Bezier</td>
-      <td style="text-align:left">
-        <p>N9 and N10 stands for start and end node</p>
-        <p>Vertex_B1_1, Vertex_B1_2 define vertexes of bezier curve</p>
-        <p>All values refers to list StrucutralPointConnection</p>
-        <p>Bezier curve is parabolic, when 2nd and 3rd control points are the identical
-          (values of coordinates are the same)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/4_geomery_spline.png" alt="1" />
-      </td>
-      <td style="text-align:center">Spline</td>
-      <td style="text-align:center">Curved line defined by polynomial function</td>
-      <td style="text-align:left">
-        <p>Start point, Set of mid points, End point</p>
-        <p>N11;N12;N13;N14;N15;N16;N17;N18
-          <br />
-        </p>
-      </td>
-      <td style="text-align:left">Spline-8</td>
-      <td style="text-align:left">&quot;Spline-<em>&quot; where &quot;</em>&quot; stands for number of nodes
-        defining the spline</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/4_geometry_circle.png" alt="1" />
-      </td>
-      <td style="text-align:center">Circle</td>
-      <td style="text-align:center">Circle</td>
-      <td style="text-align:left">
-        <p>Center Point, Point on the perimeter</p>
-        <p>N36;N37</p>
-        <p>Or</p>
-        <p>Three point on perimeter</p>
-        <p>N36;N37;N38
-          <br />
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p>Circle and Point
-          <br />
-        </p>
-        <p>or</p>
-        <p>Circle by 3 points
-          <br />
-        </p>
-      </td>
-      <td style="text-align:left">Circle is not valid to define StrucutralCurveMember
-        <br />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/4_Geometry_poly_line.png" alt="1" />
-      </td>
-      <td style="text-align:center">Polyline</td>
-      <td style="text-align:center">Combination of in nodes connected geometric types
-        <br />
-      </td>
-      <td style="text-align:left">
-        <p>List of nodes</p>
-        <p>N21;N22;N23;N24;N25;N26;N27;N28;N29; N30;N31;N32;N33;Vertex_B1_1;VertexB_1_2;N34;N35
-          <br
-          />
-        </p>
-      </td>
-      <td style="text-align:left">Line;Line;Spline-7;Line;Circular Arc;Line;Bezier;Line</td>
-      <td style="text-align:left">Detail explanation can be found in notes below
-        <br />
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Formcode number | Name | Description | Examples of corresponding profiles | Corresponding Description ID of the profile |
+| :---: | :---: | :---: | :---: | :--- |
+| 0 | - | Provisional formcode | - | not available |
+| 1 | I-section | Profiles symmetrical around the vertical and horizontal axes \(typically I-Sections\) | ![](../.gitbook/assets/42_fc_01.png) | 1, 2, 3, 4, 5, 11, 12, 13, 29, 33, 34, 35, 36, 37, 38, 39, 40, 55, 63, 64, 68, 69, 71, 72, 91, 96, 102, 105, 106, 109, 110 |
+| 2 | Rectangular Hollow Section | Rectangular Hollow Section | ![](../.gitbook/assets/42_fc_02.png) | 25, 27, 49, 50, 74, 75, 82, 83, 84, 85, 86, 87, 93, 94 |
+| 3 | Circular Hollow Section | Circular Hollow Section | ![](../.gitbook/assets/42_fc_03.png) | 20, 21, 51, 52, 53, 54,88, 89, 90, 95, 103 |
+| 4 | L-section | Equal and unequal L-sections | ![](../.gitbook/assets/42_fc_04.png) | 8, 9, 10, 16, 45, 46, 65, 73, 98, 99 |
+| 5 | Channel Section | Profiles symmetrical around the horizontal axes Opening oriented to the right \(typically channels\) | ![](../.gitbook/assets/42_fc_05.png) | 6, 7, 15, 18, 28, 41, 42, 43, 44, 57, 62, 66, 67, 70, 76, 97, 101, 107, 108, 111, 112, 113, 114, 115, 118 |
+| 6 | T-section | Profiles symmetrical around vertical axes Flange at the bottom \(typically T-section\)  | ![](../.gitbook/assets/42_fc_06.png) | 23, 31, 47, 48, 77, 78, 80, 81, 92 |
+| 7 | Full Rectangular Section | Full Rectangular Section | ![](../.gitbook/assets/42_fc_07.png) | 14, 22, 30, 79 |
+| 8 | Full Circular Section | Full Circular Section | ![](../.gitbook/assets/42_fc_08.png) | 26 |
+| 9 | T-section Up | Profiles symmetrical around vertical axes Flange at the top \(typically T-section\) | ![](../.gitbook/assets/42_fc_09.png) | 23, 31, 47, 48, 77, 78, 80, 81, 92 |
+| 10 | L-section III | Equal and unequal L-sections | ![](../.gitbook/assets/42_fc_10.png) | 8, 9, 10, 16, 45, 46, 65, 73, 98, 99 |
+| 11 | L-section I | Equal and unequal L-sections | ![](../.gitbook/assets/42_fc_11.png) | 8, 9, 10, 16, 45, 46, 65, 73, 98, 99 |
+| 12 | L-section IV | Equal and unequal L-sections | ![](../.gitbook/assets/42_fc_12.png) | 8, 9, 10, 16, 45, 46, 65, 73, 98, 99 |
+| 13 | Channel Section Left | Profiles symmetrical around the horizontal axes Opening oriented to the left \(typically channels\) | ![](../.gitbook/assets/42_fc_13.png) | 6, 7, 15, 18, 28, 41, 42, 43, 44, 57, 62, 66, 67, 70, 76, 97, 101, 107, 108, 111, 112, 113, 114, 115, 118 |
+| 14 | Asymmetric I-Section | I-sections symmetrical around vertical axis only \(typically asymmetric I-Section\) | ![](../.gitbook/assets/42_fc_14.png) | 24 |
+| 15 | Asymmetric I-Section Up | I-sections symmetrical around vertical axis only \(typically asymmetric I-Section\) | ![](../.gitbook/assets/42_fc_15.png) | 24 |
+| 16 | Z-section | Z-sections with equal or unequal flanges Top flange to the left | ![](../.gitbook/assets/42_fc_16.png) | 19, 32, 56, 100 |
+| 17 | Z-section Right | Z-sections with equal or unequal flanges Top flange to the right | ![](../.gitbook/assets/42_fc_17.png) | 19, 32, 56, 100 |
+| 18 | Omega Section | Omega sections Opening is oriented to the bottom | ![](../.gitbook/assets/42_fc_18.png) | 17 |
+| 19 | Omega Section Down | Omega sections Opening is oriented to the top | ![](../.gitbook/assets/42_fc_19.png) | 17 |
+| 20 | Sigma Section | Sigma sections Opening is oriented to the right Top flanges are unequal or inclined | ![](../.gitbook/assets/42_fc_20.png) | 58, 104 |
+| 21 | Sigma Section III | Sigma sections Opening is oriented to the left Top flanges are unequal or inclined | ![](../.gitbook/assets/42_fc_21.png) | 58, 104 |
+| 22 | Sigma Section IV | Sigma sections Opening is oriented to the left Bottom flanges are unequal or inclined | ![](../.gitbook/assets/42_fc_22.png) | 58, 104 |
+| 23 | Sigma Section I | Sigma sections Opening is oriented to the right Bottom flanges are unequal or inclined | ![](../.gitbook/assets/42_fc_23.png) | 58, 104 |
+
