@@ -1,13 +1,13 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [What is SAF?](what-is-saf.md)
-* [Who supports SAF?](who-supports-saf.md)
-* [SAF Versions](saf-versions.md)
-* [Release Notes](release-notes.md)
+* [README for GitHub](README.md)
 
 ## Getting started
 
+* [What is SAF?](getting-started/what-is-saf.md)
+* [Who supports SAF?](getting-started/who-supports-saf.md)
+* [SAF Versions](getting-started/saf-versions.md)
+* [Release Notes](getting-started/release-notes.md)
 * [Introduction](getting-started/introduction.md)
 * [Geometry](getting-started/geometry.md)
 * [Best practice for SAF implementation](getting-started/best-practice-for-saf-implementation.md)

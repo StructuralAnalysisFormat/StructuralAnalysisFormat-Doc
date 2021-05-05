@@ -24,44 +24,44 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_scia.png" alt="1" />
+          <img src="../.gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_frilo.png" alt="1" />
+          <img src="../.gitbook/assets/1_frilo.png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
     </tr>
@@ -112,44 +112,44 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_scia.png" alt="1" />
+          <img src="../.gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_frilo.png" alt="1" />
+          <img src="../.gitbook/assets/1_frilo.png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
     </tr>
@@ -311,44 +311,44 @@ See below overview tables which will give you an idea of who supports SAF and to
       <th style="text-align:left">Supports and hinges</th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_scia.png" alt="1" />
+          <img src="../.gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_frilo.png" alt="1" />
+          <img src="../.gitbook/assets/1_frilo.png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
     </tr>
@@ -465,44 +465,44 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_scia.png" alt="1" />
+          <img src="../.gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_frilo.png" alt="1" />
+          <img src="../.gitbook/assets/1_frilo.png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
     </tr>
@@ -674,29 +674,29 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_dlubal.png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal.png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_die.png" alt="1" />
+          <img src="../.gitbook/assets/1_die.png" alt="1" />
         </p>
         <p>D.I,E</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_alto.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_alto.png" alt="1" />&#x200B;</p>
         <p>AltoQi</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_idea.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_idea.png" alt="1" />&#x200B;</p>
         <p>IDEA</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_sofistik.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_sofistik.png" alt="1" />&#x200B;</p>
         <p>Sofistik</p>
       </th>
     </tr>
@@ -726,13 +726,13 @@ Tables below shows coverage of [SAF converter](https://safconverter.structuralto
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_dlubal.png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal.png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_robot.png" alt="1" />
+          <img src="../.gitbook/assets/1_robot.png" alt="1" />
         </p>
         <p>Robot</p>
       </th>
@@ -766,13 +766,13 @@ Tables below shows coverage of [SAF converter](https://safconverter.structuralto
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_dlubal.png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal.png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src=".gitbook/assets/1_robot.png" alt="1" />
+          <img src="../.gitbook/assets/1_robot.png" alt="1" />
         </p>
         <p>Robot</p>
       </th>
