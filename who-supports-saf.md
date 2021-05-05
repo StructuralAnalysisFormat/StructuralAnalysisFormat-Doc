@@ -665,3 +665,185 @@ See below overview tables which will give you an idea of who supports SAF and to
   </tbody>
 </table>
 
+### Implementation in progress
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>SAF implementation</b>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_dlubal.png" alt="1" />
+        </p>
+        <p>Dlubal</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_die.png" alt="1" />
+        </p>
+        <p>D.I,E</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_alto.png" alt="1" />&#x200B;</p>
+        <p>AltoQi</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_idea.png" alt="1" />&#x200B;</p>
+        <p>IDEA</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_sofistik.png" alt="1" />&#x200B;</p>
+        <p>Sofistik</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+## Support via SAF converter
+
+Tables below shows coverage of [SAF converter](https://safconverter.structuraltoolkit.com/rfem). Independent hub where dedicated tools and apps for specific conversion of CAE model to SAF are available.
+
+### SAF Implementation
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>SAF implementation</b>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_dlubal.png" alt="1" />
+        </p>
+        <p>Dlubal</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_robot.png" alt="1" />
+        </p>
+        <p>Robot</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Supported version</td>
+      <td style="text-align:center">1.0.5</td>
+      <td style="text-align:center">1.0.5</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Import</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Export</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+    </tr>
+  </tbody>
+</table>
+
+### Structural analysis elements
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Structural analysis <br />elements</b>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_dlubal.png" alt="1" />
+        </p>
+        <p>Dlubal</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_robot.png" alt="1" />
+        </p>
+        <p>Robot</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">StructuralMaterial</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCrossSection</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CompositeShapeDef</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralPointConnection</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveEdge</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveMember</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveMemberVarying</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveMemberRib</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceMember</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceMemberOpening</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceMemberRegion</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralStorey</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralProxyElement</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+    </tr>
+  </tbody>
+</table>
+
