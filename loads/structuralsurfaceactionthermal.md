@@ -73,7 +73,7 @@ Specification in the excel:
       <td style="text-align:center">yes</td>
       <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralSurfaceMember </a>or
         <a
-        href="structuralsurfaceactiondistribution.md">StructuralSurfaceActionDistribution</a>which is the surface load related
+        href>StructuralSurfaceActionDistribution</a>which is the surface load related
           to.</td>
     </tr>
     <tr>
