@@ -47,4 +47,7 @@
 * [StructuralCurveAction](loads/structuralcurveaction.md)
 * [StructuralCurveMoment](loads/structuralcurvemoment.md)
 * [StructuralSurfaceAction](loads/structuralsurfaceaction.md)
+* [StructuralSurfaceActionThermal](loads/structuralsurfaceactionthermal.md)
+* [StructuralCurveActionThermal](loads/structuralcurveactionthermal.md)
+* [StructuralSurfaceActionDistribution](loads/structuralsurfaceactiondistribution.md)
 
