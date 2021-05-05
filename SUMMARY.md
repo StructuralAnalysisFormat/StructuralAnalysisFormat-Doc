@@ -1,8 +1,8 @@
 # Table of contents
 
-* [What is SAF](README.md)
-* [SAF Versions](saf-versions.md)
+* [What is SAF?](README.md)
 * [Who supports SAF?](who-supports-saf.md)
+* [SAF Versions](saf-versions.md)
 * [Introduction](introduction.md)
 * [Geometry](geometry.md)
 * [Project and model specifications](project-and-model-specifications/README.md)
