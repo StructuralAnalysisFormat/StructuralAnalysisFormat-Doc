@@ -44,4 +44,6 @@
 * [StructuralLoadCombination](loads/structuralloadcombination.md)
 * [StructuralPointAction](loads/structuralpointaction.md)
 * [StructuralPointMoment](loads/structuralpointmoment.md)
+* [StructuralCurveAction](loads/structuralcurveaction.md)
+* [StructuralCurveMoment](loads/structuralcurvemoment.md)
 
