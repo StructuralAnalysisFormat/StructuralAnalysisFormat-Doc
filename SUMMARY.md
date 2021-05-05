@@ -53,4 +53,5 @@
 * [StructuralCurveActionFree](loads/structuralcurveactionfree.md)
 * [StructuralSurfaceActionFree](loads/structuralsurfaceactionfree.md)
 * [StructuralSurfaceActionDistribution](loads/structuralsurfaceactiondistribution.md)
+* [StructuralSurfaceActionDistribution](loads/structuralsurfaceactiondistribution-1.md)
 
