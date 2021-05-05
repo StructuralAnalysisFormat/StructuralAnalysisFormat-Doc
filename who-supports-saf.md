@@ -7,6 +7,10 @@
 Information in the table is provided by involved partners them self. Author of the documentation is not taking any responsibility for correctness of given information. If you found a mistake or want to update the table content, please contact us via email on **a.vyskocil@scia.net**
 {% endhint %}
 
+{% hint style="info" %}
+Full size table available [here](https://saf.guide/#Company%20overview_master.htm%3FTocPath%3D_____2).
+{% endhint %}
+
 ## Native SAF support:
 
 See below overview tables which will give you an idea of who supports SAF and to which extend. If you have more questions about implementation or user-end usage of SAF import/expert per specific application, please contact their customer support team.
@@ -291,6 +295,368 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">No</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+    </tr>
+  </tbody>
+</table>
+
+### Supports and hinges
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Supports and hinges</th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_scia.png" alt="1" />
+        </p>
+        <p>SCIA</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_frilo.png" alt="1" />
+        </p>
+        <p>FRILO</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+        <p>Graphisoft</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+        <p>Risa</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+        <p>Radimpex</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+        <p>LIRA SAPR SAPHIR</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+        <p>AxisVM</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+        <p>FEM-Design</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">StructuralPointSupport</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceConnection</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveConnection</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralEdgeConnection</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">RelConnectsStructuralMember</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">RelConnectsSurfaceEdge</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">RelConnectsRigidCross</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">RelConnectsRigidLink</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">RelConnectsRigidMember</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+### Loads
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Loads</b>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_scia.png" alt="1" />
+        </p>
+        <p>SCIA</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_frilo.png" alt="1" />
+        </p>
+        <p>FRILO</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+        <p>Graphisoft</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+        <p>Risa</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+        <p>Radimpex</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+        <p>LIRA SAPR SAPHIR</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+        <p>AxisVM</p>
+      </th>
+      <th style="text-align:center">
+        <p>
+          <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+        <p>FEM-Design</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">StructuralLoadGroup</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralLoadCase</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralLoadCombination</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralPointAction</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralPointMoment</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveAction</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveMoment</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceAction</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceActionThermal</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveActionThermal</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralPointActionFree</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralCurveActionFree</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceActionFree</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">StructuralSurfaceActionDistribution</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
+      <td style="text-align:center">No</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">No</td>
