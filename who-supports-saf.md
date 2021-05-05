@@ -19,7 +19,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <th style="text-align:right"><b>SAF implementation</b>
       </th>
       <th style="text-align:center">
-        <p>&lt;b&gt;&lt;/b&gt;
+        <p>
           <img src=".gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
@@ -31,32 +31,32 @@ See below overview tables which will give you an idea of who supports SAF and to
         <p>FRILO</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
@@ -99,6 +99,7 @@ See below overview tables which will give you an idea of who supports SAF and to
   </tbody>
 </table>
 
+
 ### Structural analysis elements 
 
 <table>
@@ -107,7 +108,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <th style="text-align:right"><b>Structural analysis elements</b>
       </th>
       <th style="text-align:center">
-        <p>&lt;b&gt;&lt;/b&gt;
+        <p>
           <img src=".gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
@@ -119,32 +120,32 @@ See below overview tables which will give you an idea of who supports SAF and to
         <p>FRILO</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
       <th style="text-align:center">
-        <p>&#x200B;
+        <p>
           <img src=".gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
