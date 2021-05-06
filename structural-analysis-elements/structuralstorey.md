@@ -13,25 +13,25 @@ Specification in the excel:
 <table>
   <thead>
     <tr>
-      <th style="text-align:center">Name of the column header</th>
-      <th style="text-align:center">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:center">Required value</th>
+      <th style="text-align:left">Name of the column header</th>
+      <th style="text-align:left">Type of data</th>
+      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center">Name</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">FL1</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Name</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">FL1</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the Arbitrary definition</td>
     </tr>
     <tr>
-      <td style="text-align:center">Height level [m]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Height level [m]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">
         <p>-2.000</p>
         <p>2.500</p>
         <p>5.500</p>
@@ -41,15 +41,15 @@ Specification in the excel:
           <br />
         </p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Height level [m] or [m] of the floor.
         <br />Zero height level refers to horizontal plane of GCS (mostly XY plane).</td>
     </tr>
     <tr>
-      <td style="text-align:center">Id</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Id</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
   </tbody>

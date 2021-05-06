@@ -22,46 +22,46 @@ See below overview tables which will give you an idea of who supports SAF and to
     <tr>
       <th style="text-align:left"><b>SAF implementation</b>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_scia.png" alt="1" />
+          <img src="../.gitbook/assets/1_scia (3).png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_frilo.png" alt="1" />
+          <img src="../.gitbook/assets/1_frilo (2).png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400 (2).png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa (3).png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex (1).png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira (1).png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_axis (3).png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_fem-design-logo (3).png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
     </tr>
@@ -69,36 +69,36 @@ See below overview tables which will give you an idea of who supports SAF and to
   <tbody>
     <tr>
       <td style="text-align:left">Supported version</td>
-      <td style="text-align:center">1.0.5</td>
-      <td style="text-align:center">1.0.5</td>
-      <td style="text-align:center">1.0.5</td>
-      <td style="text-align:center">2.0.0</td>
-      <td style="text-align:center">2.0.0</td>
-      <td style="text-align:center">2.0.0</td>
-      <td style="text-align:center">1.0.5</td>
-      <td style="text-align:center">1.0.5</td>
+      <td style="text-align:left">1.0.6</td>
+      <td style="text-align:left">1.1.1</td>
+      <td style="text-align:left">1.0.5</td>
+      <td style="text-align:left">2.0.0</td>
+      <td style="text-align:left">2.0.0</td>
+      <td style="text-align:left">2.0.0</td>
+      <td style="text-align:left">1.0.9</td>
+      <td style="text-align:left">1.0.5</td>
     </tr>
     <tr>
       <td style="text-align:left">Import</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">Export</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
   </tbody>
 </table>
@@ -108,48 +108,48 @@ See below overview tables which will give you an idea of who supports SAF and to
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Structural analysis <br />elements</b>
+      <th style="text-align:left"><b>Structural analysis<br />elements</b>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_scia.png" alt="1" />
+          <img src="../.gitbook/assets/1_scia (2).png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_frilo.png" alt="1" />
+          <img src="../.gitbook/assets/1_frilo (3).png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400 (3).png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa (2).png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_axis (1).png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_fem-design-logo (2).png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
     </tr>
@@ -157,148 +157,148 @@ See below overview tables which will give you an idea of who supports SAF and to
   <tbody>
     <tr>
       <td style="text-align:left">StructuralMaterial</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCrossSection</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">CompositeShapeDef
         <br />
       </td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralPointConnection</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveEdge</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveMember</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveMemberVarying</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveMemberRib</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceMember</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceMemberOpening</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceMemberRegion</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralStorey</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralProxyElement</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
     </tr>
   </tbody>
 </table>
@@ -309,44 +309,44 @@ See below overview tables which will give you an idea of who supports SAF and to
   <thead>
     <tr>
       <th style="text-align:left">Supports and hinges</th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_scia.png" alt="1" />
+          <img src="../.gitbook/assets/1_scia (1).png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_frilo.png" alt="1" />
+          <img src="../.gitbook/assets/1_frilo (1).png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex (2).png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira (2).png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_axis (2).png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
@@ -356,102 +356,102 @@ See below overview tables which will give you an idea of who supports SAF and to
   <tbody>
     <tr>
       <td style="text-align:left">StructuralPointSupport</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceConnection</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveConnection</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralEdgeConnection</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">RelConnectsStructuralMember</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">RelConnectsSurfaceEdge</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">RelConnectsRigidCross</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">RelConnectsRigidLink</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
     <tr>
       <td style="text-align:left">RelConnectsRigidMember</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
     </tr>
   </tbody>
 </table>
@@ -463,46 +463,46 @@ See below overview tables which will give you an idea of who supports SAF and to
     <tr>
       <th style="text-align:left"><b>Loads</b>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_scia.png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_frilo.png" alt="1" />
         </p>
         <p>FRILO</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_grgnay6o_400x400.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400 (1).png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_risa.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa (1).png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_radimpex.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex (3).png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_logo_lira.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira (3).png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_axis.png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
-          <img src="../.gitbook/assets/1_fem-design-logo.png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_fem-design-logo (1).png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
     </tr>
@@ -510,157 +510,157 @@ See below overview tables which will give you an idea of who supports SAF and to
   <tbody>
     <tr>
       <td style="text-align:left">StructuralLoadGroup</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralLoadCase</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralLoadCombination</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralPointAction</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralPointMoment</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveAction</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveMoment</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceAction</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceActionThermal</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveActionThermal</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralPointActionFree</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralCurveActionFree</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceActionFree</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
     </tr>
     <tr>
       <td style="text-align:left">StructuralSurfaceActionDistribution</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
     </tr>
   </tbody>
 </table>
@@ -674,7 +674,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_dlubal.png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal (2).png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
@@ -699,11 +699,19 @@ See below overview tables which will give you an idea of who supports SAF and to
           <img src="../.gitbook/assets/1_sofistik.png" alt="1" />&#x200B;</p>
         <p>Sofistik</p>
       </th>
+      <th style="text-align:center">
+        <img src="../.gitbook/assets/1_scad.png" alt="1" />
+      </th>
+      <th style="text-align:center">
+        <img src="../.gitbook/assets/1_prota.png" alt="1" />
+      </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -732,7 +740,7 @@ Tables below shows coverage of [SAF converter](https://safconverter.structuralto
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_robot.png" alt="1" />
+          <img src="../.gitbook/assets/1_robot (1).png" alt="1" />
         </p>
         <p>Robot</p>
       </th>
@@ -762,11 +770,11 @@ Tables below shows coverage of [SAF converter](https://safconverter.structuralto
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Structural analysis <br />elements</b>
+      <th style="text-align:left"><b>Structural analysis<br />elements</b>
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_dlubal.png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal (1).png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
