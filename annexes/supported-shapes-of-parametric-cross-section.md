@@ -5,7 +5,7 @@ Examples below are presented for "**LCS of cross-section**" set as **ZYX** in th
 {% endhint %}
 
 | Pattern | Shape | Parameters \[mm\] |
-| :---: | :--- | :--- |
+| :---: | :---: | :--- |
 | ![](../.gitbook/assets/44_supportedshapes2.png) | Circle | D |
 | ![](../.gitbook/assets/44_supportedshapes1.png) | Rectangle | H; B |
 | ![](../.gitbook/assets/44_supportedshapes3.png) | Double rectangle | tha; Ba; a |
