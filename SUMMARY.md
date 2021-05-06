@@ -68,3 +68,7 @@
 * [Supported shapes of compound section](annexes/supported-shapes-of-compound-section.md)
 * [Supported design properties of the materials](annexes/supported-design-properties-of-the-materials.md)
 
+## Other
+
+* [Ideas and proposals for next SAF versions](other/ideas-and-proposals-for-next-saf-versions.md)
+
