@@ -8,7 +8,7 @@ The basic object specifies the geometry of the analytical model and its members.
 
 If required, special boundary conditions can be defined for the StructuralPointConnection by StructuralPointSupport.
 
-Specification in the excel:
+### Specification in the excel
 
 | Name   of the column header | Type of data | Value example or enum definition | Required value | Description |
 | :---: | :---: | :---: | :---: | :--- |

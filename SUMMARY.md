@@ -13,7 +13,7 @@
 * [Best practice for SAF implementation](getting-started/best-practice-for-saf-implementation.md)
 * [Project and model specifications](getting-started/project-and-model-specifications/README.md)
   * [Units table](getting-started/project-and-model-specifications/units.md)
-  * [Ignored objects and groups:](getting-started/project-and-model-specifications/ignore.md)
+  * [Ignored objects and groups](getting-started/project-and-model-specifications/ignore.md)
 
 ## Structural analysis elements
 

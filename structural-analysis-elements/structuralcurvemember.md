@@ -14,31 +14,31 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
 
 ![](../.gitbook/assets/11_structuralcurvemember3.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
+      <th style="text-align:center">Name of the column header</th>
+      <th style="text-align:center">Type of data</th>
+      <th style="text-align:center">Value example or enum definition</th>
+      <th style="text-align:center">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">B1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Name</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">B1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Human readable unique name of the 1D member</td>
     </tr>
     <tr>
-      <td style="text-align:left">Type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">General</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Type</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">General</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>The type of the 1D member, used within the analytical model.</p>
         <p>E.g. General, Beam, Column, GableColumn, SecondaryColumn, Rafter, Purlin,
@@ -47,25 +47,25 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Cross section</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">CS1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Cross section</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">CS1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">The name reference to the existing, valid name of the StructuralCrossSection
         object</td>
     </tr>
     <tr>
-      <td style="text-align:left">Arbitrary definition</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">AD1</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Arbitrary definition</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">AD1</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">The reference to Arbitrary/Tapered/Haunched beam definition StructuralCurveMemberVarying</td>
     </tr>
     <tr>
-      <td style="text-align:left">Nodes</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">N2; N3; N4</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Nodes</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">N2; N3; N4</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>All nodes that belong to the curve member and define its geometric shape.</p>
         <p>The names of the nodes are separated by ; (semicolon) and space. The order
@@ -73,38 +73,38 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Segments</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Segments</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Defines the shape of the curve between two next nodes. The names are separated
         by ; (semicolon) and space.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Begin node</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">N1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Begin node</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">N1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>The starting node of the 1D member.</p>
         <p>Has to be specified in the StructuralPointConnection sheet</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">End node</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">N2</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">End node</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">N2</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>The end node of the 1D member.</p>
         <p>Has to be specified in the StructuralPointConnection sheet</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Internal nodes</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">N77; N78</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Internal nodes</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">N77; N78</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Internal nodes belonging to StructuralCurveMember defined in StructuralPointConnection.</p>
         <p>Internal nodes are not geometry defining The names of the nodes are separated
@@ -112,86 +112,102 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Length [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">6.425</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Length [m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">6.425</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">Distance between begin and end node of the curve member.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Geometrical shape</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Geometrical shape</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Line</p>
+        <p></p>
         <p>Circular Arc</p>
+        <p></p>
         <p>Parabolic Arc</p>
+        <p></p>
         <p>Bezier</p>
+        <p></p>
         <p>Spline</p>
+        <p></p>
         <p>Polyline</p>
       </td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">Description of the geometrical type of curve member in general. If the
         member consists of more than one segments, Geometrical shape is automatically
         set to Polyline.</td>
     </tr>
     <tr>
-      <td style="text-align:left">LCS</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">LCS</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>y by vector</p>
+        <p></p>
         <p>z by vector</p>
+        <p></p>
         <p>y by point</p>
+        <p></p>
         <p>z by point</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Local coordinate system. This item specifies the way the local axes of
         the 1D member are determined. For further understanding see <a href="../getting-started/introduction.md">Introduction</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">LCS Rotation [deg]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">45.00</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">LCS Rotation [deg]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">45.00</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">This value defines the rotation of local axes of the 1D member around
         its x-axis</td>
     </tr>
     <tr>
-      <td style="text-align:left">Coordinate X [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,0</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Coordinate X [m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">0,0</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in X direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Coordinate Y [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Coordinate Y [m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">0,1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Y direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Coordinate Z [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,0</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Coordinate Z [m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">0,0</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Z direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">System line</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">System line</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Centre</p>
+        <p></p>
         <p>Top</p>
+        <p></p>
         <p>Bottom</p>
+        <p></p>
         <p>Left</p>
+        <p></p>
         <p>Right</p>
+        <p></p>
         <p>Top left</p>
+        <p></p>
         <p>Top right</p>
+        <p></p>
         <p>Bottom left</p>
+        <p></p>
         <p>Bottom right</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>The system line is in fact the local x-axis of the member. The attribute
           of system line applies eccentricities to the member equal to the cross-section
@@ -208,10 +224,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Structural Y Eccentricity of Beg Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">-150</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Structural Y Eccentricity of Beg Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">-150</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Y direction (Beg node).</p>
@@ -220,10 +236,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Structural Z Eccentricity of Beg Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Structural Z Eccentricity of Beg Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">75</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Z direction (Beg node).</p>
@@ -232,10 +248,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Structural Y Eccentricity of End Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Structural Y Eccentricity of End Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">75</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Y direction (End node).</p>
@@ -244,10 +260,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Structural Z Eccentricity of End Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Structural Z Eccentricity of End Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">75</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Z direction (End node).</p>
@@ -256,10 +272,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Analysis Y Eccentricity of Beg Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Analysis Y Eccentricity of Beg Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">75</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Y direction (Beg node).</p>
@@ -268,10 +284,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Analysis Z Eccentricity of Beg Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Analysis Z Eccentricity of Beg Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">75</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Z direction (Beg node).</p>
@@ -280,10 +296,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Analysis Y Eccentricity of End Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Analysis Y Eccentricity of End Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">75</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Y direction (End node).</p>
@@ -292,10 +308,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Analysis Z Eccentricity of End Node [mm]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Analysis Z Eccentricity of End Node [mm]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">75</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
           member representation in Z direction (End node).</p>
@@ -304,10 +320,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Layer</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">1st floor</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Layer</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">1st floor</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Custom created layer.</p>
         <p>The layer can thus comprise entities that have something in common (e.g.
@@ -315,15 +331,18 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Behaviour in analysis</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Behaviour in analysis</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Standard</p>
+        <p></p>
         <p>Axial force only</p>
+        <p></p>
         <p>Compression only</p>
+        <p></p>
         <p>Tension only</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">From the finite element analysis point of view, the 1D member can act
         like a standard 1D member or like a hinged (pinned) rod. The difference
         is that the standard 1D member is capable of transferring all the internal
@@ -331,19 +350,19 @@ Specification in the excel:
         axial force.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Color</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">#7FFFFF00</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Color</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">#7FFFFF00</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">Defines colour and transparency of the object. Colour is defined by Hex
         format #AARRGGBB. Transparency is controlled by the alpha channel AA. If
         no colour is set then default colour is used.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Parent ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Parent ID</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">Is filled for objects created be dividing curved geometry to series of
         straight line objects. Parent ID will ensure that curved edge is imported
         as straight parts to nonsupporting application, and back to original supporting
@@ -352,10 +371,10 @@ Specification in the excel:
         directions.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Id</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
   </tbody>

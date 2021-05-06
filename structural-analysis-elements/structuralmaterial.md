@@ -4,7 +4,7 @@
 
 Material is the basic entity affecting the behaviour of the structure. It is subsequently applied to a chosen profile \([StructuralCrossSection](structuralcrosssection.md)\). The user can use a pre-defined material or change the properties to get a custom one. The predefined materials correspond to materials defined in particular technical codes.The specification in excel:
 
-Specification in excel:
+### Specification in excel:
 
 <table>
   <thead>
@@ -29,10 +29,15 @@ Specification in excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Concrete</p>
+        <p></p>
         <p>Steel</p>
+        <p></p>
         <p>Timber</p>
+        <p></p>
         <p>Aluminium</p>
+        <p></p>
         <p>Masonry</p>
+        <p></p>
         <p>Other</p>
       </td>
       <td style="text-align:center">yes</td>
