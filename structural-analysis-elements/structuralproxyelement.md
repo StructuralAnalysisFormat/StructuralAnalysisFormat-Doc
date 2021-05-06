@@ -16,7 +16,7 @@ It is just a geometrical reference object.
 
 Sheet StrucutralProxyElement is a list of all StructuralProxyElements defined in the SAF file. Every row represents one solid object.
 
-Specification in the excel:
+#### Specification in the excel
 
 | Name of the row | Type of data | Value example or enum definition | Required value | Description |
 | :---: | :---: | :---: | :---: | :--- |
@@ -30,7 +30,7 @@ Specification in the excel:
 
 Sheet StructuralProxyElementVertices is a list of all vertices that are used for defining the StrucutralProxyElements. Each row is one vertex of StructuralProxyElements.
 
-Specification in the excel:
+#### Specification in the excel
 
 | Name of the row | Type of data | Value example or enum definition | Required value | Description |
 | :---: | :---: | :---: | :---: | :--- |
@@ -44,7 +44,7 @@ Specification in the excel:
 
 Sheet StructuralProxyElementFaces is used for defining faces of every StructuralProxyElement presented. Each row represents one face of StructuralProxyElements.
 
-Specification in the excel:
+#### Specification in the excel
 
 <table>
   <thead>
