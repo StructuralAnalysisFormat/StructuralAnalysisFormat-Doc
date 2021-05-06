@@ -6,169 +6,183 @@ The entity RelConnectsStructuralMember allows users to release degrees of freedo
 
 ![](../.gitbook/assets/22_relconnectsstructuralmember.png)
 
-Specification in the excel:
+### Specification in the excel:
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
+      <th style="text-align:center">Name of the column header</th>
+      <th style="text-align:center">Type of data</th>
+      <th style="text-align:center">Value example or enum definition</th>
+      <th style="text-align:center">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">H1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Name</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">H1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Human readable unique name of the RelConnectsStrucutralMember</td>
     </tr>
     <tr>
-      <td style="text-align:left">Member</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Beam B54</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Member</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">Beam B54</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">The name of the curve member to which is hinge related</td>
     </tr>
     <tr>
-      <td style="text-align:left">Position</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Position</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Begin</p>
+        <p></p>
         <p>End</p>
+        <p></p>
         <p>Both</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">The position of the hinge on the curve member. *see notes</td>
     </tr>
     <tr>
-      <td style="text-align:left">ux</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">ux</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Translation in X direction. Free - That is it imposes no constraint in
         the direction. Rigid - The connection in fully rigid in the specified direction.
         Flexible - The connection is flexible (elastic) in the specified direction.
         Parameter Flexible can be linear only, non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">uy</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">uy</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Translation in Y direction. Free - That is it imposes no constraint in
         the direction. Rigid - The connection in fully rigid in the specified direction.
         Flexible - The connection is flexible (elastic) in the specified direction.
         Parameter Flexible can be linear only, non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">uz</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">uz</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Translation in Z direction. Free - That is it imposes no constraint in
         the direction. Rigid - The connection in fully rigid in the specified direction.
         Flexible - The connection is flexible (elastic) in the specified direction.
         Parameter Flexible can be linear only, non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">fix</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">fix</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Rotational stiffness around X axis. Parameter Flexible can be linear only,
         non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">fiy</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">fiy</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Rotational stiffness around Y axis. Parameter Flexible can be linear only,
         non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">fiz</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">fiz</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Rotational stiffness around Z axis. Parameter Flexible can be linear only,
         non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness X [MN/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
-      <td style="text-align:left">yes, if ux = Flexible</td>
+      <td style="text-align:center">Stiffness X [MN/m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">yes, if ux = Flexible</td>
       <td style="text-align:left">The flexibility of the connection in X direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Y [MN/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
-      <td style="text-align:left">yes, if uy = Flexible</td>
+      <td style="text-align:center">Stiffness Y [MN/m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">yes, if uy = Flexible</td>
       <td style="text-align:left">The flexibility of the connection in Y direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Z [MN/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
-      <td style="text-align:left">yes, if uz = Flexible</td>
+      <td style="text-align:center">Stiffness Z [MN/m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">yes, if uz = Flexible</td>
       <td style="text-align:left">The flexibility of the connection in Z direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Fix [MNm/rad]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
-      <td style="text-align:left">yes, if fix = Flexible</td>
+      <td style="text-align:center">Stiffness Fix [MNm/rad]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">50</td>
+      <td style="text-align:center">yes, if fix = Flexible</td>
       <td style="text-align:left">The flexibility in rotation of the connection around local X axis</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Fiy [MNm/rad]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
-      <td style="text-align:left">yes, if fiy = Flexible</td>
+      <td style="text-align:center">Stiffness Fiy [MNm/rad]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">50</td>
+      <td style="text-align:center">yes, if fiy = Flexible</td>
       <td style="text-align:left">The flexibility in rotation of the connection around local Y axis</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Fiz [MNm/rad]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
-      <td style="text-align:left">yes, if fiz = Flexible</td>
+      <td style="text-align:center">Stiffness Fiz [MNm/rad]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">50</td>
+      <td style="text-align:center">yes, if fiz = Flexible</td>
       <td style="text-align:left">The flexibility in rotation of the connection around local Z axis</td>
     </tr>
     <tr>
-      <td style="text-align:left">Parent ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Parent ID</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Is filled for objects created be dividing curved geometry to series of
           straight line objects.
@@ -181,10 +195,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Id</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
   </tbody>
