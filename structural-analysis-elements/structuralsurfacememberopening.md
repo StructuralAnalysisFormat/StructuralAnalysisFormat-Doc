@@ -8,7 +8,7 @@ Instances of StructuralSurfaceMemberOpening describe openings in face members \(
 
 ![](../.gitbook/assets/15_structuralsurfacememberopening2.png)
 
-Specification in the excel:
+### Specification in the excel
 
 | Name of the column header | Type of data | Value example or enum definition | Required value | Description |
 | :---: | :---: | :---: | :---: | :--- |
