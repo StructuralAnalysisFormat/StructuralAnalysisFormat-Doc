@@ -9,42 +9,44 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Name of the column header</th>
+      <th style="text-align:center">Type of data</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Sn6</td>
+      <td style="text-align:center">Name</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">Sn6</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the support</td>
     </tr>
     <tr>
-      <td style="text-align:left">2D Member</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">S3</td>
+      <td style="text-align:center">2D Member</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">S3</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the surface member to which is hinge related</td>
     </tr>
     <tr>
-      <td style="text-align:left">Edge</td>
-      <td style="text-align:left">Integer</td>
-      <td style="text-align:left">1</td>
+      <td style="text-align:center">Edge</td>
+      <td style="text-align:center">Integer</td>
+      <td style="text-align:center">1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The index of edge of the surface member. The index starting with 0. The
         order is according to order of &#x201C;edges&#x201D; property at StrucutralSurfaceMember.</td>
     </tr>
     <tr>
-      <td style="text-align:left">ux</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">ux</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -54,11 +56,13 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         Parameter Flexible can be linear only, non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">uy</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">uy</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -68,11 +72,13 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         Parameter Flexible can be linear only, non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">uz</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">uz</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -82,11 +88,13 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         Parameter Flexible can be linear only, non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">fix</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">fix</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -94,11 +102,13 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">fiy</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">fiy</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -106,11 +116,13 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">fiz</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">fiz</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Free</p>
+        <p></p>
         <p>Rigid</p>
+        <p></p>
         <p>Flexible</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -118,52 +130,53 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness X [MN/m2]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
+      <td style="text-align:center">Stiffness X [MN/m2]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">100</td>
       <td style="text-align:left">yes, if ux = Flexible</td>
       <td style="text-align:left">The flexibility of the connection in X direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Y [MN/m2]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
+      <td style="text-align:center">Stiffness Y [MN/m2]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">100</td>
       <td style="text-align:left">yes, if uy = Flexible</td>
       <td style="text-align:left">The flexibility of the connection in Y direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Z [MN/m2]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
+      <td style="text-align:center">Stiffness Z [MN/m2]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">100</td>
       <td style="text-align:left">yes, if uz = Flexible</td>
       <td style="text-align:left">The flexibility of the connection in Z direction</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Fix [MNm/rad/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
+      <td style="text-align:center">Stiffness Fix [MNm/rad/m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">50</td>
       <td style="text-align:left">yes, if fix = Flexible</td>
       <td style="text-align:left">The flexibility in rotation of the connection around local X axis</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Fiy [MNm/rad/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
+      <td style="text-align:center">Stiffness Fiy [MNm/rad/m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">50</td>
       <td style="text-align:left">yes, if fiy = Flexible</td>
       <td style="text-align:left">The flexibility in rotation of the connection around local Y axis</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stiffness Fiz [MNm/rad/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
+      <td style="text-align:center">Stiffness Fiz [MNm/rad/m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">50</td>
       <td style="text-align:left">yes, if fiz = Flexible</td>
       <td style="text-align:left">The flexibility in rotation of the connection around local Z axis</td>
     </tr>
     <tr>
-      <td style="text-align:left">Coordinate definition</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Coordinate definition</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Absolute</p>
+        <p></p>
         <p>Relative</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -172,10 +185,11 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         meters input absolute</td>
     </tr>
     <tr>
-      <td style="text-align:left">Origin</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Origin</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>From start</p>
+        <p></p>
         <p>From end</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -183,9 +197,9 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
         of the length of the hinge</td>
     </tr>
     <tr>
-      <td style="text-align:left">Start point [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Start point [m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">
         <p>value in meters for Coordinate definition = Absolute</p>
         <p>0,0</p>
         <p>value in percentage for Coordinate definition = Relative</p>
@@ -199,9 +213,9 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">End point [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:left">
+      <td style="text-align:center">End point [m]</td>
+      <td style="text-align:center">Double</td>
+      <td style="text-align:center">
         <p>value in meters for Coordinate definition = Absolute</p>
         <p>5,25</p>
         <p>value in percentage for Coordinate definition = Relative</p>
@@ -215,9 +229,9 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Parent ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">Parent ID</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Is filled for objects created be dividing curved geometry to series of
@@ -230,9 +244,9 @@ A connection of two slabs \(2D members\) may be modelled as a fixed one or a hin
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">Id</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

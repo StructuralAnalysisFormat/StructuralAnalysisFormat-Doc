@@ -20,7 +20,7 @@ a.vyskocil@scia.net
 
 or send message directly to our MS team channel at - 99ef7709.scia.net@emea.teams.ms
 
-## Header strings
+### Header strings
 
 As everybody should follow specified header names in documentation per version, We would also recommend to:
 
@@ -29,14 +29,14 @@ As everybody should follow specified header names in documentation per version, 
 * ignore units information in header for import purposes, SAF should be possible to import without this information in header
 * when exporting, include units \(for better readability of end user\) according to unit setting and table of units provided in Project and model specifications
 
-## Format of cells
+### Format of cells
 
 All numerical values \(doubles, integers\) should be exported as "Number" format in Excel
 
 * This rule should apply also for cells which could contain more values, in a case it will have only on.
   * Example: Thickness for StructuralSurfaceMember can contain single value in case of constant thickness type. In this case cell format should be number. In case of variable thickness type, string will be used
 
-## Values in cells
+### Values in cells
 
 Empty and blank cells
 
@@ -52,11 +52,11 @@ Numerical chain values \(string\)
 
 * standard separator for more values in a cell is semicolon 
 
-## Culture invariant decimal separator
+### Culture invariant decimal separator
 
 On import and export side you should always use culture invariant decimal symbol - **dot** and **no thousands separator**
 
-## Units in headers
+### Units in headers
 
 Import or export should be based on header without unit specification. Missing unit should not block import, either its presence. It is recommended though to include unit information to header for better user read-ability of SAF file.
 

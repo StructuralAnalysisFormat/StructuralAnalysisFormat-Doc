@@ -16,7 +16,7 @@ Formocode set to "**0**" means that receiving application won't do any action en
 | 3 | Circular Hollow Section | Circular Hollow Section | ![](../.gitbook/assets/42_fc_03.png) | 20, 21, 51, 52, 53, 54,88, 89, 90, 95, 103 |
 | 4 | L-section | Equal and unequal L-sections | ![](../.gitbook/assets/42_fc_04.png) | 8, 9, 10, 16, 45, 46, 65, 73, 98, 99 |
 | 5 | Channel Section | Profiles symmetrical around the horizontal axes Opening oriented to the right \(typically channels\) | ![](../.gitbook/assets/42_fc_05.png) | 6, 7, 15, 18, 28, 41, 42, 43, 44, 57, 62, 66, 67, 70, 76, 97, 101, 107, 108, 111, 112, 113, 114, 115, 118 |
-| 6 | T-section | Profiles symmetrical around vertical axes Flange at the bottom \(typically T-section\) | ![](../.gitbook/assets/42_fc_06.png) | 23, 31, 47, 48, 77, 78, 80, 81, 92 |
+| 6 | T-section | Profiles symmetrical around vertical axes Flange at the bottom \(typically T-section\)  | ![](../.gitbook/assets/42_fc_06.png) | 23, 31, 47, 48, 77, 78, 80, 81, 92 |
 | 7 | Full Rectangular Section | Full Rectangular Section | ![](../.gitbook/assets/42_fc_07.png) | 14, 22, 30, 79 |
 | 8 | Full Circular Section | Full Circular Section | ![](../.gitbook/assets/42_fc_08.png) | 26 |
 | 9 | T-section Up | Profiles symmetrical around vertical axes Flange at the top \(typically T-section\) | ![](../.gitbook/assets/42_fc_09.png) | 23, 31, 47, 48, 77, 78, 80, 81, 92 |

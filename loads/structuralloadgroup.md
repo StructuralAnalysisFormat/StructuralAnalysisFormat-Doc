@@ -9,52 +9,63 @@ Specification in the excel:
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
+      <th style="text-align:center">Name of the column header</th>
+      <th style="text-align:center">Type of data</th>
+      <th style="text-align:center">Value example or enum definition</th>
+      <th style="text-align:center">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">LG1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Name</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">LG1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Human readable unique name of the object</td>
     </tr>
     <tr>
-      <td style="text-align:left">Load group type</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Load group type</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Permanent</p>
+        <p></p>
         <p>Variable</p>
+        <p></p>
         <p>Accidental</p>
+        <p></p>
         <p>Seismic</p>
+        <p></p>
         <p>Moving</p>
+        <p></p>
         <p>Tensioning</p>
+        <p></p>
         <p>Fire</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>This parameters tell whether the load group is used for permanent or variable
           loads.</p>
         <p>Applicable Load group types for:</p>
-        <p><b>Permanent load case:</b> Permanent</p>
-        <p><b>Variable load case:</b> Variable, Seismic, Moving, Tensioning, Fire</p>
-        <p><b>Accidental load case:</b> Accidental</p>
+        <p></p>
+        <p><b>Permanent load case: </b>Permanent</p>
+        <p></p>
+        <p><b>Variable load case: </b>Variable, Seismic, Moving, Tensioning, Fire</p>
+        <p></p>
+        <p><b>Accidental load case: </b>Accidental</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Relation</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">Relation</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
         <p>Exclusive</p>
+        <p></p>
         <p>Standard</p>
+        <p></p>
         <p>Together</p>
       </td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>The relation tells what the relation of load cases in the particular load
           group is.</p>
@@ -71,10 +82,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Load type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">Domestic</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Load type</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">Domestic</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Define type of variable load, E.g. Domestic,</p>
         <p>Offices,</p>
@@ -90,10 +101,10 @@ Specification in the excel:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
+      <td style="text-align:center">Id</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
   </tbody>

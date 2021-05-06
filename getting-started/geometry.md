@@ -10,8 +10,8 @@ Following geometrical types are available:
   <thead>
     <tr>
       <th style="text-align:left"></th>
-      <th style="text-align:left">Geometry type</th>
-      <th style="text-align:left">Type definition</th>
+      <th style="text-align:center">Geometry type</th>
+      <th style="text-align:center">Type definition</th>
       <th style="text-align:left">Insertion data explanation</th>
       <th style="text-align:left">SAF geometry strings</th>
       <th style="text-align:left">Notes</th>
@@ -22,8 +22,8 @@ Following geometrical types are available:
       <td style="text-align:left">
         <img src="../.gitbook/assets/4_geometry_line.png" alt="1" />
       </td>
-      <td style="text-align:left">Line</td>
-      <td style="text-align:left">Straight-line between two nodes</td>
+      <td style="text-align:center">Line</td>
+      <td style="text-align:center">Straight-line between two nodes</td>
       <td style="text-align:left">
         <p>Start point , End point</p>
         <p>N1;N2</p>
@@ -35,8 +35,8 @@ Following geometrical types are available:
       <td style="text-align:left">
         <img src="../.gitbook/assets/4_geometry_CA_2.png" alt="1" />
       </td>
-      <td style="text-align:left">Circular Arc</td>
-      <td style="text-align:left">Arch defined with 3 nodes</td>
+      <td style="text-align:center">Circular Arc</td>
+      <td style="text-align:center">Arch defined with 3 nodes</td>
       <td style="text-align:left">
         <p>Start point, Intermediate point, End point</p>
         <p>N3;N4;N5</p>
@@ -48,8 +48,8 @@ Following geometrical types are available:
       <td style="text-align:left">
         <img src="../.gitbook/assets/4_geometry_PA.png" alt="1" />
       </td>
-      <td style="text-align:left">Parabolic Arc</td>
-      <td style="text-align:left">Parabolic arch defined with 3 nodes
+      <td style="text-align:center">Parabolic Arc</td>
+      <td style="text-align:center">Parabolic arch defined with 3 nodes
         <br />
       </td>
       <td style="text-align:left">
@@ -63,8 +63,8 @@ Following geometrical types are available:
       <td style="text-align:left">
         <img src="../.gitbook/assets/4_geometry_bezier.png" alt="1" />
       </td>
-      <td style="text-align:left">Bezier</td>
-      <td style="text-align:left">Cubic Bezier curve</td>
+      <td style="text-align:center">Bezier</td>
+      <td style="text-align:center">Cubic Bezier curve</td>
       <td style="text-align:left">
         <p>Start point, 2nd point of control polygon (vertex), 3rd point of control
           polygon (vertex), End point</p>
@@ -86,8 +86,8 @@ Following geometrical types are available:
       <td style="text-align:left">
         <img src="../.gitbook/assets/4_geomery_spline.png" alt="1" />
       </td>
-      <td style="text-align:left">Spline</td>
-      <td style="text-align:left">Curved line defined by polynomial function</td>
+      <td style="text-align:center">Spline</td>
+      <td style="text-align:center">Curved line defined by polynomial function</td>
       <td style="text-align:left">
         <p>Start point, Set of mid points, End point</p>
         <p>N11;N12;N13;N14;N15;N16;N17;N18
@@ -102,8 +102,8 @@ Following geometrical types are available:
       <td style="text-align:left">
         <img src="../.gitbook/assets/4_geometry_circle.png" alt="1" />
       </td>
-      <td style="text-align:left">Circle</td>
-      <td style="text-align:left">Circle</td>
+      <td style="text-align:center">Circle</td>
+      <td style="text-align:center">Circle</td>
       <td style="text-align:left">
         <p>Center Point, Point on the perimeter</p>
         <p>N36;N37</p>
@@ -130,8 +130,8 @@ Following geometrical types are available:
       <td style="text-align:left">
         <img src="../.gitbook/assets/4_Geometry_poly_line.png" alt="1" />
       </td>
-      <td style="text-align:left">Polyline</td>
-      <td style="text-align:left">Combination of in nodes connected geometric types
+      <td style="text-align:center">Polyline</td>
+      <td style="text-align:center">Combination of in nodes connected geometric types
         <br />
       </td>
       <td style="text-align:left">
