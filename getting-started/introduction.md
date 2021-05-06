@@ -31,7 +31,7 @@ Excel screenshot examples:
 Any numeric value \(Double, Integer\) has to be formatted as a number in an excel sheet.
 {% endhint %}
 
- In SAF, supported units are **metric** and **imperial**. Units are defined in the "Model" sheet.
+In SAF, supported units are **metric** and **imperial**. Units are defined in the "Model" sheet.
 
 {% hint style="info" %}
 Units can be optionally displayed in property headers.  
@@ -61,14 +61,13 @@ It may help you to determine the direction of the individual structural elements
 * the index finger points in the direction of the y-axis,
 * the middle finger points in the direction of the z-axis.
 
-###  **LCS - Local coordinate systems**
+### **LCS - Local coordinate systems**
 
 Each structural entity, meaning each member, has got its own local co-ordinate system. This co-ordinate system is a three-dimensional right-handed Cartesian co-ordinate system.
 
 Each member has several possibilities of enums, defining the Local Coordinate System \(LCS\). For further understanding of enums defining the LCS of the [StrucutralCurveMember](https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm) and [StructuralSurfaceMember](https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm) see the following:
 
-For **1D members**, there are several options on how to define LCS of [StrucutralCurveMember](https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm):  
-
+For **1D members**, there are several options on how to define LCS of [StrucutralCurveMember](https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm):
 
 ### LCS enum set on **" by point"**
 
@@ -82,7 +81,7 @@ When is LCS enum set on **" by point"** explanation is the following:
 
 ![](../.gitbook/assets/3_introduction_lcs_by_point.png)
 
-### LCS enum set on **"by vector"** 
+### LCS enum set on **"by vector"**
 
 When is LCS enum set on **"by vector"** explanation is the following:
 
@@ -126,19 +125,7 @@ The tilt of the vector defined by point is a special type of LCS for mesh elemen
 
 ![](../.gitbook/assets/3_introduction_tilt_of-vector.png)
 
-
-
 ## **Unique IDs**
 
-Unique IDs – Unique identifier number for each object in the project and the model level. If the IDs are available in project, model and each object could be recognized and tracked for revisions with a third party software. Filling the cells with ID is not mandatory for analytical exchange format.  
-
-
-
-
-
-
-
-
-  
-
+Unique IDs – Unique identifier number for each object in the project and the model level. If the IDs are available in project, model and each object could be recognized and tracked for revisions with a third party software. Filling the cells with ID is not mandatory for analytical exchange format.
 

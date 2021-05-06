@@ -4,8 +4,6 @@ The description of the cross-section
 
 List of the supported description types for rolled steel profiles:
 
-
-
 | ID | Description |
 | :--- | :--- |
 | 0 | not specified |

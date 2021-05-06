@@ -75,7 +75,6 @@ Specification in excel:
       <td style="text-align:center">T Section</td>
       <td style="text-align:center">
         <p>yes, if Cross-section type = Parametric</p>
-        <p></p>
         <p>yes, if Cross-section type = Compound</p>
       </td>
       <td style="text-align:left">
@@ -108,9 +107,7 @@ Specification in excel:
       <td style="text-align:center">HEB180</td>
       <td style="text-align:center">
         <p>yes, if Cross-section type = Manufactured</p>
-        <p></p>
         <p>yes, if Cross-section type = Compound</p>
-        <p></p>
         <p>yes, if Cross-section type = General</p>
       </td>
       <td style="text-align:left">

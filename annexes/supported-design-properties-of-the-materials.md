@@ -1,6 +1,6 @@
 # Supported design properties of the materials
 
-### Steel Specific Material Properties
+## Steel Specific Material Properties
 
 | Index | Design property | Unit | Description |
 | :--- | :--- | :--- | :--- |
@@ -10,7 +10,7 @@
 | 4 | Ry | - | The ratio of the expected yield stress to the specified minimum yield stress |
 | 5 | Rt | - | value used to calculate the expected tensile strength for the seismic detailing checks |
 
-### Concrete Specific Material Properties
+## Concrete Specific Material Properties
 
 | Index | Design property | Unit | Description |
 | :--- | :--- | :--- | :--- |
@@ -24,7 +24,7 @@
 | 13 | eps c3 | - | Strain at reaching maximum strength for calculation of load effect |
 | 14 | eps cu3 | - | Ultimate strain for calculation of load effect |
 
-### Timber Specific Material Properties
+## Timber Specific Material Properties
 
 | Index | Design property | Unit | Description |
 | :--- | :--- | :--- | :--- |
