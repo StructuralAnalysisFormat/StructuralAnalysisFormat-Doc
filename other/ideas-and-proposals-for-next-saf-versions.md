@@ -25,17 +25,17 @@ If you would found any discrepancy between listed topics and your actual feedbac
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_grgnay6o_400x400 (3) (2).png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_grgnay6o_400x400 (3) (3).png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_radimpex (3) (1).png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_radimpex (3) (3).png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_logo_lira (3) (1).png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_logo_lira (3) (3).png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
       <th style="text-align:center">
