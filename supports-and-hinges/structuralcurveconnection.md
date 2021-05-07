@@ -44,7 +44,7 @@ Object definition for a line support on a 1D member \([StructuralCurveMember](..
       <td style="text-align:center">Member</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">B1</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:center">yes, if on Member</td>
       <td style="text-align:left">The name of the 1D member (<a href="https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm">StructuralCurveMember</a>)
         to which is support related</td>
     </tr>
