@@ -8,7 +8,7 @@ Information in the table is provided by involved partners them self. Author of t
 {% endhint %}
 
 {% hint style="info" %}
-Full size table available [here](https://saf.guide/#Company%20overview_master.htm%3FTocPath%3D_____2).
+Full size table available [here](https://dev.saf.guide/#Company%20overview_dev.htm%3FTocPath%3D_____2).
 {% endhint %}
 
 ## Native SAF support:
