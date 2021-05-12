@@ -39,7 +39,7 @@ Specification in the excel:
       <td style="text-align:center">0.100</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">X coordinate on the beam (distance from the start node) where the result
-        is loceated</td>
+        is located</td>
     </tr>
     <tr>
       <td style="text-align:center">N [kN]</td>
