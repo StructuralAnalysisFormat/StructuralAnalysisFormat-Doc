@@ -74,5 +74,5 @@
 
 ## Other
 
-* [Ideas and proposals for next SAF versions](other/ideas-and-proposals-for-next-saf-versions.md)
+* [\_Ideas and proposals for next SAF versions](other/_ideas-and-proposals-for-next-saf-versions.md)
 
