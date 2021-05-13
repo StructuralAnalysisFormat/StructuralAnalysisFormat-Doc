@@ -6,7 +6,7 @@
 
 * [What is SAF?](getting-started/what-is-saf.md)
 * [Who supports SAF?](getting-started/_who-supports-saf.md)
-* [\_SAF Versions](getting-started/_saf-versions.md)
+* [SAF Versions](getting-started/_saf-versions.md)
 * [\_Release Notes](getting-started/_release-notes.md)
 * [Introduction](getting-started/introduction.md)
 * [Geometry](getting-started/geometry.md)

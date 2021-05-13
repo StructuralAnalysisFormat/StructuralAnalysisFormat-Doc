@@ -1,4 +1,4 @@
-# \_SAF Versions
+# SAF Versions
 
 Browse version history
 
