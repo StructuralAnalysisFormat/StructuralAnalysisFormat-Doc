@@ -8,8 +8,6 @@ To discuss these I would encourage you to follow corresponding thread in MS team
 
 If you would found any discrepancy between listed topics and your actual feedback, let us know \(as misunderstandings might happen\).
 
-
-
 ## Voting outcome, March 2021
 
 <table>
@@ -17,84 +15,84 @@ If you would found any discrepancy between listed topics and your actual feedbac
     <tr>
       <th style="text-align:left"><b>Feature name</b>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_scia (3).png" alt="1" />
         </p>
         <p>SCIA</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_grgnay6o_400x400 (3).png" alt="1" />&#x200B;</p>
         <p>Graphisoft</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_radimpex (3).png" alt="1" />&#x200B;</p>
         <p>Radimpex</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_logo_lira (3).png" alt="1" />&#x200B;</p>
         <p>LIRA SAPR SAPHIR</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_axis (3).png" alt="1" />&#x200B;</p>
         <p>AxisVM</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/1_fem-design-logo (3).png" alt="1" />&#x200B;</p>
         <p>FEM-Design</p>
       </th>
-      <th style="text-align:center"><b>Total number of votes</b>
+      <th style="text-align:left"><b>Total number of votes</b>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">Alignment of tapered beam as shift vector</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center"><b>5</b>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left"><b>5</b>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Change Load case and Load group object content</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">2</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center"><b>4</b>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left"><b>4</b>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Rotation of supports</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center"><b>4</b>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left"><b>4</b>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Free geometry supports</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center"><b>3</b>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left"><b>3</b>
       </td>
     </tr>
   </tbody>

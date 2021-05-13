@@ -1,4 +1,4 @@
-# Release Notes
+# Release Notes\(dev\)
 
 {% hint style="success" %}
 Current version 2.0.1

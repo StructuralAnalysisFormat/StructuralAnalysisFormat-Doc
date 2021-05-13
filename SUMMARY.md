@@ -5,9 +5,9 @@
 ## Getting started
 
 * [What is SAF?](getting-started/what-is-saf.md)
-* [Who supports SAF?](getting-started/who-supports-saf.md)
-* [SAF Versions](getting-started/saf-versions.md)
-* [Release Notes](getting-started/release-notes.md)
+* [Who supports SAF?\(dev\)](getting-started/who-supports-saf.md)
+* [SAF Versions\(dev\)](getting-started/saf-versions.md)
+* [Release Notes\(dev\)](getting-started/release-notes.md)
 * [Introduction](getting-started/introduction.md)
 * [Geometry](getting-started/geometry.md)
 * [Best practice for SAF implementation](getting-started/best-practice-for-saf-implementation.md)

@@ -15,26 +15,26 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
 <table>
   <thead>
     <tr>
-      <th style="text-align:center">Name of the column header</th>
-      <th style="text-align:center">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:center">Required value</th>
+      <th style="text-align:left">Name of the column header</th>
+      <th style="text-align:left">Type of data</th>
+      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center">Name</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">B1</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Name</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">B1</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the 2D member</td>
     </tr>
     <tr>
-      <td style="text-align:center">Type</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">Plate</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Type</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">Plate</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">The type of the 2D member, used within the model E.g. Plate, Wall, Shell.
         The type reflects the geometry or classification in the structure. Plate
         and Wall are expected to be planar (flat) geometry objects. Shell is expected
@@ -42,34 +42,27 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
         forces for 2D finite element.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Material</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">MAT_1</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Material</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">MAT_1</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">The name reference to the existing, valid name of the StructuralMaterial
         object.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Thickness type</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Thickness type</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Constant</p>
-        <p></p>
         <p>Variable in global X</p>
-        <p></p>
         <p>Variable in global Y</p>
-        <p></p>
         <p>Variable in global Z</p>
-        <p></p>
         <p>Variable in local X</p>
-        <p></p>
         <p>Variable in local Y</p>
-        <p></p>
         <p>Variable in direction XY</p>
-        <p></p>
         <p>Variable radially</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Thickness of the slab can be defined as a constant - one thickness for
         whole 2D member or variable. Variability of the thickness can be defined
         in the global coordinate system (GCS) or in the local coordinate system
@@ -79,10 +72,10 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
         centre point and the point on the diameter.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Thickness [mm]</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">200 N1:200; N2:250</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Thickness [mm]</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">200 N1:200; N2:250</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">The thickness of the structural surface member - For constant thickness:
         One number in millimetres (e.g. 200) - For variable thickness - type &quot;Global
         X, Global Y, Global Z, Local X, Local Y and Radial: Two thicknesses in
@@ -92,44 +85,42 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
         N3:280 have to be specified</td>
     </tr>
     <tr>
-      <td style="text-align:center">System plane at</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">System plane at</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Bottom</p>
-        <p></p>
         <p>Centre</p>
-        <p></p>
         <p>Top</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines the position of the system plane.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Nodes</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">N81; N263; N659; N660</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Nodes</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">N81; N263; N659; N660</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">All nodes that belongs to surface member and defines its geometric shape.
         The names of the nodes are separated by ; (semicolon) and space.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Internal nodes</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">N22; N23</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Internal nodes</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">N22; N23</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Internal nodes belonging to StructuralSurfaceMember defined in StructuralPointConnection
         Internal nodes are not geometry defining The names of the nodes are separated
         by ; (semicolon) and space</td>
     </tr>
     <tr>
-      <td style="text-align:center">Edges</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Edges</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">
         <p>Line; Line; Circular Arc; Line</p>
         <p>or</p>
         <p>Line;Spline-5;Line;Parabolic Arc;Line</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Defines the shape of the curve between two next nodes (or more nodes depends
           on edge type). Supported strings are:</p>
@@ -148,32 +139,30 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">Area [m2]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">2.359</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Area [m2]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">2.359</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">The value of the surface area of the StructuralSurfaceMember</td>
     </tr>
     <tr>
-      <td style="text-align:center">Layer</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">1st floor</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Layer</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">1st floor</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Custom created layer. The layer can thus comprise entities that have something
         in common (e.g. one floor, columns of one floor, columns of the same length,
         etc.)</td>
     </tr>
     <tr>
-      <td style="text-align:center">LCS Type</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">LCS Type</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>x by vector</p>
-        <p></p>
         <p>y by vector</p>
-        <p></p>
         <p>Tilt of vector defined by point</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines type of the local coordinate system of the StructuralSurfaceMember.
         Option &#x201C;Tilt of vector defined by point&#x201D; allows change of
         orientation of the LCS to one point (for all mesh elements). For this,
@@ -181,78 +170,74 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
         see Introduction</td>
     </tr>
     <tr>
-      <td style="text-align:center">Coordinate X [m]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Coordinate X [m]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in X direction</td>
     </tr>
     <tr>
-      <td style="text-align:center">Coordinate Y [m]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">0</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Coordinate Y [m]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Y direction</td>
     </tr>
     <tr>
-      <td style="text-align:center">Coordinate Z [m]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">1,2</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Coordinate Z [m]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">1,2</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Z direction</td>
     </tr>
     <tr>
-      <td style="text-align:center">LCS Rotation [deg]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">45.00</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">LCS Rotation [deg]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">45.00</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">This value defines the rotation of local axes of the 2D member</td>
     </tr>
     <tr>
-      <td style="text-align:center">Structural Z Eccentricity [mm]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">-125</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Structural Z Eccentricity [mm]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">-125</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Define the position difference between a physical element and its analytical
         member representation in Z direction (vertical movement of the center plane).
         Used to build up physical (structural body from analysis member). DO NOT
         affects internal forces.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Analysis Z Eccentricity [mm]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">-125</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Analysis Z Eccentricity [mm]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">-125</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Define the position difference between a physical element and its analytical
         member representation in Z direction (vertical movement of the center plane).
         Used to build up physical (structural body from analysis member). DO affects
         internal forces.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Shape</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Shape</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Flat</p>
-        <p></p>
         <p>Curved</p>
       </td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Specify the shape of the StructuralSurfaceMember in the sense of the planarity
         of the system plane. For Flat, all nodes have to be in the same plane.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Behavior in analysis</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Behavior in analysis</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Isotropic</p>
-        <p></p>
         <p>Orthotropic</p>
-        <p></p>
         <p>Membrane</p>
-        <p></p>
         <p>Press only</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Isotropic: A normal isotropic slab with identical properties in all directions
         is used. Orthotropic: An orthotropic slab with different properties in
         two orthogonal directions is used Membrane: Special membrane elements are
@@ -261,18 +246,18 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
         for the analysis of the slab (no tension allowed)</td>
     </tr>
     <tr>
-      <td style="text-align:center">Color</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">#7FFFFF00</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Color</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">#7FFFFF00</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Defines the colour and transparency of the object. Colour is defined by
         Hex format #AARRGGBB. Transparency is controlled by the alpha channel AA.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Parent ID</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Parent ID</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Is filled for objects created be dividing curved geometry to series of
         straight line objects. Parent ID will ensure that curved edge is imported
         as straight parts to nonsupporting application, and back to original supporting
@@ -281,10 +266,10 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
         directions.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Id</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Id</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
   </tbody>
