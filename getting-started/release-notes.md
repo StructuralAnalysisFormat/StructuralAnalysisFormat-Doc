@@ -1,10 +1,18 @@
 # Release Notes
 
 {% hint style="success" %}
-Current version 2.0.0
+Current version 2.0.1
 {% endhint %}
 
 ## Release notes
+
+### 13.05.2021 - Version 2.0.1
+
+In version 2.0.1:
+
+#### New object added:
+
+[ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
 
 ### 21.12.2020 - Version 2.0.0
 

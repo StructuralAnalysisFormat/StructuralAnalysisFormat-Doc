@@ -190,4 +190,10 @@
 | StructuralSurfaceActionDistribution | Coordinate Y | \[m\] | \[ft\] |
 | StructuralSurfaceActionDistribution | Coordinate Z | \[m\] | \[ft\] |
 | StructuralSurfaceActionDistribution | LCS Rotation | \[deg\] | \[deg\] |
+| ResultInternlForce1D | N | \[kN\] | \[kip\] |
+| ResultInternlForce1D | Vy | \[kN\] | \[kip\] |
+| ResultInternlForce1D | Vz | \[kN\] | \[kip\] |
+| ResultInternlForce1D | Mx | \[kNm\] | \[kipft\] |
+| ResultInternlForce1D | My | \[kNm\] | \[kipft\] |
+| ResultInternlForce1D | Mz | \[kNm\] | \[kipft\] |
 
