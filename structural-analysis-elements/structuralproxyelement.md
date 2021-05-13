@@ -50,25 +50,25 @@ Sheet StructuralProxyElementFaces is used for defining faces of every Structural
   <thead>
     <tr>
       <th style="text-align:left">Name of the row</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
+      <th style="text-align:center">Type of data</th>
+      <th style="text-align:center">Value example or enum definition</th>
+      <th style="text-align:center">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">Structural proxy element</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">SPE1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">SPE1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Name reference to existing StructuralProxyElement in the sheet StructuralProxyElelement.</td>
     </tr>
     <tr>
       <td style="text-align:left">Index</td>
-      <td style="text-align:left">Integer</td>
-      <td style="text-align:left">0</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Integer</td>
+      <td style="text-align:center">0</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>The index of the face of the StrucutralProxyElement. The indexing is starting
           with 0. The Index is used as an identifier of faces among all faces of
@@ -82,9 +82,9 @@ Sheet StructuralProxyElementFaces is used for defining faces of every Structural
     </tr>
     <tr>
       <td style="text-align:left">Definition</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">(11,8,1,2,13,12,5,6)</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">(11,8,1,2,13,12,5,6)</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>List of ordered vertecies defining the face. Face is defined with polygons.</p>
         <p>Polygons are defined by set of vertices in brackets and vertices are divided
