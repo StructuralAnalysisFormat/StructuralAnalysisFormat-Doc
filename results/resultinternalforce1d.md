@@ -6,7 +6,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
 
 ![](../.gitbook/assets/47_resultsinternal_force_1.gif)
 
-Specification in the excel:
+### Specification in the excel:
 
 <table>
   <thead>
