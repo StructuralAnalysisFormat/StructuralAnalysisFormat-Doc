@@ -1,4 +1,4 @@
-# \_Ideas and proposals for next SAF versions
+# Ideas and proposals for next SAF versions
 
 This chapter is a list of collected feedback, ideas and proposals how to improve SAF format.
 
