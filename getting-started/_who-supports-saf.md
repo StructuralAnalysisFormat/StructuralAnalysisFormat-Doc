@@ -41,7 +41,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_risa (3) (3) (3).png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa (3) (3) (3) (3).png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
@@ -129,7 +129,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_risa (3) (3) (1).png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa (3) (3) (3) (1).png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
@@ -328,7 +328,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_risa (3) (3).png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa (3) (3) (3).png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
@@ -482,7 +482,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_risa (3) (3) (2).png" alt="1" />&#x200B;</p>
+          <img src="../.gitbook/assets/1_risa (3) (3) (3) (2).png" alt="1" />&#x200B;</p>
         <p>Risa</p>
       </th>
       <th style="text-align:center">
@@ -674,7 +674,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_dlubal (2) (2) (1).png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal (2) (2) (2) (1).png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
@@ -740,7 +740,7 @@ Tables below shows coverage of [SAF converter](https://safconverter.structuralto
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_dlubal (2) (2).png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal (2) (2) (2).png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
@@ -780,7 +780,7 @@ Tables below shows coverage of [SAF converter](https://safconverter.structuralto
       </th>
       <th style="text-align:center">
         <p>
-          <img src="../.gitbook/assets/1_dlubal (2) (2) (2).png" alt="1" />
+          <img src="../.gitbook/assets/1_dlubal (2) (2) (2) (2).png" alt="1" />
         </p>
         <p>Dlubal</p>
       </th>
