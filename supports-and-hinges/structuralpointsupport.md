@@ -11,65 +11,55 @@ StructuralPointSupport represents a support of the analytical model in a node. T
 <table>
   <thead>
     <tr>
-      <th style="text-align:center">Name of the column header</th>
-      <th style="text-align:center">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:center">Required value</th>
+      <th style="text-align:left">Name of the column header</th>
+      <th style="text-align:left">Type of data</th>
+      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center">Name</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">Sn6</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Name</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">Sn6</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the support</td>
     </tr>
     <tr>
-      <td style="text-align:center">Type</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Type</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Fixed</p>
-        <p></p>
         <p>Hinged</p>
-        <p></p>
         <p>Sliding</p>
-        <p></p>
         <p>Custom</p>
       </td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Type of constraint support in general. Has just informative value. Actual
         boundary conditions are set per transition/rotation per direction.</td>
     </tr>
     <tr>
-      <td style="text-align:center">Node</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">N5</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Node</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">N5</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the node to which is point support related</td>
     </tr>
     <tr>
-      <td style="text-align:center">ux</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">ux</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Rigid</p>
-        <p></p>
         <p>Free</p>
-        <p></p>
         <p>Flexible</p>
-        <p></p>
         <p>Compression only</p>
-        <p></p>
         <p>Tension only</p>
-        <p></p>
         <p>Flexible compression only</p>
-        <p></p>
         <p>Flexible tension only</p>
-        <p></p>
         <p>Non linear</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Translation in X direction.
           <br />Free - That is it imposes no constraint in the direction.</p>
@@ -81,26 +71,19 @@ StructuralPointSupport represents a support of the analytical model in a node. T
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">uy</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">uy</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Rigid</p>
-        <p></p>
         <p>Free</p>
-        <p></p>
         <p>Flexible</p>
-        <p></p>
         <p>Compression only</p>
-        <p></p>
         <p>Tension only</p>
-        <p></p>
         <p>Flexible compression only</p>
-        <p></p>
         <p>Flexible tension only</p>
-        <p></p>
         <p>Non linear</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Translation in Y direction.</p>
         <p>Free - That is it imposes no constraint in the direction.</p>
@@ -112,26 +95,19 @@ StructuralPointSupport represents a support of the analytical model in a node. T
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">uz</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">uz</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Rigid</p>
-        <p></p>
         <p>Free</p>
-        <p></p>
         <p>Flexible</p>
-        <p></p>
         <p>Compression only</p>
-        <p></p>
         <p>Tension only</p>
-        <p></p>
         <p>Flexible compression only</p>
-        <p></p>
         <p>Flexible tension only</p>
-        <p></p>
         <p>Non linear</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Translation in Z direction.</p>
         <p>Free - That is it imposes no constraint in the direction.</p>
@@ -143,119 +119,104 @@ StructuralPointSupport represents a support of the analytical model in a node. T
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">fix</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">fix</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Free</p>
-        <p></p>
         <p>Rigid</p>
-        <p></p>
         <p>Flexible</p>
-        <p></p>
         <p>Non linear</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Rotational stiffness around X axis. Parameter</p>
         <p>Flexible can be linear only, non-linearity is not supported.</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">fiy</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">fiy</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Free</p>
-        <p></p>
         <p>Rigid</p>
-        <p></p>
         <p>Flexible</p>
-        <p></p>
         <p>Non linear</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">Rotational stiffness around Y axis. Parameter Flexible can be linear only,
         non-linearity is not supported.</td>
     </tr>
     <tr>
-      <td style="text-align:center">fiz</td>
-      <td style="text-align:center">Enum</td>
-      <td style="text-align:center">
+      <td style="text-align:left">fiz</td>
+      <td style="text-align:left">Enum</td>
+      <td style="text-align:left">
         <p>Free</p>
-        <p></p>
         <p>Rigid</p>
-        <p></p>
         <p>Flexible</p>
-        <p></p>
         <p>Non linear</p>
       </td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Rotational stiffness around Z axis.</p>
         <p>Parameter Flexible can be linear only, non-linearity is not supported.</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">Stiffness X [MN/m]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">100</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Stiffness X [MN/m]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">100</td>
+      <td style="text-align:left">
         <p>yes, if Translation X = Flexible</p>
-        <p></p>
         <p>yes, if Translation X = Non linear</p>
       </td>
       <td style="text-align:left">The flexibility of the support in X direction</td>
     </tr>
     <tr>
-      <td style="text-align:center">Stiffness Y [MN/m]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">100</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Stiffness Y [MN/m]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">100</td>
+      <td style="text-align:left">
         <p>yes, if Translation Y = Flexible</p>
-        <p></p>
         <p>yes, if Translation Y = Non linear</p>
       </td>
       <td style="text-align:left">The flexibility of the support in Y direction</td>
     </tr>
     <tr>
-      <td style="text-align:center">Stiffness Z [MN/m]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">100</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Stiffness Z [MN/m]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">100</td>
+      <td style="text-align:left">
         <p>yes, if Translation Z = Flexible</p>
-        <p></p>
         <p>yes, if Translation Z = Non linear</p>
       </td>
       <td style="text-align:left">The flexibility of the support in Z direction</td>
     </tr>
     <tr>
-      <td style="text-align:center">Stiffness Fix [MNm/rad]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">50</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Stiffness Fix [MNm/rad]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">50</td>
+      <td style="text-align:left">
         <p>yes, if Rx = Flexible</p>
-        <p></p>
         <p>yes, if Rx = Non linear</p>
       </td>
       <td style="text-align:left">The flexibility in rotation of the connection around local X axis</td>
     </tr>
     <tr>
-      <td style="text-align:center">Stiffness Fiy [MNm/rad]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">50</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Stiffness Fiy [MNm/rad]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">50</td>
+      <td style="text-align:left">
         <p>yes, if Ry = Flexible</p>
-        <p></p>
         <p>yes, if Ry = Non linear</p>
       </td>
       <td style="text-align:left">The flexibility in rotation of the connection around local Y axis</td>
     </tr>
     <tr>
-      <td style="text-align:center">Stiffness Fiz [MNm/rad]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">50</td>
-      <td style="text-align:center">
+      <td style="text-align:left">Stiffness Fiz [MNm/rad]</td>
+      <td style="text-align:left">Double</td>
+      <td style="text-align:left">50</td>
+      <td style="text-align:left">
         <p>yes, if Rz = Flexible</p>
-        <p></p>
         <p>yes, if Rz = Non linear
           <br />
         </p>
@@ -263,10 +224,10 @@ StructuralPointSupport represents a support of the analytical model in a node. T
       <td style="text-align:left">The flexibility in rotation of the connection around local Z axis</td>
     </tr>
     <tr>
-      <td style="text-align:center">Id</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">Id</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
   </tbody>
