@@ -46,11 +46,28 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:left">Reference to 1D member</td>
     </tr>
     <tr>
-      <td style="text-align:center">Load case</td>
+      <td style="text-align:center">Result for</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
+        <p>Load Case</p>
+        <p></p>
+        <p>Combination</p>
+      </td>
+      <td style="text-align:center">yes</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Case</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">LC1</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">Reference to load case from where the result is comming from</td>
+      <td style="text-align:left">Reference to:
+        <br />
+        <br /><a href="../loads/structuralloadcase.md#load-case">Load case</a> if &quot;Result
+        for&quot; is set to Load case
+        <br />
+        <br /><a href="../loads/structuralloadcombination.md#load-combination">Combination</a> if
+        &quot;Result for&quot; is set to Combination</td>
     </tr>
     <tr>
       <td style="text-align:center">Section at [m]</td>
