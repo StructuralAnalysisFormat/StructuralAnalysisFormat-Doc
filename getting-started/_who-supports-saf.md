@@ -42,7 +42,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <th style="text-align:center">
         <p>
           <img src="../.gitbook/assets/1_risa (3) (3) (3) (3).png" alt="1" />&#x200B;</p>
-        <p>Risa</p>
+        <p>RISA</p>
       </th>
       <th style="text-align:center">
         <p>
@@ -130,7 +130,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <th style="text-align:center">
         <p>
           <img src="../.gitbook/assets/1_risa (3) (3) (3) (1).png" alt="1" />&#x200B;</p>
-        <p>Risa</p>
+        <p>RISA</p>
       </th>
       <th style="text-align:center">
         <p>
@@ -184,7 +184,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -206,7 +206,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -329,7 +329,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <th style="text-align:center">
         <p>
           <img src="../.gitbook/assets/1_risa (3) (3) (3).png" alt="1" />&#x200B;</p>
-        <p>Risa</p>
+        <p>RISA</p>
       </th>
       <th style="text-align:center">
         <p>
@@ -359,7 +359,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
@@ -392,7 +392,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
@@ -403,7 +403,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
@@ -483,7 +483,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <th style="text-align:center">
         <p>
           <img src="../.gitbook/assets/1_risa (3) (3) (3) (2).png" alt="1" />&#x200B;</p>
-        <p>Risa</p>
+        <p>RISA</p>
       </th>
       <th style="text-align:center">
         <p>
