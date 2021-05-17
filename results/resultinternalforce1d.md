@@ -72,7 +72,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">Section at [m]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">0.100</td>
+      <td style="text-align:center">0,100</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">X coordinate on the beam (distance from the start node) where the result
         is located</td>
