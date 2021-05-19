@@ -78,6 +78,13 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
         is located</td>
     </tr>
     <tr>
+      <td style="text-align:center">Index</td>
+      <td style="text-align:center">Integer</td>
+      <td style="text-align:center">1</td>
+      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Index of the section on beam. See <a href="resultinternalforce1d.md#notes">notes</a>.</td>
+    </tr>
+    <tr>
       <td style="text-align:center">N [kN]</td>
       <td style="text-align:center">Double</td>
       <td style="text-align:center">3,00</td>
@@ -136,4 +143,30 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     </tr>
   </tbody>
 </table>
+
+## Notes
+
+{% hint style="warning" %}
+### Multiple tables in one sheet
+
+The amount of data can be limited due the [limitation of xlsx](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) format.
+
+Therefore the results can be written to SAF in a form of multiple tables. In the similiar logic as the [StructuralProxyElement](../structural-analysis-elements/structuralproxyelement.md#general-solids).  
+{% endhint %}
+
+{% hint style="info" %}
+### **Index** 
+
+This attribute defines an order of the section on the beam, starting with 1 and increasing from the **start** to the **end** of the beam. This property helps to specify if the internal force is on the "left" or on the right side of the section.
+
+See example below:
+{% endhint %}
+
+![](../.gitbook/assets/47_resultinternalforce1d_2.gif)
+
+{% hint style="success" %}
+See the index 6 and 7. One section, two values for normal \(N\) force.   
+Section with lower index \(6\) identifies value on the left \(closer to the origin of X-axis of the beam\).  
+Section with a higher index \(7\) identifies value on the right \(further from the origin of X-axis of the beam\).
+{% endhint %}
 
