@@ -2,8 +2,6 @@
 
 ## Internal force 1D
 
-test
-
 Internal forces on line, beam, member. Result in member axis \(not in principal axis\).
 
 ![](../.gitbook/assets/47_resultsinternal_force_1.gif)
