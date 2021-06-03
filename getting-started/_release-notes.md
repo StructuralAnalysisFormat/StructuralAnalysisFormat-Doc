@@ -3,10 +3,19 @@
 
 
 {% hint style="success" %}
-Current version 2.0.1
+Current version 2.0.2
 {% endhint %}
 
 ## Release notes
+
+### **3.6.2021 - Version 2.0.2**
+
+In version 2.0.2:
+
+New attributes added:  
+  
+ResultInternalForce1D - Member, Member Rib, Load case, Load combination  
+
 
 ### 13.05.2021 - Version 2.0.1
 

@@ -39,17 +39,26 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">1D member</td>
+      <td style="text-align:center">Member</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">B1</td>
-      <td style="text-align:center">yes</td>
-      <td style="text-align:left">Reference to 1D member</td>
+      <td style="text-align:center">yes, if Result on = On beam</td>
+      <td style="text-align:left">Reference to 1D member - <a href="../structural-analysis-elements/structuralcurvemember.md">StructuralCurveMember</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Member Rib</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">B2</td>
+      <td style="text-align:center">yes, if Result on = On rib</td>
+      <td style="text-align:left">Reference to 1D member rib - <a href="../structural-analysis-elements/structuralcurvememberrib.md">StructuralCurveMemberRib</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:center">Result for</td>
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
-        <p>Load Case</p>
+        <p>Load case</p>
         <p></p>
         <p>Combination</p>
       </td>
@@ -57,17 +66,20 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:left">Specifies from where the result is coming from (from Load Case, Load Combination)</td>
     </tr>
     <tr>
-      <td style="text-align:center">Case</td>
+      <td style="text-align:center">Load case</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">LC1</td>
-      <td style="text-align:center">yes</td>
-      <td style="text-align:left">Reference to:
-        <br />
-        <br /><a href="../loads/structuralloadcase.md#load-case">Load case</a> if &quot;Result
-        for&quot; is set to Load case
-        <br />
-        <br /><a href="../loads/structuralloadcombination.md#load-combination">Combination</a> if
-        &quot;Result for&quot; is set to Combination</td>
+      <td style="text-align:center">yes, if Result for = Load Case</td>
+      <td style="text-align:left">Reference to<a href="../loads/structuralloadcase.md#load-case"> StructuralLoadCase</a> 
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Load combination</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">COM1</td>
+      <td style="text-align:center">yes, if Result for = Combination</td>
+      <td style="text-align:left">Reference to<a href="../loads/structuralloadcombination.md#load-combination"> StructuralLoadCombination</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:center">Section at [m]</td>
