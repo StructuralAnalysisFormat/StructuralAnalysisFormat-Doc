@@ -2,8 +2,6 @@
 
 Browse version history
 
-[2.0.1](https://dev.saf.guide/v2.0.1)
-
 [2.0.0](https://olddev.saf.guide/v2.0.0/)
 
 [1.1.0](https://olddev.saf.guide/v1.1.0)
