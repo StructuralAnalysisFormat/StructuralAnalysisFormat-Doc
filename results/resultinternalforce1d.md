@@ -43,7 +43,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:center">String</td>
       <td style="text-align:center">B1</td>
       <td style="text-align:center">yes, if Result on = On beam</td>
-      <td style="text-align:left">Reference to 1D member - <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember</a>
+      <td style="text-align:left">Reference to the name of 1D member - <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember</a>
       </td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:center">String</td>
       <td style="text-align:center">B2</td>
       <td style="text-align:center">yes, if Result on = On rib</td>
-      <td style="text-align:left">Reference to 1D member rib - <a href="../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib">StructuralCurveMemberRib</a>
+      <td style="text-align:left">Reference to the name of 1D member rib - <a href="../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib">StructuralCurveMemberRib</a>
       </td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:center">String</td>
       <td style="text-align:center">LC1</td>
       <td style="text-align:center">yes, if Result for = Load case</td>
-      <td style="text-align:left">Reference to
+      <td style="text-align:left">Reference to the name of
         <br /><a href="../loads/structuralloadcase.md#load-case">StructuralLoadCase</a>
       </td>
     </tr>
@@ -79,7 +79,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:center">String</td>
       <td style="text-align:center">COM1</td>
       <td style="text-align:center">yes, if Result for = Combination</td>
-      <td style="text-align:left">Reference to<a href="../loads/structuralloadcombination.md#load-combination"> StructuralLoadCombination</a>
+      <td style="text-align:left">Reference to the name of<a href="../loads/structuralloadcombination.md#load-combination"> StructuralLoadCombination</a>
       </td>
     </tr>
     <tr>
