@@ -353,5 +353,5 @@ Local coordination system is given by master node and its parent object.
 **Non linear** behavior of material is handled with "Resistance". The example is shown below.
 {% endhint %}
 
-![](../.gitbook/assets/25_rigidlink_resistance%20%281%29.png)
+![](../.gitbook/assets/25_rigidlink_resistance%20%281%29%20%281%29.png)
 
