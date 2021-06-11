@@ -60,7 +60,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:center">
         <p>Load case</p>
         <p></p>
-        <p>Combination</p>
+        <p>Load combination</p>
       </td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">Specifies from where the result is coming from (from Load Case, Load Combination)</td>
