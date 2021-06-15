@@ -102,17 +102,21 @@ The difference between definition of LCS **"axis** y **or** z **by point**" and 
 
 ![](../.gitbook/assets/3_introduction_zbypoint_zbyvector.png)
 
-### LCS enum set on **"axis** y **or** z **by vector"**
+  
+For **2D members**, there are several options on how to define LCS of [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md):
 
-When is LCS enum set on **"axis** y **or** z **by vector"** explanation is similar to [StructuralCurveMember ](https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm)presented above with the following additional information:
+### LCS enum set on **"axis** x **or** y **by vector" \(2D members\)**
+
+When is LCS enum set on **"axis** x **or** y **by vector"** explanation is similar to [StructuralCurveMember ](https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm)presented above with the following additional information:
 
 * For non-vertical 2D elements \(slabs\):
-  * the Z-axis direction is perpendicular to the plane of the slab, the orientation is always the same as the positive global Z-axis \(in the other words, the local Z-axis is always upwards\)
+  * Y or X axis is given by the vector \(depending on chosen option in the SAF excel file\)
+  * the Z axis direction is perpendicular to the plane of the slab, the orientation is always the same as the positive global Z-axis \(in the other words, the local Z axis is always upwards\)
 * For vertical 2D members \(walls\):
-  * Y or X axis is given by the vector \(depending on chosen option in the SAF excel file\).
+  * Y or X axis is given by the vector \(depending on chosen option in the SAF excel file\)
   * The Z axis direction is perpendicular to the plane of the wall and:
     * The orientation follows the positive half space defined by positive global X and plane defined by global Z and global Y.
-    * In case, this is not possible \(wall in plane/or parallel to global Y global X plane\), then local Z follows the positive half space defined by positive global Y and plane defined by global X and global Z axis. See picture below.
+    * In case, this is not possible \(wall in plane/or parallel to global Y global X plane\), then local Z follows the positive half space defined by positive global Y and plane defined by global X and global Z axis  \(See picture below\)
   * The last axis of LCS is calculated by the right-hand rule
 
 ![](../.gitbook/assets/3_wall_lcs.png)
