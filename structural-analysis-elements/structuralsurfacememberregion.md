@@ -78,8 +78,8 @@ This object defines particular areas of the StructuralSurfaceMember with differe
       <td style="text-align:left">Line; Line; Line; Line</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines shape of the curve between two next nodes. Supported strings are:
-        Line; Bezier; Circular Arc; Parabolic arc; Spline. The names are separated
-        by ; (semicolon) and space.</td>
+        Line; Bezier; Circular Arc; Parabolic arc; Spline; Circle and Point; Circle
+        by 3 points. The names are separated by ; (semicolon) and space.</td>
     </tr>
     <tr>
       <td style="text-align:left">Eccentricity ez [mm]</td>
