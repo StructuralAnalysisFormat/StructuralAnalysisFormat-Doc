@@ -102,9 +102,9 @@ The difference between definition of LCS **"axis** y **or** z **by point**" and 
 
 ![](../.gitbook/assets/3_introduction_zbypoint_zbyvector.png)
 
-For 2**D members**, there are several options on how to define LCS of [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md)
+For **2D members**, there are several options on how to define LCS of [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md)
 
-### LCS enum set on **"axis** x **or** y **by vector"**
+### LCS enum set on **"axis** x **or** y **by vector" \(2D members\)**
 
 When is LCS enum set on **"axis** x **or** y **by vector"** explanation is similar to [StructuralCurveMember ](https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm)presented above with the following additional information:
 
