@@ -169,21 +169,21 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
       <td style="text-align:center">Double</td>
       <td style="text-align:center">0,0</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">Coordinate of the vector of the LCS in X direction</td>
+      <td style="text-align:left">Coordinate of the point or vector defining the LCS in X direction</td>
     </tr>
     <tr>
       <td style="text-align:center">Coordinate Y [m]</td>
       <td style="text-align:center">Double</td>
       <td style="text-align:center">0,1</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">Coordinate of the vector of the LCS in Y direction</td>
+      <td style="text-align:left">Coordinate of the point or vector defining the LCS in Y direction</td>
     </tr>
     <tr>
       <td style="text-align:center">Coordinate Z [m]</td>
       <td style="text-align:center">Double</td>
       <td style="text-align:center">0,0</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">Coordinate of the vector of the LCS in Z direction</td>
+      <td style="text-align:left">Coordinate of the point or vector defining the LCS in Z direction</td>
     </tr>
     <tr>
       <td style="text-align:center">System line</td>

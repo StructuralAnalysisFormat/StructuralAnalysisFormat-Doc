@@ -52,12 +52,18 @@ If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember
     <tr>
       <td style="text-align:center">Segments</td>
       <td style="text-align:center">String</td>
-      <td style="text-align:center">Line; Circular Arc</td>
+      <td style="text-align:center">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Defines the shape of the curve between two next nodes.</p>
         <p>Supported strings are:</p>
-        <p>Line and Circular Arc. The names are separated by ; (semicolon) and space.</p>
+        <p>Line; Circular Arc; Bezier; Parabolic arc; Spline. The names are separated
+          by ; (semicolon) and space.</p>
+        <p></p>
+        <p>Internal edge consisting of multiple segments follows rule defined in
+          <a
+          href="../getting-started/geometry.md">Geometry</a>
+        </p>
       </td>
     </tr>
     <tr>

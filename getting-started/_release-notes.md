@@ -2,21 +2,22 @@
 
 
 
-{% hint style="success" %}
-Current version 2.0.1
+{% hint style="info" %}
+New version in progress  
+Latest released version: 2.0.0 
 {% endhint %}
 
-## Release notes
 
-### Version 2.0.1
 
-In version 2.0.1:
+### Version in progress
 
 #### New object added:
 
 [ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
 
 * edited attributes: Case, Member replaced by Member, Member Rib, Load case, Load combination
+
+## Release notes
 
 ### 21.12.2020 - Version 2.0.0
 
