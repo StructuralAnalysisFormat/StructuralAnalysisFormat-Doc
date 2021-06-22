@@ -84,7 +84,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
       <td style="text-align:center">Begin node</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">N1</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>The starting node of the 1D member.</p>
         <p>Has to be specified in the StructuralPointConnection sheet</p>
@@ -94,7 +94,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
       <td style="text-align:center">End node</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">N2</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>The end node of the 1D member.</p>
         <p>Has to be specified in the StructuralPointConnection sheet</p>
