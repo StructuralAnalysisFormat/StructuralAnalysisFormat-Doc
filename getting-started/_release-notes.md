@@ -7,9 +7,14 @@ New version in progress
 Latest released version: 2.0.0 
 {% endhint %}
 
-
-
 ### Version in progress
+
+**Modified objects:**
+
+[StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)
+
+* attributes changed from "required" to "non required": 
+  * beginning node, end node
 
 #### New object added:
 
