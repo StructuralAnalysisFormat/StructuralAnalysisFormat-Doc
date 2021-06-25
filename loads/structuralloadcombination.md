@@ -1,5 +1,9 @@
 # StructuralLoadCombination
 
+{% hint style="warning" %}
+Attribute: "Type" under developement
+{% endhint %}
+
 ## Load Combination
 
 Object serves for definition a load combination. The combination is created from the existing load cases in the model, in [StructuralLoadCase](structuralloadcase.md#load-case) sheet.
@@ -60,9 +64,10 @@ Object serves for definition a load combination. The combination is created from
         <p></p>
         <p>EN-Accidental 2</p>
         <p></p>
-        <p>EN-Seismic</p>
+        <p>EN-Seismic
+          <br />
+        </p>
         <p>EN-SLS</p>
-        <p></p>
         <p>Characteristic</p>
         <p></p>
         <p>EN-SLS Frequent</p>
@@ -81,6 +86,36 @@ Object serves for definition a load combination. The combination is created from
       </td>
       <td style="text-align:center">Yes, If Category =According national standard</td>
       <td style="text-align:left">The National code application</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Type</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
+        <p>Envelope
+          <br />
+        </p>
+        <p>Linear</p>
+      </td>
+      <td style="text-align:center">
+        <p>no, optional for Categories:
+          <br />
+          <br />ULS (Ultimate Limit State)</p>
+        <p></p>
+        <p>SLS (Serviceability Limit State)
+          <br />
+          <br />Not defined</p>
+        <p></p>
+      </td>
+      <td style="text-align:left">
+        <p>Distinguish between linear, envelope combination.</p>
+        <p></p>
+        <p>In case combination is linear, the exact content of combination is presented.</p>
+        <p></p>
+        <p>In case combination is envelope, all <a href="structuralloadcase.md">StructuralLoadCase</a>
+          <a
+          href="structuralloadcase.md">s</a>are presented. Linear combinations can be composed based on relations
+            defined in <a href="structuralloadgroup.md">StrucutralLoadGroup</a>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:center">Load factor #</td>

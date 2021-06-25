@@ -11,6 +11,10 @@ Latest released version: 2.0.0
 
 **Modified objects:**
 
+\*\*\*\*[StructuralLoadCombination](../loads/structuralloadcombination.md)
+
+* new optional enum: "Type"  
+
 [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)
 
 * attributes changed from "required" to "non required": 
@@ -20,7 +24,8 @@ Latest released version: 2.0.0
 
 [ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
 
-* edited attributes: Case, Member replaced by Member, Member Rib, Load case, Load combination
+* new attribute: "Combination key"
+* edited attributes:  Case, Load case, Load combination Member replaced by Member and Member Rib
 
 ## Release notes
 

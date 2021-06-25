@@ -87,6 +87,31 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       </td>
     </tr>
     <tr>
+      <td style="text-align:center">Combination key</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">
+        <p>a) 1,35*LC1+1,5*LC2+1,5*LC3+1,5*LC4</p>
+        <p>
+          <br />b)</p>
+        <p>1,35*1,00*LC1+1,5*LC2+1,5*LC3</p>
+      </td>
+      <td style="text-align:center">no</td>
+      <td style="text-align:left">
+        <p>Allows to define exact combination per result section
+          <br />
+          <br />Structure proposal a):
+          <br />&quot;LoadFactor1*Multiplier1*LoadCase1+LoadFactor2*Multiplier2*LoadCase2</p>
+        <p>+LoadFactorN*MultiplierN*LoadCaseN&quot;</p>
+        <p>
+          <br />Structure proposal b):</p>
+        <p>&quot;LoadFactor1*LoadCase1+LoadFactor2*LoadCase2+LoadFactorN*LoadCaseN&quot;
+          <br
+          />
+        </p>
+        <p>Useful for envelopes and national standard (code) combinations</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:center">Section at [m]</td>
       <td style="text-align:center">Double</td>
       <td style="text-align:center">0,100</td>
