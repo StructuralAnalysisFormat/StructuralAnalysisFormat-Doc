@@ -107,11 +107,12 @@ Object serves for definition a load combination. The combination is created from
         <p></p>
       </td>
       <td style="text-align:left">
-        <p>Distinguish between linear, envelope combination.</p>
+        <p>Distinguish between linear and envelope combination.</p>
         <p></p>
-        <p>In case combination is linear, the exact content of combination is presented.</p>
+        <p>In case combination type is linear, the exact content of combination is
+          presented.</p>
         <p></p>
-        <p>In case combination is envelope, all <a href="structuralloadcase.md">StructuralLoadCase</a>
+        <p>In case combination is the envelope, all <a href="structuralloadcase.md">StructuralLoadCase</a>
           <a
           href="structuralloadcase.md">s</a>are presented. Linear combinations can be composed based on relations
             defined in <a href="structuralloadgroup.md">StrucutralLoadGroup</a>.</p>
