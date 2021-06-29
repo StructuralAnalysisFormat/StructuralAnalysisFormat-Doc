@@ -149,8 +149,12 @@ Object definition for a line support on a 1D member \([StructuralCurveMember](..
       <td style="text-align:center">fiy</td>
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
-        <p>Free</p>
-        <p>Rigid</p>
+        <p>Free
+          <br />
+        </p>
+        <p>Rigid
+          <br />
+        </p>
         <p>Flexible</p>
       </td>
       <td style="text-align:center">yes</td>
