@@ -139,7 +139,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
         <p></p>
         <p>Flexible tension only</p>
         <p></p>
-        <p>Non linearr</p>
+        <p>Non linear</p>
       </td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
