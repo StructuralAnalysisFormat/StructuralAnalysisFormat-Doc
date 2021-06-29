@@ -84,7 +84,7 @@ Object serves for definition a load combination. The combination is created from
         <p></p>
         <p>IBC-LRFD seismic</p>
       </td>
-      <td style="text-align:center">Yes, If Category =According national standard</td>
+      <td style="text-align:center">yes, If Category =According national standard</td>
       <td style="text-align:left">The National code application</td>
     </tr>
     <tr>
