@@ -103,8 +103,6 @@ Object serves for definition a load combination. The combination is created from
         <p></p>
         <p>SLS (Serviceability Limit State)
           <br />
-          <br />ALS (Accidental Limit State)
-          <br />
           <br />Not defined</p>
         <p></p>
       </td>
