@@ -90,7 +90,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
       <td style="text-align:center">Combination key</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">
-        <p>1,35*LC1+1,5*LC2+1,5*LC3+1,5*LC4</p>
+        <p>1.35*LC1+1.5*LC2+1.5*LC3+1.5*LC4</p>
         <p></p>
       </td>
       <td style="text-align:center">no</td>
@@ -109,7 +109,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">Section at [m]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">0,100</td>
+      <td style="text-align:center">0.100</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">X coordinate on the beam (distance from the start node) where the result
         is located</td>
@@ -124,7 +124,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">N [kN]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">3,00</td>
+      <td style="text-align:center">3.00</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Result value of N</p>
@@ -134,7 +134,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">Vy [kN]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">3,00</td>
+      <td style="text-align:center">3.00</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Result value of Vy</p>
@@ -144,7 +144,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">Vz [kN]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">3,00</td>
+      <td style="text-align:center">3.00</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Result value of Vz</p>
@@ -154,7 +154,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">Mx [kNm]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">0,000</td>
+      <td style="text-align:center">0.000</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Result value of Mx</p>
@@ -164,7 +164,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">My [kNm]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">4,500</td>
+      <td style="text-align:center">4.500</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Result value of My</p>
@@ -174,7 +174,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
     <tr>
       <td style="text-align:center">Mz [kNm]</td>
       <td style="text-align:center">Double</td>
-      <td style="text-align:center">4,500</td>
+      <td style="text-align:center">4.500</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">Result value of Mz (Moment around Z axis)</td>
     </tr>
