@@ -93,7 +93,7 @@ Internal forces on line, beam, member. Result in member axis \(not in principal 
         <p>1.35*LC1+1.5*LC2+1.5*LC3+1.5*LC4</p>
         <p></p>
       </td>
-      <td style="text-align:center">no, optional for Result for = Load combination</td>
+      <td style="text-align:center">no</td>
       <td style="text-align:left">
         <p>Allows to define exact combination per result section
           <br />
