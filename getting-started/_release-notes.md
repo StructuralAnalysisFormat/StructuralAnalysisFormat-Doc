@@ -11,21 +11,24 @@ Latest released version: 2.0.0
 
 **Modified objects:**
 
+[StructuralLoadGroup](../loads/structuralloadgroup.md)
+
+* "Load type" string: updated condition \(required only for "Load group type" = Variable\)
+
 \*\*\*\*[StructuralLoadCombination](../loads/structuralloadcombination.md)
 
 * new optional enum: "Type"  
 
 [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)
 
-* attributes changed from "required" to "non required": 
-  * beginning node, end node
+* "Beginning node", "End node": attributes changed from "required" to "non required"
 
 #### New object added:
 
 [ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
 
 * new attribute: "Combination key"
-* edited attributes:  Case, Load case, Load combination Member replaced by Member and Member Rib
+* edited attributes: Case, Load case, Load combination, Member replaced by Member and Member Rib
 
 ## Release notes
 

@@ -88,7 +88,7 @@ Load groups define "how the individual load cases may be combined together" if i
       <td style="text-align:center">Load type</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">Domestic</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:center">yes, if Load group type = Variable</td>
       <td style="text-align:left">
         <p>Define type of variable load, E.g. Domestic,</p>
         <p>Offices,</p>
