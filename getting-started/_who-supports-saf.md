@@ -71,7 +71,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">Supported version</td>
       <td style="text-align:center">1.0.6</td>
       <td style="text-align:center">1.1.1</td>
-      <td style="text-align:center">1.0.5</td>
+      <td style="text-align:center">1.0.5 - 2.0.0</td>
       <td style="text-align:center">2.0.0</td>
       <td style="text-align:center">2.0.0</td>
       <td style="text-align:center">2.0.0</td>
@@ -512,7 +512,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralLoadGroup</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
@@ -523,7 +523,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralLoadCase</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -534,7 +534,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralLoadCombination</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">No</td>
       <td style="text-align:center">Yes</td>
@@ -545,7 +545,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralPointAction</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -556,7 +556,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralPointMoment</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -567,7 +567,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralCurveAction</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -578,7 +578,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralCurveMoment</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
@@ -589,7 +589,7 @@ See below overview tables which will give you an idea of who supports SAF and to
       <td style="text-align:left">StructuralSurfaceAction</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
-      <td style="text-align:center">No</td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
