@@ -13,7 +13,7 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,14 +22,14 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">PF3</td>
+      <td style="text-align:center">PF3</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the force</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Standard</td>
+      <td style="text-align:center">Standard</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
         Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
@@ -38,9 +38,11 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Direction</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Mx</p>
+        <p></p>
         <p>My</p>
+        <p></p>
         <p>Mz</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -49,8 +51,9 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Force action</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>On beam</p>
+        <p></p>
         <p>In node</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -59,36 +62,37 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Reference node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N3</td>
+      <td style="text-align:center">N3</td>
       <td style="text-align:left">yes if Force action = In node</td>
       <td style="text-align:left">The name of the reference node</td>
     </tr>
     <tr>
       <td style="text-align:left">Reference member</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B1</td>
+      <td style="text-align:center">B1</td>
       <td style="text-align:left">yes if Force action =On beam</td>
       <td style="text-align:left">The name of the reference beam</td>
     </tr>
     <tr>
       <td style="text-align:left">Value [kNm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-10</td>
+      <td style="text-align:center">-10</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Specifies the size of the load in kiloNewtonmeters.</td>
     </tr>
     <tr>
       <td style="text-align:left">Load case</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LC5</td>
+      <td style="text-align:center">LC5</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the load case to which the force belongs</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate system</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Global</p>
+        <p></p>
         <p>Local</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -97,8 +101,9 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Origin</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>From start</p>
+        <p></p>
         <p>From end</p>
       </td>
       <td style="text-align:left">yes, if Force action = On beam</td>
@@ -107,8 +112,9 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Coordinate definition</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Absolute</p>
+        <p></p>
         <p>Relative</p>
       </td>
       <td style="text-align:left">yes, if Force action = On beam</td>
@@ -117,7 +123,7 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Position x [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>value in meters for Coordinate definition = Absolute</p>
         <p>5,25</p>
         <p>value in percentage for Coordinate definition = Relative</p>
@@ -130,7 +136,7 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Repeat (n)</td>
       <td style="text-align:left">Integer</td>
-      <td style="text-align:left">1</td>
+      <td style="text-align:center">1</td>
       <td style="text-align:left">yes, if Force action = On beam</td>
       <td style="text-align:left">Defines the number of forces acting on the beam. If the number is greater
         than 1, the forces are distributed uniformly over the 1D member</td>
@@ -138,7 +144,7 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Delta x [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,3</td>
+      <td style="text-align:center">0,3</td>
       <td style="text-align:left">yes, if Repeat (n) &gt; 1</td>
       <td style="text-align:left">
         <p>Defines the distance between forces acting on the 1D member in relative
@@ -149,7 +155,7 @@ A node or a beam of the structure may be subject to a moment load. The load is d
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

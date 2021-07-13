@@ -13,7 +13,7 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,14 +22,14 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LF5</td>
+      <td style="text-align:center">LF5</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the force</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Standard</td>
+      <td style="text-align:center">Standard</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
         Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
@@ -38,8 +38,9 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Distribution</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Uniform</p>
+        <p></p>
         <p>Trapez</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -49,10 +50,13 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Direction</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>X</p>
+        <p></p>
         <p>Y</p>
+        <p></p>
         <p>Z</p>
+        <p></p>
         <p>Vector</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -65,14 +69,14 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Value 1 [kN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-150</td>
+      <td style="text-align:center">-150</td>
       <td style="text-align:left">yes, if Direction = X,Y or Z</td>
       <td style="text-align:left">Specifies the first size of the load in kiloNewtons per meter</td>
     </tr>
     <tr>
       <td style="text-align:left">Value 2 [kN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-180</td>
+      <td style="text-align:center">-180</td>
       <td style="text-align:left">
         <p>yes, if Direction = X,Y or Z</p>
         <p>yes, if Dsitribution = Trapez</p>
@@ -82,7 +86,7 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Vector 1(X;Y;Z) [kN/m]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">(10;10;0)</td>
+      <td style="text-align:center">(10;10;0)</td>
       <td style="text-align:left">yes, if Direction = Vector</td>
       <td style="text-align:left">
         <p>Specifies the first size of the load in, direction by vector</p>
@@ -92,7 +96,7 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Vector 2(X;Y;Z) [kN/m]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">(20;20;0)</td>
+      <td style="text-align:center">(20;20;0)</td>
       <td style="text-align:left">
         <p>yes, if Direction = Vector</p>
         <p>yes, if Dsitribution = Trapez</p>
@@ -105,14 +109,14 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Load case</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LC1</td>
+      <td style="text-align:center">LC1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the load case to which the force belongs</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate X [m]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">0.000; 2.050; 4.850; -2.000</td>
+      <td style="text-align:center">0.000; 2.050; 4.850; -2.000</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The list of X coordinates of the nodes which define the geometry of the
         line free load. Each coordinate is separated by semicolon and space.</td>
@@ -120,7 +124,7 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Coordinate Y [m]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">0.500; 1.050; 2.650; -1.500</td>
+      <td style="text-align:center">0.500; 1.050; 2.650; -1.500</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The list of Y coordinates of the nodes which define the geometry of the
         line free load. Each coordinate is separated by semicolon and space.</td>
@@ -128,7 +132,7 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Coordinate Z [m]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">0.000; 0.000; 0.000; 0.000</td>
+      <td style="text-align:center">0.000; 0.000; 0.000; 0.000</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The list of Z coordinates of the nodes which define the geometry of the
         line free load. Each coordinate is separated by semicolon and space.</td>
@@ -136,7 +140,7 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Segments</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
+      <td style="text-align:center">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">List of the shape of each segment which is part of the curve, separated
         by semicolon if there are multiple</td>
@@ -144,8 +148,9 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Coordinate system</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Global</p>
+        <p></p>
         <p>Local</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -154,8 +159,9 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Location</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Length</p>
+        <p></p>
         <p>Projection</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -165,7 +171,7 @@ The Free line load is related to slabs. The load is not defined by the entity it
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

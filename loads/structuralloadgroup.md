@@ -11,7 +11,7 @@ Load groups define "how the individual load cases may be combined together" if i
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -20,20 +20,27 @@ Load groups define "how the individual load cases may be combined together" if i
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LG1</td>
+      <td style="text-align:center">LG1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the object</td>
     </tr>
     <tr>
       <td style="text-align:left">Load group type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Permanent</p>
+      <td style="text-align:center">
+        <p>Permanent
+          <br />
+        </p>
         <p>Variable</p>
+        <p></p>
         <p>Accidental</p>
+        <p></p>
         <p>Seismic</p>
+        <p></p>
         <p>Moving</p>
+        <p></p>
         <p>Tensioning</p>
+        <p></p>
         <p>Fire</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -49,9 +56,11 @@ Load groups define "how the individual load cases may be combined together" if i
     <tr>
       <td style="text-align:left">Relation</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Exclusive</p>
+        <p></p>
         <p>Standard</p>
+        <p></p>
         <p>Together</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -72,9 +81,16 @@ Load groups define "how the individual load cases may be combined together" if i
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">Load type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Domestic</td>
+      <td style="text-align:center">Domestic</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define type of variable load, E.g. Domestic,</p>
@@ -93,7 +109,7 @@ Load groups define "how the individual load cases may be combined together" if i
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

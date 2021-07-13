@@ -13,7 +13,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,16 +22,18 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">FF1</td>
+      <td style="text-align:center">FF1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the force</td>
     </tr>
     <tr>
       <td style="text-align:left">Direction</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>X</p>
+        <p></p>
         <p>Y</p>
+        <p></p>
         <p>Z</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -40,7 +42,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Standard</td>
+      <td style="text-align:center">Standard</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
         Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
@@ -49,10 +51,13 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Distribution</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Uniform</p>
+        <p></p>
         <p>DirectionX</p>
+        <p></p>
         <p>DirectionY</p>
+        <p></p>
         <p>DirectionXY</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -68,7 +73,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">q [kN/m2]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>-10</p>
         <p>(for &quot;Distribution&quot; set to &quot;Uniform&quot;)</p>
         <p>or</p>
@@ -96,14 +101,14 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Load case</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LC5</td>
+      <td style="text-align:center">LC5</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the load case to which the force belongs</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate X [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.000; 2.050; 4.850; -2.000</td>
+      <td style="text-align:center">0.000; 2.050; 4.850; -2.000</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The list of X coordinates of the nodes which define the geometry of the
         surface free load. Each coordinate is separated by semicolon and space.</td>
@@ -111,7 +116,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Coordinate Y [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.500; 1.050; 2.650; -1.500</td>
+      <td style="text-align:center">0.500; 1.050; 2.650; -1.500</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The list of Y coordinates of the nodes which define the geometry of the
         surface free load. Each coordinate is separated by semicolon and space.</td>
@@ -119,7 +124,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Coordinate Z [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.000; 0.000; 0.000; 0.000</td>
+      <td style="text-align:center">0.000; 0.000; 0.000; 0.000</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The list of Z coordinates of the nodes which define the geometry of the
         surface free load. Each coordinate is separated by semicolon and space.</td>
@@ -127,7 +132,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Edges</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Line; Line; Line</td>
+      <td style="text-align:center">Line; Line; Line; Line</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines shape of the curve between two next nodes. Supported strings are:
         Line; Bezier; Circle arc; Parabolic arc; Spline. The names are separated
@@ -136,8 +141,9 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Coordinate system</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Global</p>
+        <p></p>
         <p>Local</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -146,8 +152,9 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Location</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Length</p>
+        <p></p>
         <p>Projection</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -157,7 +164,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

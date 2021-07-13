@@ -11,7 +11,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -20,14 +20,14 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LMS1</td>
+      <td style="text-align:center">LMS1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the force</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Standard</td>
+      <td style="text-align:center">Standard</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
         Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
@@ -36,11 +36,14 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Force action</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>On beam</p>
+        <p></p>
         <p>On edge</p>
+        <p></p>
         <p>On subregion</p>
         <p>edge</p>
+        <p></p>
         <p>On opening edge</p>
         <p>On rib</p>
       </td>
@@ -50,8 +53,9 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Distribution</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Uniform</p>
+        <p></p>
         <p>Trapez</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -61,9 +65,11 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Direction</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Mx</p>
+        <p></p>
         <p>My</p>
+        <p></p>
         <p>Mz</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -72,7 +78,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Value 1 [kNm/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-150</td>
+      <td style="text-align:center">-150</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Specifies the first size of the moment in kilonewton meters per meter</p>
@@ -82,7 +88,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Value 2 [kNm/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-180</td>
+      <td style="text-align:center">-180</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Specifies the second size of the load in kilonewton meters per meter</p>
@@ -92,7 +98,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Member</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B11</td>
+      <td style="text-align:center">B11</td>
       <td style="text-align:left">yes, if Force action = On beam</td>
       <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember</a> on
         which the load is applied</td>
@@ -100,7 +106,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Member Rib</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B11</td>
+      <td style="text-align:center">B11</td>
       <td style="text-align:left">yes, if Force action = On rib</td>
       <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib">StructuralCurveMemberRib</a> on
         which the load is applied</td>
@@ -108,7 +114,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">2D Member</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">S1</td>
+      <td style="text-align:center">S1</td>
       <td style="text-align:left">yes, if Force action = On edge
         <br />or On subregion edge
         <br />or On opening edge</td>
@@ -121,7 +127,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Edge</td>
       <td style="text-align:left">Integer</td>
-      <td style="text-align:left">1</td>
+      <td style="text-align:center">1</td>
       <td style="text-align:left">yes, if Force action acts on 2D Member edge</td>
       <td style="text-align:left">Index of the edge of the the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> on
         which the load is applied</td>
@@ -129,7 +135,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Internal edge</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">ES2</td>
+      <td style="text-align:center">ES2</td>
       <td style="text-align:left">yes, if Force action = On edge</td>
       <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurveedge.md#internal-edge">StructuralCurveEdge</a> on
         which is the load applied. StructuralCurveMoment can act either on a 2D
@@ -138,15 +144,16 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Load case</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LC1</td>
+      <td style="text-align:center">LC1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the load case to which the force belongs</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate system</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Global</p>
+        <p></p>
         <p>Local</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -155,8 +162,9 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Location</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Length</p>
+        <p></p>
         <p>Projection</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -166,8 +174,9 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Coordinate definition</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Absolute</p>
+        <p></p>
         <p>Relative</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -178,8 +187,9 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Origin</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>From start</p>
+        <p></p>
         <p>From end</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -189,8 +199,9 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Extent</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Full</p>
+        <p></p>
         <p>Span</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -201,7 +212,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Start point [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>value in meters for Coordinate definition = Absolute</p>
         <p>0,0</p>
         <p>value in percentage for Coordinate definition = Relative</p>
@@ -214,7 +225,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">End point [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>value in meters for Coordinate definition = Absolute</p>
         <p>5,25</p>
         <p>value in percentage for Coordinate definition = Relative</p>
@@ -227,7 +238,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Is filled for objects created be dividing curved geometry to series of
@@ -243,7 +254,7 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

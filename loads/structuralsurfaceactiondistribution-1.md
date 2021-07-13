@@ -13,7 +13,7 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,16 +22,18 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">FL1</td>
+      <td style="text-align:center">FL1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the Arbitrary definition</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Nodes</p>
+        <p></p>
         <p>Edges</p>
+        <p></p>
         <p>Beams and edges
           <br />
         </p>
@@ -40,9 +42,9 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
       <td style="text-align:left">
         <p>Defines where the load should be distributed.</p>
         <p><b>Nodes</b> - load is expected to be distributed to nodes of StructuralSurfaceActionDistribution</p>
-        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <p></p>
         <p><b>Edges</b> - load is expected to be distributed to edges of StructuralSurfaceActionDistribution</p>
-        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <p></p>
         <p><b>Beams and edges</b> - load is expected to be distributed to edges and
           specified beams of StructuralSurfaceActionDistribution
           <br />
@@ -52,7 +54,7 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">Nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N81; N263; N659; N660</td>
+      <td style="text-align:center">N81; N263; N659; N660</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">All nodes that belongs to StructuralSurfaceActionDistribution member and
         defines its geometric shape. The names of the nodes are separated by ;
@@ -61,7 +63,7 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">Edges</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Line; Line; Circular Arc; Line</p>
         <p>or</p>
         <p>Line;Spline-5;Line;Parabolic Arc;Line</p>
@@ -90,7 +92,7 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">Layer</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Load panel</td>
+      <td style="text-align:center">Load panel</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Custom created layer. The layer can thus comprise entities that have something
         in common (e.g. one floor, columns of one floor, columns of the same length,
@@ -99,9 +101,11 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">LCS Type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>x by vector</p>
+        <p></p>
         <p>y by vector</p>
+        <p></p>
         <p>Tilt of vector defined by point</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -117,28 +121,28 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">Coordinate X [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1</td>
+      <td style="text-align:center">1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in X direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Y [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0</td>
+      <td style="text-align:center">0</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Y direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Z [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1,2</td>
+      <td style="text-align:center">1,2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Z direction</td>
     </tr>
     <tr>
       <td style="text-align:left">LCS Rotation [deg]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">45.00</td>
+      <td style="text-align:center">45.00</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>This value defines the rotation of local axes of the StructuralSurfaceActionDistribution
@@ -151,28 +155,30 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">Distribution to</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>One way - X</p>
+        <p></p>
         <p>One way - Y</p>
+        <p></p>
         <p>Two way</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Defines how the load will be distributed.</p>
-        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <p></p>
         <p><b>One way - X</b> - Load will be distributed only to members parallel
           with X direction (X axis of LCS)</p>
-        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <p></p>
         <p><b>One way - Y</b> - Load will be distributed only to members parallel
           with Y direction (Y axis of LCS)</p>
-        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <p></p>
         <p><b>Two way</b> - Load will be distributed equally to both directions</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Load applied to</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B1 ; B2 ; B3 ; B5</td>
+      <td style="text-align:center">B1 ; B2 ; B3 ; B5</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Allows to define the subset of loaded <b>beams</b>.</p>
@@ -184,7 +190,7 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

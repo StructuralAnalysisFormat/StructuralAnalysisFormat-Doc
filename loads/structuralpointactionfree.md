@@ -13,7 +13,7 @@ The Free point load is related to slabs. The load is not defined by the entity i
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,14 +22,14 @@ The Free point load is related to slabs. The load is not defined by the entity i
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">FF1</td>
+      <td style="text-align:center">FF1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the force</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Standard</td>
+      <td style="text-align:center">Standard</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
         Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
@@ -38,10 +38,13 @@ The Free point load is related to slabs. The load is not defined by the entity i
     <tr>
       <td style="text-align:left">Direction</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>X</p>
+        <p></p>
         <p>Y</p>
+        <p></p>
         <p>Z</p>
+        <p></p>
         <p>Vector</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -54,49 +57,49 @@ The Free point load is related to slabs. The load is not defined by the entity i
     <tr>
       <td style="text-align:left">Value [kN]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-1</td>
+      <td style="text-align:center">-1</td>
       <td style="text-align:left">yes, if Direction = X,Y or Z</td>
       <td style="text-align:left">Specifies the size of the load</td>
     </tr>
     <tr>
       <td style="text-align:left">Vector (X;Y;Z) [kN]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">(10;10;0)</td>
+      <td style="text-align:center">(10;10;0)</td>
       <td style="text-align:left">yes, if Direction = Vector</td>
       <td style="text-align:left">Specifies the size of the load in , direction by vector</td>
     </tr>
     <tr>
       <td style="text-align:left">Load case</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LC2</td>
+      <td style="text-align:center">LC2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the load case to which the force belongs</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate X [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-1,000</td>
+      <td style="text-align:center">-1,000</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The X coordinate of the point force</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Y [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1,000</td>
+      <td style="text-align:center">1,000</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The Y coordinate of the point force</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Z [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">3,250</td>
+      <td style="text-align:center">3,250</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The Z coordinate of the point force</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate system</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Global</td>
+      <td style="text-align:center">Global</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines the co-ordinate system of the member in which the load is applied.
         Only global coordinate system is supported for free point loads</td>
@@ -104,7 +107,7 @@ The Free point load is related to slabs. The load is not defined by the entity i
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
