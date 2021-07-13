@@ -13,7 +13,7 @@ For **manufactured** types of a cross-section, is Composite Shape Definition is 
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,7 +22,7 @@ For **manufactured** types of a cross-section, is Composite Shape Definition is 
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">GEN_1</td>
+      <td style="text-align:center">GEN_1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Name of the profile from the <a href="structuralcrosssection.md#cross-section">StructuralCrossSection</a> object
         sheet</td>
@@ -30,14 +30,14 @@ For **manufactured** types of a cross-section, is Composite Shape Definition is 
     <tr>
       <td style="text-align:left">Material name #</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">MAT_1</td>
+      <td style="text-align:center">MAT_1</td>
       <td style="text-align:left">yes, if polygon is not opening</td>
       <td style="text-align:left">Name reference to the existing <a href="structuralmaterial.md#material">StructuralMaterial</a> object</td>
     </tr>
     <tr>
       <td style="text-align:left">Polygon contour #</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">-75.0; 105.0| -175.0; 5.0| 175.0; 5.0| 75.0; 105.0</td>
+      <td style="text-align:center">-75.0; 105.0| -175.0; 5.0| 175.0; 5.0| 75.0; 105.0</td>
       <td style="text-align:left">yes (at least one)</td>
       <td style="text-align:left">
         <p>This attribute is used to define the cross-section geometry as a polygon
@@ -56,7 +56,7 @@ For **manufactured** types of a cross-section, is Composite Shape Definition is 
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

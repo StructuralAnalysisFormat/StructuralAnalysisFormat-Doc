@@ -11,7 +11,7 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -20,14 +20,14 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">CS1</td>
+      <td style="text-align:center">CS1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the Cross-section</td>
     </tr>
     <tr>
       <td style="text-align:left">Material</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">MAT1</td>
+      <td style="text-align:center">MAT1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Name reference to the existing StructuralMaterial object.</p>
@@ -38,7 +38,7 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">Cross-section type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Parametric</p>
         <p>
           <br />Manufactured</p>
@@ -72,7 +72,7 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">Shape</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">T Section</td>
+      <td style="text-align:center">T Section</td>
       <td style="text-align:left">
         <p>yes, if Cross-section type = Parametric</p>
         <p>yes, if Cross-section type = Compound</p>
@@ -86,7 +86,7 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">Parameters [mm]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">50; 80; 500; 450</td>
+      <td style="text-align:center">50; 80; 500; 450</td>
       <td style="text-align:left">
         <p>yes, if Cross-section type = Parametric
           <br />
@@ -104,7 +104,7 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">Profile</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">HEB180</td>
+      <td style="text-align:center">HEB180</td>
       <td style="text-align:left">
         <p>yes, if Cross-section type = Manufactured</p>
         <p>yes, if Cross-section type = Compound</p>
@@ -121,7 +121,7 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">Form code</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">1</td>
+      <td style="text-align:center">1</td>
       <td style="text-align:left">yes, if Cross-section type = Manufactured</td>
       <td style="text-align:left">
         <p>This field is valid only if profile type is Manufactured. It helps to
@@ -135,7 +135,7 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">Description ID of the profile</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">2</td>
+      <td style="text-align:center">2</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">This field is valid only if the cross-section type is Manufactured. The
         description of the hot rolled and cold formed cross-section referring to
@@ -145,56 +145,56 @@ A cross-section together with material \([StructuralMaterial](structuralmaterial
     <tr>
       <td style="text-align:left">A [m2]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,075484</td>
+      <td style="text-align:center">0,075484</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Section area</td>
     </tr>
     <tr>
       <td style="text-align:left">Iy [m4]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,000641</td>
+      <td style="text-align:center">0,000641</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Moment of inertia about y-axis</td>
     </tr>
     <tr>
       <td style="text-align:left">Iz [m4]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,013319</td>
+      <td style="text-align:center">0,013319</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Moment of inertia about z-axis</td>
     </tr>
     <tr>
       <td style="text-align:left">It [m4]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,0000591</td>
+      <td style="text-align:center">0,0000591</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Torsion moment of inertia</td>
     </tr>
     <tr>
       <td style="text-align:left">Iw[m6]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,00015548</td>
+      <td style="text-align:center">0,00015548</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Warping constant</td>
     </tr>
     <tr>
       <td style="text-align:left">Wply [m3]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,029497</td>
+      <td style="text-align:center">0,029497</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Plastic modulus about the y-axis</td>
     </tr>
     <tr>
       <td style="text-align:left">Wplz [m3]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,029497</td>
+      <td style="text-align:center">0,029497</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Plastic modulus about the z-axis</td>
     </tr>
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
+      <td style="text-align:center">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

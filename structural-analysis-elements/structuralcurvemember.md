@@ -21,7 +21,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -30,14 +30,14 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B1</td>
+      <td style="text-align:center">B1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the 1D member</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">General</td>
+      <td style="text-align:center">General</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>The type of the 1D member, used within the analytical model.</p>
@@ -49,7 +49,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Cross section</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">CS1</td>
+      <td style="text-align:center">CS1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name reference to the existing, valid name of the StructuralCrossSection
         object</td>
@@ -57,14 +57,14 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Arbitrary definition</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">AD1</td>
+      <td style="text-align:center">AD1</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">The reference to Arbitrary/Tapered/Haunched beam definition StructuralCurveMemberVarying</td>
     </tr>
     <tr>
       <td style="text-align:left">Nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N2; N3; N4</td>
+      <td style="text-align:center">N2; N3; N4</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>All nodes that belong to the curve member and define its geometric shape.</p>
@@ -75,7 +75,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Segments</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
+      <td style="text-align:center">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines the shape of the curve between two next nodes. The names are separated
         by ; (semicolon) and space.</td>
@@ -83,7 +83,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Begin node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N1</td>
+      <td style="text-align:center">N1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>The starting node of the 1D member.</p>
@@ -93,7 +93,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">End node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N2</td>
+      <td style="text-align:center">N2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>The end node of the 1D member.</p>
@@ -103,7 +103,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Internal nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N77; N78</td>
+      <td style="text-align:center">N77; N78</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Internal nodes belonging to StructuralCurveMember defined in StructuralPointConnection.</p>
@@ -114,19 +114,29 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Length [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">6.425</td>
+      <td style="text-align:center">6.425</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Distance between begin and end node of the curve member.</td>
     </tr>
     <tr>
       <td style="text-align:left">Geometrical shape</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Line</p>
-        <p>Circular Arc</p>
-        <p>Parabolic Arc</p>
-        <p>Bezier</p>
-        <p>Spline</p>
+      <td style="text-align:center">
+        <p>Line
+          <br />
+        </p>
+        <p>Circular Arc
+          <br />
+        </p>
+        <p>Parabolic Arc
+          <br />
+        </p>
+        <p>Bezier
+          <br />
+        </p>
+        <p>Spline
+          <br />
+        </p>
         <p>Polyline</p>
       </td>
       <td style="text-align:left">no</td>
@@ -137,10 +147,16 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">LCS</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>y by vector</p>
-        <p>z by vector</p>
-        <p>y by point</p>
+      <td style="text-align:center">
+        <p>y by vector
+          <br />
+        </p>
+        <p>z by vector
+          <br />
+        </p>
+        <p>y by point
+          <br />
+        </p>
         <p>z by point</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -151,7 +167,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">LCS Rotation [deg]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">45.00</td>
+      <td style="text-align:center">45.00</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">This value defines the rotation of local axes of the 1D member around
         its x-axis</td>
@@ -159,37 +175,46 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Coordinate X [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,0</td>
+      <td style="text-align:center">0,0</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the point or vector defining the LCS in X direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Y [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,1</td>
+      <td style="text-align:center">0,1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the point or vector defining the LCS in Y direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Z [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,0</td>
+      <td style="text-align:center">0,0</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the point or vector defining the LCS in Z direction</td>
     </tr>
     <tr>
       <td style="text-align:left">System line</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Centre</p>
+      <td style="text-align:center">
+        <p>Centre
+          <br />
+        </p>
         <p>Top</p>
-        <p>Bottom</p>
-        <p>Left</p>
+        <p>
+          <br />Bottom</p>
+        <p>
+          <br />Left</p>
+        <p></p>
         <p>Right</p>
-        <p>Top left</p>
-        <p>Top right</p>
-        <p>Bottom left</p>
-        <p>Bottom right</p>
+        <p>
+          <br />Top left</p>
+        <p>
+          <br />Top right</p>
+        <p>
+          <br />Bottom left</p>
+        <p>
+          <br />Bottom right</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -210,7 +235,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Structural Y Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-150</td>
+      <td style="text-align:center">-150</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -222,7 +247,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Structural Z Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -234,7 +259,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Structural Y Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -246,7 +271,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Structural Z Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -258,7 +283,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Analysis Y Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -270,7 +295,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Analysis Z Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -282,7 +307,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Analysis Y Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -294,7 +319,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Analysis Z Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -306,7 +331,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Layer</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">1st floor</td>
+      <td style="text-align:center">1st floor</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Custom created layer.</p>
@@ -317,11 +342,14 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Behaviour in analysis</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Standard</p>
-        <p>Axial force only</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
+        <p>
+          <br />Axial force only</p>
+        <p>
+          <br />Compression only</p>
+        <p>
+          <br />Tension only</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">From the finite element analysis point of view, the 1D member can act
@@ -333,7 +361,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Color</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">#7FFFFF00</td>
+      <td style="text-align:center">#7FFFFF00</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Defines colour and transparency of the object. Colour is defined by Hex
         format #AARRGGBB. Transparency is controlled by the alpha channel AA. If
@@ -342,7 +370,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Is filled for objects created be dividing curved geometry to series of
         straight line objects. Parent ID will ensure that curved edge is imported
@@ -354,7 +382,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

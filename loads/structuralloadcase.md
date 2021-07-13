@@ -11,7 +11,7 @@ Individual loads are not defined "freely". They must be included in load cases. 
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -20,23 +20,27 @@ Individual loads are not defined "freely". They must be included in load cases. 
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LC1</td>
+      <td style="text-align:center">LC1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the object</td>
     </tr>
     <tr>
       <td style="text-align:left">Description</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Offices &#x2013; Cat.B</td>
+      <td style="text-align:center">Offices &#x2013; Cat.B</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Description of the load case</td>
     </tr>
     <tr>
       <td style="text-align:left">Action type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Permanent</p>
-        <p>Variable</p>
+      <td style="text-align:center">
+        <p>Permanent
+          <br />
+        </p>
+        <p>Variable
+          <br />
+        </p>
         <p>Accidental</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -46,7 +50,7 @@ Individual loads are not defined "freely". They must be included in load cases. 
     <tr>
       <td style="text-align:left">Load group</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">LG 1</td>
+      <td style="text-align:center">LG 1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Name reference to existing <a href="structuralloadgroup.md#load-group">StructuralLoadGroup</a> object
         with appropriate settings of Load group type</td>
@@ -54,19 +58,42 @@ Individual loads are not defined "freely". They must be included in load cases. 
     <tr>
       <td style="text-align:left">Load type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Self weight</p>
-        <p>Others</p>
-        <p>Prestress</p>
-        <p>Dynamic</p>
-        <p>Static</p>
-        <p>Temperature</p>
-        <p>Wind</p>
-        <p>Snow</p>
-        <p>Maintenance</p>
-        <p>Fire</p>
-        <p>Moving</p>
-        <p>Seismic</p>
+      <td style="text-align:center">
+        <p>Self weight
+          <br />
+        </p>
+        <p>Others
+          <br />
+        </p>
+        <p>Prestress
+          <br />
+        </p>
+        <p>Dynamic
+          <br />
+        </p>
+        <p>Static
+          <br />
+        </p>
+        <p>Temperature
+          <br />
+        </p>
+        <p>Wind
+          <br />
+        </p>
+        <p>Snow
+          <br />
+        </p>
+        <p>Maintenance
+          <br />
+        </p>
+        <p>Fire
+          <br />
+        </p>
+        <p>Moving
+          <br />
+          <br />Seismic
+          <br />
+        </p>
         <p>Standard</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -90,11 +117,15 @@ Individual loads are not defined "freely". They must be included in load cases. 
     <tr>
       <td style="text-align:left">Duration</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Long</p>
+      <td style="text-align:center">
+        <p>Long
+          <br />
+        </p>
         <p>Medium</p>
-        <p>Short</p>
-        <p>Instantaneous</p>
+        <p>
+          <br />Short</p>
+        <p>
+          <br />Instantaneous</p>
       </td>
       <td style="text-align:left">yes, if Action type = Variable</td>
       <td style="text-align:left">For static standard loads, the duration of the load impact can be specified</td>
@@ -102,7 +133,7 @@ Individual loads are not defined "freely". They must be included in load cases. 
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

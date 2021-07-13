@@ -13,7 +13,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,17 +22,22 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Sn6</td>
+      <td style="text-align:center">Sn6</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the support</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Fixed</p>
+      <td style="text-align:center">
+        <p>Fixed
+          <br />
+        </p>
         <p>Hinged</p>
-        <p>Sliding</p>
+        <p></p>
+        <p>Sliding
+          <br />
+        </p>
         <p>Custom</p>
       </td>
       <td style="text-align:left">no</td>
@@ -42,22 +47,30 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N5</td>
+      <td style="text-align:center">N5</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the node to which is point support related</td>
     </tr>
     <tr>
       <td style="text-align:left">ux</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Rigid</p>
-        <p>Free</p>
-        <p>Flexible</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+      <td style="text-align:center">
+        <p>Rigid
+          <br />
+          <br />Free</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Compression only</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible
+          <br />compression only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -73,15 +86,22 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">uy</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Rigid</p>
-        <p>Free</p>
-        <p>Flexible</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+        <p>
+          <br />Free</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Compression only</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -97,15 +117,23 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">uz</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Rigid</p>
-        <p>Free</p>
-        <p>Flexible</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+        <p>
+          <br />Free</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Compression only</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression
+          <br />only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -121,11 +149,14 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">fix</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -136,11 +167,14 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">fiy</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Rotational stiffness around Y axis. Parameter Flexible can be linear only,
@@ -149,11 +183,14 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">fiz</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -164,7 +201,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Stiffness X [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
+      <td style="text-align:center">100</td>
       <td style="text-align:left">
         <p>yes, if Translation X = Flexible</p>
         <p>yes, if Translation X = Non linear</p>
@@ -174,7 +211,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Stiffness Y [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
+      <td style="text-align:center">100</td>
       <td style="text-align:left">
         <p>yes, if Translation Y = Flexible</p>
         <p>yes, if Translation Y = Non linear</p>
@@ -184,7 +221,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Stiffness Z [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">100</td>
+      <td style="text-align:center">100</td>
       <td style="text-align:left">
         <p>yes, if Translation Z = Flexible</p>
         <p>yes, if Translation Z = Non linear</p>
@@ -194,7 +231,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Stiffness Fix [MNm/rad]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
+      <td style="text-align:center">50</td>
       <td style="text-align:left">
         <p>yes, if Rx = Flexible</p>
         <p>yes, if Rx = Non linear</p>
@@ -204,7 +241,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Stiffness Fiy [MNm/rad]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
+      <td style="text-align:center">50</td>
       <td style="text-align:left">
         <p>yes, if Ry = Flexible</p>
         <p>yes, if Ry = Non linear</p>
@@ -214,7 +251,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Stiffness Fiz [MNm/rad]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">50</td>
+      <td style="text-align:center">50</td>
       <td style="text-align:left">
         <p>yes, if Rz = Flexible</p>
         <p>yes, if Rz = Non linear
@@ -226,7 +263,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

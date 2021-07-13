@@ -17,7 +17,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -26,14 +26,14 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B1</td>
+      <td style="text-align:center">B1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the 2D member</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Plate</td>
+      <td style="text-align:center">Plate</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">The type of the 2D member, used within the model E.g. Plate, Wall, Shell.
         The type reflects the geometry or classification in the structure. Plate
@@ -44,7 +44,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Material</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">MAT_1</td>
+      <td style="text-align:center">MAT_1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name reference to the existing, valid name of the StructuralMaterial
         object.</td>
@@ -52,14 +52,28 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Thickness type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Constant</p>
-        <p>Variable in global X</p>
-        <p>Variable in global Y</p>
-        <p>Variable in global Z</p>
-        <p>Variable in local X</p>
-        <p>Variable in local Y</p>
-        <p>Variable in direction XY</p>
+      <td style="text-align:center">
+        <p>Constant
+          <br />
+        </p>
+        <p>Variable in global X
+          <br />
+        </p>
+        <p>Variable in global Y
+          <br />
+        </p>
+        <p>Variable in global Z
+          <br />
+        </p>
+        <p>Variable in local X
+          <br />
+        </p>
+        <p>Variable in local Y
+          <br />
+        </p>
+        <p>Variable in direction XY
+          <br />
+        </p>
         <p>Variable radially</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -74,7 +88,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Thickness [mm]</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">200 N1:200; N2:250</td>
+      <td style="text-align:center">200 N1:200; N2:250</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The thickness of the structural surface member - For constant thickness:
         One number in millimetres (e.g. 200) - For variable thickness - type &quot;Global
@@ -87,9 +101,13 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">System plane at</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Bottom</p>
-        <p>Centre</p>
+      <td style="text-align:center">
+        <p>Bottom
+          <br />
+        </p>
+        <p>Centre
+          <br />
+        </p>
         <p>Top</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -98,7 +116,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N81; N263; N659; N660</td>
+      <td style="text-align:center">N81; N263; N659; N660</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">All nodes that belongs to surface member and defines its geometric shape.
         The names of the nodes are separated by ; (semicolon) and space.</td>
@@ -106,7 +124,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Internal nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N22; N23</td>
+      <td style="text-align:center">N22; N23</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Internal nodes belonging to StructuralSurfaceMember defined in StructuralPointConnection
         Internal nodes are not geometry defining The names of the nodes are separated
@@ -115,7 +133,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Edges</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Line; Line; Circular Arc; Line</p>
         <p>or</p>
         <p>Line;Spline-5;Line;Parabolic Arc;Line</p>
@@ -141,14 +159,14 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Area [m2]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">2.359</td>
+      <td style="text-align:center">2.359</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">The value of the surface area of the StructuralSurfaceMember</td>
     </tr>
     <tr>
       <td style="text-align:left">Layer</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">1st floor</td>
+      <td style="text-align:center">1st floor</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Custom created layer. The layer can thus comprise entities that have something
         in common (e.g. one floor, columns of one floor, columns of the same length,
@@ -157,9 +175,13 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">LCS Type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>x by vector</p>
-        <p>y by vector</p>
+      <td style="text-align:center">
+        <p>x by vector
+          <br />
+        </p>
+        <p>y by vector
+          <br />
+        </p>
         <p>Tilt of vector defined by point</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -172,35 +194,35 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Coordinate X [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1</td>
+      <td style="text-align:center">1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in X direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Y [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0</td>
+      <td style="text-align:center">0</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Y direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Z [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1,2</td>
+      <td style="text-align:center">1,2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Z direction</td>
     </tr>
     <tr>
       <td style="text-align:left">LCS Rotation [deg]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">45.00</td>
+      <td style="text-align:center">45.00</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">This value defines the rotation of local axes of the 2D member</td>
     </tr>
     <tr>
       <td style="text-align:left">Structural Z Eccentricity [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-125</td>
+      <td style="text-align:center">-125</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Define the position difference between a physical element and its analytical
         member representation in Z direction (vertical movement of the center plane).
@@ -210,7 +232,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Analysis Z Eccentricity [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-125</td>
+      <td style="text-align:center">-125</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Define the position difference between a physical element and its analytical
         member representation in Z direction (vertical movement of the center plane).
@@ -220,7 +242,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Shape</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Flat</p>
         <p>Curved</p>
       </td>
@@ -231,10 +253,16 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Behavior in analysis</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Isotropic</p>
-        <p>Orthotropic</p>
-        <p>Membrane</p>
+      <td style="text-align:center">
+        <p>Isotropic
+          <br />
+        </p>
+        <p>Orthotropic
+          <br />
+        </p>
+        <p>Membrane
+          <br />
+        </p>
         <p>Press only</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -248,7 +276,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Color</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">#7FFFFF00</td>
+      <td style="text-align:center">#7FFFFF00</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Defines the colour and transparency of the object. Colour is defined by
         Hex format #AARRGGBB. Transparency is controlled by the alpha channel AA.</td>
@@ -256,7 +284,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Is filled for objects created be dividing curved geometry to series of
         straight line objects. Parent ID will ensure that curved edge is imported
@@ -268,7 +296,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

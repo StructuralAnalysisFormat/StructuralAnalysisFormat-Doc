@@ -13,7 +13,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,14 +22,14 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">RM1</td>
+      <td style="text-align:center">RM1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the object</td>
     </tr>
     <tr>
       <td style="text-align:left">Node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N3</td>
+      <td style="text-align:center">N3</td>
       <td style="text-align:left">
         <p>yes</p>
         <p>,if is connection between node and other entity is desired</p>
@@ -44,7 +44,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">2D Members</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">S1; S2</td>
+      <td style="text-align:center">S1; S2</td>
       <td style="text-align:left">
         <p>yes</p>
         <p>,if connection between 2D member edge and other entity is desired</p>
@@ -60,7 +60,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Edges</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">3; 1</td>
+      <td style="text-align:center">3; 1</td>
       <td style="text-align:left">
         <p>yes</p>
         <p>,if column &quot;2D Members&quot; is filled</p>
@@ -76,7 +76,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Internal edge</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">IE2; IE6</td>
+      <td style="text-align:center">IE2; IE6</td>
       <td style="text-align:left">
         <p>yes</p>
         <p>,if connection between internal edges and other entity is desired</p>
@@ -92,7 +92,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">1D Members</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B1; B3</td>
+      <td style="text-align:center">B1; B3</td>
       <td style="text-align:left">
         <p>yes</p>
         <p>,if connection between 1D member and other entity is desired</p>
@@ -108,7 +108,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Fixed</p>
         <p>Custom</p>
       </td>
@@ -123,15 +123,22 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">ux</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Compression only</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -148,15 +155,22 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">uy</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Compression only</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -173,15 +187,23 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">uz</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Compression only</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression
+          <br />only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -198,11 +220,14 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">fix</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -217,11 +242,14 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">fiy</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -236,11 +264,14 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">fiz</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -255,7 +286,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Stiffness X [MN/m2]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">3.00</td>
+      <td style="text-align:center">3.00</td>
       <td style="text-align:left">yes, if ux = Flexible, Flexible compression/tension or Non linear</td>
       <td
       style="text-align:left">
@@ -268,7 +299,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Resistance X [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.25</td>
+      <td style="text-align:center">0.25</td>
       <td style="text-align:left">yes, if ux = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in direction X</p>
@@ -279,7 +310,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Stiffness Y [MN/m2]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">2.50</td>
+      <td style="text-align:center">2.50</td>
       <td style="text-align:left">yes, if uy = Flexible, Flexible compression/tension or Non linear</td>
       <td
       style="text-align:left">
@@ -292,7 +323,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Resistance Y [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.30</td>
+      <td style="text-align:center">0.30</td>
       <td style="text-align:left">yes, if uy = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in direction Y</p>
@@ -303,7 +334,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Stiffness Z [MN/m2]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">2.00</td>
+      <td style="text-align:center">2.00</td>
       <td style="text-align:left">yes, if uz = Flexible, Flexible compression/tension or Non linear</td>
       <td
       style="text-align:left">
@@ -316,7 +347,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Resistance Z [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.75</td>
+      <td style="text-align:center">0.75</td>
       <td style="text-align:left">yes, if uz = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in direction Z</p>
@@ -327,7 +358,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Stiffness Fix [MNm/rad/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">5.00</td>
+      <td style="text-align:center">5.00</td>
       <td style="text-align:left">yes, if fix = Flexible or Non linear</td>
       <td style="text-align:left">
         <p>The flexibility in rotation around X axis</p>
@@ -339,7 +370,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Resistance Fix [MNm/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1.00</td>
+      <td style="text-align:center">1.00</td>
       <td style="text-align:left">yes, if fix = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in rotation around Y axis</p>
@@ -350,7 +381,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Stiffness Fiy [MNm/rad/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">6.25</td>
+      <td style="text-align:center">6.25</td>
       <td style="text-align:left">yes, if fiy = Flexible or Non linear</td>
       <td style="text-align:left">
         <p>The flexibility in rotation around Y axis</p>
@@ -362,7 +393,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Resistance Fiy [MNm/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.80</td>
+      <td style="text-align:center">0.80</td>
       <td style="text-align:left">yes, if fiy = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in rotation around Y axis</p>
@@ -373,7 +404,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Stiffness Fiz [MNm/rad/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">3.00</td>
+      <td style="text-align:center">3.00</td>
       <td style="text-align:left">yes, if fiz = Flexible or Non linear</td>
       <td style="text-align:left">
         <p>The flexibility in rotation around Z axis</p>
@@ -385,7 +416,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Resistance Fiz [MNm/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.10</td>
+      <td style="text-align:center">0.10</td>
       <td style="text-align:left">yes, if fiz = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in rotation around Z axis</p>
@@ -396,7 +427,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

@@ -13,7 +13,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,14 +22,14 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">RC1</td>
+      <td style="text-align:center">RC1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the object</td>
     </tr>
     <tr>
       <td style="text-align:left">1D Members</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B1; B3</td>
+      <td style="text-align:center">B1; B3</td>
       <td style="text-align:left">
         <p>yes</p>
         <p>value from (<a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember</a>)</p>
@@ -42,10 +42,12 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Fixed</p>
-        <p>Hinged</p>
-        <p>Custom</p>
+        <p>
+          <br />Hinged</p>
+        <p>
+          <br />Custom</p>
       </td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
@@ -60,15 +62,21 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">u1</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
         <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -84,15 +92,21 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">u2</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
         <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linear</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -108,15 +122,21 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">u</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
         <p>Compression only</p>
-        <p>Tension only</p>
-        <p>Flexible compression only</p>
-        <p>Flexible tension only</p>
-        <p>Non linearr</p>
+        <p>
+          <br />Tension only</p>
+        <p>
+          <br />Flexible compression only</p>
+        <p>
+          <br />Flexible tension only</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -132,11 +152,14 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">fi1</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -150,11 +173,14 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">fi2</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -168,11 +194,14 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">fi</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Free</p>
-        <p>Rigid</p>
-        <p>Flexible</p>
-        <p>Non linear</p>
+        <p>
+          <br />Rigid</p>
+        <p>
+          <br />Flexible</p>
+        <p>
+          <br />Non linear</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -186,7 +215,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Stiffness u1 [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">3.0</td>
+      <td style="text-align:center">3.0</td>
       <td style="text-align:left">yes, if u1 = Flexible, Flexible compression/tension only or Non linear</td>
       <td
       style="text-align:left">
@@ -198,7 +227,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Resitance u1 [MN]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.20</td>
+      <td style="text-align:center">0.20</td>
       <td style="text-align:left">yes, if u1 = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in direction of first member</p>
@@ -208,7 +237,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Stiffness u2 [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">3.0</td>
+      <td style="text-align:center">3.0</td>
       <td style="text-align:left">yes, if u2 = Flexible, Flexible compression/tension only or Non linear</td>
       <td
       style="text-align:left">
@@ -220,7 +249,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Resitance u2 [MN]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.20</td>
+      <td style="text-align:center">0.20</td>
       <td style="text-align:left">yes, if u2 = Non linear</td>
       <td style="text-align:left">
         <p>The resistance in direction of second member</p>
@@ -230,7 +259,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Stiffness u [MN/m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">5.0</td>
+      <td style="text-align:center">5.0</td>
       <td style="text-align:left">yes, if u = Flexible, Flexible compression/tension only or Non linear</td>
       <td
       style="text-align:left">
@@ -242,7 +271,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Resitance u [MN]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.35</td>
+      <td style="text-align:center">0.35</td>
       <td style="text-align:left">yes, if u = Non linear</td>
       <td style="text-align:left">
         <p>The resistance of the RigidCross</p>
@@ -252,7 +281,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Stiffness fi1 [MNm/rad]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1.0</td>
+      <td style="text-align:center">1.0</td>
       <td style="text-align:left">yes, if fi1 = Flexible, Flexible compression/tension only or Non linear</td>
       <td
       style="text-align:left">
@@ -263,7 +292,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Resistance fi1 [MNm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.05</td>
+      <td style="text-align:center">0.05</td>
       <td style="text-align:left">yes, if fi1 = Non linear</td>
       <td style="text-align:left">
         <p>Torsional resistance around the 1st member</p>
@@ -273,7 +302,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Stiffness fi2 [MNm/rad]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1.0</td>
+      <td style="text-align:center">1.0</td>
       <td style="text-align:left">yes, if fi2 = Flexible, or Non linear</td>
       <td style="text-align:left">
         <p>Torsional stiffness around the 2st member</p>
@@ -283,7 +312,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Resistance fi2 [MNm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.05</td>
+      <td style="text-align:center">0.05</td>
       <td style="text-align:left">yes, if fi2 = Non linear</td>
       <td style="text-align:left">
         <p>Torsional resistance around the 2st member</p>
@@ -293,7 +322,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Stiffness fi [MNm/rad]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">4.0</td>
+      <td style="text-align:center">4.0</td>
       <td style="text-align:left">yes, if fi = Flexible or Non linear</td>
       <td style="text-align:left">
         <p>Torsional stiffness of the RigidCross</p>
@@ -303,7 +332,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Resistance fi [MNm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0.25</td>
+      <td style="text-align:center">0.25</td>
       <td style="text-align:left">yes, if fi = Non linear</td>
       <td style="text-align:left">
         <p>Torsional resistance of the RigidCross</p>
@@ -313,7 +342,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Is filled for objects created be dividing curved geometry to series of
@@ -329,7 +358,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

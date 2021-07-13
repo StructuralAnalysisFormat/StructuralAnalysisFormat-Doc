@@ -13,7 +13,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,14 +22,14 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">AD1</td>
+      <td style="text-align:center">AD1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the Arbitrary definition</td>
     </tr>
     <tr>
       <td style="text-align:left">Cross sections #</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">CS1,CS2 CS3</td>
+      <td style="text-align:center">CS1,CS2 CS3</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>The value refers to name of existing cross section.</p>
@@ -46,7 +46,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Span #</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,3</td>
+      <td style="text-align:center">0,3</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Relative length of the segment.</p>
@@ -59,16 +59,26 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Alignment #</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Centre</p>
-        <p>Top</p>
+      <td style="text-align:center">
+        <p>Centre
+          <br />
+        </p>
+        <p>Top
+          <br />
+        </p>
         <p>Bottom</p>
-        <p>Left</p>
-        <p>Right</p>
-        <p>Top left</p>
-        <p>Top right</p>
-        <p>Bottom left</p>
-        <p>Bottom right</p>
+        <p>
+          <br />Left</p>
+        <p>
+          <br />Right</p>
+        <p>
+          <br />Top left</p>
+        <p>
+          <br />Top right</p>
+        <p>
+          <br />Bottom left</p>
+        <p>
+          <br />Bottom right</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
@@ -104,14 +114,14 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
     <tr>
       <td style="text-align:left">Segments</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
+      <td style="text-align:center">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines the shape of the curve between two next nodes. The names are separated
         by ; (semicolon) and space.</td>
@@ -119,7 +129,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Begin node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N1</td>
+      <td style="text-align:center">N1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The starting node of the 1D member. Has to be specified in the StructuralPointConnection
         sheet</td>
@@ -127,7 +137,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">End node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N2</td>
+      <td style="text-align:center">N2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The end node of the 1D member. Has to be specified in the StructuralPointConnection
         sheet</td>
@@ -135,7 +145,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Internal nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N77; N78</td>
+      <td style="text-align:center">N77; N78</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Internal nodes belonging to StructuralCurveMember defined in StructuralPointConnection
         Internal nodes are not geometry defining The names of the nodes are separated
@@ -144,19 +154,23 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Length [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">6.425</td>
+      <td style="text-align:center">6.425</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Distance between begin and end node of the curve member in meters</td>
     </tr>
     <tr>
       <td style="text-align:left">Geometrical shape</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Line</p>
-        <p>Circular Arc</p>
-        <p>Parabolic Arc</p>
-        <p>Bezier Spline</p>
-        <p>Polyline</p>
+        <p>
+          <br />Circular Arc</p>
+        <p>
+          <br />Parabolic Arc</p>
+        <p>
+          <br />Bezier Spline</p>
+        <p>
+          <br />Polyline</p>
       </td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Description of the geometrical type of curve member in general. If the
@@ -166,11 +180,14 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">LCS</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>y by vector</p>
-        <p>z by vector</p>
-        <p>y by point</p>
-        <p>z by point</p>
+        <p>
+          <br />z by vector</p>
+        <p>
+          <br />y by point</p>
+        <p>
+          <br />z by point</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Local coordinate system. This item specifies the way the local axes of
@@ -179,7 +196,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">LCS Rotation [deg]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">45.00</td>
+      <td style="text-align:center">45.00</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">This value defines the rotation of local axes of the 1D member around
         its x-axis</td>
@@ -187,37 +204,45 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Coordinate X [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,0</td>
+      <td style="text-align:center">0,0</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in X direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Y [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,1</td>
+      <td style="text-align:center">0,1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Y direction</td>
     </tr>
     <tr>
       <td style="text-align:left">Coordinate Z [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,0</td>
+      <td style="text-align:center">0,0</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Coordinate of the vector of the LCS in Z direction</td>
     </tr>
     <tr>
       <td style="text-align:left">System line</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Centre</p>
-        <p>Top</p>
-        <p>Bottom</p>
-        <p>Left</p>
-        <p>Right</p>
-        <p>Top left</p>
-        <p>Top right</p>
-        <p>Bottom left</p>
-        <p>Bottom right</p>
+        <p>
+          <br />Top</p>
+        <p>
+          <br />Bottom</p>
+        <p>
+          <br />Left</p>
+        <p>
+          <br />Right</p>
+        <p>
+          <br />Top left</p>
+        <p>
+          <br />Top right</p>
+        <p>
+          <br />Bottom left</p>
+        <p>
+          <br />Bottom right</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The system line is in fact the local x-axis of the member. The attribute
@@ -232,7 +257,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Structural Y Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-150</td>
+      <td style="text-align:center">-150</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -244,7 +269,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Structural Z Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -256,7 +281,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Structural Y Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -268,7 +293,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Structural Z Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -280,7 +305,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Analysis Y Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -292,7 +317,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Analysis Z Eccentricity of Beg Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -304,7 +329,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Analysis Y Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -316,7 +341,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Analysis Z Eccentricity of End Node [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">75</td>
+      <td style="text-align:center">75</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Define the position difference between a physical element and its analytical
@@ -328,7 +353,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Layer</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">1st floor</td>
+      <td style="text-align:center">1st floor</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Custom created layer. The layer can thus comprise entities that have something
         in common (e.g. one floor, columns of one floor, columns of the same length,
@@ -337,11 +362,15 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Behaviour in analysis</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Standard</p>
-        <p>Axial force only</p>
-        <p>Compression only</p>
-        <p>Tension only</p>
+        <p>
+          <br />Axial force only</p>
+        <p>
+          <br />Compression
+          <br />only</p>
+        <p>
+          <br />Tension only</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">From the finite element analysis point of view, the 1D member can act
@@ -353,7 +382,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Color</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">#7FFFFF00</td>
+      <td style="text-align:center">#7FFFFF00</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Defines colour and transparency of the object. Colour is defined by Hex
         format #AARRGGBB. Transparency is controlled by the alpha channel AA. If
@@ -362,7 +391,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Is filled for objects created be dividing curved geometry to series of
         straight line objects. Parent ID will ensure that curved edge is imported
@@ -374,7 +403,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

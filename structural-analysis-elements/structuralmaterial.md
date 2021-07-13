@@ -11,7 +11,7 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -20,19 +20,29 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">S235</td>
+      <td style="text-align:center">S235</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the material *see notes</td>
     </tr>
     <tr>
       <td style="text-align:left">Type</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Concrete</p>
-        <p>Steel</p>
-        <p>Timber</p>
-        <p>Aluminium</p>
-        <p>Masonry</p>
+      <td style="text-align:center">
+        <p>Concrete
+          <br />
+        </p>
+        <p>Steel
+          <br />
+        </p>
+        <p>Timber
+          <br />
+        </p>
+        <p>Aluminium
+          <br />
+        </p>
+        <p>Masonry
+          <br />
+        </p>
         <p>Other</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -41,7 +51,7 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
     <tr>
       <td style="text-align:left">Subtype</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Hot rolled</td>
+      <td style="text-align:center">Hot rolled</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">The subtype of the material, e.g. hot rolled, cold formed, stainless steel,
         prestressed concrete, fiber-reinforced concrete, UHPC etc.</td>
@@ -49,7 +59,7 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
     <tr>
       <td style="text-align:left">Quality</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">S235</td>
+      <td style="text-align:center">S235</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>The quality grade of the material. Use a commonly known naming of grades
@@ -62,42 +72,42 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
     <tr>
       <td style="text-align:left">Unit mass [kg/m3]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">7850</td>
+      <td style="text-align:center">7850</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Self-weight of the material</td>
     </tr>
     <tr>
       <td style="text-align:left">E modulus [MPa]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">210000</td>
+      <td style="text-align:center">210000</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Young&apos;s modulus of elasticity</td>
     </tr>
     <tr>
       <td style="text-align:left">G modulus [MPa]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">12500</td>
+      <td style="text-align:center">12500</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Shear modulus</td>
     </tr>
     <tr>
       <td style="text-align:left">Poisson Coefficient</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,2</td>
+      <td style="text-align:center">0,2</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Poisson coefficient</td>
     </tr>
     <tr>
       <td style="text-align:left">Thermal expansion [1/K]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,000012</td>
+      <td style="text-align:center">0,000012</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">The coefficient of thermal expansion of the material</td>
     </tr>
     <tr>
       <td style="text-align:left">Design properties</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">1|1.1; 2|4.8; 9|1100</td>
+      <td style="text-align:center">1|1.1; 2|4.8; 9|1100</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Custom design characteristics of the material. The format of the data
         has to follow this convention: &quot;label of the design property&quot;
@@ -107,28 +117,28 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
+      <td style="text-align:center">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
     <tr>
       <td style="text-align:left">Poisson Coefficient</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,2</td>
+      <td style="text-align:center">0,2</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Poisson coefficient</td>
     </tr>
     <tr>
       <td style="text-align:left">Thermal expansion [1/K]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">0,000012</td>
+      <td style="text-align:center">0,000012</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">The coefficient of thermal expansion of the material</td>
     </tr>
     <tr>
       <td style="text-align:left">Design properties</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">1|1.1; 2|4.8; 9|1100</td>
+      <td style="text-align:center">1|1.1; 2|4.8; 9|1100</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Custom design characteristics of the material. The format of the data
         has to follow this convention: &quot;label of the design property&quot;
@@ -138,7 +148,7 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
+      <td style="text-align:center">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

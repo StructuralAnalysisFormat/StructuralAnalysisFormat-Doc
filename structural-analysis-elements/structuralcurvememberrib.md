@@ -13,7 +13,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,21 +22,21 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">B1</td>
+      <td style="text-align:center">B1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the rib</td>
     </tr>
     <tr>
       <td style="text-align:left">2D member</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">S1</td>
+      <td style="text-align:center">S1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the structural surface member on which the rib is placed</td>
     </tr>
     <tr>
       <td style="text-align:left">Cross section</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">CS1</td>
+      <td style="text-align:center">CS1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name reference to the existing, valid name of the StructuralCrossSection
         object.</td>
@@ -44,7 +44,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N1;N2</td>
+      <td style="text-align:center">N1;N2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">All nodes that belong to the curve member and define its geometric shape.
         The names of the nodes are separated by ; (semicolon) and space. The order
@@ -53,7 +53,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Segments</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Circular Arc</td>
+      <td style="text-align:center">Line; Circular Arc</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines shape of the curve between two next nodes. Supported strings are:
         Line; Circular Arc; Parabolic arc; Bezier; Spline. The names are separated
@@ -62,7 +62,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Begin node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N1</td>
+      <td style="text-align:center">N1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The starting node of the 1D member. Has to be specified in the StructuralPointConnection
         sheet</td>
@@ -70,7 +70,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">End node</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N2</td>
+      <td style="text-align:center">N2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The end node of the 1D member. Has to be specified in the StructuralPointConnection
         sheet</td>
@@ -78,7 +78,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Internal nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N17; N18</td>
+      <td style="text-align:center">N17; N18</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Internal nodes belonging to StructuralCurveMemberRib defined in StructuralPointConnection
         Internal nodes are not geometry defining The names of the nodes are separated
@@ -87,19 +87,29 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Length [m]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">5,37</td>
+      <td style="text-align:center">5,37</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Distance between begin and end node of the curve member in meters</td>
     </tr>
     <tr>
       <td style="text-align:left">Geometrical shape</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Line</p>
-        <p>Circular Arc</p>
-        <p>Parabolic Arc</p>
-        <p>Bezier</p>
-        <p>Spline</p>
+      <td style="text-align:center">
+        <p>Line
+          <br />
+        </p>
+        <p>Circular Arc
+          <br />
+        </p>
+        <p>Parabolic Arc
+          <br />
+        </p>
+        <p>Bezier
+          <br />
+        </p>
+        <p>Spline
+          <br />
+        </p>
         <p>Polyline</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -110,10 +120,12 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Alignment</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Bottom</p>
-        <p>Centre</p>
-        <p>Top</p>
+        <p>
+          <br />Centre</p>
+        <p>
+          <br />Top</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">This property item determines the position of the system-lines on the
@@ -123,7 +135,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Eccentricity ez [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">150</td>
+      <td style="text-align:center">150</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Eccentricity of the member system line in Z direction of the local coordinate
         system from the centre of the gravity of the cross-section</td>
@@ -131,10 +143,14 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Type of connection</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Full shear connection</p>
-        <p>Partial shear connection</p>
-        <p>Without Composite Action</p>
+        <p>
+          <br />Partial shear connection</p>
+        <p>
+          <br />Without Composite Action
+          <br />
+        </p>
         <p>User Defined Eccentricity</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -153,11 +169,14 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Shape of the rib</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>T Symmetric</p>
-        <p>Right</p>
-        <p>Left</p>
-        <p>T Non-symmetric</p>
+        <p>
+          <br />Right</p>
+        <p>
+          <br />Left</p>
+        <p>
+          <br />T Non-symmetric</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Determines the shape of the effective width of the rib</td>
@@ -165,7 +184,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Layer</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Layer 1</td>
+      <td style="text-align:center">Layer 1</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Custom created layer. The layer can thus comprise entities that have something
         in common (e.g. one floor, columns of one floor, columns of the same length,
@@ -174,9 +193,10 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Behaviour in analysis</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Standard</p>
-        <p>Axial Force Only</p>
+        <p>
+          <br />Axial Force Only</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">From the finite element analysis point of view, the 1D member can act
@@ -188,9 +208,10 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Effective width</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <p>Number Of Thickness</p>
-        <p>Width</p>
+        <p>
+          <br />Width</p>
       </td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Determines the method which is considered for specifying the effective
@@ -201,7 +222,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Width left for check [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">500</td>
+      <td style="text-align:center">500</td>
       <td style="text-align:left">yes, if Shape of the rib is Right, Left or T Non-symmetric</td>
       <td style="text-align:left">Effective width on the left side (depends on LCS), used for check. If
         Effective width is set to &quot;Number Of Thickness&quot;, then inputted
@@ -210,7 +231,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Width right for check [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">500</td>
+      <td style="text-align:center">500</td>
       <td style="text-align:left">yes, if Shape of the rib is Right, Left or T Non-symmetric</td>
       <td style="text-align:left">Effective width on the right side (depends on LCS), used for check. If
         Effective width is set to &quot;Number Of Thickness&quot;, then inputted
@@ -219,7 +240,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Width left for internal forces [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">500</td>
+      <td style="text-align:center">500</td>
       <td style="text-align:left">yes, if Shape of the rib is Right, Left or T Non-symmetric</td>
       <td style="text-align:left">Effective width on the left side (depends on LCS), used for calculation
         of internal forces. If Effective width is set to &quot;Number Of Thickness&quot;,
@@ -228,7 +249,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Width right for internal forces [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">500</td>
+      <td style="text-align:center">500</td>
       <td style="text-align:left">yes, if Shape of the rib is Right, Left or T Non-symmetric</td>
       <td style="text-align:left">Effective width on the right side (depends on LCS), used for calculation
         of internal forces. If Effective width is set to &quot;Number Of Thickness&quot;,
@@ -237,7 +258,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Color</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">#808080</td>
+      <td style="text-align:center">#808080</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Defines color and transparency of the object. Color is defined by Hex
         format #AARRGGBB. Transparency is controlled by the alpha channel AA. If
@@ -246,7 +267,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Is filled for objects created be dividing curved geometry to series of
         straight line objects. Parent ID will ensure that curved edge is imported
@@ -258,7 +279,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

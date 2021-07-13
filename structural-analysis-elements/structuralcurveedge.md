@@ -17,7 +17,7 @@ If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -26,14 +26,14 @@ If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">IE1</td>
+      <td style="text-align:center">IE1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the internal edge</td>
     </tr>
     <tr>
       <td style="text-align:left">2D member</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">S2</td>
+      <td style="text-align:center">S2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the <a href="structuralsurfacemember.md">StructuralSurfaceMember</a> (plate,
         wall) on which the internal edge is placed</td>
@@ -41,7 +41,7 @@ If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember
     <tr>
       <td style="text-align:left">Nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N1; N2</td>
+      <td style="text-align:center">N1; N2</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>All nodes that belong to the curve edge and define its geometric shape.</p>
@@ -52,7 +52,7 @@ If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember
     <tr>
       <td style="text-align:left">Segments</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
+      <td style="text-align:center">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">
         <p>Defines the shape of the curve between two next nodes.</p>
@@ -69,7 +69,7 @@ If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Is filled for objects created be dividing curved geometry to series of
@@ -83,7 +83,7 @@ If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">36606732-25e0-4fd7-ae35-bb8cb1bdcf46</td>
+      <td style="text-align:center">36606732-25e0-4fd7-ae35-bb8cb1bdcf46</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>

@@ -13,7 +13,7 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <th style="text-align:left">Name of the column header</th>
       <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
+      <th style="text-align:center">Value example or enum definition</th>
       <th style="text-align:left">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
@@ -22,21 +22,21 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">Name</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">R1</td>
+      <td style="text-align:center">R1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Human readable unique name of the object</td>
     </tr>
     <tr>
       <td style="text-align:left">Material</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">MAT_1</td>
+      <td style="text-align:center">MAT_1</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name reference to the existing, valid name of the <a href="https://saf.guide/Content/A_Objects/3_StructuralMaterial.htm">StructuralMaterial</a> object.</td>
     </tr>
     <tr>
       <td style="text-align:left">Thickness [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">200</td>
+      <td style="text-align:center">200</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The thickness of the StructuralSurfaceMemberRegion Thickness is considered
         in total.</td>
@@ -44,9 +44,13 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">System plane at</td>
       <td style="text-align:left">Enum</td>
-      <td style="text-align:left">
-        <p>Bottom</p>
-        <p>Centre</p>
+      <td style="text-align:center">
+        <p>Bottom
+          <br />
+        </p>
+        <p>Centre
+          <br />
+        </p>
         <p>Top</p>
       </td>
       <td style="text-align:left">yes</td>
@@ -58,7 +62,7 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">2D Member</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">S13</td>
+      <td style="text-align:center">S13</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> to
         which is the region situated.</td>
@@ -66,7 +70,7 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">Nodes</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">N81; N263; N659; N660</td>
+      <td style="text-align:center">N81; N263; N659; N660</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">All nodes that belong to StructuralSurfaceMemberRegion and define its
         geometric shape. The names of the nodes are separated by ; (semicolon)
@@ -75,7 +79,7 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">Edges</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Line; Line; Line; Line</td>
+      <td style="text-align:center">Line; Line; Line; Line</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">Defines shape of the curve between two next nodes. Supported strings are:
         Line; Bezier; Circular Arc; Parabolic arc; Spline; Circle and Point; Circle
@@ -84,7 +88,7 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">Eccentricity ez [mm]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">-125</td>
+      <td style="text-align:center">-125</td>
       <td style="text-align:left">yes</td>
       <td style="text-align:left">The eccentricity of the slab may be input. Eccentricity is measured from
         the system plane &#x2013; local x and y-axis and the direction is in local
@@ -93,14 +97,14 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">Area [m2]</td>
       <td style="text-align:left">Double</td>
-      <td style="text-align:left">1.485</td>
+      <td style="text-align:center">1.485</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">The value of the surface area of the StructuralSurfaceMemberRegion</td>
     </tr>
     <tr>
       <td style="text-align:left">Parent ID</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Is filled for objects created be dividing curved geometry to series of
@@ -116,7 +120,7 @@ This object defines particular areas of the StructuralSurfaceMember with differe
     <tr>
       <td style="text-align:left">Id</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
       <td style="text-align:left">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
