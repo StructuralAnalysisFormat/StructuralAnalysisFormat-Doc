@@ -4,6 +4,14 @@
 Current version 2.0.0
 {% endhint %}
 
+## Specification improvements
+
+Improvements in the specification are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.  
+  
+15.7.2021 [StructuralLoadGroup](../loads/structuralloadgroup.md): 
+
+* "Load type" string: condition moved from description \(required only for "Load group type" = Variable\)
+
 ## Release notes
 
 ### 21.12.2020 - Version 2.0.0
