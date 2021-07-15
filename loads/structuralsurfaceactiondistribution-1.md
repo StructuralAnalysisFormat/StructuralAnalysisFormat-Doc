@@ -179,7 +179,7 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
       <td style="text-align:left">Load applied to</td>
       <td style="text-align:left">String</td>
       <td style="text-align:center">B1 ; B2 ; B3 ; B5</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">
         <p>Allows to define the subset of loaded <b>beams</b>.</p>
         <p>Taken into account only if <b>Type = Beams and edges</b>

@@ -47,9 +47,13 @@ Load groups define "how the individual load cases may be combined together" if i
       <td style="text-align:left">
         <p>This parameters tell whether the load group is used for permanent or variable
           loads.</p>
+        <p></p>
         <p>Applicable Load group types for:</p>
+        <p></p>
         <p><b>Permanent load case:</b> Permanent</p>
+        <p></p>
         <p><b>Variable load case:</b> Variable, Seismic, Moving, Tensioning, Fire</p>
+        <p></p>
         <p><b>Accidental load case:</b> Accidental</p>
       </td>
     </tr>
@@ -67,14 +71,16 @@ Load groups define "how the individual load cases may be combined together" if i
       <td style="text-align:left">
         <p>The relation tells what the relation of load cases in the particular load
           group is.</p>
-        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <p></p>
         <p><b>Exclusive</b>: Two load cases from the same load group of this type
           will never appear in the same combination.
           <br />Applicable for Load group types: Variable, Accidental, Seismic, Moving,
           Tensioning, Fire</p>
+        <p></p>
         <p><b>Standard</b>: It allows the user to sort load cases but it does not
           affect the process of generation of load case combinations.</p>
         <p>Applicable for Load group types: All</p>
+        <p></p>
         <p><b>Together</b>: All load cases in the same load group of this type are
           always inserted into every new load case combination</p>
         <p>Applicable for Load group types: Permanent</p>

@@ -12,6 +12,10 @@ Improvements in the specification are not changing the functionality or compatib
 
 * "Load type" string: condition moved from description \(required only for "Load group type" = Variable\)
 
+15.7.2021 [StructuralSurfaceActionDistribution](../loads/structuralsurfaceactiondistribution-1.md):
+
+* "Load applied to" string: attribute is not required \(required string was in contradiction with description\) ​​​​​​​
+
 ## Release notes
 
 ### 21.12.2020 - Version 2.0.0
