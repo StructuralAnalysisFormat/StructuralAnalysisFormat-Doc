@@ -30,6 +30,18 @@ Latest released version: 2.0.0
 * new attribute: "Combination key"
 * edited attributes: Case, Load case, Load combination, Member replaced by Member and Member Rib
 
+## Specification improvements
+
+Improvements in the specification are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
+
+15.7.2021 [StructuralLoadGroup](../loads/structuralloadgroup.md):
+
+* "Load type" string: condition moved from description \(required only for "Load group type" = Variable\)
+
+15.7.2021 [StructuralSurfaceActionDistribution](../loads/structuralsurfaceactiondistribution-1.md):
+
+* "Load applied to" string: attribute is not required \(required string was in contradiction with description\) ​​​​​​​
+
 ## Release notes
 
 ### 21.12.2020 - Version 2.0.0
