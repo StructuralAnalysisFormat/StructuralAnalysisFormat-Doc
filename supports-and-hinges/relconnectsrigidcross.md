@@ -285,12 +285,11 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
       <td style="text-align:center">Stiffness fi1 [MNm/rad]</td>
       <td style="text-align:center">Double</td>
       <td style="text-align:center">1.0</td>
-      <td style="text-align:center">yes, if fi1 = Flexible, Flexible compression/tension only or Non linear</td>
-      <td
-      style="text-align:left">
+      <td style="text-align:center">yes, if fi1 = Flexible or Non linear</td>
+      <td style="text-align:left">
         <p>Torsional stiffness around the 1st member</p>
         <p>Use this property only if the fi1 is set Flexible or Non linear</p>
-        </td>
+      </td>
     </tr>
     <tr>
       <td style="text-align:center">Resistance fi1 [MNm]</td>
@@ -306,7 +305,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
       <td style="text-align:center">Stiffness fi2 [MNm/rad]</td>
       <td style="text-align:center">Double</td>
       <td style="text-align:center">1.0</td>
-      <td style="text-align:center">yes, if fi2 = Flexible, or Non linear</td>
+      <td style="text-align:center">yes, if fi2 = Flexible or Non linear</td>
       <td style="text-align:left">
         <p>Torsional stiffness around the 2st member</p>
         <p>Use this property only if the fi2 is set Flexible or Non linear</p>
