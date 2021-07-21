@@ -67,7 +67,9 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
         <p>
           <br />Rigid</p>
         <p>
-          <br />Flexible</p>
+          <br />Flexible
+          <br />
+        </p>
         <p>Compression only</p>
         <p>
           <br />Tension only</p>
@@ -97,7 +99,9 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
         <p>
           <br />Rigid</p>
         <p>
-          <br />Flexible</p>
+          <br />Flexible
+          <br />
+        </p>
         <p>Compression only</p>
         <p>
           <br />Tension only</p>
@@ -127,7 +131,9 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
         <p>
           <br />Rigid</p>
         <p>
-          <br />Flexible</p>
+          <br />Flexible
+          <br />
+        </p>
         <p>Compression only</p>
         <p>
           <br />Tension only</p>
