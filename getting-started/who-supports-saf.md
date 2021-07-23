@@ -699,11 +699,14 @@ See below overview tables which will give you an idea of who supports SAF and to
           <img src="../.gitbook/assets/1_sofistik.png" alt="1" />&#x200B;</p>
         <p>Sofistik</p>
       </th>
+      <th style="text-align:center">
+        <img src="../.gitbook/assets/1_consteel.png" alt/>ConSteel</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left"></td>
+      <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
       <td style="text-align:center">Yes</td>
