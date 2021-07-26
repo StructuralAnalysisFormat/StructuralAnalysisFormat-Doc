@@ -116,37 +116,6 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
       <td style="text-align:center">no</td>
       <td style="text-align:left">Unique attribute designation</td>
     </tr>
-    <tr>
-      <td style="text-align:center">Poisson Coefficient</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">0,2</td>
-      <td style="text-align:center">no</td>
-      <td style="text-align:left">Poisson coefficient</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Thermal expansion [1/K]</td>
-      <td style="text-align:center">Double</td>
-      <td style="text-align:center">0,000012</td>
-      <td style="text-align:center">no</td>
-      <td style="text-align:left">The coefficient of thermal expansion of the material</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Design properties</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">1|1.1; 2|4.8; 9|1100</td>
-      <td style="text-align:center">no</td>
-      <td style="text-align:left">Custom design characteristics of the material. The format of the data
-        has to follow this convention: &quot;label of the design property&quot;
-        &quot;|&quot; &quot;value of the design property&quot; The list of available
-        properties with indexes can be found in Annex.</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Id</td>
-      <td style="text-align:center">String</td>
-      <td style="text-align:center">6bbd256e-0225-4ee5-91e5-c7ef791a33cb</td>
-      <td style="text-align:center">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
   </tbody>
 </table>
 
