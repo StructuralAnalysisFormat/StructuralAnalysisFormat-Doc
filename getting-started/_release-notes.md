@@ -44,6 +44,35 @@ Improvements in the specification are not changing the functionality or compatib
 
 ## Release notes
 
+### 29.7.2021 - Fixing flaws in SAF spec v1.0.9 and v2.0.0
+
+Following changes were done based on the proposal discussed on [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/7) - discussion, [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/issues/11) - issue. 
+
+[StructuralSurfaceAction](../loads/structuralsurfaceaction.md) \(SAF 1.0.9\)
+
+* added new column: "2D member distribution" - reference to StructuralSurfaceActionDistri
+* added new column: "Force action" - enum defining on which object is load applies \(On 2D member, On 2D member region, On 2D member distribution\)
+* change of a rule: "2D member column" required only if Force action = "On 2D member"
+
+[StructuralSurfaceActionDistri](../loads/structuralsurfaceactiondistribution-1.md) \(SAF 1.0.9\)
+
+* Object renamed from StructuralSurfaceActionDistribution to StructuralSurfaceActionDistri. Original name exceeds the allowed number of characters for the name of an excel sheet \(31 characters\).
+
+[StructuralCurveAction](../loads/structuralcurveaction.md) \(SAF 2.0.0\)
+
+* new column added for reference: "2D member region" - reference to StructuralSurfaceMemberRegion
+* new column added for reference: "2D member opening" - reference to StructuralSurfaceMemberOpening
+
+[StructuralCurveMoment](../loads/structuralcurvemoment.md) \(SAF 2.0.0\)
+
+* new column added for reference: "2D member region" - reference to StructuralSurfaceMemberRegion
+* new column added for reference: "2D member opening" - reference to StructuralSurfaceMemberOpening
+
+[StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md) \(SAF 2.0.0\)
+
+* new column added for reference: "2D member region" - reference to StructuralSurfaceMemberRegion
+* new column added for reference: "2D member opening" - reference to StructuralSurfaceMemberOpening
+
 ### 21.12.2020 - Version 2.0.0
 
 In version 2.0.0:

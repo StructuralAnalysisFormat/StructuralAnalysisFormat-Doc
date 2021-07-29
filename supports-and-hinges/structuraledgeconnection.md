@@ -59,11 +59,25 @@ Object definition for a line support on a 2D member \([StructuralSurfaceMember](
       <td style="text-align:center">2D Member</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">S3</td>
-      <td style="text-align:center">yes</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> or
-        <a
-        href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md#opening-in-surface-member">StructuralSurfaceMemberOpening</a> of
-          affected edge.</td>
+      <td style="text-align:center">yes, if Boundary condition = On edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> of
+        affected edge.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2D Member Region</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">R1</td>
+      <td style="text-align:center">yes, if Boundary condition action = On subregion edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md">StructuralSurfaceMemberRegion</a> on
+        which is the load applied.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2D Member Opening</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">O1</td>
+      <td style="text-align:center">yes, if Boundary condition action = On opening edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberopening.md">StructuralSurfaceMemberOpening </a>on
+        which is the load applied.</td>
     </tr>
     <tr>
       <td style="text-align:center">Edge</td>
@@ -71,7 +85,10 @@ Object definition for a line support on a 2D member \([StructuralSurfaceMember](
       <td style="text-align:center">1</td>
       <td style="text-align:center">yes</td>
       <td style="text-align:left">The index of edge of the surface member. The index starting with 1. The
-        order is according to order of &#x201C;edges&#x201D; property at <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a>.</td>
+        order is according to order of &#x201C;edges&#x201D; property at <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a>,
+        <a
+        href="../structural-analysis-elements/structuralsurfacememberregion.md">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md">StructuralSurfaceMemberOpening</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:center">ux</td>

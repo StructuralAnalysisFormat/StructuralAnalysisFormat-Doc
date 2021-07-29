@@ -1,4 +1,4 @@
-# StructuralSurfaceActionDistribution
+# StructuralSurfaceActionDistri
 
 ## Load panels, Load distribution
 

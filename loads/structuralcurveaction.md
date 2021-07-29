@@ -136,7 +136,7 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
       <td style="text-align:center">String</td>
       <td style="text-align:center">B11</td>
       <td style="text-align:center">yes, if Force action = On beam</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm">StructuralCurveMember</a> on
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md">StructuralCurveMember </a>on
         which the load is applied</td>
     </tr>
     <tr>
@@ -144,36 +144,53 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
       <td style="text-align:center">String</td>
       <td style="text-align:center">B11</td>
       <td style="text-align:center">yes, if Force action = On rib</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/25_StructuralCurveMemberRib.htm">StructuralCurveMemberRib</a> on
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvememberrib.md">StructuralCurveMemberRib </a>on
         which the load is applied</td>
     </tr>
     <tr>
       <td style="text-align:center">2D Member</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">S1</td>
-      <td style="text-align:center">yes, if Force action = On edge
-        <br />or On subregion edge
-        <br />or On opening edge</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> or
-        <a
-        href="https://saf.guide/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm">StructuralSurfaceMemberRegion</a>or <a href="https://saf.guide/Content/A_Objects/9_StructuralSurfaceMemberOpening.htm">StructuralSurfaceMemberOpening</a> on
-          which the load is applied. <a href="https://saf.guide/Content/A_Objects/19_StructuralCurveAction.htm#">StructuralCurveAction</a> can
-          act either on a 2D member edge or on internal edge.</td>
+      <td style="text-align:center">yes, if Force action = On edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md">StructuralSurfaceMember</a> which
+        the load is applied.
+        <br /><a href="structuralcurveaction.md">StructuralCurveAction</a> can act either
+        on a 2D member edge or on internal edge.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2D Member Region</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">R1</td>
+      <td style="text-align:center">yes, if Force action = On subregion edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md">StructuralSurfaceMemberRegion</a> on
+        which is the load applied.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2D Member Opening</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">O1</td>
+      <td style="text-align:center">yes, if Force action = On opening edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberopening.md">StructuralSurfaceMemberOpening</a> on
+        which is the load applied.</td>
     </tr>
     <tr>
       <td style="text-align:center">Edge</td>
       <td style="text-align:center">Integer</td>
       <td style="text-align:center">1</td>
-      <td style="text-align:center">yes, if Force action acts on 2D Member edge</td>
-      <td style="text-align:left">Index of the edge of the the <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> on
-        which the load is applied</td>
+      <td style="text-align:center">yes, if Force action = On edge, On subregion edge or On opening edge</td>
+      <td
+      style="text-align:left">Index of the edge of the <a href="../structural-analysis-elements/structuralsurfacemember.md">StructuralSurfaceMember,</a> 
+        <a
+        href="../structural-analysis-elements/structuralsurfacememberregion.md">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberregion.md">StructuralSurfaceMemberOpening</a> on
+          which the load is applied</td>
     </tr>
     <tr>
       <td style="text-align:center">Internal edge</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">ES2</td>
-      <td style="text-align:center">yes, if Force action = On edge</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/6_StructuralCurveEdge.htm">StructuralCurveEdge</a> on
+      <td style="text-align:center">yes, if Force action = On edge and<em> </em>Edge column has not value</td>
+      <td
+      style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/6_StructuralCurveEdge.htm">StructuralCurveEdge</a> on
         which is the load applied. <a href="https://saf.guide/Content/A_Objects/19_StructuralCurveAction.htm#">StructuralCurveAction</a> can
         act either on a 2D member edge or on internal edge.</td>
     </tr>

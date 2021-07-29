@@ -49,6 +49,19 @@ Defines actions on surfaces – plates, walls. The surface load is defined on th
         Pressure, Soil Pressure, Generated Water, Generated Soil</td>
     </tr>
     <tr>
+      <td style="text-align:center">Force action</td>
+      <td style="text-align:center">Enum</td>
+      <td style="text-align:center">
+        <p>On 2D member</p>
+        <p></p>
+        <p>On 2D member region</p>
+        <p></p>
+        <p>On 2D member distribution</p>
+      </td>
+      <td style="text-align:center">yes</td>
+      <td style="text-align:left">Specifies on which type of object the load acts</td>
+    </tr>
+    <tr>
       <td style="text-align:center">Value [kN/m2]</td>
       <td style="text-align:center">Double</td>
       <td style="text-align:center">-10</td>
@@ -59,26 +72,33 @@ Defines actions on surfaces – plates, walls. The surface load is defined on th
       <td style="text-align:center">2D Member</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">S15</td>
-      <td style="text-align:center">yes</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> or
-        <a
-        href="https://saf.guide/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm">StructuralSurfaceActionDistribution</a>which is the surface load related
-          to.</td>
+      <td style="text-align:center">yes, if Force action = On 2D member</td>
+      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> to
+        which is the surface load related to</td>
     </tr>
     <tr>
       <td style="text-align:center">2D Member Region</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">R1</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:center">yes, if Force action = On 2D member region</td>
       <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm">StructuralSurfaceMemberRegion</a> to
-        which is the surface action related if it is available on 2D member.</td>
+        which is the surface load related to</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2D Member Distribution</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">FL1</td>
+      <td style="text-align:center">yes, if Force action = On 2D member distribution</td>
+      <td style="text-align:left">The name of <a href="https://saf.guide/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm">StructuralSurfaceActionDistribution</a> to
+        which is the surface load related to</td>
     </tr>
     <tr>
       <td style="text-align:center">Load case</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">LC5</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">The name of the load case to which the force belongs</td>
+      <td style="text-align:left">The name of <a href="structuralloadcase.md">StructuralLoadCase</a> the load
+        case to which the force belongs</td>
     </tr>
     <tr>
       <td style="text-align:center">Coordinate system</td>
