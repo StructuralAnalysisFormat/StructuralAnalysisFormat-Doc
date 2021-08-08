@@ -18,6 +18,27 @@ Improvements in the specification are not changing the functionality or compatib
 
 ## Release notes
 
+### 29.7.2021 - Fixing flaws in SAF spec v1.0.9 and v2.0.0
+
+Following changes were done based on the proposal discussed on [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/7). 
+
+[StructuralSurfaceActionDistri](../loads/structuralsurfaceactiondistribution-1.md) \(SAF 1.0.9\)
+
+* Object renamed from StructuralSurfaceActionDistribution to StructuralSurfaceActionDistri. Original name exceeds the allowed number of characters for the name of an excel sheet.
+
+  
+[StructuralCurveAction](../loads/structuralcurveaction.md) \(SAF 2.0.0\)
+
+* new 2 columns added for references: "2D member region" and "2D member opening"
+
+[StructuralCurveMoment](../loads/structuralcurvemoment.md) \(SAF 2.0.0\)
+
+* new 2 columns added for references: "2D member region" and "2D member opening"
+
+[StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md) \(SAF 2.0.0\)
+
+* new 2 columns added for references: "2D member region" and "2D member opening"
+
 ### 21.12.2020 - Version 2.0.0
 
 In version 2.0.0:

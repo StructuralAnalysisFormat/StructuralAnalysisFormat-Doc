@@ -116,21 +116,38 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
       <td style="text-align:left">String</td>
       <td style="text-align:center">S1</td>
       <td style="text-align:left">yes, if Force action = On edge
-        <br />or On subregion edge
-        <br />or On opening edge</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> or
-        <a
-        href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md#opening-in-surface-member">StructuralSurfaceMemberOpening</a> on
-          which the load is applied. <a href="structuralcurveaction.md#line-force-on-the-beam">StructuralCurveAction</a> can
-          act either on a 2D member edge or on internal edge.</td>
+        <br />
+      </td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> on
+        which the load is applied. <a href="structuralcurveaction.md#line-force-on-the-beam">StructuralCurveAction</a> can
+        act either on a 2D member edge or on internal edge.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2D Member Region</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:center">R1</td>
+      <td style="text-align:left">yes, if Force action = On subregion edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md">StructuralSurfaceMemberRegion </a>on
+        which is the load applied.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2D Member Opening</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:center">O1</td>
+      <td style="text-align:left">yes, if Force action = On opening edge</td>
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberopening.md">StructuralSurfaceMemberOpening</a> on
+        which is the load applied.</td>
     </tr>
     <tr>
       <td style="text-align:left">Edge</td>
       <td style="text-align:left">Integer</td>
       <td style="text-align:center">1</td>
-      <td style="text-align:left">yes, if Force action acts on 2D Member edge</td>
-      <td style="text-align:left">Index of the edge of the the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> on
-        which the load is applied</td>
+      <td style="text-align:left">yes, if Force action acts on edge of 2D Member edge or 2D member region
+        or 2D member opening</td>
+      <td style="text-align:left">Index of the edge of the the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a>,
+        <a
+        href="../structural-analysis-elements/structuralsurfacememberregion.md">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md">StructuralSurfaceMemberOpening</a> on
+          which the load is applied</td>
     </tr>
     <tr>
       <td style="text-align:left">Internal edge</td>
