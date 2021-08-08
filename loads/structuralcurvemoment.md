@@ -44,7 +44,9 @@ The Line moment load models load distributed over a 1D member \([StructuralCurve
         <p>On subregion</p>
         <p>edge</p>
         <p></p>
-        <p>On opening edge</p>
+        <p>On opening edge
+          <br />
+        </p>
         <p>On rib</p>
       </td>
       <td style="text-align:left">yes</td>
