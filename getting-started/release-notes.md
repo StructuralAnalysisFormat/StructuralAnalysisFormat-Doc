@@ -18,7 +18,7 @@ Improvements in the specification are not changing the functionality or compatib
 
 ## Release notes
 
-### 29.7.2021 - Fixing flaws in SAF spec v1.0.9 and v2.0.0
+### 8.8.2021 - Fixing flaws in SAF spec v1.0.9 and v2.0.0
 
 Following changes were done based on the proposal discussed on [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/7). 
 
