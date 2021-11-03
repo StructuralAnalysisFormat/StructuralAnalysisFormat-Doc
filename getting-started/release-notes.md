@@ -6,38 +6,51 @@ Current version 2.0.0
 
 ## Specification improvements
 
-Improvements in the specification are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.  
-  
-15.7.2021 [StructuralLoadGroup](../loads/structuralloadgroup.md): 
+Improvements in the specification are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
-* "Load type" string: condition moved from description \(required only for "Load group type" = Variable\)
+14.9.2021 Edge indexing issue: [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/15) - discussion&#x20;
+
+* Clear specification provided for edge indexing ([StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md),  [RelConnectsSurfaceEdge](../supports-and-hinges/relconnectssurfaceedge.md),  [RelConnectsRigidMember](../supports-and-hinges/relconnectsrigidmember.md), [StructuralCurveAction](../loads/structuralcurveaction.md), [StructuralCurveMoment](../loads/structuralcurvemoment.md))
+
+15.7.2021 [StructuralLoadGroup](../loads/structuralloadgroup.md):&#x20;
+
+* "Load type" string: condition moved from description (required only for "Load group type" = Variable)
 
 15.7.2021 [StructuralSurfaceActionDistribution](../loads/structuralsurfaceactiondistribution-1.md):
 
-* "Load applied to" string: attribute is not required \(required string was in contradiction with description\) ​​​​​​​
+* "Load applied to" string: attribute is not required (required string was in contradiction with description) ​​​​​​​
 
 ## Release notes
 
 ### 8.8.2021 - Fixing flaws in SAF spec v1.0.9 and v2.0.0
 
-Following changes were done based on the proposal discussed on [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/7). 
+Following changes were done based on the proposal discussed on [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/7) - discussion, [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/issues/11) - issue.&#x20;
 
-[StructuralSurfaceActionDistri](../loads/structuralsurfaceactiondistribution-1.md) \(SAF 1.0.9\)
+[StructuralSurfaceActionDistri](../loads/structuralsurfaceactiondistribution-1.md) (SAF 1.0.9)
 
 * Object renamed from StructuralSurfaceActionDistribution to StructuralSurfaceActionDistri. Original name exceeds the allowed number of characters for the name of an excel sheet.
 
-  
-[StructuralCurveAction](../loads/structuralcurveaction.md) \(SAF 2.0.0\)
+[S](../loads/structuralsurfaceaction.md)[tructuralSurfaceAction](../loads/structuralsurfaceaction.md) (SAF 1.0.9)
 
-* new 2 columns added for references: "2D member region" and "2D member opening"
+* added new column: "2D member distribution" - reference to StructuralSurfaceActionDistri
+* added new column: "Force action" - enum defining on which object is load applies (On 2D member, On 2D member region, On 2D member distribution)
+* change of a rule: "2D member column" required only if Force action = "On 2D member"
 
-[StructuralCurveMoment](../loads/structuralcurvemoment.md) \(SAF 2.0.0\)
+\
+[StructuralCurveAction](../loads/structuralcurveaction.md) (SAF 2.0.0)
 
-* new 2 columns added for references: "2D member region" and "2D member opening"
+* new column added for reference: "2D member region" - reference to StructuralSurfaceMemberRegion
+* new column added for reference: "2D member opening" - reference to StructuralSurfaceMemberOpening
 
-[StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md) \(SAF 2.0.0\)
+[StructuralCurveMoment](../loads/structuralcurvemoment.md) (SAF 2.0.0)
 
-* new 2 columns added for references: "2D member region" and "2D member opening"
+* new column added for reference: "2D member region" - reference to StructuralSurfaceMemberRegion
+* new column added for reference: "2D member opening" - reference to StructuralSurfaceMemberOpening
+
+[StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md) (SAF 2.0.0)
+
+* new column added for reference: "2D member region" - reference to StructuralSurfaceMemberRegion
+* new column added for reference: "2D member opening" - reference to StructuralSurfaceMemberOpening
 
 ### 21.12.2020 - Version 2.0.0
 
@@ -58,7 +71,7 @@ StructuralCurveAction
 
 StructuralEdgeConnection
 
-* Added enum attribute "Boundary condition" to allow input on different types of edges \(2D member, 2D opening, 2D subregion\)
+* Added enum attribute "Boundary condition" to allow input on different types of edges (2D member, 2D opening, 2D subregion)
 
 StructuralCurveMoment - Extended Force action enum by "On subregion edge" and "On opening edge"
 
@@ -98,7 +111,7 @@ In version 1.0.8, few small formal changes was made
 
 * Thermal load for 2D members - removed delta T attribute, to specify single value for constant temperature change, use attribute "TempT "
 * Added Id attribute for Project and Model information
-* "Project nr." changed to "Project nr" \(removed dot\) in Project information
+* "Project nr." changed to "Project nr" (removed dot) in Project information
 * removed "V" in front of SAF version attribute at Model information
 
 ### 13.11.2020 - Version 1.0.7
@@ -113,7 +126,7 @@ StructuralCurveActionThermal
 
 StructuralSurfaceActionThermal
 
-* New types of eccentricities \(structural and analysis\) for
+* New types of eccentricities (structural and analysis) for
 
 StructuralCurveMember and StructuralSurfaceMember
 
@@ -216,7 +229,7 @@ Geometry
 Introduction
 
 * Added general LCS vector description
-* Updated pictures \(LCS is now self explaining\)
+* Updated pictures (LCS is now self explaining)
 
 Project and model specifications
 
@@ -358,7 +371,7 @@ Introduction
 
 RelConnectsRigidLink
 
-* General update of all attributes: Functionality reduced on Nodes only \(due to implementation of internal nodes\), new enums for displacements
+* General update of all attributes: Functionality reduced on Nodes only (due to implementation of internal nodes), new enums for displacements
 * Added new properties
 
 Geometry
@@ -520,7 +533,7 @@ StructuralSurfaceMember
 
 Startup page
 
-* Major update of changes in Version 1.0.0 \(Release Notes\)
+* Major update of changes in Version 1.0.0 (Release Notes)
 
 StructuralPointConnection
 
@@ -566,7 +579,7 @@ Changed objects:
 
 StructuralCrossSection
 
-* Added new types to parametric shapes of Cross-section \(I Section with haunch Asymetric, T Section with haunch, Trapezoid\) - in annex
+* Added new types to parametric shapes of Cross-section (I Section with haunch Asymetric, T Section with haunch, Trapezoid) - in annex
 * Added definition of general cross-section
 * Added support for compound cross-sections
 * Added attributes for analysis properties of the cross-section
@@ -574,7 +587,7 @@ StructuralCrossSection
 StructuralMaterial
 
 * Quality is required value
-* Added new design properties for timber material \(in Annex\)
+* Added new design properties for timber material (in Annex)
 
 StructuralEdgeConnection
 
@@ -582,15 +595,15 @@ StructuralEdgeConnection
 
 StructuralPointSupport
 
-* Added parameters "Compression only", "Tension only" for three translation constraints \(X, Y, Z\)
+* Added parameters "Compression only", "Tension only" for three translation constraints (X, Y, Z)
 
 StructuralCurveConnection
 
-* Added parameters "Compression only", "Tension only" for three translation constraints \(X, Y, Z\)
+* Added parameters "Compression only", "Tension only" for three translation constraints (X, Y, Z)
 
 StructuralEdgeConnection
 
-* Added parameters "Compression only", "Tension only" for three translation constraints \(X, Y, Z\)
+* Added parameters "Compression only", "Tension only" for three translation constraints (X, Y, Z)
 
 StructuralCurveMemberRib
 
@@ -604,7 +617,7 @@ StructuralSurfaceMember
 
 * Added support for variable thickness
 * LCS definition by vector
-* Support for circle slab \(Circle by point, Circle by 3 points\)
+* Support for circle slab (Circle by point, Circle by 3 points)
 
 StructuralPointAction
 
@@ -625,4 +638,3 @@ StructuralSurfaceActionFree
 Model specification
 
 * Added attribute for SAF version
-

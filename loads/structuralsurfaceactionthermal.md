@@ -2,118 +2,18 @@
 
 ## Thermal load on surface elements
 
-The thermal load on the surface elements \([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)\). The variation of the thermal load can be constant or linear over the cross-section of the beam.
+The thermal load on the surface elements ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)). The variation of the thermal load can be constant or linear over the cross-section of the beam.
 
 ### Specification in the excel
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">LT1</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Human readable unique name of the load</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Variation</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Constant</p>
-        <p></p>
-        <p>Linear</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">
-        <p>Specifies how the temperature varies</p>
-        <p>Constant: The load is defined by means of a single value T1. The value
-          specifies the change in temperature of the 2D member (straight &#x394;T).
-          Temperature change is constant along the cross-section.</p>
-        <p>Linear: The load is defined by means of a set of two values T1 and T2.
-          The individual values specify the temperature at individual surfaces -
-          top, bottom of the 2D member.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">TempT [&#xB0;C]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">18</td>
-      <td style="text-align:left">yes
-        <br />
-      </td>
-      <td style="text-align:left">
-        <p>Specifies the first size of the load in Celsius/Fahrenheit.</p>
-        <p>For constant: Delta temperature on the center plane</p>
-        <p>For linear: Temperature of top surface (LCS direction +z) of 2D member</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">TempB [&#xB0;C]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">18</td>
-      <td style="text-align:left">yes, if Variation = Linear</td>
-      <td style="text-align:left">
-        <p>Specifies the second size of the load in Celsius/Fahrenheit.</p>
-        <p>For linear: Temperature of bottom surface (LCS direction -z) of 2D member</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2D Member</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">S15</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralSurfaceMember</a> or
-        <a
-        href="structuralsurfaceactionthermal.md">StructuralSurfaceActionDistribution</a>which is the surface load related
-          to.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2D Member Region</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">R1</td>
-      <td style="text-align:left">yes, if on region</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a> to
-        which is the surface action related if it is available on 2D member.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Load case</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">LC1</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The name of the load case to which the load belongs</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Parent ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">
-        <p>Is filled for objects created be dividing curved geometry to series of
-          straight line objects.
-          <br />
-          <br />Parent ID will ensure that curved edge is imported as straight parts to
-          nonsupporting application, and back to original supporting application
-          as curved geometry.</p>
-        <p>To ensure successful round trip of segmented objects and their related
-          objects, Parent ID needs to be present in both directions.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
-  </tbody>
-</table>
-
+| Name of the column header | Type of data |   Value example or enum definition   | Required value             | Description                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------- | ------------ | :----------------------------------: | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                      | String       |                  LT1                 | yes                        | Human readable unique name of the load                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Variation                 | Enum         |  <p>Constant</p><p></p><p>Linear</p> | yes                        | <p>Specifies how the temperature varies</p><p>Constant: The load is defined by means of a single value T1. The value specifies the change in temperature of the 2D member (straight ΔT). Temperature change is constant along the cross-section.</p><p>Linear: The load is defined by means of a set of two values T1 and T2. The individual values specify the temperature at individual surfaces - top, bottom of the 2D member.</p> |
+| TempT \[°C]               | Double       |                  18                  | <p>yes<br></p>             | <p>Specifies the first size of the load in Celsius/Fahrenheit.</p><p>For constant: Delta temperature on the center plane</p><p>For linear: Temperature of top surface (LCS direction +z) of 2D member</p>                                                                                                                                                                                                                              |
+| TempB \[°C]               | Double       |                  18                  | yes, if Variation = Linear | <p>Specifies the second size of the load in Celsius/Fahrenheit.</p><p>For linear: Temperature of bottom surface (LCS direction -z) of 2D member</p>                                                                                                                                                                                                                                                                                    |
+| 2D Member                 | String       |                  S15                 | yes                        | The name of the [StructuralSurfaceMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column) or [StructuralSurfaceActionDistribution](structuralsurfaceactionthermal.md)which is the surface load related to.                                                                                                                                                                                             |
+| 2D Member Region          | String       |                  R1                  | yes, if on region          | The name of the [StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness) to which is the surface action related if it is available on 2D member.                                                                                                                                                                                                          |
+| Load case                 | String       |                  LC1                 | yes                        | The name of the load case to which the load belongs                                                                                                                                                                                                                                                                                                                                                                                    |
+| Parent ID                 | String       | 67b35d84-3d04-47aa-aa4a-dc1263982320 | no                         | <p>Is filled for objects created be dividing curved geometry to series of straight line objects.<br><br>Parent ID will ensure that curved edge is imported as straight parts to nonsupporting application, and back to original supporting application as curved geometry.</p><p>To ensure successful round trip of segmented objects and their related objects, Parent ID needs to be present in both directions.</p>                 |
+| Id                        | String       | 39f238a5-01d0-45cf-a2eb-958170fd4f39 | no                         | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                                           |

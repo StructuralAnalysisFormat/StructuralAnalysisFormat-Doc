@@ -4,172 +4,25 @@
 
 The Free surface load is related to slabs. The load is not defined by the entity it acts on, but by a specific load border. Free loads are defined by means of "loading entities" that may overlap or affect one or more slabs.
 
-![](../.gitbook/assets/40_structuralsurfaceactionfree.png)
+![](../.gitbook/assets/40\_structuralsurfaceactionfree.png)
 
 ### Specification in the excel:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">FF1</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Human readable unique name of the force</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Direction</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>X</p>
-        <p></p>
-        <p>Y</p>
-        <p></p>
-        <p>Z</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Specifies the base direction of the load</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">Standard</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
-        Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
-        Pressure, Soil Pressure, Generated Water, Generated Soil</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Distribution</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Uniform</p>
-        <p></p>
-        <p>DirectionX</p>
-        <p></p>
-        <p>DirectionY</p>
-        <p></p>
-        <p>DirectionXY</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">
-        <p>The load may be either constant across the slab or linearly variable</p>
-        <p>&quot;DirectionX&quot; and &quot;DirectionY&quot; enums are defining that,
-          the value of the surface load is linearly variable according to the one
-          of the user-selected axis</p>
-        <p>&quot;DirectionXY&quot; value inclination of surface load is defined in
-          both directions well</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">q [kN/m2]</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">
-        <p>-10</p>
-        <p>(for &quot;Distribution&quot; set to &quot;Uniform&quot;)</p>
-        <p>or</p>
-        <p>C1:-5; C2:-7</p>
-        <p>(for &quot;Distribution&quot; set to &quot;Direction*&quot;)</p>
-        <p>or</p>
-        <p>C1:-3; C2:-2; C3:-1</p>
-        <p>(for &quot;Distribution&quot; set to &quot;DirectionXY&quot;)</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">
-        <p>Specifies the size of the load in kiloNewtons per square meter.</p>
-        <p>if Distribution is Direction X, Direction Y or Direction XY then the vertexes
-          of the polygon of the free load have to be specified. For distribution
-          Direction X and Direction Y two vertexes, for distribution in Direction
-          XY, three vertexes. The format have to be following:</p>
-        <p>C&quot;number of vertex of the load polygon&quot; : &quot;value of the
-          load in this vertex&quot;</p>
-        <p>The number of the vertex corresponds to the coordinate order. So the first
-          coordinate means C1, the second C2 and so on</p>
-        <p>For further understanding of &quot;C&quot; attributes see notes below
-          table</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Load case</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">LC5</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The name of the load case to which the force belongs</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate X [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">0.000; 2.050; 4.850; -2.000</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The list of X coordinates of the nodes which define the geometry of the
-        surface free load. Each coordinate is separated by semicolon and space.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate Y [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">0.500; 1.050; 2.650; -1.500</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The list of Y coordinates of the nodes which define the geometry of the
-        surface free load. Each coordinate is separated by semicolon and space.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate Z [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">0.000; 0.000; 0.000; 0.000</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The list of Z coordinates of the nodes which define the geometry of the
-        surface free load. Each coordinate is separated by semicolon and space.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Edges</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">Line; Line; Line; Line</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Defines shape of the curve between two next nodes. Supported strings are:
-        Line; Bezier; Circle arc; Parabolic arc; Spline. The names are separated
-        by ; (semicolon) and space.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate system</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Global</p>
-        <p></p>
-        <p>Local</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Defines co-ordinate system of the member in which the load is applied</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Location</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Length</p>
-        <p></p>
-        <p>Projection</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Specifies whether the load is &quot;put directly on an inclined 2D member&quot;
-        or whether the &quot;projection on plan&quot; is defined.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
-  </tbody>
-</table>
+| Name of the column header | Type of data |                                                                                           Value example or enum definition                                                                                           | Required value | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------- | ------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                      | String       |                                                                                                          FF1                                                                                                         | yes            | Human readable unique name of the force                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Direction                 | Enum         |                                                                                        <p>X</p><p></p><p>Y</p><p></p><p>Z</p>                                                                                        | yes            | Specifies the base direction of the load                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Type                      | String       |                                                                                                       Standard                                                                                                       | no             | This property defines what the load is caused by, E.g. Standard, Wind, Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water Pressure, Soil Pressure, Generated Water, Generated Soil                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Distribution              | Enum         |                                                                <p>Uniform</p><p></p><p>DirectionX</p><p></p><p>DirectionY</p><p></p><p>DirectionXY</p>                                                               | yes            | <p>The load may be either constant across the slab or linearly variable</p><p>"DirectionX" and "DirectionY" enums are defining that, the value of the surface load is linearly variable according to the one of the user-selected axis</p><p>"DirectionXY" value inclination of surface load is defined in both directions well</p>                                                                                                                                                                                                                                                                                                                     |
+| q \[kN/m2]                | String       | <p>-10</p><p>(for "Distribution" set to "Uniform")</p><p>or</p><p>C1:-5; C2:-7</p><p>(for "Distribution" set to "Direction*")</p><p>or</p><p>C1:-3; C2:-2; C3:-1</p><p>(for "Distribution" set to "DirectionXY")</p> | yes            | <p>Specifies the size of the load in kiloNewtons per square meter.</p><p>if Distribution is Direction X, Direction Y or Direction XY then the vertexes of the polygon of the free load have to be specified. For distribution Direction X and Direction Y two vertexes, for distribution in Direction XY, three vertexes. The format have to be following:</p><p>C"number of vertex of the load polygon" : "value of the load in this vertex"</p><p>The number of the vertex corresponds to the coordinate order. So the first coordinate means C1, the second C2 and so on</p><p>For further understanding of "C" attributes see notes below table</p> |
+| Load case                 | String       |                                                                                                          LC5                                                                                                         | yes            | The name of the load case to which the force belongs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Coordinate X \[m]         | Double       |                                                                                              0.000; 2.050; 4.850; -2.000                                                                                             | yes            | The list of X coordinates of the nodes which define the geometry of the surface free load. Each coordinate is separated by semicolon and space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Coordinate Y \[m]         | Double       |                                                                                              0.500; 1.050; 2.650; -1.500                                                                                             | yes            | The list of Y coordinates of the nodes which define the geometry of the surface free load. Each coordinate is separated by semicolon and space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Coordinate Z \[m]         | Double       |                                                                                              0.000; 0.000; 0.000; 0.000                                                                                              | yes            | The list of Z coordinates of the nodes which define the geometry of the surface free load. Each coordinate is separated by semicolon and space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Edges                     | String       |                                                                                                Line; Line; Line; Line                                                                                                | yes            | Defines shape of the curve between two next nodes. Supported strings are: Line; Bezier; Circle arc; Parabolic arc; Spline. The names are separated by ; (semicolon) and space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Coordinate system         | Enum         |                                                                                           <p>Global</p><p></p><p>Local</p>                                                                                           | yes            | Defines co-ordinate system of the member in which the load is applied                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Location                  | Enum         |                                                                                         <p>Length</p><p></p><p>Projection</p>                                                                                        | yes            | Specifies whether the load is "put directly on an inclined 2D member" or whether the "projection on plan" is defined.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Id                        | String       |                                                                                         39f238a5-01d0-45cf-a2eb-958170fd4f39                                                                                         | no             | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ## Notes
 
@@ -179,5 +32,4 @@ When is "Distribution" set to "DirectionX" or "DirectionY" the system is the sam
 When "Distribution" is set to "DirectionXY" is necessary to define 3 "C" vertexes. These Vertexes are defining projection onto slab and Value of the load as well. According to position and load value of "C" vertexes is load plane defined and every other vertex of the surface load is calculated. See example below.
 {% endhint %}
 
-![](../.gitbook/assets/40_structuralsurfaceactionfree_note.png)
-
+![](../.gitbook/assets/40\_structuralsurfaceactionfree\_note.png)

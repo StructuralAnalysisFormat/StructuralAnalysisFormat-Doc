@@ -2,256 +2,34 @@
 
 ## Hinges on 2D member edge
 
-A connection of two slabs \(2D members\) may be modelled as a fixed one or a hinge may be inserted to create a pinned connection. Three configurations of slab hinge are allowed: rigid, free, flexible. Under any configuration, all translations are fully transferred from one slab to the other. If there is no hinge, the connection is rigid.
+A connection of two slabs (2D members) may be modelled as a fixed one or a hinge may be inserted to create a pinned connection. Three configurations of slab hinge are allowed: rigid, free, flexible. Under any configuration, all translations are fully transferred from one slab to the other. If there is no hinge, the connection is rigid.
 
-![](../.gitbook/assets/23_relconnectssurfaceedge.png)
+{% hint style="warning" %}
+This object is referring to the edge of StructuralSurfaceMember. Only for this object the indexing of edges starts with "0". All other objects are referencing with "1" based indexing.
+{% endhint %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">Sn6</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Human readable unique name of the support</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2D Member</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">S3</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The name of the surface member to which is hinge related</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Edge</td>
-      <td style="text-align:left">Integer</td>
-      <td style="text-align:center">1</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The index of edge of the surface member. The index starting with 0. The
-        order is according to order of &#x201C;edges&#x201D; property at StrucutralSurfaceMember.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ux</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Free</p>
-        <p>
-          <br />Rigid</p>
-        <p>
-          <br />Flexible</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Translation in X direction. Free - That is it imposes no constraint in
-        the direction. Rigid - The connection in fully rigid in the specified direction.
-        Flexible - The connection is flexible (elastic) in the specified direction.
-        Parameter Flexible can be linear only, non-linearity is not supported.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">uy</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Free</p>
-        <p>
-          <br />Rigid</p>
-        <p>
-          <br />Flexible</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Translation in Y direction. Free - That is it imposes no constraint in
-        the direction. Rigid - The connection in fully rigid in the specified direction.
-        Flexible - The connection is flexible (elastic) in the specified direction.
-        Parameter Flexible can be linear only, non-linearity is not supported.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">uz</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Free</p>
-        <p>
-          <br />Rigid</p>
-        <p>
-          <br />Flexible</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Translation in Z direction. Free - That is it imposes no constraint in
-        the direction. Rigid - The connection in fully rigid in the specified direction.
-        Flexible - The connection is flexible (elastic) in the specified direction.
-        Parameter Flexible can be linear only, non-linearity is not supported.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">fix</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Free</p>
-        <p>
-          <br />Rigid</p>
-        <p>
-          <br />Flexible</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Rotational stiffness around X axis. Parameter Flexible can be linear only,
-        non-linearity is not supported.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">fiy</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Free</p>
-        <p>
-          <br />Rigid</p>
-        <p>
-          <br />Flexible</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Rotational stiffness around Y axis. Parameter Flexible can be linear only,
-        non-linearity is not supported.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">fiz</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Free</p>
-        <p>
-          <br />Rigid</p>
-        <p>
-          <br />Flexible</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Rotational stiffness around Z axis. Parameter Flexible can be linear only,
-        non-linearity is not supported.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Stiffness X [MN/m2]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">100</td>
-      <td style="text-align:left">yes, if ux = Flexible</td>
-      <td style="text-align:left">The flexibility of the connection in X direction</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Stiffness Y [MN/m2]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">100</td>
-      <td style="text-align:left">yes, if uy = Flexible</td>
-      <td style="text-align:left">The flexibility of the connection in Y direction</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Stiffness Z [MN/m2]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">100</td>
-      <td style="text-align:left">yes, if uz = Flexible</td>
-      <td style="text-align:left">The flexibility of the connection in Z direction</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Stiffness Fix [MNm/rad/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">50</td>
-      <td style="text-align:left">yes, if fix = Flexible</td>
-      <td style="text-align:left">The flexibility in rotation of the connection around local X axis</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Stiffness Fiy [MNm/rad/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">50</td>
-      <td style="text-align:left">yes, if fiy = Flexible</td>
-      <td style="text-align:left">The flexibility in rotation of the connection around local Y axis</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Stiffness Fiz [MNm/rad/m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">50</td>
-      <td style="text-align:left">yes, if fiz = Flexible</td>
-      <td style="text-align:left">The flexibility in rotation of the connection around local Z axis</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate definition</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Absolute</p>
-        <p>
-          <br />Relative</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Selects the coordinate system that is used to define the length of the
-        hinge. Relative means without units. To define length of the hinges in
-        meters input absolute</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Origin</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>From start</p>
-        <p>
-          <br />From end</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Specifies the origin of the coordinate system used for the definition
-        of the length of the hinge</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Start point [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">
-        <p>value in meters for Coordinate definition = Absolute</p>
-        <p>
-          <br />0,0</p>
-        <p>value in percentage for Coordinate definition = Relative</p>
-        <p>0,0</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">
-        <p>Defines the position of the start point of the hinge in relative or absolute
-          coordinates</p>
-        <p>Units in meters [m]</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">End point [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">
-        <p>value in meters for Coordinate definition = Absolute</p>
-        <p>
-          <br />5,25</p>
-        <p>value in percentage for Coordinate definition = Relative</p>
-        <p>1,0</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">
-        <p>Defines the position of the end point of the hinge in relative or absolute
-          coordinates</p>
-        <p>Units in meters [m</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Parent ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">
-        <p>Is filled for objects created be dividing curved geometry to series of
-          straight line objects.
-          <br />Parent ID will ensure that curved edge is imported as straight parts to
-          nonsupporting application, and back to original supporting application
-          as curved geometry.</p>
-        <p>To ensure successful round trip of segmented objects and their related
-          objects, Parent ID needs to be present in both directions.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
-  </tbody>
-</table>
+![](../.gitbook/assets/23\_relconnectssurfaceedge.png)
 
+| Name of the column header  | Type of data |                                                           Value example or enum definition                                                          | Required value         | Description                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------- | ------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Name                       | String       |                                                                         Sn6                                                                         | yes                    | Human readable unique name of the support                                                                                                                                                                                                                                                                                                                                                                          |
+| 2D Member                  | String       |                                                                          S3                                                                         | yes                    | The name of the surface member to which is hinge related                                                                                                                                                                                                                                                                                                                                                           |
+| Edge                       | Integer      |                                                                          0                                                                          | yes                    | The index of edge of the surface member. The index starting with 0. The order is according to order of “edges” property at [StrucutralSurfaceMember](../structural-analysis-elements/structuralsurfacememberopening.md).                                                                                                                                                                                           |
+| ux                         | Enum         |                                                    <p>Free</p><p><br>Rigid</p><p><br>Flexible</p>                                                   | yes                    | Translation in X direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Parameter Flexible can be linear only, non-linearity is not supported.                                                                                                         |
+| uy                         | Enum         |                                                    <p>Free</p><p><br>Rigid</p><p><br>Flexible</p>                                                   | yes                    | Translation in Y direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Parameter Flexible can be linear only, non-linearity is not supported.                                                                                                         |
+| uz                         | Enum         |                                                    <p>Free</p><p><br>Rigid</p><p><br>Flexible</p>                                                   | yes                    | Translation in Z direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Parameter Flexible can be linear only, non-linearity is not supported.                                                                                                         |
+| fix                        | Enum         |                                                    <p>Free</p><p><br>Rigid</p><p><br>Flexible</p>                                                   | yes                    | Rotational stiffness around X axis. Parameter Flexible can be linear only, non-linearity is not supported.                                                                                                                                                                                                                                                                                                         |
+| fiy                        | Enum         |                                                    <p>Free</p><p><br>Rigid</p><p><br>Flexible</p>                                                   | yes                    | Rotational stiffness around Y axis. Parameter Flexible can be linear only, non-linearity is not supported.                                                                                                                                                                                                                                                                                                         |
+| fiz                        | Enum         |                                                    <p>Free</p><p><br>Rigid</p><p><br>Flexible</p>                                                   | yes                    | Rotational stiffness around Z axis. Parameter Flexible can be linear only, non-linearity is not supported.                                                                                                                                                                                                                                                                                                         |
+| Stiffness X \[MN/m2]       | Double       |                                                                         100                                                                         | yes, if ux = Flexible  | The flexibility of the connection in X direction                                                                                                                                                                                                                                                                                                                                                                   |
+| Stiffness Y \[MN/m2]       | Double       |                                                                         100                                                                         | yes, if uy = Flexible  | The flexibility of the connection in Y direction                                                                                                                                                                                                                                                                                                                                                                   |
+| Stiffness Z \[MN/m2]       | Double       |                                                                         100                                                                         | yes, if uz = Flexible  | The flexibility of the connection in Z direction                                                                                                                                                                                                                                                                                                                                                                   |
+| Stiffness Fix \[MNm/rad/m] | Double       |                                                                          50                                                                         | yes, if fix = Flexible | The flexibility in rotation of the connection around local X axis                                                                                                                                                                                                                                                                                                                                                  |
+| Stiffness Fiy \[MNm/rad/m] | Double       |                                                                          50                                                                         | yes, if fiy = Flexible | The flexibility in rotation of the connection around local Y axis                                                                                                                                                                                                                                                                                                                                                  |
+| Stiffness Fiz \[MNm/rad/m] | Double       |                                                                          50                                                                         | yes, if fiz = Flexible | The flexibility in rotation of the connection around local Z axis                                                                                                                                                                                                                                                                                                                                                  |
+| Coordinate definition      | Enum         |                                                          <p>Absolute</p><p><br>Relative</p>                                                         | yes                    | Selects the coordinate system that is used to define the length of the hinge. Relative means without units. To define length of the hinges in meters input absolute                                                                                                                                                                                                                                                |
+| Origin                     | Enum         |                                                         <p>From start</p><p><br>From end</p>                                                        | yes                    | Specifies the origin of the coordinate system used for the definition of the length of the hinge                                                                                                                                                                                                                                                                                                                   |
+| Start point \[m]           | Double       |  <p>value in meters for Coordinate definition = Absolute</p><p><br>0,0</p><p>value in percentage for Coordinate definition = Relative</p><p>0,0</p> | yes                    | <p>Defines the position of the start point of the hinge in relative or absolute coordinates</p><p>Units in meters [m]</p>                                                                                                                                                                                                                                                                                          |
+| End point \[m]             | Double       | <p>value in meters for Coordinate definition = Absolute</p><p><br>5,25</p><p>value in percentage for Coordinate definition = Relative</p><p>1,0</p> | yes                    | <p>Defines the position of the end point of the hinge in relative or absolute coordinates</p><p>Units in meters [m</p>                                                                                                                                                                                                                                                                                             |
+| Parent ID                  | String       |                                                         67b35d84-3d04-47aa-aa4a-dc1263982320                                                        | no                     | <p>Is filled for objects created be dividing curved geometry to series of straight line objects.<br>Parent ID will ensure that curved edge is imported as straight parts to nonsupporting application, and back to original supporting application as curved geometry.</p><p>To ensure successful round trip of segmented objects and their related objects, Parent ID needs to be present in both directions.</p> |
+| Id                         | String       |                                                         39f238a5-01d0-45cf-a2eb-958170fd4f39                                                        | no                     | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                       |

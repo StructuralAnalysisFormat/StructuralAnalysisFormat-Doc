@@ -4,113 +4,20 @@
 
 The Free point load is related to slabs. The load is not defined by the entity it acts on, but by a specific load point. Free loads are defined by means of "loading entities" that may overlap or affect one or more slabs.
 
-![](../.gitbook/assets/38_structuralpointactionfree.png)
+![](../.gitbook/assets/38\_structuralpointactionfree.png)
 
 ### Specification in the excel
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">FF1</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Human readable unique name of the force</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">Standard</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
-        Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
-        Pressure, Soil Pressure, Generated Water, Generated Soil</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Direction</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>X</p>
-        <p></p>
-        <p>Y</p>
-        <p></p>
-        <p>Z</p>
-        <p></p>
-        <p>Vector</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">
-        <p>Specifies the base direction of the load</p>
-        <p>X, Y, Z - action will be applied in one of these directions</p>
-        <p>Vector - size and direction calculated from vector</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Value [kN]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">-1</td>
-      <td style="text-align:left">yes, if Direction = X,Y or Z</td>
-      <td style="text-align:left">Specifies the size of the load</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Vector (X;Y;Z) [kN]</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">(10;10;0)</td>
-      <td style="text-align:left">yes, if Direction = Vector</td>
-      <td style="text-align:left">Specifies the size of the load in , direction by vector</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Load case</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">LC2</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The name of the load case to which the force belongs</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate X [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">-1,000</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The X coordinate of the point force</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate Y [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">1,000</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The Y coordinate of the point force</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate Z [m]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">3,250</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The Z coordinate of the point force</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate system</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">Global</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Defines the co-ordinate system of the member in which the load is applied.
-        Only global coordinate system is supported for free point loads</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
-  </tbody>
-</table>
-
+| Name of the column header | Type of data |              Value example or enum definition              | Required value               | Description                                                                                                                                                                                              |
+| ------------------------- | ------------ | :--------------------------------------------------------: | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                      | String       |                             FF1                            | yes                          | Human readable unique name of the force                                                                                                                                                                  |
+| Type                      | String       |                          Standard                          | no                           | This property defines what the load is caused by, E.g. Standard, Wind, Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water Pressure, Soil Pressure, Generated Water, Generated Soil |
+| Direction                 | Enum         | <p>X</p><p></p><p>Y</p><p></p><p>Z</p><p></p><p>Vector</p> | yes                          | <p>Specifies the base direction of the load</p><p>X, Y, Z - action will be applied in one of these directions</p><p>Vector - size and direction calculated from vector</p>                               |
+| Value \[kN]               | Double       |                             -1                             | yes, if Direction = X,Y or Z | Specifies the size of the load                                                                                                                                                                           |
+| Vector (X;Y;Z) \[kN]      | String       |                          (10;10;0)                         | yes, if Direction = Vector   | Specifies the size of the load in , direction by vector                                                                                                                                                  |
+| Load case                 | String       |                             LC2                            | yes                          | The name of the load case to which the force belongs                                                                                                                                                     |
+| Coordinate X \[m]         | Double       |                           -1,000                           | yes                          | The X coordinate of the point force                                                                                                                                                                      |
+| Coordinate Y \[m]         | Double       |                            1,000                           | yes                          | The Y coordinate of the point force                                                                                                                                                                      |
+| Coordinate Z \[m]         | Double       |                            3,250                           | yes                          | The Z coordinate of the point force                                                                                                                                                                      |
+| Coordinate system         | String       |                           Global                           | yes                          | Defines the co-ordinate system of the member in which the load is applied. Only global coordinate system is supported for free point loads                                                               |
+| Id                        | String       |            39f238a5-01d0-45cf-a2eb-958170fd4f39            | no                           | Unique attribute designation                                                                                                                                                                             |
