@@ -2,149 +2,24 @@
 
 ## Surface load
 
-Defines actions on surfaces – plates, walls. The surface load is defined on the whole slab automatically. If only a part of the main slab is supposed to be subject to this load, a subregion \([StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness)\) must be defined inside the main slab.
+Defines actions on surfaces – plates, walls. The surface load is defined on the whole slab automatically. If only a part of the main slab is supposed to be subject to this load, a subregion ([StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness)) must be defined inside the main slab.
 
-![](../.gitbook/assets/35_structuralsurfaceaction.png)
+![](../.gitbook/assets/35\_structuralsurfaceaction.png)
 
 ### Specification in the excel
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name of the column header</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:center">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">PF3</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Human readable unique name of the force</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Direction</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>X</p>
-        <p></p>
-        <p>Y</p>
-        <p></p>
-        <p>Z</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Specifies the base direction of the load</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">Standard</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">This property defines what the load is caused by, E.g. Standard, Wind,
-        Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water
-        Pressure, Soil Pressure, Generated Water, Generated Soil</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Force action</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>On 2D member</p>
-        <p></p>
-        <p>On 2D member region</p>
-        <p></p>
-        <p>On 2D member distribution</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Specifies on which type of object the load acts</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Value [kN/m2]</td>
-      <td style="text-align:left">Double</td>
-      <td style="text-align:center">-10</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Specifies the size of the load in kiloNewtons per square meter.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2D Member</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">S15</td>
-      <td style="text-align:left">yes, if Force action = On 2D member</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> to
-        which is the surface load related to</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2D Member Region</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">R1</td>
-      <td style="text-align:left">yes, if Force action = On 2D member region</td>
-      <td style="text-align:left">The name of the <a href="https://saf.guide/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm">StructuralSurfaceMemberRegion</a> to
-        which is the surface load related to</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2D Member Distribution</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">FL1</td>
-      <td style="text-align:left">yes, if Force action = 2D Member Distribution</td>
-      <td style="text-align:left">The name of the <a href="structuralsurfaceactiondistribution-1.md">StructuralSurfaceActionDistri</a> to
-        which is the surface load related to.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Load case</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">LC5</td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">The name of the load case to which the force belongs</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Coordinate system</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Global</p>
-        <p></p>
-        <p>Local</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Defines the co-ordinate system of the member in which the load is applied</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Location</td>
-      <td style="text-align:left">Enum</td>
-      <td style="text-align:center">
-        <p>Length</p>
-        <p></p>
-        <p>Projection</p>
-      </td>
-      <td style="text-align:left">yes</td>
-      <td style="text-align:left">Specifies whether the load is &quot;put directly on an inclined 2D member&quot;
-        or whether the &quot;projection on plan&quot; is defined.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Parent ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">
-        <p>Is filled for objects created be dividing curved geometry to series of
-          straight line objects.
-          <br />
-          <br />Parent ID will ensure that curved edge is imported as straight parts to
-          nonsupporting application, and back to original supporting application
-          as curved geometry.</p>
-        <p>To ensure successful round trip of segmented objects and their related
-          objects, Parent ID needs to be present in both directions.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:center">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-      <td style="text-align:left">no</td>
-      <td style="text-align:left">Unique attribute designation</td>
-    </tr>
-  </tbody>
-</table>
-
+| Name of the column header | Type of data |                               Value example or enum definition                              | Required value                                | Description                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------- | ------------ | :-----------------------------------------------------------------------------------------: | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                      | String       |                                             PF3                                             | yes                                           | Human readable unique name of the force                                                                                                                                                                                                                                                                                                                                                                                |
+| Direction                 | Enum         |                            <p>X</p><p></p><p>Y</p><p></p><p>Z</p>                           | yes                                           | Specifies the base direction of the load                                                                                                                                                                                                                                                                                                                                                                               |
+| Type                      | String       |                                           Standard                                          | no                                            | This property defines what the load is caused by, E.g. Standard, Wind, Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water Pressure, Soil Pressure, Generated Water, Generated Soil                                                                                                                                                                                                               |
+| Force action              | Enum         | <p>On 2D member</p><p></p><p>On 2D member region</p><p></p><p>On 2D member distribution</p> | yes                                           | Specifies on which type of object the load acts                                                                                                                                                                                                                                                                                                                                                                        |
+| Value \[kN/m2]            | Double       |                                             -10                                             | yes                                           | Specifies the size of the load in kiloNewtons per square meter.                                                                                                                                                                                                                                                                                                                                                        |
+| 2D Member                 | String       |                                             S15                                             | yes, if Force action = On 2D member           | The name of the [StructuralSurfaceMember](https://saf.guide/Content/A\_Objects/8\_StructuralSurfaceMember.htm) to which is the surface load related to                                                                                                                                                                                                                                                                 |
+| 2D Member Region          | String       |                                              R1                                             | yes, if Force action = On 2D member region    | The name of the [StructuralSurfaceMemberRegion](https://saf.guide/Content/A\_Objects/10\_StructuralSurfaceMemberRegion.htm) to which is the surface load related to                                                                                                                                                                                                                                                    |
+| 2D Member Distribution    | String       |                                             FL1                                             | yes, if Force action = 2D Member Distribution | The name of the [StructuralSurfaceActionDistri](structuralsurfaceactiondistribution-1.md) to which is the surface load related to.                                                                                                                                                                                                                                                                                     |
+| Load case                 | String       |                                             LC5                                             | yes                                           | The name of the load case to which the force belongs                                                                                                                                                                                                                                                                                                                                                                   |
+| Coordinate system         | Enum         |                               <p>Global</p><p></p><p>Local</p>                              | yes                                           | Defines the co-ordinate system of the member in which the load is applied                                                                                                                                                                                                                                                                                                                                              |
+| Location                  | Enum         |                            <p>Length</p><p></p><p>Projection</p>                            | yes                                           | Specifies whether the load is "put directly on an inclined 2D member" or whether the "projection on plan" is defined.                                                                                                                                                                                                                                                                                                  |
+| Parent ID                 | String       |                             67b35d84-3d04-47aa-aa4a-dc1263982320                            | no                                            | <p>Is filled for objects created be dividing curved geometry to series of straight line objects.<br><br>Parent ID will ensure that curved edge is imported as straight parts to nonsupporting application, and back to original supporting application as curved geometry.</p><p>To ensure successful round trip of segmented objects and their related objects, Parent ID needs to be present in both directions.</p> |
+| Id                        | String       |                             39f238a5-01d0-45cf-a2eb-958170fd4f39                            | no                                            | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                           |
