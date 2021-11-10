@@ -2,9 +2,6 @@
 
 ## Cross-section
 
-{% hint style="warning" %}
-Sheet definition improvements are being tested on this object. Data in tables are correct, style of tables might be different form others.
-{% endhint %}
 
 A cross-section together with material ([StructuralMaterial](structuralmaterial.md#material)) is a basic property of a 1D member. Various kinds of shapes can be defined, including steel rolled sections, timber specific cross-sections or general geometric sections. Supported shapes of cross-sections are defined in documents Formcodes and Description ID of the profile, in chapter Annexes in this document.
 
@@ -33,10 +30,6 @@ A cross-section together with material ([StructuralMaterial](structuralmaterial.
 | Id                            | String           |                      6bbd256e-0225-4ee5-91e5-c7ef791a33cb                     | no                                                                                                                                                    | <p>Unique attribute designation<br></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ###
-
-### Specification in excel:
-
-{% embed url="https://docs.google.com/spreadsheets/d/1bKu6OELKLCEc-AHZ4e_tgV8An5UfqeYGsawNXK_XmjI/edit?usp=sharing" %}
 
 ## Notes
 

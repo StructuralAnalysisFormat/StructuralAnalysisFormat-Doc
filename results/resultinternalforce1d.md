@@ -2,10 +2,6 @@
 
 ## Internal force 1D
 
-{% hint style="warning" %}
-Objects status: **"Under developement"**\
-Object structure may change before release, please consider this in your implementation.
-{% endhint %}
 
 Internal forces on line, beam, member. Result in member axis (not in principal axis).
 

@@ -1,9 +1,5 @@
 # StructuralLoadCombination
 
-{% hint style="warning" %}
-Attribute: "Type" under developement
-{% endhint %}
-
 ## Load Combination
 
 Object serves for definition a load combination. The combination is created from the existing load cases in the model, in [StructuralLoadCase](structuralloadcase.md#load-case) sheet.
