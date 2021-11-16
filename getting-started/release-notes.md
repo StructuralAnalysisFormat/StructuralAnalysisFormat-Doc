@@ -3,6 +3,7 @@
 {% hint style="success" %}
 Current version 2.1.0
 {% endhint %}
+
 ## Release notes
 
 ### 18.11.2021 - Version 2.1.0
