@@ -36,7 +36,7 @@ Current version 2.1.0
 
 [RelConnectsRigidLink](../supports-and-hinges/relconnectsrigidlink.md)
 
-* Hinge position: enum definition clarified
+* "Hinge position": enum definition clarified
 
 #### New object added:
 
