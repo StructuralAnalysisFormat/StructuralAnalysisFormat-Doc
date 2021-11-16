@@ -1,8 +1,49 @@
 # Release Notes
 
 {% hint style="success" %}
-Current version 2.0.0
+Current version 2.1.0
 {% endhint %}
+## Release notes
+
+### 18.11.2021 - Version 2.1.0
+
+**Modified objects:**
+
+[StructuralLoadGroup](../loads/structuralloadgroup.md)
+
+* "Load type" string: updated condition (required only for "Load group type" = Variable)
+
+[StructuralLoadCombination](../loads/structuralloadcombination.md)
+
+* new optional enum: "Type" &#x20;
+
+[StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)
+
+* "Beginning node", "End node": attributes changed from "required" to "non required"
+* description modified
+
+[StructuralCurveAction](../loads/structuralcurveaction.md)
+
+* "Value 2", "Vector 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+
+[StructuralCurveActionFree](../loads/structuralcurveactionfree.md)
+
+* "Value 2", "Vector 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+
+[StructuralCurveMoment](../loads/structuralcurvemoment.md)
+
+* "Value 2": required only if Distribution = Trapez
+
+[RelConnectsRigidLink](../supports-and-hinges/relconnectsrigidlink.md)
+
+* Hinge position: enum definition clarified
+
+#### New object added:
+
+[ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
+
+* new attribute: "Combination key"
+* edited attributes: Case, Load case, Load combination, Member replaced by Member and Member Rib
 
 ## Specification improvements
 
