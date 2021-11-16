@@ -1,7 +1,4 @@
-from recommonmark.parser import CommonMarkParser
-source_parsers = {
-'.md': CommonMarkParser,
-}
+extensions = ['myst_parser']
 source_suffix = ['.rst', '.md']
 master_doc = 'index'
 project = u'gitbookdocumentation'
