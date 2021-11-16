@@ -8,7 +8,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Getting started
-  :maxdepth: 1
+  :maxdepth: 2
   
   getting-started/what-is-saf
   getting-started/who-supports-saf
@@ -24,7 +24,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Structural analysis elements
-  :maxdepth: 1
+  :maxdepth: 2
   
   structural-analysis-elements/structuralmaterial
   structural-analysis-elements/structuralcrosssection
@@ -42,7 +42,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Supports and hinges
-  :maxdepth: 1
+  :maxdepth: 2
   
   supports-and-hinges/structuralpointsupport
   supports-and-hinges/structuralsurfaceconnection
@@ -56,7 +56,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Loads
-  :maxdepth: 1
+  :maxdepth: 2
   
   loads/structuralloadgroup
   loads/structuralloadcase
@@ -75,7 +75,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Annexes
-  :maxdepth: 1
+  :maxdepth: 2
   
   annexes/formcodes
   annexes/description-id-of-the-profile
