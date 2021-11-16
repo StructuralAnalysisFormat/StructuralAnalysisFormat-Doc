@@ -4,7 +4,7 @@
 **Last update: November 2021**
 
 **Note:**\
-Information in the table is provided by involved partners them self. Author of the documentation is not taking any responsibility for correctness of given information. If you found a mistake or want to update the table content, please contact us via email on **s.sonka@scia.net**
+Information in the table is provided by involved partners them self. Author of the documentation is not taking any responsibility for correctness of given information. If you found a mistake or want to update the table content, please contact us via email on **saf@scia.net**
 {% endhint %}
 
 {% hint style="info" %}
