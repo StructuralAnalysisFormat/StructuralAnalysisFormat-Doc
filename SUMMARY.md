@@ -5,10 +5,10 @@
 ## Getting started
 
 * [What is SAF?](getting-started/what-is-saf.md)
-* [Who supports SAF?](getting-started/_who-supports-saf.md)
-* [SAF Versions](getting-started/_saf-versions.md)
+* [Who supports SAF?](getting-started/who-supports-saf.md)
+* [SAF Versions](getting-started/saf-versions.md)
 * [SAF Examples](getting-started/saf-examples.md)
-* [Release Notes](getting-started/_release-notes.md)
+* [Release Notes](getting-started/release-notes.md)
 * [Introduction](getting-started/introduction.md)
 * [Geometry](getting-started/geometry.md)
 * [Best practice for SAF implementation](getting-started/best-practice-for-saf-implementation.md)
@@ -73,7 +73,4 @@
 
 * [ResultInternalForce1D](results/resultinternalforce1d.md)
 
-## Other
-
-* [Ideas and proposals for next SAF versions](other/_ideas-and-proposals-for-next-saf-versions.md)
 
