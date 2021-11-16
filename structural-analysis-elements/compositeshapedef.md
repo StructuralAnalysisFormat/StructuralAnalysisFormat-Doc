@@ -4,7 +4,7 @@
 
 Composite Shape definition is **required** when the cross-section type in [StructuralCrossSection](structuralcrosssection.md#cross-section) sheet is set as "General".
 
-For **manufactured** types of a cross-section, is Composite Shape Definition is **optional**, offering the possibility to share detailed shape definition, for better classification of the profile.
+For **manufactured** types of a cross-section, Composite Shape Definition is **optional**, offering the possibility to share detailed shape definition, for better classification of the profile.
 
 ### Specification in excel:
 
