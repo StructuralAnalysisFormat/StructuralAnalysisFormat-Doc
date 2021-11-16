@@ -5,5 +5,6 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 project = u'gitbookdocumentation'
 
-html_theme = 'sphinx_rtd_theme'
-html_style = 'custom.css'
+html_css_files = [
+    'custom.css',
+]
