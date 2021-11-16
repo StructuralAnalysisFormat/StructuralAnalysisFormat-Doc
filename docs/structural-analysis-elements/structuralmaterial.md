@@ -6,7 +6,7 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
 
 ### Specification in excel:
 
-| Name of the column header | Type of data | Value example or enum definition | Required value | Description |
+| Header | Data type | Example | Required? | Description |
 | --- | --- | --- | --- | --- |
 | Name | String | S235 | yes | Human readable unique name of the material \*see notes |
 | Type | Enum | <p>Concrete<br></p><p>Steel<br></p><p>Timber<br></p><p>Aluminium<br></p><p>Masonry<br></p><p>Other</p> | yes | The type of material |
