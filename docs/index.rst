@@ -1,9 +1,8 @@
 gitbookdocumentation
 --------------------
-Documents
-=========
 .. toctree::
   :maxdepth: 16
+  :titlesonly:
   
   README
   getting-started/what-is-saf
