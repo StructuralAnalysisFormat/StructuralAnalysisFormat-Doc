@@ -1,10 +1,13 @@
 gitbookdocumentation
 --------------------
 .. toctree::
-  :maxdepth: 16
+  :maxdepth: 2
   :titlesonly:
   
   README
+  
+  Getting started
+  ===============
   getting-started/what-is-saf
   getting-started/who-supports-saf
   getting-started/saf-versions
@@ -16,6 +19,9 @@ gitbookdocumentation
   getting-started/project-and-model-specifications/README
   getting-started/project-and-model-specifications/units
   getting-started/project-and-model-specifications/ignore
+  
+  Structural analysis elements
+  ============================
   structural-analysis-elements/structuralmaterial
   structural-analysis-elements/structuralcrosssection
   structural-analysis-elements/compositeshapedef
@@ -29,6 +35,9 @@ gitbookdocumentation
   structural-analysis-elements/structuralsurfacememberregion
   structural-analysis-elements/structuralstorey
   structural-analysis-elements/structuralproxyelement
+  
+  Supports and hinges
+  ===================
   supports-and-hinges/structuralpointsupport
   supports-and-hinges/structuralsurfaceconnection
   supports-and-hinges/structuralcurveconnection
@@ -38,6 +47,9 @@ gitbookdocumentation
   supports-and-hinges/relconnectsrigidcross
   supports-and-hinges/relconnectsrigidlink
   supports-and-hinges/relconnectsrigidmember
+  
+  Loads
+  =====
   loads/structuralloadgroup
   loads/structuralloadcase
   loads/structuralloadcombination
@@ -52,6 +64,9 @@ gitbookdocumentation
   loads/structuralcurveactionfree
   loads/structuralsurfaceactionfree
   loads/structuralsurfaceactiondistribution
+  
+  Annexes
+  =======
   annexes/formcodes
   annexes/description-id-of-the-profile
   annexes/supported-shapes-of-parametric-cross-section
