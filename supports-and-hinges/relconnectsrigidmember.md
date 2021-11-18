@@ -45,4 +45,4 @@ Local coordination system is given by first node and its related object.
 **Non linear** behavior of material is handled with "Resistance". The example is shown below.
 {% endhint %}
 
-![](<../.gitbook/assets/25\_rigidlink\_resistance (1).png>)
+![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
