@@ -16,7 +16,7 @@ Please in case you want to:
 
 Contact us via email:
 
-a.vyskocil@scia.net
+saf@scia.net
 
 or send message directly to our MS team channel at - 99ef7709.scia.net@emea.teams.ms
 

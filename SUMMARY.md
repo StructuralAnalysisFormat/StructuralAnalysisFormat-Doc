@@ -6,7 +6,7 @@
 
 * [What is SAF?](getting-started/what-is-saf.md)
 * [Who supports SAF?](getting-started/who-supports-saf.md)
-* [SAF versions](getting-started/saf-versions.md)
+* [SAF Versions](getting-started/saf-versions.md)
 * [SAF Examples](getting-started/saf-examples.md)
 * [Release Notes](getting-started/release-notes.md)
 * [Introduction](getting-started/introduction.md)
@@ -68,4 +68,9 @@
 * [Supported shapes of parametric cross-section](annexes/supported-shapes-of-parametric-cross-section.md)
 * [Supported shapes of compound section](annexes/supported-shapes-of-compound-section.md)
 * [Supported design properties of the materials](annexes/supported-design-properties-of-the-materials.md)
+
+## Results
+
+* [ResultInternalForce1D](results/resultinternalforce1d.md)
+
 
