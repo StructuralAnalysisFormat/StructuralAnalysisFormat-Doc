@@ -48,4 +48,4 @@ The axis of the connection is defined by the members of the RigidCross:
 **Non linear** behavior of material is handled with "Resistance". The example is shown below.
 {% endhint %}
 
-![](<../.gitbook/assets/25\_rigidlink\_resistance (1) (1).png>)
+![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
