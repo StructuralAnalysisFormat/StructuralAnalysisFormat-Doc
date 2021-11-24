@@ -3,12 +3,17 @@ SAF Documentation
   
 Structural Analysis Format documentation
 
-''Current version: 2.1.0''
+
+.. container:: Note
+    Current version: 2.1.0
+
+
+Table of contents:
 
 .. toctree::
   :caption: Getting started
   :hidden:
-  :maxdepth: 1
+  :maxdepth: 2
   
   getting-started/what-is-saf
   getting-started/who-supports-saf
