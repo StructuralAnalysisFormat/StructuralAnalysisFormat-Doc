@@ -1,4 +1,4 @@
-gitbookdocumentation
+SAF Documentation
 --------------------
 .. toctree::
   :caption: Overview
