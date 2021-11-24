@@ -83,3 +83,8 @@ gitbookdocumentation
   annexes/supported-shapes-of-compound-section
   annexes/supported-design-properties-of-the-materials
 
+.. toctree::
+  :caption: Results
+  :maxdepth: 2
+  
+  results/resultinternalforce1d
