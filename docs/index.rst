@@ -4,8 +4,6 @@ SAF Documentation
   :caption: Overview
   :maxdepth: 1
   
-  README
-  
 .. toctree::
   :caption: Getting started
   :maxdepth: 2
