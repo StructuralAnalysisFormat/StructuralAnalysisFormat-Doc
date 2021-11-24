@@ -11,7 +11,7 @@ Table of contents:
 
 .. toctree::
   :caption: Getting started
-  :maxdepth: 2
+  :maxdepth: 1
   
   getting-started/what-is-saf
   getting-started/who-supports-saf
