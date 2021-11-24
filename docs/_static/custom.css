@@ -1,0 +1,16 @@
+.wy-nav-content {
+    max-width: 100%!important;
+}
+
+.wy-table-responsive {
+    overflow: visible!important;
+}
+
+.wy-table-responsive table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.wy-table-responsive table td {
+    white-space: normal;   
+}
