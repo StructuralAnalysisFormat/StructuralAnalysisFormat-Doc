@@ -69,3 +69,7 @@
 * [Supported shapes of compound section](annexes/supported-shapes-of-compound-section.md)
 * [Supported design properties of the materials](annexes/supported-design-properties-of-the-materials.md)
 
+## Results
+
+* [ResultInteranlForce1D](results/resultinternalforce1d)
+
