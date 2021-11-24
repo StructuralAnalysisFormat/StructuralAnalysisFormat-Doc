@@ -3,7 +3,7 @@ SAF Documentation
   
 .. toctree::
   :caption: Getting started
-  :maxdepth: 1
+  :maxdepth: 0
   
   getting-started/what-is-saf
   getting-started/who-supports-saf
