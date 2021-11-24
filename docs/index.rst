@@ -4,16 +4,15 @@ SAF Documentation
 Structural Analysis Format documentation
 
 
-.. container:: Note
-    Current version: 2.1.0
+.. Note
+   Current version: 2.1.0
 
 
 Table of contents:
 
 .. toctree::
   :caption: Getting started
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   
   getting-started/what-is-saf
   getting-started/who-supports-saf
@@ -29,8 +28,7 @@ Table of contents:
   
 .. toctree::
   :caption: Structural analysis elements
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   
   structural-analysis-elements/structuralmaterial
   structural-analysis-elements/structuralcrosssection
@@ -48,8 +46,7 @@ Table of contents:
   
 .. toctree::
   :caption: Supports and hinges
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   
   supports-and-hinges/structuralpointsupport
   supports-and-hinges/structuralsurfaceconnection
@@ -63,8 +60,7 @@ Table of contents:
   
 .. toctree::
   :caption: Loads
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   
   loads/structuralloadgroup
   loads/structuralloadcase
@@ -83,8 +79,7 @@ Table of contents:
   
 .. toctree::
   :caption: Annexes
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   
   annexes/formcodes
   annexes/description-id-of-the-profile
@@ -94,7 +89,6 @@ Table of contents:
 
 .. toctree::
   :caption: Results
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   
   results/resultinternalforce1d
