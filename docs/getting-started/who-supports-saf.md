@@ -1,10 +1,6 @@
 # Who supports SAF?
-
-> **Last update: November 2021**
-
-
     
-    Last udpate: November 2021 with # @* ( $)  &
+    **Last udpate: November 2021**
 
 
 **Note:**\
