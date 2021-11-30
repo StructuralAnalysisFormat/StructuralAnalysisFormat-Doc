@@ -18,6 +18,8 @@
 Box made with Triple Backticks
 ```
 
+<span style="background-color:rgb(204, 238, 255)">**Last update: November 2021**</span>
+
 
 <div style="background-color:blue;color:white;padding:2%;">White text, blue background.</div>
 
