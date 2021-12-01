@@ -1,10 +1,9 @@
 # Ignored objects and groups
 
-{% hint style="warning" %}
+
 **SAF TOC group name** is a term used for navigation in the table of contents of SAF documentation. Do not use it in "ignored groups" cells.
 
 Each group consist of multiple objects, ignoring the group is taken in to account as ignoring all objects in the group \(groups are parent to objects\)
-{% endhint %}
 
 | SAF TOC Group name | Group name | Object name |
 | :--- | :--- | :--- |
