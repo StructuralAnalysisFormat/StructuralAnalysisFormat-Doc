@@ -22,6 +22,6 @@ Material is the basic entity affecting the behaviour of the structure. It is sub
 
 ## Notes
 
-{% hint style="info" %}
-"**Name**" is recommended to set the same as the "**Quality**" of the defined material.
-{% endhint %}
+
+>"**Name**" is recommended to set the same as the "**Quality**" of the defined material.
+
