@@ -1,6 +1,6 @@
 # StructuralSurfaceMember
 
-## 2D member (Plate, Wall…)
+**2D member (Plate, Wall…)**
 
 Instances of StructuralSurfaceMember describe face members, structural analysis idealizations of slabs, walls, shells. Surface members may be planar or curved with an arbitrary number of edges.
 
@@ -10,7 +10,7 @@ The geometry of a 2D member is defined by nodes ([StructuralPointConnection](str
 
 ![](../.gitbook/assets/14\_structuralsurfacemember2.png)
 
-### Specification in the excel
+## Specification in the excel
 
 |  **Name of the column header**  | **Type of data** |                                                                                                             **Value example or enum definition**                                                                                                             | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | :-----------------------------: | :--------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,12 +40,10 @@ The geometry of a 2D member is defined by nodes ([StructuralPointConnection](str
 
 ## Notes
 
-{% hint style="info" %}
-Rotation of LCS is measured from origin position of local x and y-axis and orientation follows positive rotation according to right-handed rule.
-
-An example of a definition of a curved wall defined in the StructuralSurfaceMember sheet can be seen below, nodes N1, N2, N3 define the first arc and N4, N5, N6 define the second arc. Edges shown below are important for RelConnectsRigidMember:
-{% endhint %}
-
-![](../.gitbook/assets/14\_structuralsurfacemember3.png)
-
-![](../.gitbook/assets/14\_structuralsurfacemember4.png)
+>Rotation of LCS is measured from origin position of local x and y-axis and orientation follows positive rotation according to right-handed rule.
+>
+>An example of a definition of a curved wall defined in the StructuralSurfaceMember sheet can be seen below, nodes N1, N2, N3 define the first arc and N4, N5, N6 define the second arc. Edges shown below are important for RelConnectsRigidMember:
+>
+>![](../.gitbook/assets/14\_structuralsurfacemember3.png)
+>
+>![](../.gitbook/assets/14\_structuralsurfacemember4.png)
