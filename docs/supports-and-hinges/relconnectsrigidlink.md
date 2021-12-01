@@ -1,6 +1,6 @@
 # RelConnectsRigidLink
 
-## Rigid Link
+**Rigid Link**
 
 A virtual connection of two nodes from([StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md#node)) for directly defined nodes, ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)) or ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column))for internal nodes on 1D and 2D members, where structural behavior could be set. Master and slave node have to be defined. The rigid links are used for the connection, where you want to simulate infinite rigidity or user defined properties.
 
@@ -8,7 +8,7 @@ A virtual connection of two nodes from([StructuralPointConnection](../structural
 
 ![](../.gitbook/assets/26\_rigidlink\_2.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                                                      **Value example or enum definition**                                                                                      |                           **Required value**                           | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | :---------------------------: | :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -37,12 +37,10 @@ A virtual connection of two nodes from([StructuralPointConnection](../structural
 
 ## Notes
 
-{% hint style="info" %}
-For constrains, the LCS of RelConnectsRigidLink is taken into account.
-
-Local coordination system is given by master node and its parent object.
-
-**Non linear** behavior of material is handled with "Resistance". The example is shown below.
-{% endhint %}
-
-![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
+>For constrains, the LCS of RelConnectsRigidLink is taken into account.
+>
+>Local coordination system is given by master node and its parent object.
+>
+>**Non linear** behavior of material is handled with "Resistance". The example is shown below.
+>
+>![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
