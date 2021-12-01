@@ -27,21 +27,20 @@ Excel screenshot examples:
 **Enum** - Ordered listing of all the items in a collection used for data validation. Only allowed values from the list can be inputted.  
 **String** - A sequence of characters, Text.
 
-{% hint style="info" %}
-Any numeric value \(Double, Integer\) has to be formatted as a number in an excel sheet.
-{% endhint %}
+
+>Any numeric value \(Double, Integer\) has to be formatted as a number in an excel sheet.
+
 
 In SAF, supported units are **metric** and **imperial**. Units are defined in the "Model" sheet.
 
-{% hint style="info" %}
-Units can be optionally displayed in property headers.  
-The unit system used in SAF file is given on [Model](https://saf.guide/Content/2_Project%20and%20model%20specifications.htm) sheet page by the user.  
-Values given in SAF format should correspond to predefined values per system unit set. Table of predefined and expected units can be reviewed on [Project and specification page.](https://saf.guide/Content/2_Project%20and%20model%20specifications.htm)\*\*\*\*
-{% endhint %}
 
-{% hint style="info" %}
-The order of lists and columns does not matter, for import. Important is to consistently follow its naming.
-{% endhint %}
+>Units can be optionally displayed in property headers.  
+>The unit system used in SAF file is given on [Model](https://saf.guide/Content/2_Project%20and%20model%20specifications.htm) sheet page by the user.  
+>Values given in SAF format should correspond to predefined values per system unit set. Table of predefined and expected units can be reviewed on [Project and specification page.](https://saf.guide/Content/2_Project%20and%20model%20specifications.htm)\*\*\*\*
+
+
+>The order of lists and columns does not matter, for import. Important is to consistently follow its naming.
+
 
 ## **Coordinate systems**
 
