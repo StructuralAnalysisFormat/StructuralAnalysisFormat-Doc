@@ -1,6 +1,6 @@
 # StructuralSurfaceConnection
 
-## Support on 2D member
+**Support on 2D member**
 
 Instances of the objects StructuralSurfaceConnection are used to describe structural supports provided by planar elements. In most cases, it represents the interaction between the structure and the subsoil.
 
@@ -10,7 +10,7 @@ To simplify the matter, we may imagine that C is the characteristic of elastic, 
 
 ![](../.gitbook/assets/20\_structuralsurfaceconnection.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :----------------------------------: | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,6 +30,4 @@ To simplify the matter, we may imagine that C is the characteristic of elastic, 
 
 ## Notes
 
-{% hint style="info" %}
-Local coordination system is given by parent 2D object - [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)
-{% endhint %}
+>Local coordination system is given by parent 2D object - [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)
