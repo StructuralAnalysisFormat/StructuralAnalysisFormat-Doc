@@ -1,10 +1,9 @@
 # Release Notes
 
+~~~
+Current version 2.1.0
+~~~
 
->Current version 2.1.0
-
-
-## Release notes
 
 ### 18.11.2021 - Version 2.1.0
 
