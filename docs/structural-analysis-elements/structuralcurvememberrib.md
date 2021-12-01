@@ -1,6 +1,6 @@
 # StructuralCurveMemberRib
 
-## 2D member rib
+**2D member rib**
 
 The 2D member rib is a 1D member related to slabs. The part of the slab which cooperates with the rib is called the effective width. Different values of effective widths can be considered for checks and for calculation of the internal forces.
 
@@ -37,12 +37,10 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
 
 ## Notes
 
-{% hint style="info" %}
-**LCS of the rib** is set due to the following rules: X is set from the start node to the end node, Z is set in parallelly to Z LCS in the slab ([StructuralSurfaceMember](https://saf.guide/Content/A\_Objects/8\_StructuralSurfaceMember.htm)), Y is determined by right hand rule.
-{% endhint %}
+>**LCS of the rib** is set due to the following rules: X is set from the start node to the end node, Z is set in parallelly to Z LCS in the slab ([StructuralSurfaceMember](https://saf.guide/Content/A\_Objects/8\_StructuralSurfaceMember.htm)), Y is determined by right hand rule.
+>
+>![](../.gitbook/assets/13\_structuralcurvememberrib2.png)
 
-![](../.gitbook/assets/13\_structuralcurvememberrib2.png)
 
-{% hint style="info" %}
-Complete enumeration of the Formcode and Description ID can be found in chapter Annexes, in this documentation.
-{% endhint %}
+>Complete enumeration of the Formcode and Description ID can be found in chapter Annexes, in this documentation.
+
