@@ -17,24 +17,20 @@ For **manufactured** types of a cross-section, Composite Shape Definition is **o
 
 ## Notes
 
-{% hint style="info" %}
-The symbol "#" means indexing of the name columns, depends on how many polygons is used, starts from 1
+>The symbol "#" means indexing of the name columns, depends on how many polygons is used, starts from 1
+>
+>The contour defined clockwise is opening
+>
+>The contour defined counter clockwise is polygon of the general cross-section (relation between LCS and counter clockwise direction is shown below)
+>
+>![](../.gitbook/assets/8\_compositeshapedef\_counterclockwise.png)
 
-The contour defined clockwise is opening
-
-The contour defined counter clockwise is polygon of the general cross-section (relation between LCS and counter clockwise direction is shown below)
-{% endhint %}
-
-![](../.gitbook/assets/8\_compositeshapedef\_counterclockwise.png)
-
-{% hint style="info" %}
-Each polygon has a defined material which is name reference to existing material in [StructuralMaterial](structuralmaterial.md#material) sheet
-
-* The opening has no material definition
-* Each polygon contour has to be closed
-* The set of all polygons and openings defines one general cross-section (one row in the Excel table)
-* The number of polygons is limited to 99. The definition of the general shape has to consist of at least one polygon which is not the opening.
-* CompositeShapeDef example with opening is shown below. A,B,C,D are defining the contour of cross-section (counter clockwise polygon) and E,F,K,L are defining the opening (clockwise polygon).
-{% endhint %}
-
-![](../.gitbook/assets/8\_compositeshapedef\_animation.gif)
+>Each polygon has a defined material which is name reference to existing material in [StructuralMaterial](structuralmaterial.md#material) sheet
+>
+>* The opening has no material definition
+>* Each polygon contour has to be closed
+>* The set of all polygons and openings defines one general cross-section (one row in the Excel table)
+>* The number of polygons is limited to 99. The definition of the general shape has to consist of at least one polygon which is not the opening.
+>* CompositeShapeDef example with opening is shown below. A,B,C,D are defining the contour of cross-section (counter clockwise polygon) and E,F,K,L are defining the opening (clockwise polygon).
+>
+>![](../.gitbook/assets/8\_compositeshapedef\_animation.gif)
