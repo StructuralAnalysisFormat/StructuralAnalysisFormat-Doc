@@ -1,6 +1,6 @@
 # StructuralStorey
 
-## Storey, Floor levels...
+**Storey, Floor levels...**
 
 StructuralStorey object describes definition of floor levels/storeys in structural model.
 
@@ -8,7 +8,7 @@ StructuralStorey object describes definition of floor levels/storeys in structur
 
 ![](../.gitbook/assets/17\_structuralstorey\_2.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                                                                                        |
 | ----------------------------- | ---------------- | ------------------------------------ | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
