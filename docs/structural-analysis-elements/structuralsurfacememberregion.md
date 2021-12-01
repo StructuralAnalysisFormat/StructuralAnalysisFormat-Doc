@@ -1,12 +1,12 @@
 # StructuralSurfaceMemberRegion
 
-## Region of different plate thickness
+**Region of different plate thickness**
 
 This object defines particular areas of the StructuralSurfaceMember with different thicknesses.
 
 ![](../.gitbook/assets/16\_structuralsurfacememberregion.png)
 
-### Specification in the excel:
+## Specification in the excel:
 
 | **Name of the column header** | **Type of data** |        **Value example or enum definition**        | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :------------------------------------------------: | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,8 +24,6 @@ This object defines particular areas of the StructuralSurfaceMember with differe
 
 ## Notes
 
-{% hint style="info" %}
-StructuralSurfaceMemberRegion examples of system-plane location and eccentricity effect.
-{% endhint %}
-
-![](../.gitbook/assets/16\_structuralsurfacememberregion2.png)
+>StructuralSurfaceMemberRegion examples of system-plane location and eccentricity effect.
+>
+>![](../.gitbook/assets/16\_structuralsurfacememberregion2.png)
