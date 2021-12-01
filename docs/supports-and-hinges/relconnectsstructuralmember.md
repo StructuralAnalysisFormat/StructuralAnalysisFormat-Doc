@@ -1,12 +1,12 @@
 # RelConnectsStructuralMember
 
-## Hinges on 1D member
+**Hinges on 1D member**
 
 The entity RelConnectsStructuralMember allows users to release degrees of freedom between structural members (beams, columns) and structural connection objects (nodes or supports). When no RelConnectsStrucutralMember is defined, connections are taken into account as fully rigid. The defined connections may be rigid or free or anything in between. In each direction (translations along X, Y, and Z local 1D member axes, rotation around X, Y, and Z local 1D member axes) the condition may be: Free, Rigid, Flexible.
 
 ![](../.gitbook/assets/22\_relconnectsstructuralmember.png)
 
-### Specification in the excel:
+## Specification in the excel:
 
 | **Name of the column header** | **Type of data** |         **Value example or enum definition**         |   **Required value**   | **Description**                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :--------------------------------------------------: | :--------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,8 +30,6 @@ The entity RelConnectsStructuralMember allows users to release degrees of freedo
 
 ## Notes
 
-{% hint style="info" %}
-**Hinge position** is used for allowing users to define where degrees of freedom are released (user defined constrains).
-
-When the fully rigid connection is desired - no RelConnectsStructuralMember is defined!
-{% endhint %}
+>**Hinge position** is used for allowing users to define where degrees of freedom are released (user defined constrains).
+>
+>When the fully rigid connection is desired - no RelConnectsStructuralMember is defined!
