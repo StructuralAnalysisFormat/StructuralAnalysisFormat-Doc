@@ -1,12 +1,12 @@
 # StructuralEdgeConnection
 
-## Supports on 2D members edges
+**Supports on 2D members edges**
 
 Object definition for a line support on a 2D member ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)) edge. The support can be defined along the entire length of an edge or on its part only.
 
 ![](../.gitbook/assets/21\_structuraledgeconnection.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      |                   **Required value**                  | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
