@@ -1,6 +1,6 @@
 # CompositeShapeDef
 
-## Composite Shape Definition
+**Composite Shape Definition**
 
 Composite Shape definition is **required** when the cross-section type in [StructuralCrossSection](structuralcrosssection.md#cross-section) sheet is set as "General".
 
