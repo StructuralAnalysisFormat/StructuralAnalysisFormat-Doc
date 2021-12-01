@@ -1,14 +1,14 @@
 # RelConnectsSurfaceEdge
 
-## Hinges on 2D member edge
+**Hinges on 2D member edge**
 
 A connection of two slabs (2D members) may be modelled as a fixed one or a hinge may be inserted to create a pinned connection. Three configurations of slab hinge are allowed: rigid, free, flexible. Under any configuration, all translations are fully transferred from one slab to the other. If there is no hinge, the connection is rigid.
 
-{% hint style="warning" %}
-This object is referring to the edge of StructuralSurfaceMember. Only for this object the indexing of edges starts with "0". All other objects are referencing with "1" based indexing.
-{% endhint %}
+>This object is referring to the edge of StructuralSurfaceMember. Only for this object the indexing of edges starts with "0". All other objects are referencing with "1" based indexing.
 
 ![](../.gitbook/assets/23\_relconnectssurfaceedge.png)
+
+## Specification in excel
 
 | **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      |   **Required value**   | **Description**                                                                                                                                                                                                                                                                                                                                                                                                    |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
