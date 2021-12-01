@@ -1,6 +1,6 @@
 # StructuralMaterial
 
-### Material
+**Material**
 
 Material is the basic entity affecting the behaviour of the structure. It is subsequently applied to a chosen profile ([StructuralCrossSection](structuralcrosssection.md)). The user can use a pre-defined material or change the properties to get a custom one. The predefined materials correspond to materials defined in particular technical codes.The specification in excel:
 
