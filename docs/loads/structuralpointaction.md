@@ -1,6 +1,6 @@
 # StructuralPointAction
 
-## Point force
+**Point force**
 
 Instances of StructuralPointAction define a point load applied to the node ([StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md#node)) and also the location of the point load on a 1D member ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)).
 
@@ -8,7 +8,7 @@ The point force can be defined in three main directions (global or local coordin
 
 ![](../.gitbook/assets/31\_structuralpointaction.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      |       **Required value**       | **Description**                                                                                                                                                                                          |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -31,8 +31,6 @@ The point force can be defined in three main directions (global or local coordin
 
 ## Notes
 
-{% hint style="info" %}
-An example of use of Repeat (n) is given below. The forces are distributed uniformly meaning that the value Delta x is used for uniform distribution along the 1D member for multiple point forces.
-{% endhint %}
-
-![](../.gitbook/assets/31\_structuralpointaction2.png)
+>An example of use of Repeat (n) is given below. The forces are distributed uniformly meaning that the value Delta x is used for uniform distribution along the 1D member for multiple point forces.
+>
+>![](../.gitbook/assets/31\_structuralpointaction2.png)
