@@ -1,10 +1,10 @@
 # StructuralCurveConnection
 
-## Supports on 1D members
+**Supports on 1D members**
 
 Object definition for a line support on a 1D member ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)) or on a rib ([StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib)). The support can be defined along the entire length of an edge or on its part only. This support is defined by six independent parameters. Each parameter defines the constraint in one direction: translation in X, Y, Z axis and rotation around the same axes. The parameters are the same as for line support on 2D memeber edge support ([StructuralEdgeConnection](../structural-analysis-elements/structuralcurveedge.md#internal-edge)).
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      |        **Required value**        | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
