@@ -1,12 +1,12 @@
 # StructuralSurfaceAction
 
-## Surface load
+**Surface load**
 
 Defines actions on surfaces – plates, walls. The surface load is defined on the whole slab automatically. If only a part of the main slab is supposed to be subject to this load, a subregion ([StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness)) must be defined inside the main slab.
 
 ![](../.gitbook/assets/35\_structuralsurfaceaction.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                             **Value example or enum definition**                            |                **Required value**                | **Description**                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :-----------------------------------------------------------------------------------------: | :----------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
