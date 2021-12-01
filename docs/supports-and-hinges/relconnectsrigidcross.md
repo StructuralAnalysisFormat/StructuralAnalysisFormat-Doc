@@ -1,12 +1,12 @@
 # RelConnectsRigidCross
 
-## Rigid Cross
+**Rigid Cross**
 
 RigidCross is defining structural behavior of node ([StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md#node)), where two 1D elements ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)) are being crossed. 1D members could be independent or dependency could be defined in following excel sheet. Rigid cross is often used for bracing of the structure.
 
 ![](../.gitbook/assets/24\_rigidcross.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                                                      **Value example or enum definition**                                                                                      |                                                                **Required value**                                                                | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | :---------------------------: | :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,16 +36,14 @@ RigidCross is defining structural behavior of node ([StructuralPointConnection](
 
 ## Notes
 
-{% hint style="info" %}
-**Resistance** is defined by the value of maximal strain. Until is the value of maximal strain reached, Rigid cross acts fully rigid. After the value exceeded, RigidCross acts flexibly due to defined Value of Stiffness. This is how non linear behavior is achieved.
-
-The axis of the connection is defined by the members of the RigidCross:
-
-* The first axis is assigned to the first member (i.e. the first member selected by the user during the definition of a new RigidCross - column "1D Members").
-* The second axis is assigned to the second member (i.e. the second member selected by the user during the definition of a new RigidCross - column "1D Members").
-* The third axis is perpendicular at the plane defined by member 1 and member 2.
-
-**Non linear** behavior of material is handled with "Resistance". The example is shown below.
-{% endhint %}
-
-![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
+>**Resistance** is defined by the value of maximal strain. Until is the value of maximal strain reached, Rigid cross acts fully rigid. After the value exceeded, RigidCross acts flexibly due to defined Value of Stiffness. This is how non linear behavior is achieved.
+>
+>The axis of the connection is defined by the members of the RigidCross:
+>
+>* The first axis is assigned to the first member (i.e. the first member selected by the user during the definition of a new RigidCross - column "1D Members").
+>* The second axis is assigned to the second member (i.e. the second member selected by the user during the definition of a new RigidCross - column "1D Members").
+>* The third axis is perpendicular at the plane defined by member 1 and member 2.
+>
+>**Non linear** behavior of material is handled with "Resistance". The example is shown below.
+>
+>![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
