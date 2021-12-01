@@ -1,10 +1,10 @@
 # StructuralCurveActionThermal
 
-## Thermal load on the beam
+**Thermal load on the beam**
 
 The thermal load on the line elements ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column), [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib)). The variation of the thermal load can be constant or linear over the cross-section of the beam.
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      |       **Required value**       | **Description**                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,6 +28,4 @@ The thermal load on the line elements ([StructuralCurveMember](../structural-ana
 
 ## Notes
 
-{% hint style="info" %}
-Reference to surfaces of cross-section where linear temperature can be applied. View is towards the direction of center axis (looking from end point towards start point).
-{% endhint %}
+>Reference to surfaces of cross-section where linear temperature can be applied. View is towards the direction of center axis (looking from end point towards start point).
