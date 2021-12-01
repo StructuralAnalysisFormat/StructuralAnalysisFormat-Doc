@@ -1,12 +1,12 @@
 # RelConnectsRigidMember
 
-## Rigid Member
+**Rigid Member**
 
 A rigid connection between two entities. Rigid Member allows to create connections between nodes ([StructuralPoinConnection](../structural-analysis-elements/structuralpointconnection.md#node)), 1D members ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)) and edges of 2D members ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)). Connection could be infinitely rigid or with user defined properties. Maximum of two entities could be connected with one **RelConnectsRigidMember**.
 
 ![](../.gitbook/assets/27\_structuralrigidmember.jpg)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                                                      **Value example or enum definition**                                                                                      |                                           **Required value**                                          | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | :---------------------------: | :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -39,10 +39,8 @@ A rigid connection between two entities. Rigid Member allows to create connectio
 
 ## Notes
 
-{% hint style="info" %}
-Local coordination system is given by first node and its related object.
-
-**Non linear** behavior of material is handled with "Resistance". The example is shown below.
-{% endhint %}
-
-![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
+>Local coordination system is given by first node and its related object.
+>
+>**Non linear** behavior of material is handled with "Resistance". The example is shown below.
+>
+>![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
