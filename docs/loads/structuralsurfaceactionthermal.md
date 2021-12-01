@@ -1,10 +1,10 @@
 # StructuralSurfaceActionThermal
 
-## Thermal load on surface elements
+**Thermal load on surface elements**
 
 The thermal load on the surface elements ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)). The variation of the thermal load can be constant or linear over the cross-section of the beam.
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** | **Value example or enum definition** |     **Required value**     | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | ---------------- | :----------------------------------: | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
