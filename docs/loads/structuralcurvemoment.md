@@ -1,10 +1,10 @@
 # StructuralCurveMoment
 
-## Line Moment on the beam
+**Line Moment on the beam**
 
 The Line moment load models load distributed over a 1D member ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)), 1D member Rib ([StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib)) or on a slab edge ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)). It may be action along the whole 1D member or only on its part. It can be constant or trapezoidal, acting in three main directions X, Y, Z (global or local coordinate system).
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      | **Required value**                                                   | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -35,20 +35,16 @@ The Line moment load models load distributed over a 1D member ([StructuralCurveM
 
 ## Notes
 
-{% hint style="info" %}
-Difference between Location type Length and Projection can be seen in the picture. Location is used only if Coordinate system is Global.
-{% endhint %}
+>Difference between Location type Length and Projection can be seen in the picture. Location is used only if Coordinate system is Global.
+>
+>![](../.gitbook/assets/34\_structuralcurvemoment2.png)
 
-![](../.gitbook/assets/34\_structuralcurvemoment2.png)
 
-{% hint style="info" %}
-An example of use of parameter Extent is in the in the picture below. In case of Span the load acts only on the span which is defined by internal nodes
-{% endhint %}
+>An example of use of parameter Extent is in the in the picture below. In case of Span the load acts only on the span which is defined by internal nodes
+>
+>![](../.gitbook/assets/34\_structuralcurvemoment4.png)
 
-![](../.gitbook/assets/34\_structuralcurvemoment4.png)
 
-{% hint style="info" %}
-An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0 and end point 0,3. StructuralCurveAction 1 has origin "From start" and StructuralCurveAction 2 has origin "From end". In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.
-{% endhint %}
-
-![](../.gitbook/assets/34\_structuralcurvemoment3.png)
+>An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0 and end point 0,3. StructuralCurveAction 1 has origin "From start" and StructuralCurveAction 2 has origin "From end". In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.
+>
+>![](../.gitbook/assets/34\_structuralcurvemoment3.png)
