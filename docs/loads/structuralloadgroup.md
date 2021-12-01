@@ -1,10 +1,10 @@
 # StructuralLoadGroup
 
-## Load group
+**Load group**
 
 Load groups define "how the individual load cases may be combined together" if inserted into a load case combination. Thanks to the load groups, the user can easily specify which load cases MUST, MUST NOT, or CAN act together. Each load group may be used either for permanent loads or for variable loads. Permanent and variable loads cannot appear in the same group.
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                        **Value example or enum definition**                                                       |         **Required value**         | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | :---------------------------: | :--------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
