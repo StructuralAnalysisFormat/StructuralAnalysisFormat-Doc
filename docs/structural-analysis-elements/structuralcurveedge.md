@@ -1,12 +1,12 @@
 # StructuralCurveEdge
 
-## Internal edge
+**Internal edge**
 
 Internal edge (StructuralCurveEdge) is an object within a 2D Member ([StructuralSurfaceMember](structuralsurfacemember.md)) on which the line force (StructuralCurveAction) can act. StructuralCurveEdge can be placed on [StructuralSurfaceMemberRegion](structuralsurfacememberregion.md), but the relation is always to 2D member (StructuralSurfaceMember) where StructuralSurfaceMemberRegion is placed.
 
-{% hint style="warning" %}
-If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember it is assigned to, it is considered a logically invalid input. Cases like this one have to be solved by validation during the import of excel data to the specific software. The validation has to be implemented together with the import/export of SAF.
-{% endhint %}
+
+>If StructuralCurveEdge does not geometrically fit to the StructuralSurfaceMember it is assigned to, it is considered a logically invalid input. Cases like this one have to be solved by validation during the import of excel data to the specific software. The validation has to be implemented together with the import/export of SAF.
+
 
 ![](../.gitbook/assets/10\_structuralcurveedge.png)
 
