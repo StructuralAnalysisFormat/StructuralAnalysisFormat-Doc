@@ -4,7 +4,10 @@
 
 The Free line load is related to slabs. The load is not defined by the entity it acts on, but by a specific load border. Free loads are defined by means of "loading entities" that may overlap or affect one or more slabs.
 
-![](../.gitbook/assets/39\_structuralcurveactionfree1.png)
+```{image} ../.gitbook/assets/39\_structuralcurveactionfree1.png
+:width: 600px
+```
+
 
 ## Specification in the excel
 
