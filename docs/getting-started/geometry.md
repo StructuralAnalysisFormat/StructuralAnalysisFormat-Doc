@@ -41,7 +41,12 @@ Basic construction elements are simple geometry types, that are used for shape d
 >
 >I am trying to rewrite this according to amsmath user guide
 >
-
+>\begin{equation} \label{eq1}
+>\begin{split}
+>A & = \frac{\pi r^2}{2} \\
+> & = \frac{1}{2} \pi r^2
+>\end{split}
+>\end{equation}
 
 
 
