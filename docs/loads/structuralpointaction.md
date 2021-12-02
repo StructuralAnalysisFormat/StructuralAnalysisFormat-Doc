@@ -2,7 +2,7 @@
 
 **Point force**
 
-Instances of StructuralPointAction define a point load applied to the node ([StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md#node)) and also the location of the point load on a 1D member ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)).
+Instances of StructuralPointAction define a point load applied to the node ([StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md)) and also the location of the point load on a 1D member ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)).
 
 The point force can be defined in three main directions (global or local coordinate system). Every point force has to be assigned to a load case.
 
