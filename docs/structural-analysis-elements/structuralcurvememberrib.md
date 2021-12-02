@@ -37,7 +37,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
 
 ## Notes
 
->**LCS of the rib** is set due to the following rules: X is set from the start node to the end node, Z is set in parallelly to Z LCS in the slab ([StructuralSurfaceMember](https://saf.guide/Content/A\_Objects/8\_StructuralSurfaceMember.htm)), Y is determined by right hand rule.
+>**LCS of the rib** is set due to the following rules: X is set from the start node to the end node, Z is set in parallelly to Z LCS in the slab ([StructuralSurfaceMember](structuralsurfacemember.md)), Y is determined by right hand rule.
 >
 >![](../.gitbook/assets/13\_structuralcurvememberrib2.png)
 
