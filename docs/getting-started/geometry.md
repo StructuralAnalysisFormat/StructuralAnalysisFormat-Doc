@@ -33,6 +33,18 @@ Basic construction elements are simple geometry types, that are used for shape d
 >  $$N_i^n(t)$$is for basis function  \
 >  $$n$$is for the degree of curve  \
 >  $$m$$is for points of the control polygon
+
+>* Bezier
+>\begin{multiline*}
+>Q(t)&=\sum^n_{i=0} P_i B_i(t) ; t \epsilon < 0,1>
+>\end{multiline}
+>
+>I am trying to rewrite this according to amsmath user guide
+>
+
+
+
+
 >
 >**Polyline schematics:**
 
