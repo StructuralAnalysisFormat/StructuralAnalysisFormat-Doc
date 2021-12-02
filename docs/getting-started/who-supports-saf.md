@@ -1,11 +1,10 @@
 # Who supports SAF?
 
+```{admonition} Last update: November 2021
 
->**Last update: November 2021**
->
->**Note:**\
-    Information in the table is provided by involved partners themselves. Author of the documentation is not taking any responsibility for correctness of given information. If you found a mistake or want to update the table content, please contact us via email on **saf@scia.net**
-
+Note:\
+Information in the table is provided by involved partners themselves. Author of the documentation is not taking any responsibility for correctness of given information. If you found a mistake or want to update the table content, please contact us via email on **saf@scia.net**
+```
 
 ## Native SAF support:
 
