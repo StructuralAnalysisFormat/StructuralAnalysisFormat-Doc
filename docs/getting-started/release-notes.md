@@ -40,7 +40,7 @@ Current version 2.1.0
 
 **New object added:**
 
-[ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
+[ResultInternalForce1D](../results/resultinternalforce1d.md) - result object for internal forces on 1D members
 
 * new attribute: "Combination key"
 * edited attributes: Case, Load case, Load combination, Member replaced by Member and Member Rib
