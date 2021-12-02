@@ -76,6 +76,11 @@ Table of contents:
   loads/structuralsurfaceactionfree
   loads/structuralsurfaceactiondistribution-1
   
+  .. toctree::
+  :caption: Results
+  :maxdepth: 1
+  
+  results/resultinternalforce1d
 .. toctree::
   :caption: Annexes
   :maxdepth: 1
@@ -85,9 +90,3 @@ Table of contents:
   annexes/supported-shapes-of-parametric-cross-section
   annexes/supported-shapes-of-compound-section
   annexes/supported-design-properties-of-the-materials
-
-.. toctree::
-  :caption: Results
-  :maxdepth: 1
-  
-  results/resultinternalforce1d
