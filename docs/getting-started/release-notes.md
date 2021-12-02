@@ -38,7 +38,7 @@ Current version 2.1.0
 
 * "Hinge position": enum definition clarified
 
-#### New object added:
+**New object added:**
 
 [ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
 
