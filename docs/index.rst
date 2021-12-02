@@ -74,7 +74,7 @@ Table of contents:
   loads/structuralpointactionfree
   loads/structuralcurveactionfree
   loads/structuralsurfaceactionfree
-  loads/structuralsurfaceactiondistribution
+  loads/structuralsurfaceactiondistribution-1
   
 .. toctree::
   :caption: Annexes
