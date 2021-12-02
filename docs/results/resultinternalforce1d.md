@@ -42,8 +42,10 @@ Internal forces on line, beam, member. Result in member axis (not in principal a
 >
 >See example below:
 >
->![](../.gitbook/assets/47\_ResultInternalForce1D\_2.gif)
+>![](../.gitbook/assets/47_ResultInternalForce1D_2.gif)
 
->See the index 6 and 7. One section, two values for normal (N) force. \
->Section with lower index (6) identifies value on the left (closer to the origin of X-axis of the beam).\
->Section with a higher index (7) identifies value on the right (further from the origin of X-axis of the beam).
+```{hint}
+See the index 6 and 7. One section, two values for normal (N) force. \
+Section with lower index (6) identifies value on the left (closer to the origin of X-axis of the beam).\
+Section with a higher index (7) identifies value on the right (further from the origin of X-axis of the beam).
+```
