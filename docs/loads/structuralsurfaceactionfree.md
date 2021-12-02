@@ -6,6 +6,24 @@ The Free surface load is related to slabs. The load is not defined by the entity
 
 ![](../.gitbook/assets/40\_structuralsurfaceactionfree.png)
 
+this image is in markdown, but with width = 100px
+
+```{image} ../.gitbook/assets/40\_structuralsurfaceactionfree.png
+:alt: fishy
+:class: bg-primary
+:width: 100px
+:align: center
+```
+
+this image is in html
+<img src="../.gitbook/assets/40\_structuralsurfaceactionfree.png">
+
+
+this image is in hmtl, widt = 100px
+<img src="../.gitbook/assets/40\_structuralsurfaceactionfree.png" alt="fishy" width="200px">
+
+
+
 ## Specification in the excel:
 
 | **Name of the column header** | **Type of data** |                                                                                         **Value example or enum definition**                                                                                         | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
