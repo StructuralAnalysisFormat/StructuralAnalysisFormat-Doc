@@ -35,7 +35,7 @@ In SAF, supported units are **metric** and **imperial**. Units are defined in th
 
 
 >Units can be optionally displayed in property headers.  
->The unit system used in SAF file is given on [Model](https://saf.guide/Content/2_Project%20and%20model%20specifications.htm) sheet page by the user.  
+>The unit system used in SAF file is given on [Model](../getting-started/project-and-model-specification/README.md) sheet page by the user.  
 >Values given in SAF format should correspond to predefined values per system unit set. Table of predefined and expected units can be reviewed on [Project and specification page.](https://saf.guide/Content/2_Project%20and%20model%20specifications.htm)\*\*\*\*
 
 
