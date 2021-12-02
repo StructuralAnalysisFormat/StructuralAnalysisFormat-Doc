@@ -1,9 +1,5 @@
 # Release Notes
 
-~~~
-Current version 2.1.0
-~~~
-
 ```{admonition} Version
 Current version 2.1.0
 ```
