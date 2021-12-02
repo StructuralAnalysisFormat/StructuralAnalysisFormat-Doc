@@ -4,9 +4,9 @@ Best practice for SAF implementation
 
 This chapter is a list of collected proved and functional approaches for SAF implementation to your application.
 
-
-**They are not obligatory but following these rules ensures smooth export/import of SAF file and you might avoid any un-foreseen issues.**
-
+```{warning}
+They are not obligatory but following these rules ensures smooth export/import of SAF file and you might avoid any un-foreseen issues.
+```
 
 Please in case you want to:
 
