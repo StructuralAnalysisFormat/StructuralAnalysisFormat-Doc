@@ -9,4 +9,4 @@ html_css_files = [
     'custom.css',
 ]
 
-myst_enable_extensions = ['html_image']
+myst_enable_extensions = ['html_image', 'amsmath']
