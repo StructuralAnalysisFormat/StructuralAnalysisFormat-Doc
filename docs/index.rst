@@ -76,7 +76,7 @@ Table of contents:
   loads/structuralsurfaceactionfree
   loads/structuralsurfaceactiondistribution-1
   
-  .. toctree::
+.. toctree::
   :caption: Results
   :maxdepth: 1
   
