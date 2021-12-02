@@ -5,9 +5,8 @@
 StrucutralProxyElements are solid objects described by their boundary representation (faces of objects). The common use for StrucutralProxyElements can be found for complex part of structures (garage ramps for example), which are difficult to describe with [StructuralCurveMember](structuralcurvemember.md) and [StrucuturalSurfaceMemeber](structuralsurfacemember.md) or for massive parts of structures with difficult geometry such as foundations. With StrucuralProxyElement all important parts of the structure can be transferred via SAF format no matter the complexity.
 
 ```{warning}
-Structural proxy element is not structural analysis object and will not be considered in structural analysis calculation.
-
-It is just a geometrical reference object.
+|Structural proxy element is not structural analysis object and will not be considered in structural analysis calculation.
+|It is just a geometrical reference object.
 ```
 
 ![](../.gitbook/assets/18\_structuralproxyelement.png)
