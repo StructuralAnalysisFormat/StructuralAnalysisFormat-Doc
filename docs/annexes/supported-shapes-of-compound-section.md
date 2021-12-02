@@ -4,9 +4,7 @@
 
 |Pattern|Shape|Parameters [mm]|
 |--- |--- |--- |
-| ```{image} ../.gitbook/assets/45_supportedcompound_double_i_section.png
-:width: 200 px
-``` |Double I section|a|
+| <img src="../.gitbook/assets/45_supportedcompound_double_i_section.png" width="200px"> |Double I section|a|
 | ![](../.gitbook/assets/45_supportedcompound_doublechannel_ftf.png) |Double Channel FtF        (face to face position)|a|
 | ![](../.gitbook/assets/45_supportedcompound_doublechannel_btb.png) |Double Channel BtB        (back to back position)|a|
 | ![](../.gitbook/assets/45_supportedcompound_starredangle.png) |Starred Angle        (diagonal position)|a|
