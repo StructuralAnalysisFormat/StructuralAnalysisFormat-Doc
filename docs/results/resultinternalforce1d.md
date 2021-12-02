@@ -43,8 +43,6 @@ Internal forces on line, beam, member. Result in member axis (not in principal a
 >See example below:
 >
 >![](../.gitbook/assets/47_resultinternalforce1d_2.gif)
->
->![](../.gitbook/assets/47\_resultsinternal\_force\_1.gif)
 
 ```{hint}
 See the index 6 and 7. One section, two values for normal (N) force. \
