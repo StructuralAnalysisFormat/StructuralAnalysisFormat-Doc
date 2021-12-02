@@ -51,7 +51,7 @@ In addition to this local co-ordinate system, also a principal (or main) co-ordi
 
 ## Notes
 
->Complete enumeration of the Formcode, Supported shapes of cross-section and Description ID can be found in chapter Annexes. These properties are set in the object [StructuralCrossSection](structuralcrosssection.md#cross-section).
+>Complete enumeration of the Formcode, Supported shapes of cross-section and Description ID can be found in chapter Annexes. These properties are set in the object [StructuralCrossSection](structuralcrosssection.md).
 >
 >Rotation of local co-ordinate system is measured from origin position of local y-axis and the orientation follows positive rotation according to the right-handed rule.
 >
