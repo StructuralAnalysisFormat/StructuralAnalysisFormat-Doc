@@ -1,6 +1,6 @@
 # Geometry
 
-Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](..\structural-analysis-elements\structuralpointconnection.md).
+Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](../structural-analysis-elements\structuralpointconnection.md).
 
 ## Gemetry types
 
