@@ -8,3 +8,5 @@ project = u'SAF Documentation'
 html_css_files = [
     'custom.css',
 ]
+
+myst_enable_extensions = ['html_image']
