@@ -1,6 +1,6 @@
 # StructuralPointConnection
 
-## Node
+**Node**
 
 The basic object specifies the geometry of the analytical model and its members. The nodes define other entity types. Each node is defined by the position in the modeling space and by its name. For example, a 1D member ([StructuralCurveMember](structuralcurvemember.md)) is defined primarily by its two end-points that are nothing else but two nodes.
 

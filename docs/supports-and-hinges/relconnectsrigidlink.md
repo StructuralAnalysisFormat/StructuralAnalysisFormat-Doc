@@ -1,19 +1,19 @@
 # RelConnectsRigidLink
 
-## Rigid Link
+**Rigid Link**
 
-A virtual connection of two nodes from([StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md#node)) for directly defined nodes, ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)) or ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column))for internal nodes on 1D and 2D members, where structural behavior could be set. Master and slave node have to be defined. The rigid links are used for the connection, where you want to simulate infinite rigidity or user defined properties.
+A virtual connection of two nodes from([StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md)) for directly defined nodes, ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md)) or ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md))for internal nodes on 1D and 2D members, where structural behavior could be set. Master and slave node have to be defined. The rigid links are used for the connection, where you want to simulate infinite rigidity or user defined properties.
 
 ![](../.gitbook/assets/26\_rigidlink.png)
 
 ![](../.gitbook/assets/26\_rigidlink\_2.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                                                      **Value example or enum definition**                                                                                      |                           **Required value**                           | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | :---------------------------: | :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              Name             |      String      |                                                                                                       RL1                                                                                                      |                                   yes                                  | Human readable unique name of the object                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|             Nodes             |      String      |                                                                                                     N3; N4                                                                                                     |                                   yes                                  | <p>The name of the valid existing node in <a href="../structural-analysis-elements/structuralpointconnection.md#node">StructuralPointConnection</a>.</p><p>Maximum of two nodes can be connected by RelConnectsRigitLink</p><p>First in node is seen as "master node", second in row is "slave node"</p> |
+|             Nodes             |      String      |                                                                                                     N3; N4                                                                                                     |                                   yes                                  | <p>The name of the valid existing node in [StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md).</p><p>Maximum of two nodes can be connected by RelConnectsRigitLink</p><p>First in node is seen as "master node", second in row is "slave node"</p> |
 |         Hinge position        |       Enum       |                                                          <p>None</p><p></p><p>Begin</p><p></p><p>End</p><p></p><p>Both</p>                                                          |                                   yes                                  | <p>This attribute serves to indicate if hinges should be applied to rigid link and if so, than on which node.</p><p>Hinge position allows user to define constrains of selected node or nodes of RelConnectsRigidLink for translation (ui) and rotation (fii)</p>                                                                                                                                                                                                                                                                                                        |
 |               ux              |       Enum       | <p>Free</p><p></p><p>Rigid</p><p></p><p>Flexible</p><p></p><p>Compression only</p><p></p><p>Tension only</p><p></p><p>Flexible compression only</p><p></p><p>Flexible tension only</p><p></p><p>Non linear</p> |                                   yes                                  | <p>Displacement in the direction X</p><p>Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Non linear - resistance in specified direction could be defined</p><p>(Flexible) compression/tension only - acts rigid or flexible, only for defined strain (compression or tension)</p><p>See notes for coordinates reference.</p>                                                                                     |
 |               uy              |       Enum       | <p>Free</p><p></p><p>Rigid</p><p></p><p>Flexible</p><p></p><p>Compression only</p><p></p><p>Tension only</p><p></p><p>Flexible compression only</p><p></p><p>Flexible tension only</p><p></p><p>Non linear</p> |                                   yes                                  | <p>Displacement in the direction Y</p><p>Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Non linear - resistance in specified direction could be defined</p><p>(Flexible) compression/tension only - acts rigid or flexible, only for defined strain (compression or tension)</p><p>See notes for coordinates reference.</p>                                                                                     |
@@ -37,12 +37,10 @@ A virtual connection of two nodes from([StructuralPointConnection](../structural
 
 ## Notes
 
-{% hint style="info" %}
-For constrains, the LCS of RelConnectsRigidLink is taken into account.
-
-Local coordination system is given by master node and its parent object.
-
-**Non linear** behavior of material is handled with "Resistance". The example is shown below.
-{% endhint %}
-
-![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
+>For constrains, the LCS of RelConnectsRigidLink is taken into account.
+>
+>Local coordination system is given by master node and its parent object.
+>
+>**Non linear** behavior of material is handled with "Resistance". The example is shown below.
+>
+>![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)

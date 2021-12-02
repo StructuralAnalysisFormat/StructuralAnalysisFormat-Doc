@@ -1,12 +1,15 @@
 # StructuralSurfaceActionFree
 
-## Free surface load
+**Free surface load**
 
 The Free surface load is related to slabs. The load is not defined by the entity it acts on, but by a specific load border. Free loads are defined by means of "loading entities" that may overlap or affect one or more slabs.
 
-![](../.gitbook/assets/40\_structuralsurfaceactionfree.png)
+```{image} ../.gitbook/assets/40\_structuralsurfaceactionfree.png
+:width: 600px
+```
 
-### Specification in the excel:
+
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                                                         **Value example or enum definition**                                                                                         | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | :---------------------------: | :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -26,10 +29,8 @@ The Free surface load is related to slabs. The load is not defined by the entity
 
 ## Notes
 
-{% hint style="info" %}
-When is "Distribution" set to "DirectionX" or "DirectionY" the system is the same, but only two C values have to be defined.
-
-When "Distribution" is set to "DirectionXY" is necessary to define 3 "C" vertexes. These Vertexes are defining projection onto slab and Value of the load as well. According to position and load value of "C" vertexes is load plane defined and every other vertex of the surface load is calculated. See example below.
-{% endhint %}
-
-![](../.gitbook/assets/40\_structuralsurfaceactionfree\_note.png)
+>When is "Distribution" set to "DirectionX" or "DirectionY" the system is the same, but only two C values have to be defined.
+>
+>When "Distribution" is set to "DirectionXY" is necessary to define 3 "C" vertexes. These Vertexes are defining projection onto slab and Value of the load as well. According to position and load value of "C" vertexes is load plane defined and every other vertex of the surface load is calculated. See example below.
+>
+>![](../.gitbook/assets/40\_structuralsurfaceactionfree\_note.png)

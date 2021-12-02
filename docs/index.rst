@@ -1,14 +1,17 @@
-gitbookdocumentation
+SAF Documentation
 --------------------
-.. toctree::
-  :caption: Overview
-  :maxdepth: 1
   
-  README
-  
+Structural Analysis Format documentation
+
+Current version: 2.1.0
+
+
+Table of contents:
+**********************
+
 .. toctree::
   :caption: Getting started
-  :maxdepth: 2
+  :maxdepth: 1
   
   getting-started/what-is-saf
   getting-started/who-supports-saf
@@ -24,7 +27,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Structural analysis elements
-  :maxdepth: 2
+  :maxdepth: 1
   
   structural-analysis-elements/structuralmaterial
   structural-analysis-elements/structuralcrosssection
@@ -42,7 +45,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Supports and hinges
-  :maxdepth: 2
+  :maxdepth: 1
   
   supports-and-hinges/structuralpointsupport
   supports-and-hinges/structuralsurfaceconnection
@@ -56,7 +59,7 @@ gitbookdocumentation
   
 .. toctree::
   :caption: Loads
-  :maxdepth: 2
+  :maxdepth: 1
   
   loads/structuralloadgroup
   loads/structuralloadcase
@@ -71,20 +74,20 @@ gitbookdocumentation
   loads/structuralpointactionfree
   loads/structuralcurveactionfree
   loads/structuralsurfaceactionfree
-  loads/structuralsurfaceactiondistribution
+  loads/structuralsurfaceactiondistribution-1
   
 .. toctree::
+  :caption: Results
+  :maxdepth: 1
+  
+  results/resultinternalforce1d
+
+.. toctree::
   :caption: Annexes
-  :maxdepth: 2
+  :maxdepth: 1
   
   annexes/formcodes
   annexes/description-id-of-the-profile
   annexes/supported-shapes-of-parametric-cross-section
   annexes/supported-shapes-of-compound-section
   annexes/supported-design-properties-of-the-materials
-
-.. toctree::
-  :caption: Results
-  :maxdepth: 2
-  
-  results/resultinternalforce1d

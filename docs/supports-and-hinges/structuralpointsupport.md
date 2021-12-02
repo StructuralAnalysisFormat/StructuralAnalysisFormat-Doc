@@ -1,12 +1,12 @@
 # StructuralPointSupport
 
-## Support in node
+**Support in node**
 
 StructuralPointSupport represents a support of the analytical model in a node. The support is defined by six separate parameters. Each parameter defines the constraint in one direction: translation in the direction of the X, Y, Z axis and rotation around the same axes. A nodal support is oriented in the global co-ordinate system.
 
 ![](../.gitbook/assets/19\_structuralpointsupport.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                                                      **Value example or enum definition**                                                                                      |                                    **Required value**                                   | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | :---------------------------: | :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

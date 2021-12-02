@@ -1,8 +1,8 @@
 # Supported shapes of parametric cross-section
 
-{% hint style="info" %}
+```{note}
 Examples below are presented for "**LCS of cross-section**" set as **ZYX** in the sheet [Project and model specification](../getting-started/project-and-model-specifications/#project). For the other types, adjust the axis of the coordinate system of cross-section to the defined value of "**LCS of cross-section**" .
-{% endhint %}
+```
 
 | Pattern | Shape | Parameters \[mm\] |
 | :---: | :---: | :--- |
@@ -14,9 +14,9 @@ Examples below are presented for "**LCS of cross-section**" set as **ZYX** in th
 | ![](../.gitbook/assets/44_supportedshapes12.png) | Double rectangle with plates | Ba; ha; Bb; hb |
 | ![](../.gitbook/assets/44_supportedshapes17.png) | I Section | H; Bh; Bs; ts; th; s |
 | ![](../.gitbook/assets/44_supportedshapes18.png) | I Section with haunch | H; B; ta; s; ts; th |
-| ![](../.gitbook/assets/44_i-section-with-haunch-asymetric_1.png) | I Section with haunch Asymmetric | H; Bt; tt; tth; Bb; tb; tbh; s |
+| <img src="../.gitbook/assets/44_i-section-with-haunch-asymetric_1.png" width="200px"> | I Section with haunch Asymmetric | H; Bt; tt; tth; Bb; tb; tbh; s |
 | ![](../.gitbook/assets/44_supportedshapes22.png) | T Section | H; B; th; sh |
-| ![](../.gitbook/assets/44_t-section-with-haunchl_1.png) | T Section with haunch | H; Bh; Bs; Bw; th |
+| <img src="../.gitbook/assets/44_t-section-with-haunchl_1.png" width="200px"> | T Section with haunch | H; Bh; Bs; Bw; th |
 | ![](../.gitbook/assets/44_supportedshapes29.png) | C Section | A; tha1; tha2; B; thb1; thb2 |
 | ![](../.gitbook/assets/44_supportedshapes35.png) | L Section | H; B; th; sh |
 | ![](../.gitbook/assets/44_supportedshapes38.png) | L Section opposite | H; B; th; sh |
@@ -24,7 +24,7 @@ Examples below are presented for "**LCS of cross-section**" set as **ZYX** in th
 | ![](../.gitbook/assets/44_supportedshapes21.png) | Oval | H; B |
 | ![](../.gitbook/assets/44_supportedshapes25.png) | Pipe | D; t |
 | ![](../.gitbook/assets/44_supportedshapes31.png) | Polygon | R; n |
-| ![](../.gitbook/assets/44_trapezoid_1.png) | Trapezoid | H; Bh; Bs |
+| <img src="../.gitbook/assets/44_trapezoid_1.png" width="200px"> | Trapezoid | H; Bh; Bs |
 | ![](../.gitbook/assets/44_supportedshapes26.png) | X Section | A; tha; B; thb |
 | ![](../.gitbook/assets/44_supportedshapes27.png) | Z Section | A; tha; B; thb1; thb2; C |
 | ![](../.gitbook/assets/44_supportedshapes30.png) | Box | A; tha; B; thb1; thb2 |

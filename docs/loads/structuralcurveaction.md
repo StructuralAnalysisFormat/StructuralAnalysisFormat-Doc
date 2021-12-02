@@ -1,6 +1,6 @@
 # StructuralCurveAction
 
-## Line force on the beam
+**Line force on the beam**
 
 The Line force load models load distributed over a 1D member or on a slab edge. It may be action along the whole 1D member or only on its part. It can be constant or trapezoidal, acting in three main directions X, Y, Z (global or local coordinate system).
 
@@ -19,11 +19,11 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
 |    Vector 2(X;Y;Z) \[kN/m]    |      String      |                                                                    (20;20;0)                                                                    |  <p>yes, if Direction = Vector</p><p></p><p>and Distribution = Trapez</p>  | <p>Specifies the second size of the load in, direction by vector</p><p>Note: Vector1 and Vector2 needs to be in same direction</p>                                                                                                                                                                                                                                                                                     |
 |             Member            |      String      |                                                                       B11                                                                       |                         yes, if Force action = On beam                         | The name of the [StructuralCurveMember ](../structural-analysis-elements/structuralcurvemember.md)on which the load is applied                                                                                                                                                                                                                                                                                         |
 |           Member Rib          |      String      |                                                                       B11                                                                       |                          yes, if Force action = On rib                         | The name of the [StructuralCurveMemberRib ](../structural-analysis-elements/structuralcurvememberrib.md)on which the load is applied                                                                                                                                                                                                                                                                                   |
-|           2D Member           |      String      |                                                                        S1                                                                       |                         yes, if Force action = On edge                         | <p>The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md">StructuralSurfaceMember</a> which the load is applied. <br><a href="structuralcurveaction.md">StructuralCurveAction</a> can act either on a 2D member edge or on internal edge.</p>                                                                                                                                            |
+|           2D Member           |      String      |                                                                        S1                                                                       |                         yes, if Force action = On edge                         | <p>The name of the [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md) which the load is applied to. StructuralCurveAction can act either on a 2D member edge or on internal edge.</p>                                                                                                                                            |
 |        2D Member Region       |      String      |                                                                        R1                                                                       |                    yes, if Force action = On subregion edge                    | The name of the [StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md) on which is the load applied.                                                                                                                                                                                                                                                                        |
 |       2D Member Opening       |      String      |                                                                        O1                                                                       |                     yes, if Force action = On opening edge                     | The name of the [StructuralSurfaceMemberOpening](../structural-analysis-elements/structuralsurfacememberopening.md) on which is the load applied.                                                                                                                                                                                                                                                                      |
 |              Edge             |      Integer     |                                                                        1                                                                        |      yes, if Force action = On edge, On subregion edge or On opening edge      | The index starting with 1. The order is according to order of “edges” property at [StructuralSurfaceMember,](../structural-analysis-elements/structuralsurfacemember.md)  [StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md) or [StructuralSurfaceMemberOpening](../structural-analysis-elements/structuralsurfacememberregion.md) on which the load is applied         |
-|         Internal edge         |      String      |                                                                       ES2                                                                       |         yes, if Force action = On edge and_ _Edge column has not value         | The name of the [StructuralCurveEdge](https://saf.guide/Content/A\_Objects/6\_StructuralCurveEdge.htm) on which is the load applied. [StructuralCurveAction](https://saf.guide/Content/A\_Objects/19\_StructuralCurveAction.htm#) can act either on a 2D member edge or on internal edge.                                                                                                                              |
+|         Internal edge         |      String      |                                                                       ES2                                                                       |         yes, if Force action = On edge and_ _Edge column has not value         | The name of the [StructuralCurveEdge](../structural-analysis-elements/structuralcurveedge.md) on which the load is applied. StructuralCurveAction can act either on a 2D member edge or on internal edge.                                                                                                                              |
 |           Load case           |      String      |                                                                       LC1                                                                       |                                       yes                                      | The name of the load case to which the force belongs                                                                                                                                                                                                                                                                                                                                                                   |
 |       Coordinate system       |       Enum       |                                                         <p>Global</p><p></p><p>Local</p>                                                        |                                       yes                                      | <p>Defines the co-ordinate system of the member in which the load is applied</p><p>For " Local", coordinate system is defined by the member where is load applied</p>                                                                                                                                                                                                                                                  |
 |            Location           |       Enum       |                                                      <p>Length</p><p></p><p>Projection</p>                                                      |                                       yes                                      | Specifies whether the load is "put directly on an inclined 1D member" or whether the "projection on plan" is defined.                                                                                                                                                                                                                                                                                                  |
@@ -39,20 +39,23 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
 
 ## Notes
 
-{% hint style="info" %}
-Difference between Location type Length and Projection can be seen in the picture. Location is used only if Coordinate system is Global.
-{% endhint %}
+>Difference between Location type Length and Projection can be seen in the picture. Location is used only if Coordinate system is Global.
+>
+>```{image} ../.gitbook/assets/34\_structuralcurvemoment2.png
+>:width: 600px
+>```
 
-![](../.gitbook/assets/34\_structuralcurvemoment2.png)
 
-{% hint style="info" %}
-An example of use of parameter Extent is in the in the picture below. In case of Span the load acts only on the span which is defined by internal nodes
-{% endhint %}
+>An example of use of parameter Extent is in the in the picture below. In case of Span the load acts only on the span which is defined by internal nodes
+>
+>```{image} ../.gitbook/assets/34\_structuralcurvemoment4.png
+>:width: 600px
+>```
 
-![](../.gitbook/assets/34\_structuralcurvemoment4.png)
 
-{% hint style="info" %}
-An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0 and end point 0,3. StructuralCurveAction 1 has origin "From start" and StructuralCurveAction 2 has origin "From end". In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.
-{% endhint %}
+>An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0 and end point 0,3. StructuralCurveAction 1 has origin "From start" and StructuralCurveAction 2 has origin "From end". In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.
+>
+>```{image} ../.gitbook/assets/34\_structuralcurvemoment3.png
+>:width: 600px
+>```
 
-![](../.gitbook/assets/34\_structuralcurvemoment3.png)

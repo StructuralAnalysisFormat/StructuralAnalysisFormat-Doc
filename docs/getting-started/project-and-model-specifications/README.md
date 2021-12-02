@@ -1,8 +1,6 @@
 # Project and model specifications
 
-{% hint style="warning" %}
 Structure of sheets "Project" and "Model" is different from all the other sheets. Properties are oriented in columns not in rows as usual.
-{% endhint %}
 
 ## Project
 
@@ -55,28 +53,27 @@ In the list called “model” you can specify basic info about your project.
 
 ## Notes
 
-{% hint style="info" %}
-### **Global coordinate system:**
-{% endhint %}
 
-![](../../.gitbook/assets/5\_model\_gcs.jpg)
+>### **Global coordinate system:**
+>
+>
+>![](../../.gitbook/assets/5\_model\_gcs.jpg)
 
-{% hint style="info" %}
-### **LCS of cross-section:**
 
-* The graphical interpretation of values for row "**LCS of cross-section**" is represented below. Please keep in mind that x-axis is always in centre-line of the member. "**LCS of cross-section**" desribes how is LCS of CSS library handled and how is CSS applied on the the member.
-* The first axis of the enum is the vertical one, positive direction is Zref. The second axis of the enum is the horizontal one, positive direction is Yref. Last is the axis in cente-line of the member, positive direction is Xref.
-{% endhint %}
+>### **LCS of cross-section:**
+>
+>* The graphical interpretation of values for row "**LCS of cross-section**" is represented below. Please keep in mind that x-axis is always in centre-line of the member. "**LCS of cross-section**" desribes how is LCS of CSS library handled and how is CSS applied on the the member.
+>* The first axis of the enum is the vertical one, positive direction is Zref. The second axis of the enum is the horizontal one, positive direction is Yref. Last is the axis in cente-line of the member, positive direction is Xref.
+>
+>![](../../.gitbook/assets/5\_model\_lcs\_of\_css.jpg)
 
-![](../../.gitbook/assets/5\_model\_lcs\_of\_css.jpg)
 
-{% hint style="info" %}
-### **System of units**
+>### **System of units**
+>
+>* Column headers should respect this setting and change unit accordingly, also values should be in specified units
+>* See [table](units.md) of units for headers
 
-* Column headers should respect this setting and change unit accordingly, also values should be in specified units
-* See [table](units.md) of units for headers
+>### **Ignored objects/groups:**
+>
+>* See [table](ignore.md) of units for headers
 
-### **Ignored objects/groups:**
-
-* See [table](ignore.md) of units for headers
-{% endhint %}

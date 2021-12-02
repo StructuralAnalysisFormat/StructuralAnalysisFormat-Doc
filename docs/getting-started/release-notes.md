@@ -1,10 +1,8 @@
 # Release Notes
 
-{% hint style="success" %}
+```{admonition} Version
 Current version 2.1.0
-{% endhint %}
-
-## Release notes
+```
 
 ### 18.11.2021 - Version 2.1.0
 
@@ -39,30 +37,30 @@ Current version 2.1.0
 
 * "Hinge position": enum definition clarified
 
-#### New object added:
+**New object added:**
 
-[ResultInternalForce1D](../results/resultinternalforce1d.md#internal-force-1d) - result object for internal forces on 1D members
+[ResultInternalForce1D](../results/resultinternalforce1d.md) - result object for internal forces on 1D members
 
 * new attribute: "Combination key"
 * edited attributes: Case, Load case, Load combination, Member replaced by Member and Member Rib
 
-## Specification improvements
-
-Improvements in the specification are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
-
-14.9.2021 Edge indexing issue: [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/15) - discussion&#x20;
-
-* Clear specification provided for edge indexing ([StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md),  [RelConnectsSurfaceEdge](../supports-and-hinges/relconnectssurfaceedge.md),  [RelConnectsRigidMember](../supports-and-hinges/relconnectsrigidmember.md), [StructuralCurveAction](../loads/structuralcurveaction.md), [StructuralCurveMoment](../loads/structuralcurvemoment.md))
-
-15.7.2021 [StructuralLoadGroup](../loads/structuralloadgroup.md):&#x20;
-
-* "Load type" string: condition moved from description (required only for "Load group type" = Variable)
-
-15.7.2021 [StructuralSurfaceActionDistribution](../loads/structuralsurfaceactiondistribution-1.md):
-
-* "Load applied to" string: attribute is not required (required string was in contradiction with description) ​​​​​​​
-
-## Release notes
+---
+>**Specification improvements**
+>
+>Improvements in the specification are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
+>
+>14.9.2021 Edge indexing issue: [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/15) - discussion&#x20;
+>
+>* Clear specification provided for edge indexing ([StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md),  [RelConnectsSurfaceEdge](../supports-and-hinges/relconnectssurfaceedge.md),  [RelConnectsRigidMember](../supports-and-hinges/relconnectsrigidmember.md), [StructuralCurveAction](../loads/structuralcurveaction.md), [StructuralCurveMoment](../loads/structuralcurvemoment.md))
+>
+>15.7.2021 [StructuralLoadGroup](../loads/structuralloadgroup.md):&#x20;
+>
+>* "Load type" string: condition moved from description (required only for "Load group >type" = Variable)
+>
+>15.7.2021 [StructuralSurfaceActionDistribution](../loads/>structuralsurfaceactiondistribution-1.md):
+>
+>* "Load applied to" string: attribute is not required (required string was in >contradiction with description) ​​​​​​​
+---
 
 ### 8.8.2021 - Fixing flaws in SAF spec v1.0.9 and v2.0.0
 

@@ -1,6 +1,6 @@
 # StructuralCurveMemberVarying
 
-## 1D Member Varying (Arbitrary, Tapered, Haunch,…)
+**1D Member Varying (Arbitrary, Tapered, Haunch,…)**
 
 StructuralCurveMemberVarying object describes changing cross section along the length (center line) of existing 1D member (StructuralCurveMember).
 
@@ -20,14 +20,10 @@ StructuralCurveMemberVarying object describes changing cross section along the l
 
 ## Notes
 
-{% hint style="info" %}
-Reference to Alignment enums - direction of alignment in respect of CSS (LCS respects right hand rule).
-{% endhint %}
+>Reference to Alignment enums - direction of alignment in respect of CSS (LCS respects right hand rule).
+>
+>![](../.gitbook/assets/11\_structuralcurvemember\_alignment.png)
 
-![](../.gitbook/assets/11\_structuralcurvemember\_alignment.png)
-
-{% hint style="info" %}
-Reference to Alignment enums - examples of alignments. (LCS independent)
-{% endhint %}
-
-![](../.gitbook/assets/12\_structuralcurvemembervarying\_alignment.png)
+>Reference to Alignment enums - examples of alignments. (LCS independent)
+>
+>![](../.gitbook/assets/12\_structuralcurvemembervarying\_alignment.png)

@@ -1,12 +1,12 @@
 # StructuralPointMoment
 
-## Moment force in node/on beam
+**Moment force in node/on beam**
 
 A node or a beam of the structure may be subject to a moment load. The load is defined by the direction and size of the moment and in case of the moment force on beam it can be repeated along the member.
 
 ![](../.gitbook/assets/32\_structuralpointmoment.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      |       **Required value**       | **Description**                                                                                                                                                                                          |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

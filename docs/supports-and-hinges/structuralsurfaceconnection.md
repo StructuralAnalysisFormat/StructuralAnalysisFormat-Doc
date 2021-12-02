@@ -1,6 +1,6 @@
 # StructuralSurfaceConnection
 
-## Support on 2D member
+**Support on 2D member**
 
 Instances of the objects StructuralSurfaceConnection are used to describe structural supports provided by planar elements. In most cases, it represents the interaction between the structure and the subsoil.
 
@@ -10,13 +10,13 @@ To simplify the matter, we may imagine that C is the characteristic of elastic, 
 
 ![](../.gitbook/assets/20\_structuralsurfaceconnection.png)
 
-### Specification in the excel
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------: | :--------------: | :----------------------------------: | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |              Name             |      String      |                  Sn6                 |         yes        | Human readable unique name of the support                                                                                                                                                                                                                                                                                                                                                                              |
-|           2D Member           |      String      |                  S13                 |         yes        | The name of the [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall) to which is the surface support is related                                                                                                                                                                                                                                                  |
-|        2D Member Region       |      String      |                  R1                  |         no         | The name of the [StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness) to which is the surface support related if it is available on 2D member                                                                                                                                                                                          |
+|           2D Member           |      String      |                  S13                 |         yes        | The name of the [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md) to which is the surface support is related                                                                                                                                                                                                                                                  |
+|        2D Member Region       |      String      |                  R1                  |         no         | The name of the [StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md) to which is the surface support related if it is available on 2D member                                                                                                                                                                                          |
 |            Subsoil            |      String      |                Gravel                |         yes        | Type of the subsoil                                                                                                                                                                                                                                                                                                                                                                                                    |
 |          Description          |      String      |            Loam/Very sandy           |         no         | Characteristics of the subsoil                                                                                                                                                                                                                                                                                                                                                                                         |
 |          C1x \[MN/m3]         |      Double      |                 80,5                 |         yes        | <p>Resistance of environment against xP (mm) [C1x in MN/m3] (deformation in local x direction)</p><p>See notes for coordinates reference.</p>                                                                                                                                                                                                                                                                          |
@@ -30,6 +30,4 @@ To simplify the matter, we may imagine that C is the characteristic of elastic, 
 
 ## Notes
 
-{% hint style="info" %}
-Local coordination system is given by parent 2D object - [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)
-{% endhint %}
+>Local coordination system is given by parent 2D object - [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md)

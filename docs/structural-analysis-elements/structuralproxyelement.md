@@ -1,36 +1,35 @@
 # StructuralProxyElement
 
-## General solids
+**General solids**
 
-StrucutralProxyElements are solid objects described by their boundary representation (faces of objects). The common use for StrucutralProxyElements can be found for complex part of structures (garage ramps for example), which are difficult to describe with [StructuralCurveMember](structuralcurvemember.md#1d-member-beam-column) and [StrucuturalSurfaceMemeber](structuralsurfacemember.md#2d-member-plate-wall) or for massive parts of structures with difficult geometry such as foundations. With StrucuralProxyElement all important parts of the structure can be transferred via SAF format no matter the complexity.
+StrucutralProxyElements are solid objects described by their boundary representation (faces of objects). The common use for StrucutralProxyElements can be found for complex part of structures (garage ramps for example), which are difficult to describe with [StructuralCurveMember](structuralcurvemember.md) and [StrucuturalSurfaceMemeber](structuralsurfacemember.md) or for massive parts of structures with difficult geometry such as foundations. With StrucuralProxyElement all important parts of the structure can be transferred via SAF format no matter the complexity.
 
-{% hint style="warning" %}
-Structural proxy element is not structural analysis object and will not be considered in structural analysis calculation.
-
-It is just a geometrical reference object.
-{% endhint %}
+```{warning}
+|Structural proxy element is not structural analysis object and will not be considered in structural analysis calculation.
+|It is just a geometrical reference object.
+```
 
 ![](../.gitbook/assets/18\_structuralproxyelement.png)
 
-### StructuralProxyElement
+## StructuralProxyElement
 
 Sheet StrucutralProxyElement is a list of all StructuralProxyElements defined in the SAF file. Every row represents one solid object.
 
-#### Specification in the excel
+### Specification in the excel
 
 | **Name of the column header** | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                                                                                                                                                                |
 | :---------------------------: | :--------------: | :----------------------------------: | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |              Name             |      String      |                 SPE1                 |         Yes        | Human readable unique name of the StructuralProxyElement                                                                                                                                       |
-|            Material           |      String      |                C20/25                |         Yes        | The reference to the "Name" of defined material in [StructuralMaterial](structuralmaterial.md#material)                                                                                        |
+|            Material           |      String      |                C20/25                |         Yes        | The reference to the "Name" of defined material in [StructuralMaterial](structuralmaterial.md)                                                                                        |
 |             Color             |      String      |                #FFFF00               |         no         | Defines colour and transparency of the object. Colour is defined by Hex format #AARRGGBB. Transparency is controlled by the alpha channel AA. If no colour is set then default colour is used. |
 |             Layer             |      String      |        StructuralProxyElement        |         no         | Custom created layer. The layer can thus comprise entities that have something in common (e.g. one floor, columns of one floor, columns of the same length, etc.)                              |
 |               Id              |      String      | bba1ede8-4106-47fd-b5e1-48637ab87f47 |         no         | Unique attribute designation                                                                                                                                                                   |
 
-### StructuralProxyElementVertices
+## StructuralProxyElementVertices
 
 Sheet StructuralProxyElementVertices is a list of all vertices that are used for defining the StrucutralProxyElements. Each row is one vertex of StructuralProxyElements.
 
-#### Specification in the excel
+### Specification in the excel
 
 | **Name of the row**      | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------------ | :--------------: | ------------------------------------ | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,11 +39,11 @@ Sheet StructuralProxyElementVertices is a list of all vertices that are used for
 | Y \[m]                   |      Double      | 12.761                               | Yes                | Coordinates of vertex in Y direction                                                                                                                                                                                                                                                                                                                             |
 | Z \[m]                   |      Double      | 7.200                                | Yes                | Coordinates of vertex in Z direction                                                                                                                                                                                                                                                                                                                             |
 
-### StructuralProxyElementFaces
+## StructuralProxyElementFaces
 
 Sheet StructuralProxyElementFaces is used for defining faces of every StructuralProxyElement presented. Each row represents one face of StructuralProxyElements.
 
-#### Specification in the excel
+### Specification in the excel
 
 | **Name of the row**      | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------ | ---------------- | :----------------------------------: | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,15 +53,13 @@ Sheet StructuralProxyElementFaces is used for defining faces of every Structural
 
 ## Notes
 
-{% hint style="info" %}
-Example of simple StrucutralProxyElement\
-vertices:\
-**v**0\[0,0,0], **v**1\[2,0,0], **v**2\[1,2,0], **v**3\[1,1,2]\
-faces:\
-f0(v0,v1,v3), **f**1(v2,v3,v1), **f**2(v3,v2,v0), f3(v1,v0,v2).\
-![](../.gitbook/assets/18\_structuralproxyelement2.png)
-
-It is recommended to define the edge common for two faces with the opposite polygons.
-
-Face **f**0 is in the picture defined as (v0,**v**1,**v**3) so the face **f**1 will be defined (v2,**v**3,**v**1). The common edge is defined as (**v**1,**v**3) for face **f**1 and (**v**3,**v**1) for face **f**2.
-{% endhint %}
+>Example of simple StrucutralProxyElement\
+>vertices:\
+>**v**0\[0,0,0], **v**1\[2,0,0], **v**2\[1,2,0], **v**3\[1,1,2]\
+>faces:\
+>f0(v0,v1,v3), **f**1(v2,v3,v1), **f**2(v3,v2,v0), f3(v1,v0,v2).\
+>![](../.gitbook/assets/18\_structuralproxyelement2.png)
+>
+>It is recommended to define the edge common for two faces with the opposite polygons.
+>
+>Face **f**0 is in the picture defined as (v0,**v**1,**v**3) so the face **f**1 will be defined (v2,**v**3,**v**1). The common edge is defined as (**v**1,**v**3) for face **f**1 and (**v**3,**v**1) for face **f**2.

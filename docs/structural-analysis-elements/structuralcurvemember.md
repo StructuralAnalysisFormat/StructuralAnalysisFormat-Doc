@@ -1,6 +1,6 @@
 # StructuralCurveMember
 
-## 1D Member (Beam, Column,…)
+**1D Member (Beam, Column,…)**
 
 A general 1D member is defined by its two end-points (or we can say nodes). Therefore, the 1D member position must be specified by two points: first, the starting or begin point and then the end point. A set of properties can also be defined.
 
@@ -51,24 +51,18 @@ In addition to this local co-ordinate system, also a principal (or main) co-ordi
 
 ## Notes
 
-{% hint style="info" %}
-Complete enumeration of the Formcode, Supported shapes of cross-section and Description ID can be found in chapter Annexes. These properties are set in the object [StructuralCrossSection](structuralcrosssection.md#cross-section).
+>Complete enumeration of the Formcode, Supported shapes of cross-section and Description ID can be found in chapter Annexes. These properties are set in the object [StructuralCrossSection](structuralcrosssection.md).
+>
+>Rotation of local co-ordinate system is measured from origin position of local y-axis and the orientation follows positive rotation according to the right-handed rule.
+>
+>Reference to Alignment enums - examples of alignments.
+>
+>* pictures below represents view parallel to direction of center line (LCS respects right hand rule)
+>
+>![](../.gitbook/assets/11\_structuralcurvemember\_alignment.png)
 
-Rotation of local co-ordinate system is measured from origin position of local y-axis and the orientation follows positive rotation according to the right-handed rule.
+>An example of use of System line type Bottom right can be seen in the picture below. If the shape of the cross-section is not rectangular then boundary box of the cross-section is considered for position of the system line. The results take in count eccentricities, in example: ey=150 mm, ez=250 mm.
+>
+>![](../.gitbook/assets/11\_structuralcurvemember4.png)
 
-Reference to Alignment enums - examples of alignments.
-
-* pictures below represents view parallel to direction of center line (LCS respects right hand rule)
-{% endhint %}
-
-![](../.gitbook/assets/11\_structuralcurvemember\_alignment.png)
-
-{% hint style="info" %}
-An example of use of System line type Bottom right can be seen in the picture below. If the shape of the cross-section is not rectangular then boundary box of the cross-section is considered for position of the system line. The results take in count eccentricities, in example: ey=150 mm, ez=250 mm.
-{% endhint %}
-
-![](../.gitbook/assets/11\_structuralcurvemember4.png)
-
-{% hint style="danger" %}
-Axis reference is only to illustrate this example, your application can have different cross-section LCS than shown in this example. Alignment of system line should be reflected to your relevant eccentricities based on your cross section LCS.
-{% endhint %}
+>Axis reference is only to illustrate this example, your application can have different cross-section LCS than shown in this example. Alignment of system line should be reflected to your relevant eccentricities based on your cross section LCS.

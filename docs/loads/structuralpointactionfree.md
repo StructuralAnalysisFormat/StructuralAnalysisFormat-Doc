@@ -1,12 +1,15 @@
 # StructuralPointActionFree
 
-## Free point load
+**Free point load**
 
 The Free point load is related to slabs. The load is not defined by the entity it acts on, but by a specific load point. Free loads are defined by means of "loading entities" that may overlap or affect one or more slabs.
 
-![](../.gitbook/assets/38\_structuralpointactionfree.png)
+```{image} ../.gitbook/assets/38\_structuralpointactionfree.png
+:width: 600px
+```
 
-### Specification in the excel
+
+## Specification in the excel
 
 | **Name of the column header** | **Type of data** |            **Value example or enum definition**            |      **Required value**      | **Description**                                                                                                                                                                                          |
 | :---------------------------: | :--------------: | :--------------------------------------------------------: | :--------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
