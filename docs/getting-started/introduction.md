@@ -35,8 +35,8 @@ In SAF, supported units are **metric** and **imperial**. Units are defined in th
 
 
 >Units can be optionally displayed in property headers.  
->The unit system used in SAF file is given on [Model](../getting-started/project-and-model-specification/README.md) sheet page by the user.  
->Values given in SAF format should correspond to predefined values per system unit set. Table of predefined and expected units can be reviewed on [Project and specification page.](https://saf.guide/Content/2_Project%20and%20model%20specifications.htm)\*\*\*\*
+>The unit system used in SAF file is given on [Model](..\getting-started\project-and-model-specifications\README.md) sheet page by the user.  
+>Values given in SAF format should correspond to predefined values per system unit set. Table of predefined and expected units can be reviewed on [Project and specification page.](..\getting-started\project-and-model-specifications\README.md)\*\*\*\*
 
 
 >The order of lists and columns does not matter, for import. Important is to consistently follow its naming.
@@ -64,9 +64,9 @@ It may help you to determine the direction of the individual structural elements
 
 Each structural entity, meaning each member, has got its own local co-ordinate system. This co-ordinate system is a three-dimensional right-handed Cartesian co-ordinate system.
 
-Each member has several possibilities of enums, defining the Local Coordinate System \(LCS\). For further understanding of enums defining the LCS of the [StrucutralCurveMember](https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm) and [StructuralSurfaceMember](https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm) see the following:
+Each member has several possibilities of enums, defining the Local Coordinate System \(LCS\). For further understanding of enums defining the LCS of the [StrucutralCurveMember](..\structural-analysis-elements\structuralcurvemember.md) and [StructuralSurfaceMember](..\structural-analysis-elements\structuralsurfacemember.md) see the following:
 
-For **1D members**, there are several options on how to define LCS of [StrucutralCurveMember](https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm):
+For **1D members**, there are several options on how to define LCS of [StrucutralCurveMember](..\structural-analysis-elements\structuralcurvemember.md):
 
 ### LCS enum set on **" by point"**
 
@@ -105,7 +105,7 @@ For **2D members**, there are several options on how to define LCS of [Structura
 
 ### LCS enum set on **"axis** x **or** y **by vector" \(2D members\)**
 
-When is LCS enum set on **"axis** x **or** y **by vector"** explanation is similar to [StructuralCurveMember ](https://saf.guide/Content/A_Objects/8_StructuralSurfaceMember.htm)presented above with the following additional information:
+When is LCS enum set on **"axis** x **or** y **by vector"** explanation is similar to [StructuralCurveMember](..\structural-analysis-elements\structuralcurvemember.md)presented above with the following additional information:
 
 * For non-vertical 2D elements \(slabs\):
   * Y or X axis is given by the vector \(depending on chosen option in the SAF excel file\)
