@@ -20,36 +20,22 @@ Basic construction elements are simple geometry types, that are used for shape d
 >**Mathematical definitions:**
 >
 >* Bezier   \
->  $$Q(t)=\sum_{i=0}^{3}P_iB_i(t)$$ ; $$t\epsilon<0,1>$$  $$B_{0t}=(1-t)^3,B_{1t}=3t(1-t)^2,B_{2t}=3t^2(1-t),B_{3t}=t^3$$    \
->  $$Q(t)$$ is for the Bezier curve  \
->  $$P_{i}$$ is for coodinates, and  \
->  $$B_{it}$$is for basis function  \
+>  $Q(t)=\sum_{i=0}^{3}P_iB_i(t)$ ; $t\epsilon<0,1>$<br>
+>  $B_{0t}=(1-t)^3,B_{1t}=3t(1-t)^2,B_{2t}=3t^2(1-t),B_{3t}=t^3$<br> 
+>  $Q(t)$ is for the Bezier curve <br>
+>  $P_{i}$ is for coodinates, and <br>
+>  $B_{it}$ is for basis function <br>
 >
->* Spline\
->  $$Q(t)=\sum_{i=0}^{m}P_iN_i^n(t)$$ ; $$t\epsilon<t_i,t_{i+1}>$$ \
->  $$N_i^0(t)=1$$for$$t\epsilon<t_i,t_{i+1}>$$  $$N_i^0(t)=0$$otherwise  $$N{i}^{k}{(t)}=\frac{t-t_i}{t_{i+k}-t_i}N_{i}^{k-1}{(t)}+\frac{t_{i+k+1}-t}{t_{i+k+1}-t_{i+1}}N_{i+1}^{k-1}{(t)}$$  \
->  $$Q(t)$$is for the Spline curve  \
->  $$P_i$$is for the coordinates  \
->  $$N_i^n(t)$$is for basis function  \
->  $$n$$is for the degree of curve  \
->  $$m$$is for points of the control polygon
-
->* Bezier
->\begin{multiline*}
->Q(t)&=\sum^n_{i=0} P_i B_i(t) ; t \epsilon < 0,1>
->\end{multiline}
->
->I am trying to rewrite this according to amsmath user guide
->
->\begin{equation} \label{eq1}
->\begin{split}
->A & = \frac{\pi r^2}{2} \\
-> & = \frac{1}{2} \pi r^2
->\end{split}
->\end{equation}
-
-
-
+>* Spline <br>
+>  $Q(t)=\sum_{i=0}^{m}P_iN_i^n(t)$ ; $t\epsilon<t_i,t_{i+1}>$<br>
+>  $N_i^0(t)=1$ for $t\epsilon<t_i,t_{i+1}>$<br>
+>  $N_i^0(t)=0$ otherwise<br>
+>  $N{i}^{k}{(t)}=\frac{t-t_i}{t_{i+k}-t_i}N_{i}^{k-1}{(t)}+\frac{t_{i+k+1}-t}{t_{i+k+1}-t_{i+1}}N_{i+1}^{k-1}{(t)}$<br>
+>  $Q(t)$ is for the Spline curve<br>
+>  $P_i$ is for the coordinates<br>
+>  $N_i^n(t)$ is for basis function<br>
+>  $n$ is for the degree of curve<br>
+>  $m$ is for points of the control polygon<br>
 >
 >**Polyline schematics:**
 
