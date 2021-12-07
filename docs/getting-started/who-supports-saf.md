@@ -69,7 +69,7 @@ See below overview tables which will give you an idea of who supports SAF and to
 
 ### Implementation in progress
 
-| **SAF implementation**  | ![](../.gitbook/assets/1_die.png)<p>D.I.E | ![](../.gitbook/assets/1_idea.png)<p>IDEA | ![](../.gitbook/assets/1_consteel.png)<p>ConSteel | ![](../.gitbook/assets/1_mbAEC.png)<p>mbAEC | ![](../.gitbook/assets/1\_infograph\_99x99.png)<p>InfoGraph |
+| **SAF implementation**  | ![](../.gitbook/assets/1_die.png)<p>D.I.E | ![](../.gitbook/assets/1_idea.png)<p>IDEA | ![](../.gitbook/assets/1_consteel.png)<p>ConSteel | ![](../.gitbook/assets/1_mbaec.png)<p>mbAEC | ![](../.gitbook/assets/1_InfoGraph_99x99.png)<p>InfoGraph |
 | ---------------------- | :-----------------------------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------: | :----------------------------------------: | :-------------------------------------------------------: |
 |                        |                                   Yes                                   |                                 Yes                                 |                                  Yes                                 |                        Yes                       |                     Yes                    |                            Yes                            |
 
