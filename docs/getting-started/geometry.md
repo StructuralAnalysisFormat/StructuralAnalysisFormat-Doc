@@ -25,7 +25,7 @@ Basic construction elements are simple geometry types, that are used for shape d
 >  $Q(t)$ is for the Bezier curve <br>
 >  $P_{i}$ is for coodinates, and <br>
 >  $B_{it}$ is for basis function <br>
->
+>  <br>
 >* Spline <br>
 >  $Q(t)=\sum_{i=0}^{m}P_iN_i^n(t)$ ; $t\epsilon<t_i,t_{i+1}>$<br>
 >  $N_i^0(t)=1$ for $t\epsilon<t_i,t_{i+1}>$<br>
