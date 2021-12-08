@@ -8,10 +8,6 @@ Current version 2.1.0
 
 **Modified objects:**
 
-[StructuralLoadGroup](../loads/structuralloadgroup.md)
-
-* "Load type" string: updated condition (required only for "Load group type" = Variable)
-
 [StructuralLoadCombination](../loads/structuralloadcombination.md)
 
 * new optional enum: "Type" &#x20;
@@ -23,11 +19,13 @@ Current version 2.1.0
 
 [StructuralCurveAction](../loads/structuralcurveaction.md)
 
-* "Value 2", "Vector 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Value 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Vector 2": required only if Direction = Vector **and**  Distribution = Trapez
 
 [StructuralCurveActionFree](../loads/structuralcurveactionfree.md)
 
-* "Value 2", "Vector 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Value 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Vector 2": required only if Direction = Vector **and**  Distribution = Trapez
 
 [StructuralCurveMoment](../loads/structuralcurvemoment.md)
 
