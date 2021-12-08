@@ -81,7 +81,7 @@ Tables below shows coverage of [SAF converter](https://safconverter.structuralto
 
 | **SAF implementation** | ![](../.gitbook/assets/1_dlubal.png)<p>Dlubal | ![](../.gitbook/assets/1_robot.png)<p>Robot |
 | ---------------------- | :-------------------------------------------: | :-------------------------------------------------------------------: |
-| Supported version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      |                      1.0.5                    |                                 1.0.5                                 |
+| Supported version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      |                      1.0.5                    |                                 1.0.5                                 |
 | Import                 |                       Yes                     |                                  Yes                                  |
 | Export                 |                       No                      |                                   No                                  |
 
