@@ -17,6 +17,9 @@ Each group consist of multiple objects, ignoring the group is taken in to accoun
 | Structural analysis elements | StructuralElements | StructuralSurfaceMemberOpening |
 | Structural analysis elements | StructuralElements | StructuralSurfaceMemberRegion |
 | Structural analysis elements | StructuralElements | StructuralCurveMemberRib |
+| Structural analysis elements | StructuralElements | StructuralStorey |
+| Structural analysis elements | StructuralElements | StructuralProxyElement |
+| Structural analysis elements | StructuralElements | StructuralCurveMemberVarying |
 | Supports and hinges | SupportsAndHinges | StructuralPointSupport |
 | Supports and hinges | SupportsAndHinges | StructuralEdgeConnection |
 | Supports and hinges | SupportsAndHinges | StructuralCurveConnection |
@@ -38,5 +41,7 @@ Each group consist of multiple objects, ignoring the group is taken in to accoun
 | Loads | StructuralLoad | StructuralSurfaceActionThermal |
 | Loads | StructuralLoad | StructuralPointMoment |
 | Loads | StructuralLoad | StructuralCurveMoment |
+| Loads | StructuralLoad | StructuralCurveActionThermal |
+| Loads | StructuralLoad | StructuralSurfaceActionDistribution |
 | Results | Results | ResultInternlForce1D |
 
