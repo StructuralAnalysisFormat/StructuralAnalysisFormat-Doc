@@ -1,8 +1,12 @@
-# StructuralSurfaceActionDistri
+# StructuralSurfaceActionDistribution
 
 **Load panels, Load distribution**
 
 StructuralSurfaceActionDistribution object describes how surface load can be distributed to other members.
+
+```{warning}
+The name of the excel sheet is **StructuralSurfaceActionDistri** due to sheet name length limitation.
+```
 
 ![](../.gitbook/assets/41\_structuralsurfaceactiondistribution.gif)
 
