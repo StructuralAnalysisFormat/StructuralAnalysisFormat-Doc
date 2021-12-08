@@ -70,7 +70,7 @@ Following changes were done based on the proposal discussed on [GitHub](https://
 
 * Object renamed from StructuralSurfaceActionDistribution to StructuralSurfaceActionDistri. Original name exceeds the allowed number of characters for the name of an excel sheet.
 
-[S](../loads/structuralsurfaceaction.md)[tructuralSurfaceAction](../loads/structuralsurfaceaction.md) (SAF 1.0.9)
+[StructuralSurfaceAction](../loads/structuralsurfaceaction.md) (SAF 1.0.9)
 
 * added new column: "2D member distribution" - reference to StructuralSurfaceActionDistri
 * added new column: "Force action" - enum defining on which object is load applies (On 2D member, On 2D member region, On 2D member distribution)
