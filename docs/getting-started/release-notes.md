@@ -8,10 +8,6 @@ Current version 2.1.0
 
 **Modified objects:**
 
-[StructuralLoadGroup](../loads/structuralloadgroup.md)
-
-* "Load type" string: updated condition (required only for "Load group type" = Variable)
-
 [StructuralLoadCombination](../loads/structuralloadcombination.md)
 
 * new optional enum: "Type" &#x20;
@@ -23,11 +19,13 @@ Current version 2.1.0
 
 [StructuralCurveAction](../loads/structuralcurveaction.md)
 
-* "Value 2", "Vector 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Value 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Vector 2": required only if Direction = Vector **and**  Distribution = Trapez
 
 [StructuralCurveActionFree](../loads/structuralcurveactionfree.md)
 
-* "Value 2", "Vector 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Value 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
+* "Vector 2": required only if Direction = Vector **and**  Distribution = Trapez
 
 [StructuralCurveMoment](../loads/structuralcurvemoment.md)
 
@@ -70,7 +68,7 @@ Following changes were done based on the proposal discussed on [GitHub](https://
 
 * Object renamed from StructuralSurfaceActionDistribution to StructuralSurfaceActionDistri. Original name exceeds the allowed number of characters for the name of an excel sheet.
 
-[S](../loads/structuralsurfaceaction.md)[tructuralSurfaceAction](../loads/structuralsurfaceaction.md) (SAF 1.0.9)
+[StructuralSurfaceAction](../loads/structuralsurfaceaction.md) (SAF 1.0.9)
 
 * added new column: "2D member distribution" - reference to StructuralSurfaceActionDistri
 * added new column: "Force action" - enum defining on which object is load applies (On 2D member, On 2D member region, On 2D member distribution)

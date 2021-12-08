@@ -8,7 +8,7 @@ More about semantic versioning: [semver.org](https://semver.org)
 
 Browse version history
 
-[2.0.0](https://www.saf.guide/v/2.0.0/)
+[2.0.0](https://gitbook.saf.guide/v/2.0.0/)
 
 [1.1.1](https://old.saf.guide/v1.1.1)
 

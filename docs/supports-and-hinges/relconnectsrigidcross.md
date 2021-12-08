@@ -46,4 +46,6 @@ RigidCross is defining structural behavior of node ([StructuralPointConnection](
 >
 >**Non linear** behavior of material is handled with "Resistance". The example is shown below.
 >
->![](<../.gitbook/assets/25\_rigidlink\_resistance.png>)
+>```{image} ../.gitbook/assets/25\_rigidlink\_resistance.png
+>:width: 500px
+>```

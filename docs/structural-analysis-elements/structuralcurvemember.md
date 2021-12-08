@@ -63,6 +63,8 @@ In addition to this local co-ordinate system, also a principal (or main) co-ordi
 
 >An example of use of System line type Bottom right can be seen in the picture below. If the shape of the cross-section is not rectangular then boundary box of the cross-section is considered for position of the system line. The results take in count eccentricities, in example: ey=150 mm, ez=250 mm.
 >
->![](../.gitbook/assets/11\_structuralcurvemember4.png)
+>```{image} ../.gitbook/assets/11\_structuralcurvemember4.png
+>:width: 300px
+>```
 
 >Axis reference is only to illustrate this example, your application can have different cross-section LCS than shown in this example. Alignment of system line should be reflected to your relevant eccentricities based on your cross section LCS.
