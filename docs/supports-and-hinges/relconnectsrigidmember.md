@@ -4,7 +4,9 @@
 
 A rigid connection between two entities. Rigid Member allows to create connections between nodes ([StructuralPoinConnection](../structural-analysis-elements/structuralpointconnection.md)), 1D members ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)) and edges of 2D members ([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md)). Connection could be infinitely rigid or with user defined properties. Maximum of two entities could be connected with one **RelConnectsRigidMember**.
 
-![](../.gitbook/assets/27\_structuralrigidmember.jpg)
+>```{image} ../.gitbook/assets/27\_structuralrigidmember.jpg
+>:width: 600px
+>```
 
 ## Specification in the excel
 
