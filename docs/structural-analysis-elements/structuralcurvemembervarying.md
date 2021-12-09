@@ -17,7 +17,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
 |               Id              |      String      |                                                                           39f238a5-01d0-45cf-a2eb-958170fd4f39                                                                          |         no         | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 ```{image} ../.gitbook/assets/12\_structuralcurvemembervarying\_2.png
-:width: 600px
+:width: 1000px
 ```
 
 ## Notes
@@ -31,5 +31,5 @@ StructuralCurveMemberVarying object describes changing cross section along the l
 >Reference to Alignment enums - examples of alignments. (LCS independent)
 >
 >```{image} ../.gitbook/assets/12\_structuralcurvemembervarying\_alignment.png
->:width: 1000px
+>:width: 1200px
 >```

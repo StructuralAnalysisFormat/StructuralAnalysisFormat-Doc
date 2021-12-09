@@ -34,5 +34,5 @@ The Free surface load is related to slabs. The load is not defined by the entity
 >When "Distribution" is set to "DirectionXY" is necessary to define 3 "C" vertexes. These Vertexes are defining projection onto slab and Value of the load as well. According to position and load value of "C" vertexes is load plane defined and every other vertex of the surface load is calculated. See example below.
 >
 >```{image} ../.gitbook/assets/40\_structuralsurfaceactionfree\_note.png
->:width: 600px
+>:width: 1000px
 >```

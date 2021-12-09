@@ -9,7 +9,7 @@ StructuralStorey object describes definition of floor levels/storeys in structur
 ```
 
 ```{image} ../.gitbook/assets/17\_structuralstorey\_2.png
-:width: 600px
+:width: 700px
 ```
 
 ## Specification in the excel

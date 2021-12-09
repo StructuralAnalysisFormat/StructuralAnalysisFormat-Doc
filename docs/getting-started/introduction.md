@@ -80,7 +80,7 @@ When is LCS enum set on **" by point"** explanation is the following:
 * Y-axis orientation and direction is defined by the right-hand rule
 
 ```{image} ../.gitbook/assets/3_introduction_lcs_by_point.png
-:width: 600px
+:width: 800px
 ```
 
 ### LCS enum set on **"by vector"**
@@ -93,7 +93,7 @@ When is LCS enum set on **"by vector"** explanation is the following:
 * Y-axis orientation and direction is defined by right-hand rule
 
 ```{image} ../.gitbook/assets/3_introduction_lcs_by_vector_v2.png
-:width: 600px
+:width: 800px
 ```
 
 ### General vector as LCS **"by vector"**
