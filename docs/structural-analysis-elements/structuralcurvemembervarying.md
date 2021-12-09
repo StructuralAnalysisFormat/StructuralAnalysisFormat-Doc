@@ -16,14 +16,20 @@ StructuralCurveMemberVarying object describes changing cross section along the l
 |          Alignment #          |       Enum       | <p>Centre</p><p></p><p>Top</p><p></p><p>Bottom</p><p></p><p>Left</p><p></p><p>Right</p><p></p><p>Top left</p><p></p><p>Top right</p><p></p><p>Bottom left</p><p></p><p>Bottom right</p> |         yes        | <p>Alignment of each segment (span) can be defined here.</p><p>First span:</p><p><strong>Centre</strong> - In plan view as well as in side view the midline of the 1D member remains straight and horizontal. Both left and right surface are inclined to allow the cross-section change its width. The centre line of the 1D member (i.e. the centroid axis) of the 1D member remains straight. Both top and bottom surface are symmetrically inclined to allow the cross-section change its height.</p><p><strong>Top</strong> - The top surface of the 1D member remains flat and horizontal. The bottom surface is inclined in order to provide for the change of the height. Top surface is in direction of vertical axis of CSS. Bottom - The bottom surface of the 1D member remains flat and horizontal. The top surface is inclined in order to provide for the change of the height. Bottom surface is in opposite direction of vertical axis of CSS.</p><p><strong>Left</strong> - The left surface of the 1D member remains flat and horizontal. The right surface is inclined in order to provide for the change of the width. Left surface is in direction of horizontal axis of CSS.</p><p><strong>Right</strong> - The right surface of the 1D member remains flat and horizontal. The left surface is inclined in order to provide for the change of the width. Right surface is in opposite direction of horizontal axis of CSS.</p><p><strong>Other than first span:</strong></p><p>Same rules applies with respect to previous span. See pictures in notes section.</p><p><strong>#</strong> means indexing of the Alignment, e.g. Alignment 1, Alignment 2, … Alignment 99. It depends on how many spans are defined in the arbitrary definition.</p> |
 |               Id              |      String      |                                                                           39f238a5-01d0-45cf-a2eb-958170fd4f39                                                                          |         no         | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
-![](../.gitbook/assets/12\_structuralcurvemembervarying\_2.png)
+```{image} ../.gitbook/assets/12\_structuralcurvemembervarying\_2.png
+:width: 600px
+```
 
 ## Notes
 
 >Reference to Alignment enums - direction of alignment in respect of CSS (LCS respects right hand rule).
 >
->![](../.gitbook/assets/11\_structuralcurvemember\_alignment.png)
+>```{image} ../.gitbook/assets/11\_structuralcurvemember\_alignment.png
+>:width: 600px
+>```
 
 >Reference to Alignment enums - examples of alignments. (LCS independent)
 >
->![](../.gitbook/assets/12\_structuralcurvemembervarying\_alignment.png)
+>```{image} ../.gitbook/assets/12\_structuralcurvemembervarying\_alignment.png
+>:width: 1000px
+>```
