@@ -18,6 +18,7 @@ Table of contents:
   getting-started/saf-versions
   getting-started/saf-examples
   getting-started/release-notes
+  getting-started/other-notes
   getting-started/introduction
   getting-started/geometry
   getting-started/best-practice-for-saf-implementation
