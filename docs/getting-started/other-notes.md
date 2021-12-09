@@ -13,7 +13,23 @@ name under devlopment:\
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
 
+## 9.12.2021 Transfer to Read the Docs and other changes
+In order to move to new provider [Read the Docs](https://readthedocs.org/), it was nescesary do extensive changes in syntax. Hints and notes visuals were changed, images size were set and links were updated. No content was edited.
 
+Headers of tables were shortened. 
+* 'Name of the column header' to 'Column header'
+* 'Type of data' to 'Data type'
+* 'Value example or enum definition' to 'Example / enum definition'
+
+[Other Notes](other-notes.md)
+* New page Other Notes was created to separate smaller changes in documentation from [Release Notes](release-notes.md)
+
+[StructuralSurfaceActionDistribution](../loads/structuralsurfaceactiondistribution-1.md)
+* Object renamed to StructuralSurfaceActionDistribution to keep the same naming across the documentation. The only place where the name is shorter is in excel sheet name, where the full name doesn't fit.
+
+[Ignored Objects and Groups](project-and-model-specifications/ignore.md)
+* Updated to contain all the objects
+* StructuralProxyElement, StructuralStorey, StructuralCurveMemberVarying, StructuralCurveMemberVarying and StructuralSurfaceActionDistribution were added
 
 ## 14.9.2021 Edge indexing issue 
 [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/15) - discussion&#x20;
@@ -21,7 +37,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 * Clear specification provided for edge indexing ([StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md),  [RelConnectsSurfaceEdge](../supports-and-hinges/relconnectssurfaceedge.md),  [RelConnectsRigidMember](../supports-and-hinges/relconnectsrigidmember.md), [StructuralCurveAction](../loads/structuralcurveaction.md), [StructuralCurveMoment](../loads/structuralcurvemoment.md))
 
 ## 15.7.2021 
-[StructuralLoadGroup](../loads/structuralloadgroup.md):&#x20;
+[StructuralLoadGroup](../loads/structuralloadgroup.md)&#x20;
 
 * "Load type" string: condition moved from description (required only for "Load group >type" = Variable)
 
