@@ -23,7 +23,9 @@ For **manufactured** types of a cross-section, Composite Shape Definition is **o
 >
 >The contour defined counter clockwise is polygon of the general cross-section (relation between LCS and counter clockwise direction is shown below)
 >
->![](../.gitbook/assets/8\_compositeshapedef\_counterclockwise.png)
+>```{image} ../.gitbook/assets/8\_compositeshapedef\_counterclockwise.png
+>:width: 600px
+>```
 
 >Each polygon has a defined material which is name reference to existing material in [StructuralMaterial](structuralmaterial.md) sheet
 >

@@ -4,9 +4,13 @@
 
 StructuralStorey object describes definition of floor levels/storeys in structural model.
 
-![](../.gitbook/assets/17\_structuralstorey\_1.png)
+```{image} ../.gitbook/assets/17\_structuralstorey\_1.png
+:width: 1000px
+```
 
-![](../.gitbook/assets/17\_structuralstorey\_2.png)
+```{image} ../.gitbook/assets/17\_structuralstorey\_2.png
+:width: 700px
+```
 
 ## Specification in the excel
 

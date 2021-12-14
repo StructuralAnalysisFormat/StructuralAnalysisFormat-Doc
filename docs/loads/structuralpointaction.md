@@ -33,4 +33,6 @@ The point force can be defined in three main directions (global or local coordin
 
 >An example of use of Repeat (n) is given below. The forces are distributed uniformly meaning that the value Delta x is used for uniform distribution along the 1D member for multiple point forces.
 >
->![](../.gitbook/assets/31\_structuralpointaction2.png)
+>```{image} ../.gitbook/assets/31\_structuralpointaction2.png
+>:width: 600px
+>```

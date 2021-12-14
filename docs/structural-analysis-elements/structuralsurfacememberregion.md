@@ -26,4 +26,6 @@ This object defines particular areas of the [StructuralSurfaceMember](structural
 
 >StructuralSurfaceMemberRegion examples of system-plane location and eccentricity effect.
 >
->![](../.gitbook/assets/16\_structuralsurfacememberregion2.png)
+>```{image} ../.gitbook/assets/16\_structuralsurfacememberregion2.png
+>:width: 1000px
+>```

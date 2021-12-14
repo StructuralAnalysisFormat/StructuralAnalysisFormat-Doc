@@ -39,4 +39,6 @@ Basic construction elements are simple geometry types, that are used for shape d
 >
 >**Polyline schematics:**
 
-![1](../.gitbook/assets/4\_Geometry\_poly\_line\_2.png)
+```{image} ../.gitbook/assets/4\_Geometry\_poly\_line\_2.png
+:width: 1000px
+```
