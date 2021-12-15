@@ -18,13 +18,10 @@ Table of contents:
   getting-started/saf-versions
   getting-started/saf-examples
   getting-started/release-notes
-  getting-started/changelog
   getting-started/introduction
   getting-started/geometry
   getting-started/best-practice-for-saf-implementation
   getting-started/project-and-model-specifications/README
-  getting-started/project-and-model-specifications/units
-  getting-started/project-and-model-specifications/ignore
   
 .. toctree::
   :caption: Structural analysis elements
@@ -87,8 +84,11 @@ Table of contents:
   :caption: Annexes
   :maxdepth: 1
   
+  getting-started/changelog
   annexes/formcodes
   annexes/description-id-of-the-profile
   annexes/supported-shapes-of-parametric-cross-section
   annexes/supported-shapes-of-compound-section
   annexes/supported-design-properties-of-the-materials
+  getting-started/project-and-model-specifications/units
+  getting-started/project-and-model-specifications/ignore
