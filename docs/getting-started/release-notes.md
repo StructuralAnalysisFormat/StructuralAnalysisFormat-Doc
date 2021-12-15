@@ -22,9 +22,11 @@ Current version 2.1.0
 * [StructuralCurveActionFree](../loads/structuralcurveactionfree.md)
     * "Value 2": required only if Direction = X, Y or Z **and**  Distribution = Trapez
     * "Vector 2": required only if Direction = Vector **and**  Distribution = Trapez
+<p></p>
 
 * [StructuralCurveMoment](../loads/structuralcurvemoment.md)
     * "Value 2": required only if Distribution = Trapez
+<p></p>
 
 * [RelConnectsRigidLink](../supports-and-hinges/relconnectsrigidlink.md)
     * "Hinge position": enum definition clarified
