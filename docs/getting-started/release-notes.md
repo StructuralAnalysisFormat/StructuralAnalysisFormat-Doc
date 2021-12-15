@@ -79,19 +79,18 @@ In version 1.0.9:
 * LCS type is required value for StructuralCurveMember
 * Added ID for Model and Project sheet in
 
-\
-* Project and model specifications
+    * Project and model specifications
 
-* StructuralStorey
+    * StructuralStorey
 
-* StructuralCurveMemberVarying
+    * StructuralCurveMemberVarying
 
-    * New object StructuralSurfaceActionDistribution to describe load panels
-    * Added detailed description for Global coordinate system property in Project and model specifications
+* New object StructuralSurfaceActionDistribution to describe load panels
+* Added detailed description for Global coordinate system property in Project and model specifications
 
 ### 26.11.2020 - Version 1.0.8
 
-In version 1.0.8, few small formal changes was made
+In version 1.0.8, few small formal changes were made
 
 * Thermal load for 2D members - removed delta T attribute, to specify single value for constant temperature change, use attribute "TempT "
 * Added Id attribute for Project and Model information
