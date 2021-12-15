@@ -16,8 +16,8 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 ## 9.12.2021 Transfer to Read the Docs and other changes
 In order to move to new provider [Read the Docs](https://readthedocs.org/), it was nescesary do extensive changes in syntax. Hints and notes visuals were changed, images sizes were set and links were updated. No content was edited.
 
-[Other Notes](other-notes.md)
-* New page Other Notes was created to separate smaller changes in documentation from [Release Notes](release-notes.md)
+[Changelog](changelog.md)
+* New page Changelog was created to separate smaller changes in documentation from [Release Notes](release-notes.md)
 
 [StructuralSurfaceActionDistribution](../loads/structuralsurfaceactiondistribution-1.md)
 * Object renamed to StructuralSurfaceActionDistribution to keep the same naming across the documentation. The only place where the name is shorter is in excel sheet name, where the full name doesn't fit.
