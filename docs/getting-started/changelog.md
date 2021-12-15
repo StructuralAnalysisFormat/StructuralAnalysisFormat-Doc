@@ -16,7 +16,7 @@ In order to move to new provider [Read the Docs](https://readthedocs.org/), it w
 * StructuralProxyElement, StructuralStorey, StructuralCurveMemberVarying, StructuralCurveMemberVarying and StructuralSurfaceActionDistribution were added
 
 ## 14.9.2021 Edge indexing issue 
-[GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/15) - discussion&#x20;
+Discussed in this [discussion](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/15).
 
 * Clear specification provided for edge indexing ([StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md),  [RelConnectsSurfaceEdge](../supports-and-hinges/relconnectssurfaceedge.md),  [RelConnectsRigidMember](../supports-and-hinges/relconnectsrigidmember.md), [StructuralCurveAction](../loads/structuralcurveaction.md), [StructuralCurveMoment](../loads/structuralcurvemoment.md))
 
@@ -32,7 +32,7 @@ In order to move to new provider [Read the Docs](https://readthedocs.org/), it w
 
 ## 8.8.2021 - Fixing flaws in SAF spec v1.0.9 and v2.0.0
 
-Following changes were done based on the proposal discussed on [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/7) - discussion, [GitHub](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/issues/11) - issue.&#x20;
+Following changes were done based on the proposal discussed in this [discussion](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/discussions/7) and changed in this [issue](https://github.com/StructuralAnalysisFormat/gitbookdocumentation/issues/11).
 
 [StructuralSurfaceActionDistri](../loads/structuralsurfaceactiondistribution-1.md) (SAF 1.0.9)
 
