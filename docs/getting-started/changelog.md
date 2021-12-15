@@ -20,7 +20,7 @@ In order to move to new provider [Read the Docs](https://readthedocs.org/), it w
 
 * Clear specification provided for edge indexing ([StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md),  [RelConnectsSurfaceEdge](../supports-and-hinges/relconnectssurfaceedge.md),  [RelConnectsRigidMember](../supports-and-hinges/relconnectsrigidmember.md), [StructuralCurveAction](../loads/structuralcurveaction.md), [StructuralCurveMoment](../loads/structuralcurvemoment.md))
 
-## 15.7.2021 
+## 15.7.2021 Improving clarity of required values in loads
 [StructuralLoadGroup](../loads/structuralloadgroup.md)&#x20;
 
 * "Load type" string: condition moved from description (required only for "Load group >type" = Variable)
