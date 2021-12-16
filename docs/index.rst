@@ -84,7 +84,7 @@ Table of contents:
   :caption: Annexes
   :maxdepth: 1
   
-  getting-started/changelog
+  annexes/changelog
   annexes/formcodes
   annexes/description-id-of-the-profile
   annexes/supported-shapes-of-parametric-cross-section

@@ -61,6 +61,7 @@
 
 ## Annexes
 
+* [Changelog](annexes/changelog.md)
 * [Formcodes](annexes/formcodes.md)
 * [Description ID of the profile](annexes/description-id-of-the-profile.md)
 * [Supported shapes of parametric cross-section](annexes/supported-shapes-of-parametric-cross-section.md)
