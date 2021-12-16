@@ -71,7 +71,7 @@ In the list called “model” you can specify basic info about your project.
 >### **System of units**
 >
 >* Column headers should respect this setting and change unit accordingly, also values should be in specified units
->* See [table](units.md) of units for headers
+>* See [table](../../annexes/units.md) of units for headers
 
 >### **Ignored objects/groups:**
 >
