@@ -11,7 +11,7 @@ In order to move to new provider [Read the Docs](https://readthedocs.org/), it w
 * [StructuralSurfaceActionDistribution](../loads/structuralsurfaceactiondistribution-1.md)
     * Object renamed to StructuralSurfaceActionDistribution to keep the same naming across the documentation. The only place where the name is shorter is in excel sheet name, where the full name doesn't fit.
 
-* [Ignored Objects and Groups](project-and-model-specifications/ignore.md)
+* [Ignored Objects and Groups](ignore.md)
     * Updated to contain all the objects
     * StructuralProxyElement, StructuralStorey, StructuralCurveMemberVarying, StructuralCurveMemberVarying and StructuralSurfaceActionDistribution were added
 

@@ -75,5 +75,5 @@ In the list called “model” you can specify basic info about your project.
 
 >### **Ignored objects/groups:**
 >
->* See [table](ignore.md) of units for headers
+>* See [table](../../annexes/ignore.md) of units for headers
 

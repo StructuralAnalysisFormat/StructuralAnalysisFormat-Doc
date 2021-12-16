@@ -14,7 +14,6 @@
 * [Best practice for SAF implementation](getting-started/best-practice-for-saf-implementation.md)
 * [Project and model specifications](getting-started/project-and-model-specifications/README.md)
   * [Units table](getting-started/project-and-model-specifications/units.md)
-  * [Ignored objects and groups](getting-started/project-and-model-specifications/ignore.md)
 
 ## Structural analysis elements
 
@@ -68,6 +67,7 @@
 * [Supported shapes of parametric cross-section](annexes/supported-shapes-of-parametric-cross-section.md)
 * [Supported shapes of compound section](annexes/supported-shapes-of-compound-section.md)
 * [Supported design properties of the materials](annexes/supported-design-properties-of-the-materials.md)
+* [Ignored objects and groups](annexes/ignore.md)
 
 ## Results
 

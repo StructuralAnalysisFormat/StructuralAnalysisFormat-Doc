@@ -91,4 +91,4 @@ Table of contents:
   annexes/supported-shapes-of-compound-section
   annexes/supported-design-properties-of-the-materials
   getting-started/project-and-model-specifications/units
-  getting-started/project-and-model-specifications/ignore
+  annexes/ignore
