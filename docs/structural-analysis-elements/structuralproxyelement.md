@@ -17,7 +17,7 @@ Sheet StrucutralProxyElement is a list of all StructuralProxyElements defined in
 
 ### Specification in the excel
 
-| **Name of the column header** | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                                                                                                                                                                |
+| Column header| Data type | Example / enum definition | Required | Description |
 | :---------------------------: | :--------------: | :----------------------------------: | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |              Name             |      String      |                 SPE1                 |         Yes        | Human readable unique name of the StructuralProxyElement                                                                                                                                       |
 |            Material           |      String      |                C20/25                |         Yes        | The reference to the "Name" of defined material in [StructuralMaterial](structuralmaterial.md)                                                                                        |
