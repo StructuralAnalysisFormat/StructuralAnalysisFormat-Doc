@@ -10,7 +10,7 @@ The point force can be defined in three main directions (global or local coordin
 
 ## Specification in the excel
 
-| Row header| Data type | Example / enum definition | Required | Description |
+| Column header| Data type | Example / enum definition | Required | Description |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |              Name             |      String      |                                                                        F3                                                                       |               yes              | Human readable unique name of the force                                                                                                                                                                  |
 |              Type             |      String      |                                                                     Standard                                                                    |               no               | This property defines what the load is caused by, E.g. Standard, Wind, Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water Pressure, Soil Pressure, Generated Water, Generated Soil |
