@@ -3,7 +3,7 @@ SAF Documentation
   
 Structural Analysis Format documentation
 
-Current version: 2.1.0
+Current version: Version in progress
 
 
 Table of contents:
