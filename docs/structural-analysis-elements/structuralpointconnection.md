@@ -10,7 +10,7 @@ If required, special boundary conditions can be defined for the StructuralPointC
 
 ### Specification in the excel
 
-| **Name   of the column header** | **Type of data** | **Value example or enum definition** | **Required value** | **Description**                                           |
+| Column header| Data type | Example / enum definition | Required | Description |
 | :-----------------------------: | :--------------: | :----------------------------------: | :----------------: | --------------------------------------------------------- |
 |               Name              |      String      |                  N1                  |         yes        | Human readable unique name of   the node                  |
 |       Coordinate   X \[m]       |      Double      |                   0                  |         yes        | Coordination of node in X   direction. Coordinate in GCS. |

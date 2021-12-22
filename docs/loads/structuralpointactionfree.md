@@ -11,7 +11,7 @@ The Free point load is related to slabs. The load is not defined by the entity i
 
 ## Specification in the excel
 
-| **Name of the column header** | **Type of data** |            **Value example or enum definition**            |      **Required value**      | **Description**                                                                                                                                                                                          |
+| Column header| Data type | Example / enum definition | Required | Description |
 | :---------------------------: | :--------------: | :--------------------------------------------------------: | :--------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |              Name             |      String      |                             FF1                            |              yes             | Human readable unique name of the force                                                                                                                                                                  |
 |              Type             |      String      |                          Standard                          |              no              | This property defines what the load is caused by, E.g. Standard, Wind, Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water Pressure, Soil Pressure, Generated Water, Generated Soil |
