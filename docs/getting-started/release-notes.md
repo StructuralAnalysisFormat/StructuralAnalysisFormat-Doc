@@ -1,7 +1,9 @@
 # Release Notes
 
 ```{admonition} Version
-** This is the latest version in progress. **
+
+**This is the latest version in progress.**
+
 The last stable version is v2.1.0 to see it select stable version in the left bottom corner.
 
 ```
