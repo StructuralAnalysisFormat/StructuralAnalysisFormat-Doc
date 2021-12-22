@@ -1,8 +1,15 @@
 # Release Notes
 
 ```{admonition} Version
-Current version 2.1.0
+
+**This is the latest version in progress.**
+
+The last stable version is v2.1.0. To see it select versions: 'stable' in the left bottom corner.
+
 ```
+
+### Current changes
+Current changes from stable version are noted here.
 
 ### 18.11.2021 - Version 2.1.0
 
