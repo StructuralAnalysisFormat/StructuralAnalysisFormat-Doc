@@ -1,7 +1,7 @@
 # SAF Examples
 
 ```{admonition} All in one place
-For downloading examples go to [SAF examples page](https://examples.saf.guide/)
+For downloading examples go to [SAF examples page](https://examples.saf.guide/).
 ```
 
 ## HOUSE&#x20;
