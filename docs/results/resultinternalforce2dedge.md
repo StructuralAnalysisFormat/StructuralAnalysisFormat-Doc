@@ -2,7 +2,7 @@
 
 **Internal force on 2D edge**
 
-Internal forces on edge of 2D member. 
+Internal forces on edge of 2D member. The coordinate system of the results is the coordinate system of the member the resluts belong to.
 
 ```{image} ../.gitbook/assets/48_resultinternalforce2dedge_1.gif
 :width: 400px
