@@ -2,6 +2,9 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+## 4.1.2022 SAF example house file update
+New example file in version 2.1.0 is created and all versions of examples moved to [single page](https://examples.saf.guide/). 
+
 ## 9.12.2021 Transfer to Read the Docs and other changes
 In order to move to new provider [Read the Docs](https://readthedocs.org/), it was nescesary do extensive changes in syntax. Hints and notes visuals were changed, images sizes were set and links were updated. No content was edited besides changes listed below.
 
