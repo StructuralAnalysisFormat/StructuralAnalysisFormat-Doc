@@ -4,9 +4,10 @@
 
 Internal forces on edge of 2D member. 
 
-```{image} ../.gitbook/assets/48_resultinternalforce2dedge_1.png
+```{image} ../.gitbook/assets/48_resultinternalforce2dedge_1.gif
 :width: 600px
 ```
+![](../.gitbook/assets/48_resultinternalforce2dedge_1.png)
 
 ## Specification in the excel
 
