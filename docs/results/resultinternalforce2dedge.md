@@ -2,7 +2,11 @@
 
 **Internal force on 2D edge**
 
-Internal forces on edge of 2D member.
+Internal forces on edge of 2D member. 
+
+```{image} ../.gitbook/assets/48_resultinternalforce2dedge_1.png
+:width: 600px
+```
 
 ## Specification in the excel
 
