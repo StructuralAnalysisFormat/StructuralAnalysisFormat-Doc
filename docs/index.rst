@@ -79,6 +79,7 @@ Table of contents:
   :maxdepth: 1
   
   results/resultinternalforce1d
+  results/resultinternalforce2dedge
 
 .. toctree::
   :caption: Annexes

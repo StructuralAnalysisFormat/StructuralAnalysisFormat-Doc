@@ -11,6 +11,10 @@ The last stable version is v2.1.0. To see it select versions: 'stable' in the le
 ### Current changes
 Current changes from stable version are noted here.
 
+**New object added:**
+
+* [ResultInternalForce2DEdge](../results/resultinternalforce2dedge.md) - result object for internal forces on edges on 2D members
+
 ### 18.11.2021 - Version 2.1.0
 
 **Modified objects:**
