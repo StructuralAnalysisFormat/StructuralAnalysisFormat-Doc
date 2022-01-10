@@ -32,13 +32,6 @@ Internal forces on edge of 2D member. The coordinate system of the results is th
 
 ## Notes
 
->### Multiple tables in one sheet
->
->The amount of data can be limited due to the [limitation of xlsx](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) format.
->
->Therefore the results can be written to SAF in a form of multiple tables. In the similar logic as the [StructuralProxyElement](../structural-analysis-elements/structuralproxyelement.md).
->
-
 >### Index
 >
 >This attribute defines an order of the section on the edge, starting with 1 and increasing from the **start** to the **end** of the edge. This property helps to specify if the internal force is on the "left" or on the right side of the section.
