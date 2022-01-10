@@ -2,7 +2,7 @@
 
 **Internal force on 2D edge**
 
-Internal forces on edge of 2D member. The coordinate system of the results is the coordinate system of the member the resluts belong to.
+Internal forces on edge of 2D member. The coordinate system of the results is the coordinate system of the member the results belong to.
 
 ```{image} ../.gitbook/assets/48_resultinternalforce2dedge_1.gif
 :width: 400px
@@ -14,7 +14,7 @@ Internal forces on edge of 2D member. The coordinate system of the results is th
 |---|---|---|---|---|
 | Result on | Enum | On edge | yes | Specify where the result is, only option is 'on edge'. Prepared for future expansion (on opening edge..)  |
 | 2D member | String | B1 | yes | Reference to the name of 2D member in [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md) |
-| Edge | Integer | 2 | yes | The index starting with 1. The order is according to order of “edges” property in [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md) on which the load is applied |
+| Edge | Integer | 2 | yes | The index starting with 1. The order is according to order of “edges” property in [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md) |
 | Result for | Enum | Load case<br>Load combination | yes | Specifies from where the result is coming from (from Load Case, Load Combination) |
 | Load case | String | LC1 | yes, if Result for = Load case | Reference to the name of [StructuralLoadCase](../loads/structuralloadcase.md) |
 | Load combination | String | COM1 | yes, if Result for = Combination | Reference to the name of [StructuralLoadCombination](../loads/structuralloadcombination.md) |
@@ -34,9 +34,9 @@ Internal forces on edge of 2D member. The coordinate system of the results is th
 
 >### Multiple tables in one sheet
 >
->The amount of data can be limited due the [limitation of xlsx](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) format.
+>The amount of data can be limited due to the [limitation of xlsx](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) format.
 >
->Therefore the results can be written to SAF in a form of multiple tables. In the similiar logic as the [StructuralProxyElement](../structural-analysis-elements/structuralproxyelement.md).
+>Therefore the results can be written to SAF in a form of multiple tables. In the similar logic as the [StructuralProxyElement](../structural-analysis-elements/structuralproxyelement.md).
 >
 
 >### Index
@@ -48,7 +48,7 @@ Internal forces on edge of 2D member. The coordinate system of the results is th
 >![](../.gitbook/assets/47_resultinternalforce1d_2.gif)
 
 ```{hint}
-See the index 6 and 7. One section, two values for normal (N) force. \
+See index 6 and 7. One section, two values for normal (N) force. \
 Section with lower index (6) identifies value on the left (closer to the origin of X-axis of the beam).\
 Section with a higher index (7) identifies value on the right (further from the origin of X-axis of the beam).
 ```
