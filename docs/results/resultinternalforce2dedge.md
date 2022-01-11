@@ -22,7 +22,7 @@ Internal forces on edge of 2D member. The coordinate system of the results is th
 | Result for | Enum | Load case<br>Load combination | yes | Specifies from where the result is coming from (from Load Case, Load Combination) |
 | Load case | String | LC1 | yes, if Result for = Load case | Reference to the name of [StructuralLoadCase](../loads/structuralloadcase.md) |
 | Load combination | String | COM1 | yes, if Result for = Combination | Reference to the name of [StructuralLoadCombination](../loads/structuralloadcombination.md) |
-| Combination key | String | 1.35LC1+1.5LC2+1.5LC3+1.5LC4 | no | Allows to define exact combination per result section<br><br>Structure of string:<br>”LoadFactor1LoadCase1+LoadFactor2LoadCase2<br>+LoadFactorN*LoadCaseN”<br>For envelopes and national standard (code) combinations, this column specifies for which exact combination the result is computed |
+| Combination key | String | 1.35\*LC1+1.5\*LC2+1.5\*LC3+1.5\*LC4 | no | Allows to define exact combination per result section<br><br>Structure of string:<br>”LoadFactor1\*LoadCase1+LoadFactor2\*LoadCase2<br>+LoadFactorN\*LoadCaseN”<br>For envelopes and national standard (code) combinations, this column specifies for which exact combination the result is computed |
 | Section at [m] | Double | 0.100 | yes | X coordinate on the edge(distance from the start node) where the result is located |
 | Index | Integer | 1 | yes | Index of the section on edge |
 | mx [kNm/m] | Double | 3.00 | yes | Result value of bending moment mx |
