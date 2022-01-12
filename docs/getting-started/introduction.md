@@ -123,7 +123,7 @@ When is LCS enum set on **"axis** x **or** y **by vector"** explanation is simil
   * Y or X axis is given by the vector \(depending on chosen option in the SAF excel file\)
   * The Z axis direction is perpendicular to the plane of the wall and:
     * The orientation follows the positive half space defined by positive global X and plane defined by global Z and global Y.
-    * In case, this is not possible \(wall in plane/or parallel to global Y global X plane\), then local Z follows the positive half space defined by positive global Y and plane defined by global X and global Z axis. See picture below.
+    * In case, this is not possible \(wall in plane/or parallel to global X global Z plane\), then local Z follows the positive half space defined by positive global Y and plane defined by global X and global Z axis. See picture below.
   * The last axis of LCS is calculated by the right-hand rule
 
 ```{image} ../.gitbook/assets/3_wall_lcs.png
