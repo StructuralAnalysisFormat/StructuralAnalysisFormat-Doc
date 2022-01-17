@@ -14,7 +14,7 @@ Current changes from stable version are noted here.
 **Modified objects:**
 
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
-    * new value 'Non linear' for attribute 'Type'
+    * new value 'Nonlinear' for attribute 'Type'
 
 **New object added:**
 
