@@ -114,7 +114,7 @@ For **2D members**, there are several options on how to define LCS of [Structura
 
 ### LCS enum set on **"axis** x **or** y **by vector" \(2D members\)**
 
-When is LCS enum set on **"axis** x **or** y **by vector"** explanation is similar to [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)presented above with the following additional information:
+When is LCS enum set on **"axis** x **or** y **by vector"** explanation is similar to [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md) presented above with the following additional information:
 
 * For non-vertical 2D elements \(slabs\):
   * Y or X axis is given by the vector \(depending on chosen option in the SAF excel file\)
