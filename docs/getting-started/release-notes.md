@@ -11,6 +11,11 @@ The last stable version is v2.1.0. To see it select versions: 'stable' in the le
 ### Current changes
 Current changes from stable version are noted here.
 
+**Modified objects:**
+
+* [StructuralLoadCombination](../loads/structuralloadcombination.md)
+    * new value 'Non linear' for attribute 'Type'
+
 **New object added:**
 
 * [ResultInternalForce2DEdge](../results/resultinternalforce2dedge.md) - result object for internal forces on edges on 2D members
