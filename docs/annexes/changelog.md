@@ -4,7 +4,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 ## 31.1.2022 Small description update
 * [StructuralCurveEdge](../structural-analysis-elements/structuralcurveedge.md)
-    * description updated, note added
+    * Description updated, note added
 
 ## 24.1.2022 Description of enum 'Location' update
 * [StrucuralCurveAction](../loads/structuralcurveaction.md). 
