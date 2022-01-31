@@ -34,5 +34,6 @@ Object definition for a line support on a 1D member ([StructuralCurveMember](../
 
 ## Notes
 
->Tension and compression supports act only in a specific direction. Tension supports prevent movement in the positive direction of the axis. Compression supports prevent movement in the opposite direction. (Reaction forces point in the reversed direction.)
+>Tension and compression supports act only in a specific direction. Tension supports prevent movement in the positive direction of the axis. Compression supports prevent movement in the opposite direction. Reaction forces point in the reversed direction.
+>
 >Those supports are compression only and tension only

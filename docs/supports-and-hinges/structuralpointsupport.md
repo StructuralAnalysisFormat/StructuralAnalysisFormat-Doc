@@ -29,5 +29,6 @@ StructuralPointSupport represents a support of the analytical model in a node. T
 
 ## Notes
 
->Tension and compression supports act only in a specific direction. Tension supports prevent movement in the positive direction of the axis. Compression supports prevent movement in the opposite direction. (Reaction forces point in the reversed direction)
+>Tension and compression supports act only in a specific direction. Tension supports prevent movement in the positive direction of the axis. Compression supports prevent movement in the opposite direction. Reaction forces point in the reversed direction.
+>
 >Those supports are: compression only, tension only, flexible compression only, and flexible tension only
