@@ -40,5 +40,5 @@ Object definition for a line support on a 1D member ([StructuralCurveMember](../
 >Support on a 1D member can be defined by a local or global coordinate systems. See the image below for an example of tension only support using a local coordinate system. They prevent the movement in the positive direction of the local axis of the 1D member they are assigned to (in this case an edge of a slab).
 >
 >```{image} ../.gitbook/assets/21_line_support_directions.png
->:width: 300px
+>:width: 500px
 >```
