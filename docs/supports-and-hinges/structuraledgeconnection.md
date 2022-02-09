@@ -39,7 +39,7 @@ Object definition for a line support on a 2D member ([StructuralSurfaceMember](.
 
 ## Notes
 
->Tension and compression supports act only in a specific direction. Tension supports prevent movement in the positive direction of the axis. Compression supports prevent movement in the opposite direction. Those supports are compression only and tension only.
+>Tension and compression supports act only in a specific direction. Tension supports prevent the movement in the positive direction of an axis. Compression supports prevent the movement in the opposite direction. Those supports are compression only and tension only.
 >
 >Line support on a 2D member can be defined by a local or global coordinate systems. Local coordinate system is the coordinate system of the edge (not the coordinate system of the 2D member). See the image below for an example of tension only support using a local coordinate system. It prevents the movement in the positive direction of the edge's local axes.
 >

@@ -29,10 +29,9 @@ StructuralPointSupport represents a support of the analytical model in a node. T
 
 ## Notes
 
->Tension and compression supports act only in a specific direction. Tension supports prevent movement in the positive direction of the axis. Compression supports prevent movement in the opposite direction. Reaction forces point in the reversed direction.
->Those supports are: compression only, tension only, flexible compression only, and flexible tension only.
+>Tension and compression supports act only in a specific direction. Tension supports prevent the movement in the positive direction of an axis. Compression supports prevent the movement in the opposite direction. Those supports are: compression only, tension only, flexible compression only, and flexible tension only.
 >
->Support in a node is always oriented in the global coordinate system. See the picture below for an example of tension only support which prevents the movement in the positive direction of the global axis.
+>Support in a node is always oriented in the global coordinate system. See the picture below for an example of tension only support which prevents the movement in the positive direction of the global axes.
 >
 >```{image} ../.gitbook/assets/19_point_support_directions.png
 >:width: 300px
