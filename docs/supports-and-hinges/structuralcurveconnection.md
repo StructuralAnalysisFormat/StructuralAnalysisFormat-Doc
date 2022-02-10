@@ -36,7 +36,7 @@ Object definition for a line support on a 1D member ([StructuralCurveMember](../
 
 >Tension and compression supports act only in a specific direction. Tension supports prevent the movement in the positive direction of an axis. Compression supports prevent the movement in the opposite direction. Those supports are compression only and tension only.
 >
->Support on a 1D member can be defined by a local or global coordinate systems. Local coordinate system is the coordinate system defined by the 1D member it is assigned to ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md) or [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md)). See the image below for an example of tension only support defined by local coordinate system, it prevents the movement in the positive direction of the member's local axes.
+>Support on a 1D member can be defined by local or global coordinate systems. Local coordinate system is the coordinate system defined by the 1D member it is assigned to ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md) or [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md)). See the image below for an example of tension only support defined by local coordinate system, it prevents the movement in the positive direction of the member's local axes.
 >
 >```{image} ../.gitbook/assets/21b_1D_member_support_direction.png
 >:width: 300px
