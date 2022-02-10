@@ -25,3 +25,7 @@ A node or a beam of the structure may be subject to a moment load. The load is d
 |           Repeat (n)          |      Integer     |                                                                        1                                                                        | yes, if Force action = On beam | Defines the number of forces acting on the beam. If the number is greater than 1, the forces are distributed uniformly over the 1D member                                                                |
 |          Delta x \[m]         |      Double      |                                                                       0,3                                                                       |     yes, if Repeat (n) > 1     | <p>Defines the distance between forces acting on the 1D member in relative or in absolute coordinates [m]</p><p>(only applicable when ForceAction=OnBeam)</p>                                            |
 |               Id              |      String      |                                                       39f238a5-01d0-45cf-a2eb-958170fd4f39                                                      |               no               | Unique attribute designation                                                                                                                                                                             |
+
+## Notes
+
+> In SAF, nodes have no local coordinate system (LCS); they all use the global coordinate system. Therefore coordinate systems local and global are the same.
