@@ -37,4 +37,4 @@ The point force can be defined in three main directions (global or local coordin
 >:width: 600px
 >```
 
-> In SAF nodes have no local coordinate system (LCS), they all use the global coordinate system. Therefore coordinate systems local and global are the same.
+> In SAF, nodes have no local coordinate system (LCS); they all use the global coordinate system. Therefore coordinate systems local and global are the same.
