@@ -44,11 +44,11 @@ Object definition for a line support on a 2D member ([StructuralSurfaceMember](.
 > * Z-axis is parallel to the local Z-axis of the 2D member at the edge
 > * Y-axis is tangential to the 2D member (is in its plane) and complies with the right-hand rule
 >```{image} ../.gitbook/assets/21_lcs_of_edges.png
->:width: 500px
+>:width: 600px
 >```
 
 >Tension and compression supports act only in a specific direction. Tension supports prevent the movement in the positive direction of an axis. Compression supports prevent the movement in the opposite direction. Those supports are compression only and tension only. See the image below for an example of tension only support using a local coordinate system. It prevents the movement in the positive direction of the edge's local axes.
 >
 >```{image} ../.gitbook/assets/21_edge_support_directions.png
->:width: 500px
+>:width: 400px
 >```
