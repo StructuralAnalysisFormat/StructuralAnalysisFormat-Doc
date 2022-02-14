@@ -34,5 +34,5 @@ StructuralPointSupport represents a support of the analytical model in a node. T
 >Support in a node is always oriented in the global coordinate system. See the picture below for an example of tension only support which prevents the movement only in the positive direction of the global axes.
 >
 >```{image} ../.gitbook/assets/19_point_support_directions.png
->:width: 300px
+>:width: 400px
 >```
