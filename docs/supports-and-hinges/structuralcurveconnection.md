@@ -40,5 +40,4 @@ Object definition for a line support on a 1D member ([StructuralCurveMember](../
 >
 >```{image} ../.gitbook/assets/21b_1D_member_support_direction.png
 >:width: 400px
-
 >```
