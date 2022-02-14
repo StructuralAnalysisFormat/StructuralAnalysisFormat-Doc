@@ -59,7 +59,7 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
 >:width: 600px
 >```
 
-> For 'Local' coordinate system (LCS) the load is defined in the LCS of the member it is assigned to. For force action 'On beam' it is the LCS of [StructuralCurveMember ](../structural-analysis-elements/structuralcurvemember.md). For force action 'On edge', 'On subregion edge', 'On opening edge' and 'On rib' it is rather the LCS of the 2D member the edge or rib belongs to. See the picture below where LCS of a 2D member is higlighted at its edges.
+> For 'Local' coordinate system (LCS) the load is defined in the LCS of the member it is assigned to. For force action 'On beam' and 'On rib' it is the LCS of [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md) and [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md), respectively. For force action 'On edge', 'On subregion edge' and 'On opening edge' it is rather the LCS of the 2D member the edge belongs to. See the picture below where LCS of a 2D member is higlighted at its edges.
 >```{image} ../.gitbook/assets/34_LCS_at_different_places.png
 >:width: 600px
 >```

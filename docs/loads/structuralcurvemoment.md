@@ -56,10 +56,10 @@ The Line moment load models load distributed over a 1D member ([StructuralCurveM
 >:width: 600px
 >```
 
-> For 'Local' coordinate system (LCS) the load is defined in the LCS of the member it is assigned to. For Force action 'On beam' and 'On rib' the LCS of the member which is defined in [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md) and [SructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md). For edges of 2D members the local coordinate system of an edge is created accordingly:
-> * X-axis goes along the edge, in the direction of the original specification of the line/curve
-> * Z-axis is parallel to the local Z-axis of the 2D member at the edge
-> * Y-axis is tangential to the 2D member (is in its plane) and complies with the right-hand rule
+> For 'Local' coordinate system (LCS) the load is defined in the LCS of the member it is assigned to. For force action 'On beam' and 'On rib' it is the LCS of [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md) and [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md), respectively. For edges of 2D members the local coordinate system of an edge is created accordingly:
+> * X-axis is in the direction of the line/curve of the edge. The direction is specified by the order of nodes in the [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md)
+> * Z-axis is parallel to the local Z-axis of the 2D member
+> * Y-axis is tangential to the 2D member (it is in its plane) and the direction is set by right-hand rule
 >```{image} ../.gitbook/assets/21_lcs_of_edges.png
 >:width: 600px
 >```
