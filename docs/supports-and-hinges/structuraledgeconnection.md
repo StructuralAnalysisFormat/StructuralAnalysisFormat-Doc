@@ -53,4 +53,5 @@ Object definition for a line support on a 2D member ([StructuralSurfaceMember](.
 >```{image} ../.gitbook/assets/21_edge_support_directions.png
 >:width: 600px
 >```
+
 ![](../.gitbook/assets/21_edge_support_directions.png)
