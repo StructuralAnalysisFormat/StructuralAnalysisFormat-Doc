@@ -2,6 +2,9 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+## 15.2.2022 Delete unused files
+* Some files were overlooked when transfering from Gitbook to Read the Docs. Old pictures that were not in use are deleted from the repository.
+
 ## 31.1.2022 Small description update
 * [StructuralCurveEdge](../structural-analysis-elements/structuralcurveedge.md)
     * Description updated, note added
