@@ -2,9 +2,13 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
-## 9.2.2022 Direction of compression and tension description udpate
+## 15.2.2022 LCS and compression/tension description imporovement
 * [StructuralPointSupport](../supports-and-hinges/structuralpointsupport.md), [StructuralCurveConnection](../supports-and-hinges/structuralcurveconnection.md), [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
-    * Notes and pictures added
+    * Direction of compression and tension supports described, pictures added
+* [StrucuralCurveAction](../loads/structuralcurveaction.md), [StrucuralCurveMoment](../loads/structuralcurvemoment.md)
+    * Description of LCS used for the loads explained in notes with pictures
+* [StructuralPointAction](../loads/structuralpointaction.md), [StructuralPointMoment](../loads/structuralpointmoment.md)
+    * LCS of node explained in notes
 
 ## 31.1.2022 Small description update
 * [StructuralCurveEdge](../structural-analysis-elements/structuralcurveedge.md)
