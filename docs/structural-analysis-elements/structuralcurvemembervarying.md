@@ -2,7 +2,7 @@
 
 **1D Member Varying (Arbitrary, Tapered, Haunch,…)**
 
-StructuralCurveMemberVarying object describes changing cross section along the length (center line) of existing 1D member (StructuralCurveMember).
+StructuralCurveMemberVarying object describes changing cross-section along the length (center line) of existing 1D member ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)). The 1D member still has its original cross-section defined in StructuralCurveMember. StructuralCurveMemberVarying only creates a changing cross-section, which can be aligned to the original cross-section.
 
 ![](../.gitbook/assets/12\_structuralcurvemembervarying.png)
 
