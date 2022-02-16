@@ -34,3 +34,6 @@ StructuralCurveMemberVarying object describes changing cross-section along the l
 >:width: 1200px
 >```
 >The position of the system line is defined with regard to the original cross-section set in [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md). The alignment property only aligns the arbitrary or varying cross-section surface to the surface of the original cross-section (this applies only for the first span, other spans are aligned to the previous span). In the example below, there is a StructuralCurveMemberVarying assigned to the first half of the beam, on the right side there is only the original cross-section.
+>```{image} ../.gitbook/assets/12_position-of-css-and-system-lines-example.png
+>:width: 600px
+>```
