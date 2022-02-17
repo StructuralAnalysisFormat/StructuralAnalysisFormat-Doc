@@ -2,7 +2,7 @@
 
 **1D Member Varying (Arbitrary, Tapered, Haunch,…)**
 
-StructuralCurveMemberVarying object describes changing cross section along the length (center line) of existing 1D member (StructuralCurveMember).
+StructuralCurveMemberVarying object describes changing cross-section along the length (center line) of existing 1D member ([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)). The 1D member still has its original cross-section defined in StructuralCurveMember. StructuralCurveMemberVarying only creates a changing cross-section, which can be aligned to the original one.
 
 ![](../.gitbook/assets/12\_structuralcurvemembervarying.png)
 
@@ -32,4 +32,8 @@ StructuralCurveMemberVarying object describes changing cross section along the l
 >
 >```{image} ../.gitbook/assets/12\_structuralcurvemembervarying\_alignment.png
 >:width: 1200px
+>```
+>The position of the system line is defined with regard to the original cross-section set in [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md). The alignment property only aligns the varying cross-section surface to the surface of the original cross-section (this applies only for the first span, other spans are aligned to the previous span). In the example below, there is a StructuralCurveMemberVarying assigned to the first half of the beam and on the right side there is only the original cross-section. Note that if StructuralCurveMemberVarying was assigned to the whole length, the original cross-section would not be visible, but the position of the system line would not change.
+>```{image} ../.gitbook/assets/12_position-of-css-and-system-lines-example.png
+>:width: 600px
 >```
