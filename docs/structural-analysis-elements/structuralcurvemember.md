@@ -4,7 +4,7 @@
 
 A general 1D member is defined by its two end-points (or we can say nodes). Therefore, the 1D member position must be specified by two points: first, the starting or begin point and then the end point. A set of properties can also be defined.
 
-Each 1D member has got a unique local co-ordinate system, the origin of which is located in the starting point of a 1D member. The x-axis is always identical with the longitudinal beam axis and its direction is from the starting point towards the end point and is placed to centroid of the cross-section. By default, the y-axis is generally horizontal (unless the beam orientation prevents this) and the z-axis is generally vertical (again, unless the beam orientation in space prevents this configuration). In case of vertical members by default the local y-axis has the same direction as global y-axis.
+Each 1D member has got a unique local coordinate system, the origin of which is located in the starting point of a 1D member. The x-axis is always identical to the longitudinal beam axis and its direction is from the starting point towards the endpoint. The direction of a second axis (either y or z) is determined by the property of the object, the last axis is set by the right-hand rule.
 
 The local co-ordinate system can be rotated around its x-axis if required.
 
