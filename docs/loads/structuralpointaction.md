@@ -37,4 +37,4 @@ The point force can be defined in three main directions (global or local coordin
 >:width: 600px
 >```
 
->Local coordinate system for a node cannot be defined in SAF. It is asumed to be the same as the global coordinate system. 
+>Local coordinate system for a node cannot be defined in SAF so far. It is asumed to be the same as the global coordinate system. 
