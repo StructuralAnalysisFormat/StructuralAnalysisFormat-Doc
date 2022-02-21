@@ -10,6 +10,14 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 * [StructuralPointAction](../loads/structuralpointaction.md), [StructuralPointMoment](../loads/structuralpointmoment.md)
     * LCS of node explained in notes
 
+## 15.2.2022 Delete unused files
+* Some files were overlooked when transfering from Gitbook to Read the Docs. Old pictures that were not in use are deleted from the repository.
+
+## 15.2.2022 Small description update
+* [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)
+    * Description updated 
+
+
 ## 31.1.2022 Small description update
 * [StructuralCurveEdge](../structural-analysis-elements/structuralcurveedge.md)
     * Description updated, note added
