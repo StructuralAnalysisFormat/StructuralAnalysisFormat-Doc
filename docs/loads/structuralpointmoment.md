@@ -28,4 +28,4 @@ A node or a beam of the structure may be subject to a moment load. The load is d
 
 ## Notes
 
->Local coordinate system for a node cannot be defined in SAF. It is asumed to be the same as the global coordinate system. 
+>Local coordinate system for a node cannot be defined in SAF so far. It is asumed to be the same as the global coordinate system. 
