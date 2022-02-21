@@ -36,3 +36,5 @@ The point force can be defined in three main directions (global or local coordin
 >```{image} ../.gitbook/assets/31\_structuralpointaction2.png
 >:width: 600px
 >```
+
+>Local coordinate system for a node cannot be defined in SAF so far. It is asumed to be the same as the global coordinate system. 
