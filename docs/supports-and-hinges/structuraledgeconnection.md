@@ -41,8 +41,8 @@ Object definition for a line support on a 2D member ([StructuralSurfaceMember](.
 
 >Line support on a 2D member can be defined by local or global coordinate systems. A local coordinate system is the coordinate system of the edge (not the coordinate system of the 2D member). As seen in the image below, the local coordinate system of an edge is created accordingly:
 > * X-axis is in the direction of the line/curve of the edge. The direction is specified by the order of nodes in the [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md)
-> * Z-axis is parallel to the local Z-axis of the 2D member
-> * Y-axis is tangential to the 2D member (it is in its plane) and the direction is set by right-hand rule
+> * Z-axis is parallel to the local Z-axis of the 2D member. For curved members local Z-axis is always perpendicular to the surface.
+> * Y-axis is tangential to the 2D member (it is in its plane) and the direction is set by the right-hand rule
 >```{image} ../.gitbook/assets/21_lcs_of_edges_v2.png
 >:width: 600px
 >```
