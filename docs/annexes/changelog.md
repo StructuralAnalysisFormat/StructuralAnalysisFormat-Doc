@@ -4,9 +4,9 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 ## 15.2.2022 LCS and compression/tension description imporovement
 * [StructuralPointSupport](../supports-and-hinges/structuralpointsupport.md), [StructuralCurveConnection](../supports-and-hinges/structuralcurveconnection.md), [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
-    * Direction of compression and tension supports described, pictures added
+    * Direction of compression and tension behaviour of supports described, pictures added 
 * [StrucuralCurveAction](../loads/structuralcurveaction.md), [StrucuralCurveMoment](../loads/structuralcurvemoment.md)
-    * Description of LCS used for the loads explained in notes with pictures
+    * LCS used for the loads explained in notes with pictures
 * [StructuralPointAction](../loads/structuralpointaction.md), [StructuralPointMoment](../loads/structuralpointmoment.md)
     * LCS of node explained in notes
 
