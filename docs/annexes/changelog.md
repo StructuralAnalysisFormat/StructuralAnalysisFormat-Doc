@@ -2,21 +2,18 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
-## 15.2.2022 LCS and compression/tension description imporovement
+## 21.2.2022 Description update and grooming
 * [StructuralPointSupport](../supports-and-hinges/structuralpointsupport.md), [StructuralCurveConnection](../supports-and-hinges/structuralcurveconnection.md), [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
     * Direction of compression and tension behaviour of supports described, pictures added 
 * [StrucuralCurveAction](../loads/structuralcurveaction.md), [StrucuralCurveMoment](../loads/structuralcurvemoment.md)
     * LCS used for the loads explained in notes with pictures
 * [StructuralPointAction](../loads/structuralpointaction.md), [StructuralPointMoment](../loads/structuralpointmoment.md)
     * LCS of node explained in notes
-
-## 15.2.2022 Delete unused files
 * Some files were overlooked when transfering from Gitbook to Read the Docs. Old pictures that were not in use are deleted from the repository.
-
-## 15.2.2022 Small description update
 * [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md)
-    * Description updated 
-
+    * Small description updated 
+* [StructuralCurveMemberVarying](../structural-analysis-elements/structuralcurvemembervarying.md)
+   * Position of system line and alignment explained in a note
 
 ## 31.1.2022 Small description update
 * [StructuralCurveEdge](../structural-analysis-elements/structuralcurveedge.md)
