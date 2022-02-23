@@ -63,3 +63,8 @@ Sheet StructuralProxyElementFaces is used for defining faces of every Structural
 >It is recommended to define the edge common for two faces with the opposite polygons.
 >
 >Face **f**0 is in the picture defined as (v0,**v**1,**v**3) so the face **f**1 will be defined (v2,**v**3,**v**1). The common edge is defined as (**v**1,**v**3) for face **f**1 and (**v**3,**v**1) for face **f**2.
+
+> Maximum number of rows in excel is 1,048,575, this number is not a limitation for SAF though. If more space is required, the table can continue on the right side of the first table with one empty column in between. The headers are repeated as well. 
+>```{image} ../.gitbook/assets/18_limitation_of_excel.png
+>:width: 800px
+>```
