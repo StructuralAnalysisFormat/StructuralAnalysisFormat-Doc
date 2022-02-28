@@ -6,6 +6,10 @@ SAF documentation follows semantic versioning of documentation from releases aft
 More about semantic versioning: [semver.org](https://semver.org)
 ```
 
+From version 2.1.0 the documentation website moved to new provider with implemented function of versioning. In the left bottom corner of the page there a user can choose the desired version. To acces the older versions of documentation use the links below.
+
+By default the latest stable version of SAF documentation is shown. You can tell by seeng the green 'v:stable' in the left bottom corner. There you can also see our latest documentation in the development.
+
 Browse version history
 
 [2.0.0](https://www.saf.guide/v/2.0.0/)
