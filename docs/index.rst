@@ -6,7 +6,7 @@ Structural Analysis Format documentation
 Current version: Version in progress
 
 
-.. tip:: SAF aims to be universal and serve the comunity. 
+.. tip:: SAF aims to be universal and serve the community. 
    Please visit `discussion <https://github.com/StructuralAnalysisFormat/StructuralAnalysisFormat-Doc/discussions>`_ to ask any questions or contribute to our development.
 
 
