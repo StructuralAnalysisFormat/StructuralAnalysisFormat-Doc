@@ -2,6 +2,12 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+## 3.3.2022 Navigation description update
+* [Welcome page](../index.rst)
+    * Link to github discussion added
+* [SAF versions](../getting-started/saf-versions.md)
+    * Versions description update 
+
 ## 21.2.2022 Description update and grooming
 * [StructuralPointSupport](../supports-and-hinges/structuralpointsupport.md), [StructuralCurveConnection](../supports-and-hinges/structuralcurveconnection.md), [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
     * Direction of compression and tension behaviour of supports described, pictures added 
