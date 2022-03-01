@@ -6,6 +6,10 @@ Structural Analysis Format documentation
 Current version: Version in progress
 
 
+..admonition:: Collaborate
+   SAF aims to be universal and serve the comunity. Please visit discussion to ask any questions or contribute to our development.
+
+
 Table of contents:
 **********************
 
