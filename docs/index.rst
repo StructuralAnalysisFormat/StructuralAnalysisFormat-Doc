@@ -3,7 +3,7 @@ SAF Documentation
   
 Structural Analysis Format documentation
 
-Current version: 2.1.0
+Current version: Version in progress
 
 
 Table of contents:
@@ -22,8 +22,6 @@ Table of contents:
   getting-started/geometry
   getting-started/best-practice-for-saf-implementation
   getting-started/project-and-model-specifications/README
-  getting-started/project-and-model-specifications/units
-  getting-started/project-and-model-specifications/ignore
   
 .. toctree::
   :caption: Structural analysis elements
@@ -81,13 +79,17 @@ Table of contents:
   :maxdepth: 1
   
   results/resultinternalforce1d
+  results/resultinternalforce2dedge
 
 .. toctree::
   :caption: Annexes
   :maxdepth: 1
   
+  annexes/changelog
   annexes/formcodes
   annexes/description-id-of-the-profile
   annexes/supported-shapes-of-parametric-cross-section
   annexes/supported-shapes-of-compound-section
   annexes/supported-design-properties-of-the-materials
+  annexes/units
+  annexes/ignore

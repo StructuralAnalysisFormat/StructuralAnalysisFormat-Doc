@@ -2,7 +2,7 @@
 
 Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refer to the list [StrucutralPointConnection](../structural-analysis-elements/structuralpointconnection.md).
 
-## Gemetry types
+## Geometry types
 
 |                                                      | Geometry type | Type definition                                              | Insertion data explanation                                                                                                                                  | SAF geometry strings                                              | Notes                                                                                                                                                                                                                                                                                            |
 | ---------------------------------------------------- | ------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -39,4 +39,6 @@ Basic construction elements are simple geometry types, that are used for shape d
 >
 >**Polyline schematics:**
 
-![1](../.gitbook/assets/4\_Geometry\_poly\_line\_2.png)
+```{image} ../.gitbook/assets/4\_Geometry\_poly\_line\_2.png
+:width: 1000px
+```

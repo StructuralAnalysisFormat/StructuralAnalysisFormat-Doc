@@ -8,7 +8,7 @@ This object defines particular areas of the [StructuralSurfaceMember](structural
 
 ## Specification in the excel
 
-| **Name of the column header** | **Type of data** |        **Value example or enum definition**        | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Column header| Data type | Example / enum definition | Required | Description |
 | :---------------------------: | :--------------: | :------------------------------------------------: | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |              Name             |      String      |                         R1                         |         yes        | Human readable unique name of the object                                                                                                                                                                                                                                                                                                                                                                               |
 |            Material           |      String      |                       MAT\_1                       |         yes        | The name reference to the existing, valid name of the [StructuralMaterial](structuralmaterial.md) object.                                                                                                                                                                                                                                                                     |
@@ -26,4 +26,6 @@ This object defines particular areas of the [StructuralSurfaceMember](structural
 
 >StructuralSurfaceMemberRegion examples of system-plane location and eccentricity effect.
 >
->![](../.gitbook/assets/16\_structuralsurfacememberregion2.png)
+>```{image} ../.gitbook/assets/16\_structuralsurfacememberregion2.png
+>:width: 1000px
+>```

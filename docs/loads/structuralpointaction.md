@@ -10,7 +10,7 @@ The point force can be defined in three main directions (global or local coordin
 
 ## Specification in the excel
 
-| **Name of the column header** | **Type of data** |                                                       **Value example or enum definition**                                                      |       **Required value**       | **Description**                                                                                                                                                                                          |
+| Column header| Data type | Example / enum definition | Required | Description |
 | :---------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |              Name             |      String      |                                                                        F3                                                                       |               yes              | Human readable unique name of the force                                                                                                                                                                  |
 |              Type             |      String      |                                                                     Standard                                                                    |               no               | This property defines what the load is caused by, E.g. Standard, Wind, Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water Pressure, Soil Pressure, Generated Water, Generated Soil |
@@ -33,4 +33,8 @@ The point force can be defined in three main directions (global or local coordin
 
 >An example of use of Repeat (n) is given below. The forces are distributed uniformly meaning that the value Delta x is used for uniform distribution along the 1D member for multiple point forces.
 >
->![](../.gitbook/assets/31\_structuralpointaction2.png)
+>```{image} ../.gitbook/assets/31\_structuralpointaction2.png
+>:width: 600px
+>```
+
+>Local coordinate system for a node cannot be defined in SAF so far. It is asumed to be the same as the global coordinate system. 

@@ -8,7 +8,7 @@ In the list called “Project”, you can specify basic information about your p
 
 ### The specification in excel
 
-| Name of the row | Type of data | Value example or enum definition | Required value | Description |
+| Row header| Data type | Example / enum definition | Required | Description |
 | :---: | :---: | :---: | :---: | :--- |
 | Name | String | Park Office | no | The name of the project |
 | Description | String | Administrative complex | no | The description of the project |
@@ -28,7 +28,7 @@ In the list called “model” you can specify basic info about your project.
 
 ### The specification in excel
 
-|    **Name of the row**   | **Type of data** |                                                                                                                                                                                                                                                                                                                                                                                                                                         **Value example or enum definition**                                                                                                                                                                                                                                                                                                                                                                                                                                         | **Required value** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Row header| Data type | Example / enum definition | Required | Description |
 | :----------------------: | :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |           Name           |      String      |                                                                                                                                                                                                                                                                                                                                                                                                                                                Park Office - object A                                                                                                                                                                                                                                                                                                                                                                                                                                                |         no         | The name of the model                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |        Description       |      String      |                                                                                                                                                                                                                                                                                                                                                                                                                                                       Highrise                                                                                                                                                                                                                                                                                                                                                                                                                                                       |         no         | The description of the model                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -56,8 +56,9 @@ In the list called “model” you can specify basic info about your project.
 
 >### **Global coordinate system:**
 >
->
->![](../../.gitbook/assets/5\_model\_gcs.jpg)
+>```{image} ../../.gitbook/assets/5\_model\_gcs.jpg
+>:width: 600px
+>```
 
 
 >### **LCS of cross-section:**
@@ -65,15 +66,17 @@ In the list called “model” you can specify basic info about your project.
 >* The graphical interpretation of values for row "**LCS of cross-section**" is represented below. Please keep in mind that x-axis is always in centre-line of the member. "**LCS of cross-section**" desribes how is LCS of CSS library handled and how is CSS applied on the the member.
 >* The first axis of the enum is the vertical one, positive direction is Zref. The second axis of the enum is the horizontal one, positive direction is Yref. Last is the axis in cente-line of the member, positive direction is Xref.
 >
->![](../../.gitbook/assets/5\_model\_lcs\_of\_css.jpg)
+>```{image} ../../.gitbook/assets/5\_model\_lcs\_of\_css.jpg
+>:width: 1000px
+>```
 
 
 >### **System of units**
 >
 >* Column headers should respect this setting and change unit accordingly, also values should be in specified units
->* See [table](units.md) of units for headers
+>* See [table](../../annexes/units.md) of units for headers
 
 >### **Ignored objects/groups:**
 >
->* See [table](ignore.md) of units for headers
+>* See [table](../../annexes/ignore.md) of units for headers
 
