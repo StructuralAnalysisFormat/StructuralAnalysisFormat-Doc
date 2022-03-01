@@ -7,7 +7,7 @@ Current version: Version in progress
 
 
 .. tip:: SAF aims to be universal and serve the comunity. 
-Please visit `discussion<https://github.com/StructuralAnalysisFormat/StructuralAnalysisFormat-Doc/discussions>`_ to ask any questions or contribute to our development.
+   Please visit `discussion <https://github.com/StructuralAnalysisFormat/StructuralAnalysisFormat-Doc/discussions>`_ to ask any questions or contribute to our development.
 
 
 Table of contents:
