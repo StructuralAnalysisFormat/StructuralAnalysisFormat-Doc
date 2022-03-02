@@ -4,7 +4,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 
 ## 3.3.2022 Navigation in SAF and small description update
-* [Welcome page](../index.rst)
+* [Welcome page](../index.rst) 
     * Link to github discussion added
 * [SAF versions](../getting-started/saf-versions.md)
     * Versions description update 
