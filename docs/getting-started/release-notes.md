@@ -13,6 +13,8 @@ Current changes from stable version are noted here.
 
 **Modified objects:**
 
+* [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
+   * Support on an edge can be now assigned to internal edges
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
     * new value 'Nonlinear' for attribute 'Type'
 

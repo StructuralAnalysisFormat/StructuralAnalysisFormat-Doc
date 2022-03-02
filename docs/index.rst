@@ -6,6 +6,9 @@ Structural Analysis Format documentation
 Current version: Version in progress
 
 
+.. tip:: Visit `discussion <https://github.com/StructuralAnalysisFormat/StructuralAnalysisFormat-Doc/discussions>`_ to ask any questions or contribute to the development.
+
+
 Table of contents:
 **********************
 
