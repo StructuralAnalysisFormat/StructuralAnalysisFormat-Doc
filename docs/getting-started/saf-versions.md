@@ -6,7 +6,7 @@ SAF documentation follows semantic versioning of documentation from releases aft
 More about semantic versioning: [semver.org](https://semver.org)
 ```
 
-All the released versions are available. For the versions 2.0.0 and older, use the links below. Newer versions can be accessed in the left bottom corner of the website. It is possible to change the verison there as well as to check the currently displayed version. 'Stable' stands for currently released documentation, and 'latest' stands for the documentation that is being worked on for the next release.
+All the released versions are available. For the versions 2.0.0 and older, use the links below. Newer versions can be accessed in the left bottom corner of the website. It is possible to change the version there as well as to check the currently displayed version. 'Stable' stands for currently released documentation, and 'latest' stands for the documentation that is being worked on for the next release.
 
 ```{image} ../.gitbook/assets/2_saf_versions_rtd.gif
 :width: 300px
