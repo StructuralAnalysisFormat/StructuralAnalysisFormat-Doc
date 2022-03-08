@@ -69,9 +69,9 @@ Each member has several possibilities of enums, defining the Local Coordinate Sy
 
 For **1D members**, there are several options on how to define LCS of [StrucutralCurveMember](../structural-analysis-elements/structuralcurvemember.md):
 
-### LCS enum set on **" by point"**
+### LCS enum set on **"by point"**
 
-When is LCS enum set on **" by point"** explanation is the following:
+When is LCS enum set on **"by point"** explanation is the following:
 
 * X-axis orientation is given by system line of the member
 * X-axis direction is defined by the start point and end point of the member
