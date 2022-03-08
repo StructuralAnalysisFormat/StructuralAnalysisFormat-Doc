@@ -5,6 +5,8 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 ## 7.3.2022 Description of enum 'Location' update
 * [StructuralSurfaceAction](../loads/structuralsurfaceaction.md)
    * Location description clarified
+* [StructuralCrossSesction](../structural-analysis-elements/structuralcrosssection.md)
+   * Links to supported shapes of compound section and supported shapes of parametric cross section fixed
 
 ## 3.3.2022 Navigation in SAF and small description update
 * [Welcome page](../index.rst)
