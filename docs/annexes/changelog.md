@@ -2,7 +2,7 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
-## 7.3.2022 Description of enum 'Location' update
+## 7.3.2022 Small description update and fixed links
 * [StructuralSurfaceAction](../loads/structuralsurfaceaction.md)
    * Location description clarified
 * [StructuralCrossSesction](../structural-analysis-elements/structuralcrosssection.md)
