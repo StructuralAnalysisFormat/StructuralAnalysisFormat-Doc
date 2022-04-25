@@ -1,16 +1,22 @@
+/* add !important so it overwrites the sphinx default values */
+
 .wy-nav-content {
-    max-width: 100%!important;
+    max-width: 100%!important;  /* sets the content of the page to the whole width of window */
 }
 
 .wy-table-responsive {
-    overflow: visible!important;
+    overflow: visible!important;  /* visible disables scroll bar */
 }
 
 .wy-table-responsive table {
-    table-layout: auto;
-    width: 100%;
+    table-layout: auto;  /* width of the columns are created automatically, this is default choice as well */
+    width: 100%;   /* sets the width of the tables; 100% is the width of the content, this is default */
 }
 
 .wy-table-responsive table td {
-    white-space: normal;   
+    white-space: normal;  /* automatically wraps text into more rows inside the cells of tables */
+}
+
+.scorllable-table {
+    overflow: auto!important; /* this will alow scrollbar for specific tables wraped in <div> */
 }
