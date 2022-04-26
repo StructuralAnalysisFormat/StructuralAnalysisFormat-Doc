@@ -2,6 +2,11 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+## 26.4.2022 Who supports SAF table modified
+* [Who Supports SAF](//docs/getting-started/who-supports-saf.md)
+   * Companies' logos made smaller
+   * Scroll-bar enabled when necessary
+
 ## 7.4.2022 Thermal loads description and results to Who supports SAF
 * [StructuralSurfaceActionThermal](../loads/structuralsurfaceactionthermal.md), [StructuralCurveActionThermal](../loads/structuralcurveactionthermal.md)
    * Thermal loads values description clarified - all values are changes of temperature
