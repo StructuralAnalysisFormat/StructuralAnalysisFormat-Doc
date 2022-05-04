@@ -20,7 +20,10 @@ Current changes from stable version are noted here.
 
 **New object added:**
 
-* [ResultInternalForce2DEdge](../results/resultinternalforce2dedge.md) - result object for internal forces on edges of 2D members
+* [ResultInternalForce2DEdge](../results/resultinternalforce2dedge.md)
+   * result object for internal forces on edges of 2D members
+* [StructuralPointDeformation](../loads/structuralpointdeformation.md)
+   * Deformation load in a support
 
 ### 18.11.2021 - Version 2.1.0
 
