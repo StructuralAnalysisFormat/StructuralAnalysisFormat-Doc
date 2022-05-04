@@ -2,9 +2,11 @@
 
 Imposed deformation (displacement or rotation) of a supported node. A rigid support is required in the direction of the deformation.
 
-Displacement can be set in the direction of one of the global axes. Positive displacement acts in the postive direction of the corresponding axis. Rotation can be imposed around one of the global axes. Positove rotation acts right-handed about the corresponging postive axis. 
+Displacement can be set in the direction of one of the global axes, positive displacement acts in the postive direction of the corresponding axis. Rotation can be imposed around one of the global axes, positive rotation acts right-handed about the corresponging postive axis. 
 
-![](../.gitbook/assets/41b_deformation_of_support.png)
+```{image} ../.gitbook/assets/41b_deformation_of_support.png
+:width: 600px
+```
 
 ## Specification in the excel
 
