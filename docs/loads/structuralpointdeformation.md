@@ -4,6 +4,7 @@ Imposed deformation (displacement or rotation) of a supported node. A rigid supp
 
 Displacement can be set in the direction of one of the global axes. Positive displacement acts in the postive direction of the corresponding axis. Rotation can be imposed around one of the global axes. Positove rotation acts right-handed about the corresponging postive axis. 
 
+![](../.gitbook/assets/41b_deformation_of_support.png)
 
 ## Specification in the excel
 
