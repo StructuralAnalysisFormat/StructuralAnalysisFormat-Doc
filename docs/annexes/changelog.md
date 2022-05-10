@@ -4,7 +4,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 
 ## 9.5.2022 New SAF implementation
-* **Allplan** added to SAF Implementation table
+* Allplan added to SAF Implementation table
 
 ## 26.4.2022 Who supports SAF table modified
 * [Who Supports SAF](//docs/getting-started/who-supports-saf.md)
@@ -12,7 +12,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
    * Scroll-bar enabled when necessary
 
 ## 20.4.2022 New SAF implementation
-* **InfoGraph** added to SAF Implementation table
+* InfoGraph added to SAF Implementation table
 
 ## 7.4.2022 Thermal loads description and results to Who supports SAF
 * [StructuralSurfaceActionThermal](../loads/structuralsurfaceactionthermal.md), [StructuralCurveActionThermal](../loads/structuralcurveactionthermal.md)
@@ -21,10 +21,10 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
    * Results - new table with companies who support results objects
 
 ## 5.4.2022 New SAF implementation
-* **D.I.E.** added to SAF Implementation table
+* D.I.E. added to SAF Implementation table
 
 ## 17.3.2022 SAF implementor's update
-* **Radimpex** change to implementation table, logo update
+* Radimpex change to implementation table, logo update
 
 ## 7.3.2022 Small description update and fixed links
 * [StructuralSurfaceAction](../loads/structuralsurfaceaction.md)
@@ -41,10 +41,10 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
    * Limitation of excel explained in a note  
 
 ## 28.2.2022 SAF implementor's update
-* **FEM-Design** change to implementation table, logo update
+* FEM-Design change to implementation table, logo update
 
 ## 25.2.2022 New SAF implementation
-* **Dlubal** added to SAF Implementation table
+* Dlubal added to SAF Implementation table
 
 ## 21.2.2022 Description update and grooming
 * [StructuralPointSupport](../supports-and-hinges/structuralpointsupport.md), [StructuralCurveConnection](../supports-and-hinges/structuralcurveconnection.md), [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
@@ -60,14 +60,14 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
    * Position of system line and alignment explained in a note
 
 ## 10.2.2022 New SAF implementation
-* **mbAEC StrukturEditor** added to SAF Implementation table
+* mbAEC StrukturEditor added to SAF Implementation table
 
 ## 31.1.2022 Small description update
 * [StructuralCurveEdge](../structural-analysis-elements/structuralcurveedge.md)
     * Description updated, note added
 
 ## 25.1.2022 New SAF implementation
-* **ConSteel** added to SAF Implementation table
+* ConSteel added to SAF Implementation table
 
 ## 24.1.2022 Description of enum 'Location' update
 * [StrucuralCurveAction](../loads/structuralcurveaction.md). 
