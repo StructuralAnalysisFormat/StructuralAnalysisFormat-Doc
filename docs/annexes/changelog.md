@@ -4,7 +4,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 
 ## 9.5.2022 New SAF implementation
-* **Allplan** added to SAF Implementation table
+* Allplan added to SAF Implementation table
 
 ## 26.4.2022 Who supports SAF table modified
 * [Who Supports SAF](//docs/getting-started/who-supports-saf.md)
@@ -12,25 +12,25 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
    * Scroll-bar enabled when necessary
 
 ## 20.4.2022 New SAF implementation
-* **InfoGraph** added to SAF Implementation table
+* InfoGraph added to SAF Implementation table
 
 ## 5.4.2022 New SAF implementation
-* **D.I.E.** added to SAF Implementation table
+* D.I.E. added to SAF Implementation table
 
 ## 17.3.2022 SAF implementor's update
-* **Radimpex** change to implementation table, logo update
+* Radimpex change to implementation table, logo update
 
 ## 28.2.2022 SAF implementor's update
-* **FEM-Design** change to implementation table, logo update
+* FEM-Design change to implementation table, logo update
 
 ## 25.2.2022 New SAF implementation
-* **Dlubal** added to SAF Implementation table
+* Dlubal added to SAF Implementation table
 
 ## 10.2.2022 New SAF implementation
-* **mbAEC StrukturEditor** added to SAF Implementation table
+* mbAEC StrukturEditor added to SAF Implementation table
 
 ## 25.1.2022 New SAF implementation
-* **ConSteel** added to SAF Implementation table
+* ConSteel added to SAF Implementation table
 
 ## 4.1.2022 SAF example house file update
 New example file in version 2.1.0 is created and all versions of examples moved to [single page](https://examples.saf.guide/). 
