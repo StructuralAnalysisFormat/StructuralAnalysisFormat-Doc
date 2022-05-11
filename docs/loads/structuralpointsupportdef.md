@@ -25,6 +25,6 @@ Displacement or rotation can be imposed on a point support. Displacement can be 
 | Id | String | 39f238a5-01d0-45cf-a2eb-958170fd4f39 | no | Unique attribute designation |
 
 
-## Note
+## Notes
 
 Local coordinate systems of supports are for now global only. Therefore all the deformation are imposed in the direction of global axes.
