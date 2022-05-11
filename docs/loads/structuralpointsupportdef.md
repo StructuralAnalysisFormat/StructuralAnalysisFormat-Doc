@@ -1,4 +1,4 @@
-# StructuralPointDeformation
+# StructuralPointSupportDef
 
 ```{warning}
 New object under construction.
