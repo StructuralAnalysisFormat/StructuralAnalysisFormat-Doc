@@ -76,7 +76,7 @@ Table of contents:
   loads/structuralcurveactionfree
   loads/structuralsurfaceactionfree
   loads/structuralsurfaceactiondistribution-1
-  loads/structuralpointdeformation
+  loads/structuralpointsupportdef
 
 .. toctree::
   :caption: Results
