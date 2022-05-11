@@ -17,6 +17,7 @@ Current changes from stable version are noted here.
    * Support on an edge can be now assigned to internal edges
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
     * new value 'Nonlinear' for attribute 'Type'
+    * Typo fixed in National standard: value "EN-ULS(STR/GEO) Set B" changed to "EN-ULS (STR/GEO) Set B"
 
 **New object added:**
 
