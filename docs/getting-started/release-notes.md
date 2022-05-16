@@ -17,7 +17,25 @@ Current changes from stable version are noted here.
    * Support on an edge can be now assigned to internal edges
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
     * new value 'Nonlinear' for attribute 'Type'
+* [Project and model specification](./project-and-model-specifications/README.md)
+   * new national codes added:
+      * EC-ТКP-EN (Belarusian NA)
+      * EC-BAS-EN (Bosnian and Herzegovinian NA)
+      * EC-BDS-EN (Bulgarian NA)
+      * EC-EVS-EN (Estonian NA)
+      * EC-MSZ-EN (Hungarian NA)
+      * EC-IST-EN (Icelandic NA)
+      * EC-LVS-EN (Latvian NA)
+      * EC-LST-EN (Lithuanian NA)
+      * EC-MSA-EN (Maltese NA)
+      * EC-MKC-EN (North Macedonian NA)
+      * EC-NP-EN (Portuguese NA)
+      * EC-SRPS-EN (Serbian NA)
+      * EC-SN-EN (Swiss NA)
+      * EC-TS-EN (Turkish NA)
+      * SIA 26x
     * Typo fixed in National standard: value "EN-ULS(STR/GEO) Set B" changed to "EN-ULS (STR/GEO) Set B"
+
 
 **New object added:**
 
