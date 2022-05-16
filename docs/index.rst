@@ -76,7 +76,8 @@ Table of contents:
   loads/structuralcurveactionfree
   loads/structuralsurfaceactionfree
   loads/structuralsurfaceactiondistribution-1
-  
+  loads/structuralpointsupportdef
+
 .. toctree::
   :caption: Results
   :maxdepth: 1

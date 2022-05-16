@@ -34,10 +34,15 @@ Current changes from stable version are noted here.
       * EC-SN-EN (Swiss NA)
       * EC-TS-EN (Turkish NA)
       * SIA 26x
+    * Typo fixed in National standard: value "EN-ULS(STR/GEO) Set B" changed to "EN-ULS (STR/GEO) Set B"
+
 
 **New object added:**
 
-* [ResultInternalForce2DEdge](../results/resultinternalforce2dedge.md) - result object for internal forces on edges of 2D members
+* [ResultInternalForce2DEdge](../results/resultinternalforce2dedge.md)
+   * result object for internal forces on edges of 2D members
+* [StructuralPointSupportDef](../loads/structuralpointsupportdef.md)
+   * Deformation load on a point support
 
 ### 18.11.2021 - Version 2.1.0
 
