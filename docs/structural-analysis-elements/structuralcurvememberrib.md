@@ -4,7 +4,7 @@
 
 The 2D member rib is a 1D member related to slabs. The part of the slab which cooperates with the rib is called the effective width. Different values of effective widths can be considered for checks and for calculation of the internal forces.
 
-![](../.gitbook/assets/13\_structuralcurvememberrib.png)
+![](../.gitbook/assets/13\_structuralcurvememberrib.gif)
 
 ### Specification in the excel
 
