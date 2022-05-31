@@ -15,3 +15,12 @@ For all the versions of the file go to [SAF examples page](https://examples.saf.
 
 ![](../.gitbook/assets/saf_examples_house_saf_200.png)
 
+
+## STEEL HALL
+
+Example analytical model of a steel hall.
+
+Global coordinate system: Z vertical\
+System of units: Metric units
+
+![](../.gitbook/assets/saf_examples_steel_hall_saf_210.png)
