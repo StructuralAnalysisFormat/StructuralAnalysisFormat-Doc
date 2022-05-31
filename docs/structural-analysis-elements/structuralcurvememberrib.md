@@ -46,7 +46,7 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
 >Alignment possitions the cross sections in relation to the slab it is connected to. Alignment affects results in same way as eccentricity does. It applies eccentricity according to the picture below, where examples of alignment with Eccentricity ez = 0 are shown:
 >
 >```{image} ../.gitbook/assets/13_alignment-notes.png
->:width: 400px
+>:width: 600px
 >```
 
 
