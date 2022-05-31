@@ -4,9 +4,9 @@
 
 The 2D member rib is a 1D member related to slabs. The part of the slab which cooperates with the rib is called the effective width. Different values of effective widths can be considered for checks and for calculation of the internal forces.
 
->```{image} ../.gitbook/assets/13\_structuralcurvememberrib.gif
->:width: 600px
->```
+```{image} ../.gitbook/assets/13\_structuralcurvememberrib.gif
+:width: 600px
+```
 
 ### Specification in the excel
 
@@ -44,7 +44,13 @@ The 2D member rib is a 1D member related to slabs. The part of the slab which co
 >![](../.gitbook/assets/13\_structuralcurvememberrib2.png)
 
 >Alignment possitions the cross sections in relation to the slab it is connected to. Alignment affects results in same way as eccentricity does. It applies eccentricity according to the picture below, where examples of alignment with Eccentricity ez = 0 are shown:
->![](../.gitbook/assets/13_alignment-notes.png)
+>
+>```{image} ../.gitbook/assets/13_alignment-notes.png
+>:width: 400px
+>```
+
+
+
 
 >Complete enumeration of the Formcode and Description ID can be found in chapter Annexes, in this documentation.
 
