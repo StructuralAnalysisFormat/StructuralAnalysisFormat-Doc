@@ -6,7 +6,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 ## 6.6.2022 Small description update
 * [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md)
-   * initial image updated, description in table clarified, note image added explaining alignment
+   * Initial image updated, description in table clarified, note image added explaining alignment
 
 
 ## 24.5.2022 Image fixed
