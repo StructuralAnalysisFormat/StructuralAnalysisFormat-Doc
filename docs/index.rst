@@ -1,5 +1,5 @@
 .. image:: .gitbook/assets/0_SAF_logo.png
-  :width: 400
+  :width: 200
 
 |
 
