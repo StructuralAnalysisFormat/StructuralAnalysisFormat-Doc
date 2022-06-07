@@ -1,6 +1,8 @@
 .. image:: .gitbook/assets/0_SAF_logo.png
   :width: 400
 
+<p></p>
+
 Structural Analysis Format Documentation
 --------------------
 
