@@ -1,6 +1,6 @@
 # Ignored objects and groups
 
-This is a complete list of possible objects and groups possible to ignore in [Model Specification](../getting-started/project-and-model-specifications/README.md#model) where its function and example use is explained.
+This is a complete list of possible objects and groups possible to ignore in [Model Specification](../getting-started/project-and-model-specifications/README.md) where its function and example use is explained. Each group consist of multiple objects, ignoring the group is taken in to account as ignoring all objects in the group \(groups are parent to objects\)
 
 **SAF TOC group name** is a term used for navigation in the table of contents of SAF documentation. Do not use it in "ignored groups" cells.
 
