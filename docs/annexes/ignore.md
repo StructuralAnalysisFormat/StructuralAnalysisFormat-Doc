@@ -43,5 +43,5 @@ Each group consist of multiple objects, ignoring the group is taken in to accoun
 | Loads | StructuralLoad | StructuralCurveMoment |
 | Loads | StructuralLoad | StructuralCurveActionThermal |
 | Loads | StructuralLoad | StructuralSurfaceActionDistribution |
-| Results | Results | ResultInternlForce1D |
+| Results | Results | ResultInternalForce1D |
 
