@@ -5,6 +5,8 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 ## 7.6.2022 New SAF implementation
 * IDEA StatiCa added to SAF Implementation table
+* [Ingored objects and groups](../annexes/ignore.md)
+   * Typo fixed for value ResultInternalForce1D
 
 ## 31.5.2022 New SAF example file
 * Steel hall - new example file was uploaded to [SAF examples](../getting-started/saf-examples.md)
