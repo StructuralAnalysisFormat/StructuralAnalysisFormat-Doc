@@ -10,7 +10,9 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 ## 7.6.2022 New SAF implementation
 * IDEA StatiCa added to SAF Implementation table
 
-## 31.5.2022 New SAF example file
+## 6.6.2022 Small description update and New SAF example
+* [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md)
+   * Initial image updated, description in table clarified, note image added explaining alignment
 * Steel hall - new example file was uploaded to [SAF examples](../getting-started/saf-examples.md)
 
 ## 24.5.2022 Image fixed
