@@ -43,5 +43,5 @@ This is a complete list of objects and groups possible to ignore. It is used in 
 | Loads | StructuralLoad | StructuralCurveMoment |
 | Loads | StructuralLoad | StructuralCurveActionThermal |
 | Loads | StructuralLoad | StructuralSurfaceActionDistribution |
-| Results | Results | ResultInternlForce1D |
+| Results | Results | ResultInternalForce1D |
 
