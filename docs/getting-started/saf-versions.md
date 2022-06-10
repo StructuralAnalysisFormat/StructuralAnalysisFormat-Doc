@@ -13,11 +13,9 @@ All the released versions are available. For the versions 2.0.0 and older, use t
 ```
 
 ## Latest and stable documentation
-It is possible to use the menu in the left bottom corner as described above, or these links below
-
-[Latest documentation](https://www.saf.guide/en/latest/) - docuemntation under developmnet, which will become future version of SAF.
-
-[Stable documentation](https://www.saf.guide/en/stable/) - our current, latest **stable** documentation - go here to see the documentation published at saf.guide
+It is possible to use the menu in the left bottom corner as described above, or these links below:
+* [Latest documentation](https://www.saf.guide/en/latest/) - documentation under development which will become the future version of SAF.
+* [Stable documentation](https://www.saf.guide/en/stable/) - our current, latest **stable** documentation - go here to see the documentation published at saf.guide
 
 ```{admonition} Currently displayed documentation
 Version 'latest - version in progress' is being viewed 
