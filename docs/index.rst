@@ -1,6 +1,9 @@
 SAF Documentation
 --------------------
-  
+
+.. image:: .gitbook/assets/0_SAF_logo.png
+  :width: 200
+
 Structural Analysis Format documentation
 
 Current version: 2.1.0
