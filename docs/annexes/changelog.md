@@ -7,6 +7,8 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 * [Model specification](../getting-started/project-and-model-specifications/README.md) and [Ingored objects and groups](../annexes/ignore.md)
    * links to each other added to improve orientation in the docs
 * IDEA StatiCa added to SAF Implementation table
+* [Ingored objects and groups](../annexes/ignore.md)
+   * Typo fixed for value ResultInternalForce1D
 
 ## 31.5.2022 New SAF example file
 * Steel hall - new example file was uploaded to [SAF examples](../getting-started/saf-examples.md)
