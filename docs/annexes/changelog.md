@@ -3,7 +3,7 @@
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
 ## 19.7.2022 Small fix in descrption
-* [Load Combinations](../loads/structuralloadcombination.md) - Load factor - minor expansion of descrption and typos fixed
+* [Load Combinations](../loads/structuralloadcombination.md) - Load factor - minor expansion of description and typos fixed
 
 ## 10.6.2022 Small tweaks and new implementation
 * [Saf.guide](../index.rst) page recieved a logo at the top
