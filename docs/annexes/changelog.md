@@ -4,7 +4,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 ## 22.7. Decimal dot and small description update
 * The usage of decimal separator across the documentation was unified to a point
-* [StructuralSrufaceMemberOpening](../structural-analysis-elements/structuralsurfacememberregion.md)
+* [StructuralSrufaceMemberOpening](../structural-analysis-elements/structuralsurfacememberopening.md)
    * Note and picture added
 
 ## 19.7.2022 Small fix in descrption
