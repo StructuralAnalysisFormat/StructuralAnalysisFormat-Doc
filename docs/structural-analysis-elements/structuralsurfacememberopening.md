@@ -19,3 +19,11 @@ Instances of StructuralSurfaceMemberOpening describe openings in face members ([
 |           Area \[m2]          |      Double      |                 1.259                |         no         | The value of the surface area of the StructuralSurfaceMemberOpening                                                                                                                                                                                                                                                                                                                                 |
 |           Parent ID           |      String      | 67b35d84-3d04-47aa-aa4a-dc1263982320 |         no         | Is filled for objects created be dividing curved geometry to series of straight line objects.  Parent ID will ensure that curved edge is imported as straight parts to nonsupporting application, and back to original supporting application as curved geometry. To ensure successful round trip of segmented objects and their related objects, Parent ID needs to be present in both directions. |
 |               Id              |      String      | 39f238a5-01d0-45cf-a2eb-958170fd4f39 |         no         | Unique attribute designation                                                                                                                                                                                                                                                                                                                                                                        |
+
+## Notes
+
+>The edges of one opening can't touch nor cross each other. For those unlikely cases, create two or more openings instead.
+>
+>![](../.gitbook/assets/15_opening-touch.png)
+
+
