@@ -3,7 +3,7 @@
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
 ## 22.7. Decimal dot and small description update
-* The usage of decimal point across the documentation was unified to dot
+* The usage of decimal separator across the documentation was unified to a point
 * [StructuralSrufaceMemberOpening](../structural-analysis-elements/structuralsurfacememberregion.md)
    * Note and picture added
 
