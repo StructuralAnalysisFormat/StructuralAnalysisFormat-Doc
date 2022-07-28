@@ -41,7 +41,7 @@ Current changes from stable version are noted here.
 
 * [ResultInternalForce2DEdge](../results/resultinternalforce2dedge.md)
    * result object for internal forces on edges of 2D members
-* [StructuralPointSupportDef](../loads/structuralpointsupportdef.md)
+* [StructuralPointSupportDeformation](../loads/structuralpointsupportdeformation.md)
    * Deformation load on a point support
 
 ### 18.11.2021 - Version 2.1.0

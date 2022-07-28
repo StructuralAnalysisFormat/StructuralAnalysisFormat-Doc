@@ -1,4 +1,4 @@
-# StructuralPointSupportDef
+# StructuralPointSupportDeformation
 
 ```{warning}
 New object under construction.
@@ -7,6 +7,11 @@ New object under construction.
 **Imposed deformation of a point support**
 
 Displacement or rotation can be imposed on a point support. Displacement can be set in the direction of one of the axes of a support, positive displacement acts in the positive direction of the corresponding axis. Rotation can be imposed around one of the axes of a support, positive rotation acts right-handed about the corresponding positive axis. A rigid support is required in the direction of the deformation. 
+
+```{warning}
+The name of the excel sheet is **StructuralPointSupportDef** due to sheet name length limitation.
+```
+
 
 ```{image} ../.gitbook/assets/41b_deformation_of_support.png
 :width: 600px
