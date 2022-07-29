@@ -190,10 +190,19 @@
 | StructuralSurfaceActionDistribution | Coordinate Y | \[m\] | \[ft\] |
 | StructuralSurfaceActionDistribution | Coordinate Z | \[m\] | \[ft\] |
 | StructuralSurfaceActionDistribution | LCS Rotation | \[deg\] | \[deg\] |
-| ResultInternlForce1D | N | \[kN\] | \[kip\] |
-| ResultInternlForce1D | Vy | \[kN\] | \[kip\] |
-| ResultInternlForce1D | Vz | \[kN\] | \[kip\] |
-| ResultInternlForce1D | Mx | \[kNm\] | \[kipft\] |
-| ResultInternlForce1D | My | \[kNm\] | \[kipft\] |
-| ResultInternlForce1D | Mz | \[kNm\] | \[kipft\] |
-
+| StructuralPointSupportDeformation | Translation value | \[mm\] | \[in\] |
+| StructuralPointSupportDeformation | Rotation value | \[mrad\] | \[deg\] |
+| ResultInternalForce1D | N | \[kN\] | \[kip\] |
+| ResultInternalForce1D | Vy | \[kN\] | \[kip\] |
+| ResultInternalForce1D | Vz | \[kN\] | \[kip\] |
+| ResultInternalForce1D | Mx | \[kNm\] | \[kipft\] |
+| ResultInternalForce1D | My | \[kNm\] | \[kipft\] |
+| ResultInternalForce1D | Mz | \[kNm\] | \[kipft\] |
+| ResultInternalForce2DEdge | mx | \[kNm/m\] | \[kipft/ft\] |
+| ResultInternalForce2DEdge | my | \[kNm/m\] | \[kipft/ft\] |
+| ResultInternalForce2DEdge | mxy | \[kNm/m\] | \[kipft/ft\] |
+| ResultInternalForce2DEdge | vx | \[kN/m\] | \[kip/ft\] |
+| ResultInternalForce2DEdge | vy | \[kN/m\] | \[kip/ft\] |
+| ResultInternalForce2DEdge | nx | \[kN/m\] | \[kip/ft\] |
+| ResultInternalForce2DEdge | ny | \[kN/m\] | \[kip/ft\] |
+| ResultInternalForce2DEdge | nxy | \[kN/m\] | \[kip/ft\] |
