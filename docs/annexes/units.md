@@ -200,7 +200,7 @@
 | ResultInternalForce1D | Mz | \[kNm\] | \[kipft\] |
 | ResultInternalForce2DEdge | mx | \[kNm/m\] | \[kipft/ft\] |
 | ResultInternalForce2DEdge | my | \[kNm/m\] | \[kipft/ft\] |
-| ResultInternalForce2DEdge | mxy | \[kN/m\] | \[kip/ft\] |
+| ResultInternalForce2DEdge | mxy | \[kNm/m\] | \[kipft/ft\] |
 | ResultInternalForce2DEdge | vx | \[kN/m\] | \[kip/ft\] |
 | ResultInternalForce2DEdge | vy | \[kN/m\] | \[kip/ft\] |
 | ResultInternalForce2DEdge | nx | \[kN/m\] | \[kip/ft\] |
