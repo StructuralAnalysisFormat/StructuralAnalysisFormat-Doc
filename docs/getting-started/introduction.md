@@ -75,6 +75,8 @@ When is LCS enum set on **"by point"** explanation is the following:
 
 * X-axis orientation is given by system line of the member
 * X-axis direction is defined by the start point and end point of the member
+
+for **"z by point"**
 * Z-axis orientation is given by the intersection of a plane perpendicular to x and a plane defined by x-axis and point
 * Z-axis direction follow the point
 * Y-axis orientation and direction is defined by the right-hand rule
@@ -89,8 +91,14 @@ When is LCS enum set on **"by vector"** explanation is the following:
 
 * X-axis orientation is given by system line of the member
 * X-axis direction is defined by the start point and end point of the member
+
+for **"z by vector"**
 * Z-axis orientation and direction is given by vector coordinates
 * Y-axis orientation and direction is defined by right-hand rule
+
+for **"y by vector"**
+* Y-axis orientation and direction is given by vector coordinates
+* Z-axis orientation and direction is defined by right-hand rule
 
 ```{image} ../.gitbook/assets/3_introduction_lcs_by_vector_v2.png
 :width: 800px
