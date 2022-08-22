@@ -63,7 +63,7 @@ It may help you to determine the direction of the individual structural elements
 
 ### **LCS - Local coordinate systems**
 
-Each structural entity, meaning each member, has got its own local co-ordinate system. This co-ordinate system is a three-dimensional right-handed Cartesian co-ordinate system.
+Each structural entity, meaning each member, has got its own local coordinate system. This coordinate system is a three-dimensional right-handed Cartesian coordinate system.
 
 Each member has several possibilities of enums, defining the Local Coordinate System \(LCS\). For further understanding of enums defining the LCS of the [StrucutralCurveMember](../structural-analysis-elements/structuralcurvemember.md) and [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md) see the following:
 
