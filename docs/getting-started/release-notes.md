@@ -13,7 +13,7 @@ Current changes from stable version are noted here.
 
 **Modified objects:**
 * [StructuralCurveAction](../loads/structuralcurveaction.md) and [StructuralCurveMoment](../loads/structuralcurvemoment.md)
-   * Enum "Force action" extended with value "On internal edge"
+   * Enum "Force action" extended with value "On internal edge". Now the string "Internal edge" is required directly by the enum "Force action" instead of checking if string "Edge" is empty
 * [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
    * Support on an edge can be now assigned to internal edges
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
