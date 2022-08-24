@@ -12,11 +12,14 @@ The last stable version is v2.1.0. To see it select versions: 'stable' in the le
 Current changes from stable version are noted here.
 
 **Modified objects:**
-
+* [StructuralCurveAction](../loads/structuralcurveaction.md) and [StructuralCurveMoment](../loads/structuralcurvemoment.md)
+   * Enum "Force action" extended with value "On internal edge". "Internal edge" requirement changed:
+      * Old requirement: yes, if Force action = On edge and Edge column has no value 
+      * New requirement:  yes, if Force action = On internal edge
 * [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
    * Support on an edge can be now assigned to internal edges
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
-    * new value 'Nonlinear' for attribute 'Type'
+    * new value "Nonlinear" for attribute "Type"
 * [Project and model specification](./project-and-model-specifications/README.md)
    * new national codes added:
       * EC-ТКP-EN (Belarusian NA)
