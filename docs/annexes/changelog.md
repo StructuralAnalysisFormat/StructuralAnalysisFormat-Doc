@@ -2,6 +2,11 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+
+## 1.9.2022 Small description update
+* [StructuralSrufaceMemberOpening](../structural-analysis-elements/structuralsurfacememberopening.md)
+   * Note and picture added explaining geometry restrictions of openings
+
 ## 18.8. SAF implementation update
 * New software MINEA now supports import of SAF
 
