@@ -4,8 +4,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 
 ## 1.9.2022 Small description update
-* [StructuralSrufaceMemberOpening](../structural-analysis-elements/structuralsurfacememberopening.md)
-   * Note and picture added explaining geometry restrictions of openings
+* In [StructuralSrufaceMemberOpening](../structural-analysis-elements/structuralsurfacememberopening.md) note and picture was added explaining geometry restrictions of openings
 
 ## 18.8. SAF implementation update
 * New software MINEA now supports import of SAF
