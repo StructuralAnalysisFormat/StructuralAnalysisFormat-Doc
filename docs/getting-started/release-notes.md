@@ -16,6 +16,7 @@ Current changes from stable version are noted here.
    * Enum "Force action" extended with value "On internal edge". "Internal edge" requirement changed:
       * Old requirement: yes, if Force action = On edge and Edge column has no value 
       * New requirement:  yes, if Force action = On internal edge
+    * 2D member reqiurement extended
 * [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
    * Support on an edge can be now assigned to internal edges
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
