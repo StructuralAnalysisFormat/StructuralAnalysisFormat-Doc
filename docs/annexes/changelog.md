@@ -6,6 +6,12 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 ## 1.9.2022 Small description update
 * In [StructuralSrufaceMemberOpening](../structural-analysis-elements/structuralsurfacememberopening.md) note and picture was added explaining geometry restrictions of openings
 
+## 15.9. SAF implementation update
+* New sofaware NextFEM now sopports import and export of SAF
+
+## 22.8. LCS description improved
+* Description of LCS by vector and by point in [Introduction](../getting-started/introduction.md) extended
+
 ## 18.8. SAF implementation update
 * New software MINEA now supports import of SAF
 
