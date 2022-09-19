@@ -38,6 +38,7 @@ Current changes from stable version are noted here.
       * EC-SN-EN (Swiss NA)
       * EC-TS-EN (Turkish NA)
       * SIA 26x
+* [StructuralLoadCombination](../loads/structuralloadcombination.md)
     * Typo fixed in National standard: value "EN-ULS(STR/GEO) Set B" changed to "EN-ULS (STR/GEO) Set B"
 
 
