@@ -104,6 +104,7 @@ Table of contents:
   :caption: SDK
   :maxdepth: 1
   
+  SDK/Introduction.md
   SDK/StructuralAnalysisFormat.md
   SDK/StructuralAnalysisFormat.Tests.Infrastructure
   SDK/StructuralAnalysisFormat.Bootstrappers.SimpleInjector4
