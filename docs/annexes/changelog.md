@@ -2,6 +2,8 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+## 4.10. SAF SDK documentation
+* Documentation for software development kit published under SDK chapter.
 
 ## 15.9. SAF implementation update
 * New sofaware NextFEM now sopports import and export of SAF
