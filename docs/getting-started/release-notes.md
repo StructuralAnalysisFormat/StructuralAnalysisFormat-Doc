@@ -40,6 +40,8 @@ Current changes from stable version are noted here.
       * SIA 26x
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
     * Typo fixed in National standard: value "EN-ULS(STR/GEO) Set B" changed to "EN-ULS (STR/GEO) Set B"
+* [StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md) and [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md)
+   * "Begin node" and "End node" properties removed
 
 
 **New object added:**
