@@ -1,6 +1,6 @@
 # Introduction
 
-This chapter contains documentation for the software development kit available to [download at nuget.org](https://www.nuget.org/profiles/StructuralAnalysisFormat). SDK aims to help with the implementation of SAF format into any software.
+This chapter contains documentation for the software development kit available to [download at nuget.org](https://www.nuget.org/profiles/StructuralAnalysisFormat). SDK is written in C#.NET and it aims to help with the implementation of SAF format into any software.
 
 ```{tip}
 Check all the dependencies at [nuget.org](https://www.nuget.org/profiles/StructuralAnalysisFormat) under the dependencies tab for each package.
