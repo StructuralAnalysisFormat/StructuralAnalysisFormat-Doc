@@ -1,5 +1,5 @@
 # StructuralAnalysisFormat.Bootstrappers.SimpleInjector4
-This package will bootstrap the internal components for you, using SimpleInjector v4
+This package will bootstrap the internal components for you, using [SimpleInjector v4](https://docs.simpleinjector.org/en/4.0/)
 
 ## Usage
 ```csharp
