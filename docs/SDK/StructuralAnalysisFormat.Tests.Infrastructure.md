@@ -1,6 +1,8 @@
 # StructuralAnalysisFormat.Tests.Infrastructure
 This package adds some functionality that may come in handy for testing purposes.
 
+[Download the package at nuget.org](https://www.nuget.org/packages/StructuralAnalysisFormat.Tests.Infrastructure)
+
 ## Data builders
 One of the features are what we call **data builders**
 These are fluent-api classes that allow you to quickly construct data objects that by default pass validation.
