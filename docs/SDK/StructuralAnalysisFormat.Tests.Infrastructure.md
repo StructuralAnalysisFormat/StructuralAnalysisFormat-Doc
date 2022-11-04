@@ -7,13 +7,17 @@ These are fluent-api classes that allow you to quickly construct data objects th
 They also have the benefit that if a property would be renamed on an object, the data builder will be adjusted but the API of the builder remains the same.
 Which means you won't have to make any changes to your test code!
 
-### Good to know - Metric & Imperial
+```{tip}
+**Metric & Imperial**
 Any values unit wise that are set using doubles, will always be metric as this is how the data builders are set up.
 If the builder accepts actual units, you are free to provide it with units defined in the imperial system for example.
+```
 
-### Good to know - Sane values
+```{tip}
+**Sane values**
 While we do our best to make sure that the model actually makes sense in the context of structural engineering, this may sometimes not be the case.  
 So it may happen that some objects constructed by either the data builders or from the house model have weird values that do not make sense to a structural engineer.
+```
 
 ### Usage
 The API is the same for each builder available.  
