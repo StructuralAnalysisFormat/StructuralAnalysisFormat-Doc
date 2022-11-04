@@ -22,7 +22,7 @@ Once you have that, you only need to call the import or export service and the r
 Due to how this SDK is defined, with most of the actual implementation details being internal, you should also use one of our bootstrapping packages:
 - **[StructuralAnalysisFormat.Bootstrappers.SimpleInjector4](./StructuralAnalysisFormat.Bootstrappers.SimpleInjector4.md)**  
   _If you wish to use SimpleInjector v4_
-- **[StructuralAnalysisFormat.Bootstrappers.SimpleInjector5](./StructuralAnalysisFormat.Bootstrappers.SimpleInjector5.md**  
+- **[StructuralAnalysisFormat.Bootstrappers.SimpleInjector5](./StructuralAnalysisFormat.Bootstrappers.SimpleInjector5.md)**  
   _If you wish to use SimpleInjector v5_
 
 **If you are only required to work with the data model of the SDK, then this package is sufficient.**
