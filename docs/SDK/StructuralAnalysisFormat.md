@@ -1,5 +1,5 @@
 # StructuralAnalysisFormat
-This package implements the [Structural Analysis Format](https://www.saf.guide) in C#
+This package implements the Structural Analysis Format in C#
 
 The aim of this SDK is to allow anyone to rapidly get started implementing the SAF specification in their own software.
 
@@ -10,9 +10,9 @@ The aim of this SDK is to allow anyone to rapidly get started implementing the S
 - Effortlessly switch between metric & imperial values
 
 ## Dependencies
-- Uses EPPlus (4.5.3.3) for handling excel files
-- Uses FluentValidation for validation
-- Uses UnitsNet for unit operations
+- Uses [EPPlus](https://github.com/JanKallman/EPPlus) (4.5.3.3) for handling excel files
+- Uses [FluentValidation](https://docs.fluentvalidation.net/en/latest/) for validation
+- Uses [UnitsNet](https://github.com/angularsen/UnitsNet) for unit operations
 
 ## What do you need to do?
 In order to use this SDK, it is sufficient for you to provide a mapping between the data objects in your software and the data objects defined in the SDK
@@ -20,9 +20,9 @@ Once you have that, you only need to call the import or export service and the r
 
 ## Remarks
 Due to how this SDK is defined, with most of the actual implementation details being internal, you should also use one of our bootstrapping packages:
-- **StructuralAnalysisFormat.Bootstrappers.SimpleInjector4**  
+- **[StructuralAnalysisFormat.Bootstrappers.SimpleInjector4](./StructuralAnalysisFormat.Bootstrappers.SimpleInjector4.md)**  
   _If you wish to use SimpleInjector v4_
-- **StructuralAnalysisFormat.Bootstrappers.SimpleInjector5**  
+- **[StructuralAnalysisFormat.Bootstrappers.SimpleInjector5](./StructuralAnalysisFormat.Bootstrappers.SimpleInjector5.md**  
   _If you wish to use SimpleInjector v5_
 
 **If you are only required to work with the data model of the SDK, then this package is sufficient.**
