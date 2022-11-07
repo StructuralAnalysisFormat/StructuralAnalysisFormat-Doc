@@ -99,3 +99,13 @@ Table of contents:
   annexes/supported-design-properties-of-the-materials
   annexes/units
   annexes/ignore
+
+.. toctree::
+  :caption: SDK
+  :maxdepth: 1
+  
+  SDK/Introduction.md
+  SDK/StructuralAnalysisFormat.md
+  SDK/StructuralAnalysisFormat.Tests.Infrastructure
+  SDK/StructuralAnalysisFormat.Bootstrappers.SimpleInjector4
+  SDK/StructuralAnalysisFormat.Bootstrappers.SimpleInjector5
