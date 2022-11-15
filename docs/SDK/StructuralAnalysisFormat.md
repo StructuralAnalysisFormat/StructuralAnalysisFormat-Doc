@@ -1,4 +1,7 @@
-# StructuralAnalysisFormat
+# Structural Analysis Format
+
+**StructuralAnalysisFormat*
+
 This package implements the Structural Analysis Format in C#. The aim of this SDK is to allow anyone to rapidly get started implementing the SAF specification in their own software.
 
 [Download the package at nuget.org](https://www.nuget.org/packages/StructuralAnalysisFormat)
