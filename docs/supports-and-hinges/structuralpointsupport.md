@@ -1,8 +1,8 @@
 # StructuralPointSupport
 
-**Support in node**
+**Point support**
 
-StructuralPointSupport represents a support of the analytical model in a node. The support is defined by six separate parameters. Each parameter defines the constraint in one direction: translation in the direction of the X, Y, Z axis and rotation around the same axes. A nodal support is oriented in the global co-ordinate system.
+StructuralPointSupport represents a support of the analytical model in a node or a point support on a beam. The support is defined by six separate parameters. Each parameter defines the constraint in one direction: translation in the direction of the X, Y, Z axis and rotation around the same axes. 
 
 ![](../.gitbook/assets/19\_structuralpointsupport.png)
 
@@ -37,7 +37,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
 
 >Tension and compression supports act only in a specific direction. Tension supports prevent the movement in the positive direction of an axis. Compression supports prevent the movement in the opposite direction. Those supports are: compression only, tension only, flexible compression only, and flexible tension only.
 >
->Support in a node is always oriented in the global coordinate system. See the picture below for an example of tension only support which prevents the movement only in the positive direction of the global axes.
+>Support in a node is always oriented in the global coordinate system. See the picture below for an example of tension only support which prevents the movement only in the positive direction of the global axes. Only if the support is assigned to a 1D member (instead of a node) it can be assigned local coordinate system defined by the 1D member.
 >
 >```{image} ../.gitbook/assets/19_point_support_directions.png
 >:width: 400px
