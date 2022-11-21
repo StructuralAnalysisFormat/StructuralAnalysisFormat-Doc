@@ -1,4 +1,4 @@
-# Bootstrappers Simple Injector 4
+# Bootstrapping: SimpleInjector 4
 
 **StructuralAnalysisFormat.Bootstrappers.SimpleInjector4**
 

@@ -1,4 +1,4 @@
-# Structural Analysis Format
+# Main package
 
 **StructuralAnalysisFormat**
 

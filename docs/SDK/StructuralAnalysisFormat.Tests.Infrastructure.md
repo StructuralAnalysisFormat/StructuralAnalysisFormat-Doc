@@ -1,4 +1,4 @@
-# Tests Infrastructure
+# Testing
 
 **StructuralAnalysisFormat.Tests.Infrastructure**
 
