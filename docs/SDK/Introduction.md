@@ -8,7 +8,7 @@ Check all the dependencies at [nuget.org](https://www.nuget.org/profiles/Structu
 
 There are 4 packages available:
 
-* **[StructuralAnalysisFormat](./StructuralAnalysisFormat.md)** package contains import/export functionality from and to the Structural Analysis Format in Excel.
+* The main package - **[StructuralAnalysisFormat](./StructuralAnalysisFormat.md)** contains import/export functionality from and to the Structural Analysis Format in Excel.
 
 * **[StructuralAnalysisBootstrappers.SimpleInjector4](./StructuralAnalysisFormat.Bootstrappers.SimpleInjector4.md)** package contains functionality to bootstrap SAF using SimpleInjector 4.
 
