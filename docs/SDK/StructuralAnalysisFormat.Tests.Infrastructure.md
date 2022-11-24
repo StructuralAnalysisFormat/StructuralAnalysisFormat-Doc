@@ -1,4 +1,7 @@
-# StructuralAnalysisFormat.Tests.Infrastructure
+# Testing
+
+**StructuralAnalysisFormat.Tests.Infrastructure**
+
 This package adds some functionality that may come in handy for testing purposes.
 
 [Download the package at nuget.org](https://www.nuget.org/packages/StructuralAnalysisFormat.Tests.Infrastructure)

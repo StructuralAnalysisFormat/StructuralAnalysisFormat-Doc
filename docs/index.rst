@@ -106,6 +106,6 @@ Table of contents:
   
   SDK/Introduction.md
   SDK/StructuralAnalysisFormat.md
-  SDK/StructuralAnalysisFormat.Tests.Infrastructure
   SDK/StructuralAnalysisFormat.Bootstrappers.SimpleInjector4
   SDK/StructuralAnalysisFormat.Bootstrappers.SimpleInjector5
+  SDK/StructuralAnalysisFormat.Tests.Infrastructure
