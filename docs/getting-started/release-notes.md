@@ -19,6 +19,9 @@ Current changes from stable version are noted here.
     * 2D member reqiurement extended
 * [StructuralEdgeConnection](../supports-and-hinges/structuraledgeconnection.md)
    * Support on an edge can be now assigned to internal edges
+   * Enum "Boundary condition" extended with value "On internal edge"
+   * Integer "Edge" now required for Boundary condition = On edge, On subregion edge, On opening edge
+   * New String "Internal edge"
 * [StructuralLoadCombination](../loads/structuralloadcombination.md)
     * new value "Nonlinear" for attribute "Type"
 * [Project and model specification](./project-and-model-specifications/README.md)
@@ -44,6 +47,9 @@ Current changes from stable version are noted here.
    * "Begin node" and "End node" properties removed
 * [StructuralPointSupport](../supports-and-hinges/structuralpointsupport.md)
    * Point support can now be assigned to beams (not only nodes)
+   * New enum "Boundary condition"
+   * String "Node" now required only for Boundary condition = In node
+   * New properties "Member", "Coordinate system", "Origin", "Coordinate definition", "Position x \[m]"
 
 **New object added:**
 
