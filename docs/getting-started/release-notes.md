@@ -11,6 +11,9 @@ The last stable version is v2.2.0. To see it select versions: 'stable' in the le
 ### Current changes
 Current changes from stable version are noted here.
 
+
+### 28.11.2022 - Version 2.2.0
+
 **Modified objects:**
 * [StructuralCurveAction](../loads/structuralcurveaction.md) and [StructuralCurveMoment](../loads/structuralcurvemoment.md)
    * Enum "Force action" extended with value "On internal edge". "Internal edge" requirement changed:
