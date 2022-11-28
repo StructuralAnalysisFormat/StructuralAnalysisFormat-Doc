@@ -1,9 +1,5 @@
 # ResultInternalForce2DEdge
 
-```{warning}
-New object under construction.
-```
-
 **Internal force on 2D edge**
 
 Internal forces on edge of 2D member. The coordinate system of the results is the coordinate system of the member the results belong to.
