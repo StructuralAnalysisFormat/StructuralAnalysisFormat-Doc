@@ -6,7 +6,7 @@ SAF Documentation
 
 Structural Analysis Format documentation
 
-Current version: Version in progress
+Current version: 2.2.0
 
 .. tip:: Visit `discussion <https://github.com/StructuralAnalysisFormat/StructuralAnalysisFormat-Doc/discussions>`_ to ask any questions or contribute to the development.
 
