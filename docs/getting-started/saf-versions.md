@@ -18,7 +18,7 @@ It is possible to use the menu in the left bottom corner as described above, or 
 * [Stable documentation](https://www.saf.guide/en/stable/) - **currently released version** published at saf.guide
 
 ```{admonition} Currently displayed documentation
-Version 'latest - version in progress' is being viewed 
+Version 2.2.0 is being viewed
 ```
 
 ## Previous SAF versions

@@ -2,14 +2,13 @@
 
 ```{admonition} Version
 
-**This is the latest version in progress.**
+**Version**
 
-The last stable version is v2.1.0. To see it select versions: 'stable' in the left bottom corner.
+Currently displayed version 2.2.0
 
 ```
 
-### Current changes
-Current changes from stable version are noted here.
+### 28.11.2022 - Version 2.2.0
 
 **Modified objects:**
 * [StructuralCurveAction](../loads/structuralcurveaction.md) and [StructuralCurveMoment](../loads/structuralcurvemoment.md)
