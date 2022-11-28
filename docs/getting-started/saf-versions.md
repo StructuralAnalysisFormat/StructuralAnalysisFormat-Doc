@@ -23,11 +23,11 @@ Version ‘latest - version in progress’ is being viewed
 
 ## Previous SAF versions
 
-[2.2.0](https://www.saf.guide/en/stable/)
+[2.2.0](https://www.saf.guide/en/2.2.0)
 
-[2.1.0](https://www.saf.guide/en/stable/)
+[2.1.0](https://www.saf.guide/en/2.1.0_a)
 
-[2.0.0](https://gitbook.saf.guide/v/2.0.0/)
+[2.0.0](https://gitbook.saf.guide/v/2.0.0)
 
 [1.1.1](https://old.saf.guide/v1.1.1)
 
