@@ -18,12 +18,14 @@ It is possible to use the menu in the left bottom corner as described above, or 
 * [Stable documentation](https://www.saf.guide/en/stable/) - **currently released version** published at saf.guide
 
 ```{admonition} Currently displayed documentation
-Version 2.2.0 is being viewed
+Version ‘latest - version in progress’ is being viewed
 ```
 
 ## Previous SAF versions
 
-[2.1.0](https://www.saf.guide/en/stable/)
+[2.2.0](https://www.saf.guide/en/2.2.0_a/)
+
+[2.1.0](https://www.saf.guide/en/2.1.0_a/)
 
 [2.0.0](https://gitbook.saf.guide/v/2.0.0/)
 
