@@ -4,7 +4,7 @@
 
 **This is the latest version in progress.**
 
-The last stable version is v2.1.0. To see it select versions: 'stable' in the left bottom corner.
+The last stable version is v2.2.0. To see it select versions: 'stable' in the left bottom corner.
 
 ```
 
