@@ -1,9 +1,5 @@
 # StructuralLoadCombination
 
-```{warning}
-Object under construction.
-```
-
 **Load Combination**
 
 Object serves for definition a load combination. The combination is created from the existing load cases in the model, in [StructuralLoadCase](structuralloadcase.md) sheet.
