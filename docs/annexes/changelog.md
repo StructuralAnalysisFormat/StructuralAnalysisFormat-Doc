@@ -2,6 +2,9 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+## 5.12.2022 Small tweaks after the release
+   * newly created obejcts in 2.2.0 are now in the Who supports SAF table
+   * fixed link to docs 2.1.0 in SAF Versions
 
 ## 28.11.2022 SAF 2.2.0 release
    * Links to previous documentation updated in SAF versions
