@@ -3,6 +3,9 @@
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
 
+## 8.12.2022 SAF implementation udpate
+   * New software Prota Structure now supports SAF import and export
+
 ## 28.11.2022 SAF 2.2.0 release
    * Links to previous documentation updated in SAF versions
    * "Under construction" warnings removed
@@ -13,7 +16,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 * New software MasterSap now supports import and export of SAF
 
 ## 15.9. SAF implementation update
-* New sofaware NextFEM now supports import and export of SAF
+* New software NextFEM now supports import and export of SAF
 
 ## 22.8. LCS description improved
 * Description of LCS by vector and by point in [Introduction](../getting-started/introduction.md) extended
