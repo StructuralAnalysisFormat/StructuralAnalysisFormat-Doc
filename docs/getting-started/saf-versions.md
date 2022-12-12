@@ -25,7 +25,7 @@ Version ‘latest - version in progress’ is being viewed
 
 [2.2.0](https://www.saf.guide/en/2.2.0)
 
-[2.1.0](https://www.saf.guide/en/2.1.0_a)
+[2.1.0](https://www.saf.guide/en/2.1.0)
 
 [2.0.0](https://gitbook.saf.guide/v/2.0.0)
 
