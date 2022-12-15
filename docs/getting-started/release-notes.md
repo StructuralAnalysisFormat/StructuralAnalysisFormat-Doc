@@ -11,6 +11,8 @@ The last stable version is v2.2.0. To see it select versions: 'stable' in the le
 ### Current changes
 Current changes from stable version are noted here.
 
+* [StructuralLoadCase](../loads/structuralloadcase.md)
+   * From enum "Load type" value "Standard" was deleted. Everything that was "Standard" before should now be "Others"
 
 ### 28.11.2022 - Version 2.2.0
 
