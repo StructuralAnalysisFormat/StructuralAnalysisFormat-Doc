@@ -11,6 +11,7 @@ The last stable version is v2.2.0. To see it select versions: 'stable' in the le
 ### Current changes
 Current changes from stable version are noted here.
 
+**Modified objects:**
 * [StructuralLoadCase](../loads/structuralloadcase.md)
    * From enum "Load type" value "Standard" was deleted. It was not possible to differentiate between "Standard" and "Others". What was exported as "Standard" should now be exported as "Others".
 
