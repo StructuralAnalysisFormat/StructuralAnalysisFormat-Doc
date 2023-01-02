@@ -2,14 +2,16 @@
 
 **Free surface load**
 
+```{warning} 
+object under development
+```
+
 The Free surface load is related to slabs. The load is not defined by the entity it acts on, but by a specific load border. Free loads are defined by means of "loading entities" that may overlap or affect one or more slabs.
 
 ```{image} ../.gitbook/assets/40\_structuralsurfaceactionfree.png
 :width: 600px
 ```
-```{warning} 
-object under development
-```
+
 ## Specification in the excel
 
 | Column header| Data type | Example / enum definition | Required | Description |
@@ -23,7 +25,7 @@ object under development
 | Validity | Enum | All,<br>minus Z,<br>minus Z zero,<br> Z zero,<br>plus Z,<br>Plus Z zero,<br>From to | yes | All = entities located above as well as below are subject to the defined load <br>Minus Z = All entities below <br>Minus Z zero = All entities below and in the plane of the load <br>Z zero = Only entities in the plane <br>Plus Z = All entities above <br>Plus Z zero = All the entities above and in the plane <br>From to = All entities in the defined range |
 | Validity to \[m] | Double | 2.1 | yes, if Validity = From to | Validity in the direction of positive Z axis of the load. Loads will be generated only below this distance |
 | Validity from \[m] | Double | -3.4 | yes, if Validity = From to | Validity in the direction of positive Z axis of the load. Load will be generated only above this distance |
-| Local Z direction | Enum | Positive,<br>Negative | Sets the direction of local Z axis of the load. Local Z axis is always perpendicular to the plane of the load. Positive means that the direction will be in the positive direction of global axis. For more information about the LCS of the load see notes |
+| Local Z direction | Enum | Positive,<br>Negative | yes | Sets the direction of local Z axis of the load. Local Z axis is always perpendicular to the plane of the load. Positive means that the direction will be in the positive direction of global axis. For more information about the LCS of the load see notes |
 |       Coordinate X \[m]       |      Double      |                                                                                              0.000; 2.050; 4.850; -2.000                                                                                             |         yes        | The list of X coordinates of the nodes which define the geometry of the surface free load. Each coordinate is separated by semicolon and space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |       Coordinate Y \[m]       |      Double      |                                                                                              0.500; 1.050; 2.650; -1.500                                                                                             |         yes        | The list of Y coordinates of the nodes which define the geometry of the surface free load. Each coordinate is separated by semicolon and space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |       Coordinate Z \[m]       |      Double      |                                                                                              0.000; 0.000; 0.000; 0.000                                                                                              |         yes        | The list of Z coordinates of the nodes which define the geometry of the surface free load. Each coordinate is separated by semicolon and space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -39,7 +41,7 @@ object under development
 >When "Distribution" is set to "DirectionXY" is necessary to define 3 "C" vertexes. These Vertexes are defining projection onto slab and Value of the load as well. According to position and load value of "C" vertexes is load plane defined and every other vertex of the surface load is calculated. See example below.
 >
 >```{image} ../.gitbook/assets/40\_structuralsurfaceactionfree\_note.png
->:width: 1000px
+>:width: 800px
 >```
 
 >The LCS of the load is created based on the order of the nodes defining the load. X axis is in the direction from the first point to the second. Z axis is always perpendicular, and the direction is set by the property Local Z direction. Y axis is then set by the right-hand rule.
