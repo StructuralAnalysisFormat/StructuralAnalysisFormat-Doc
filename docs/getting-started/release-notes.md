@@ -14,6 +14,10 @@ Current changes from stable version are noted here.
 * [StructuralLoadCase](../loads/structuralloadcase.md)
    * From enum "Load type" value "Standard" was deleted. It was not possible to differentiate between "Standard" and "Others". What was exported as "Standard" should now be exported as "Others".
 
+* [StructuralSurfaceActionFree](../loads/structuralsurfaceactionfree.md)
+   * enum "Coordinate system" extended with value "Member LCS"
+   * new properties "Validity", "Validity to \[m]", "Validity from \[m]", and "Local Z directionZ" added
+
 ### 28.11.2022 - Version 2.2.0
 
 **Modified objects:**
