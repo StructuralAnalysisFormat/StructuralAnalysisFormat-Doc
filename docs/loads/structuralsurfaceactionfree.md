@@ -50,8 +50,8 @@ The Free surface load is related to slabs. The load is not defined by the entity
 
 >Above is in the direction of positive local Z axis from XY plane of the load or defined distance from that plane. Below is in the direction of negative local Z axis. In the example below load will be generated only between 3 and 4 m from the free load.
 >
->![image](https://user-images.githubusercontent.com/89633938/206848503-e74da98e-97b1-4b8e-90e6-0c8c65dee402.png)
+>![image](../.gitbook/assets/40_structuralsurfaceactionfree_from_to.png)
 
 >The load is projected always in the direction perpendicular to the load = in the direction of local Z axis.
 >
->![image](https://user-images.githubusercontent.com/89633938/199990367-d5c6090b-8028-4338-8627-14a1f3db7c13.png)  
+>![image](../.gitbook/assets/40_structuralsurfaceactionfree_coordinate_system.png)  
