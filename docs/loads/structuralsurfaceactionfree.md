@@ -48,7 +48,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
 
 >Local Z direction = Positive means that Z direction will be in the direction of positive Z global direction, if it is not possible then in the positive direction of X axis, if that is also not possible then in the direction of positive Y global axis.
 
->Above is in the direction of positive local Z axis from XY plane of the load or defined distance from that plane. Below is in the direction of negative local Z axis. In the example below load will be generated only between 3 and 4 m from the free load.
+>Above is in the direction of positive local Z axis from XY plane of the load or from defined distance from that plane. Below is in the direction of negative local Z axis. In the example below load will be generated only between 3 and 4 m from the free load.
 >
 >```{image} ../.gitbook/assets/40_structuralsurfaceactionfree_from_to.png
 >:width: 400px
