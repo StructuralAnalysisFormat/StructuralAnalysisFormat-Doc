@@ -46,7 +46,7 @@ The Free surface load is related to slabs. The load is not defined by the entity
 
 >The LCS of the load is created based on the order of the nodes defining the load. X axis is in the direction from the first point to the second. Z axis is always perpendicular, and the direction is set by the property Local Z direction. Y axis is then set by the right-hand rule.
 
->Local Z direction = Positive means that Z direction will be in the direction of positive Z global direction, if it is not possible then in the positive direction of X axis, if that is also not possible then in the direction of positive Y global axis.
+>Local Z direction = Positive means that local Z direction will be in the direction of positive global Z direction, if it is not possible then in the positive direction of global X axis, if that is also not possible then in the direction of positive global Y axis.
 
 >Above is in the direction of positive local Z axis from XY plane of the load or from defined distance from that plane. Below is in the direction of negative local Z axis. In the example below load will be generated only between 3 and 4 m from the free load.
 >
