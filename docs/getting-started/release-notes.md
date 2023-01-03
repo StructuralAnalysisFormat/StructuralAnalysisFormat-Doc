@@ -17,7 +17,7 @@ Current changes from stable version are noted here.
 
 * [StructuralSurfaceActionFree](../loads/structuralsurfaceactionfree.md)
    * enum "Coordinate system" extended with value "Member LCS"
-   * new properties "Validity", "Validity to \[m]", "Validity from \[m]", and "Local Z directionZ" added
+   * new properties "Validity", "Validity to \[m]", "Validity from \[m]", and "Local Z direction" added
 
 ### 28.11.2022 - Version 2.2.0
 
