@@ -2,6 +2,9 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+## 27.2.2023 SAF implementation update
+   * NextFEM now supports SAF 2.2.0
+
 ## 2.1.2023 Small description update
    * In [StructuralPointSupport](../supports-and-hinges/structuralpointsupport.md) description for property "Node" udpated with a link to [StructuralPointConnection](../structural-analysis-elements/structuralpointconnection.md)
 
