@@ -4,7 +4,7 @@ For release notes go to [Release Notes](release-notes.md). All the other (smalle
 
 
 ## 27.2.2023 SAF implementation update
-   * NextFEM now supports SAF 2.2.0
+   * NextFEM now supports SAF 2.2.0 and two new objects
 
 ## 14.12.2022 Small tweaks after the release
    * Newly created objects in 2.2.0 are now in the Who supports SAF table
