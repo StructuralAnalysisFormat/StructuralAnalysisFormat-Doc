@@ -59,6 +59,7 @@ Table of contents:
   supports-and-hinges/relconnectsrigidcross
   supports-and-hinges/relconnectsrigidlink
   supports-and-hinges/relconnectsrigidmember
+  supports-and-hinges/nonlinearfunction
   
 .. toctree::
   :caption: Loads
