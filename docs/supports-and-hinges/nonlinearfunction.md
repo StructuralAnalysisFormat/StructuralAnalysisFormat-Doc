@@ -1,7 +1,3 @@
 # NonlinearFunction
 
 **Nonlinear function**
-
-
-
-
