@@ -17,9 +17,10 @@ Nonlinear function defines the change of stiffness based on the deformation. It 
 | Id | String | 39f238a5-01d0-45cf-a2eb-958170fd4f39 | no | Unique attribute designation |
 
 
-Notes:
-Nonlinear function can be displayed in a graph, look at the example below to see the difference between Rigid, Free and Flexible ends.  
+## Notes
+
+>Nonlinear function can be displayed in a graph, look at the example below to see the difference between Rigid, Free and Flexible ends.  
  
 ![image](../.gitbook/assets/28_nonlinearFun-note1.png)
 
-It is not possible to draw vertical lines. Use rigid positive or negative ends to create rigid behavior or create a line that is almost vertical.
+>It is not possible to draw vertical lines. Use rigid positive or negative ends to create rigid behavior or create a line that is almost vertical.
