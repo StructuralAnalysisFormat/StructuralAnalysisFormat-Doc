@@ -14,10 +14,16 @@ Current changes from stable version are noted here.
 **Modified objects:**
 * [StructuralLoadCase](../loads/structuralloadcase.md)
    * From enum "Load type" value "Standard" was deleted. It was not possible to differentiate between "Standard" and "Others". What was exported as "Standard" should now be exported as "Others".
-
 * [StructuralSurfaceActionFree](../loads/structuralsurfaceactionfree.md)
    * enum "Coordinate system" extended with value "Member LCS"
    * new properties "Validity", "Validity to \[m]", "Validity from \[m]", and "Local Z direction" added
+* [RelConnectsStructuralMember](../supports-and-hinges/relconnectsstructuralmember.md)
+   * enums ux, uy, uz, fix, fiy, fiz extended with new value "Nonlinear"
+   * new porperties added: Function ux, Function uy, Function, uz, Function fix, Function fiy, Function fiz
+
+**New objects**
+* [NonlinearFunction](../supports-and-hinges/nonlinearfunction.md)
+   * A function which describes nonlinear behavior
 
 ### 28.11.2022 - Version 2.2.0
 
