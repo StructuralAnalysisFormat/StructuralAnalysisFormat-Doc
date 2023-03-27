@@ -37,5 +37,5 @@ The entity RelConnectsStructuralMember allows users to release degrees of freedo
 ## Notes
 
 >**Hinge position** is used for allowing users to define where degrees of freedom are released (user defined constrains).
->
+
 >When the fully rigid connection is desired - no RelConnectsStructuralMember is defined!
