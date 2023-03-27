@@ -20,6 +20,9 @@ Current changes from stable version are noted here.
 * [RelConnectsStructuralMember](../supports-and-hinges/relconnectsstructuralmember.md)
    * enums ux, uy, uz, fix, fiy, fiz extended with new value "Nonlinear"
    * new porperties added: Function ux, Function uy, Function, uz, Function fix, Function fiy, Function fiz
+* [RelConnectsSurfaceEdge](../supports-and-hinges/relconnectssurfaceedge.md)
+   * enums ux, uy, uz, fix, fiy, fiz extended with new value "Nonlinear"
+   * new porperties added: Function ux, Function uy, Function, uz, Function fix, Function fiy, Function fiz
 
 **New objects**
 * [NonlinearFunction](../supports-and-hinges/nonlinearfunction.md)
