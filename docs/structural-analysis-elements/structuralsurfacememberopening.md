@@ -22,7 +22,7 @@ Instances of StructuralSurfaceMemberOpening describe openings in face members ([
 
 ## Notes
 
->The edges of one opening can't touch nor cross each other. When necessary, create two or more openings instead.
+>The edges of one opening cannot touch nor cross each other. When necessary, create two or more openings instead.
 >
 >![](../.gitbook/assets/15_opening-touch.png)
 
