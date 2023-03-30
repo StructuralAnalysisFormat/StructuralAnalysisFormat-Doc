@@ -29,3 +29,7 @@ This object defines particular areas of the [StructuralSurfaceMember](structural
 >```{image} ../.gitbook/assets/16\_structuralsurfacememberregion2.png
 >:width: 1000px
 >```
+
+>The edges of one region cannot touch nor cross each other. When necessary, create two or more 2D regions instead.
+>
+>![](../.gitbook/assets/15_opening-touch.png)

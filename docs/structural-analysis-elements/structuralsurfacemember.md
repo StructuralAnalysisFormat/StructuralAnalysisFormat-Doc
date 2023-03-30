@@ -47,3 +47,8 @@ The geometry of a 2D member is defined by nodes ([StructuralPointConnection](str
 >![](../.gitbook/assets/14\_structuralsurfacemember3.png)
 >
 >![](../.gitbook/assets/14\_structuralsurfacemember4.png)
+
+
+>The edges of one surface cannot touch nor cross each other. When necessary, create two or more 2D members instead.
+>
+>![](../.gitbook/assets/15_opening-touch.png)
