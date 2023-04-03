@@ -2,7 +2,7 @@
 
 **General solids**
 
-StrucutralProxyElements are solid objects described by their boundary representation (faces of objects). The common use for StrucutralProxyElements can be found for complex part of structures (garage ramps for example), which are difficult to describe with [StructuralCurveMember](structuralcurvemember.md) and [StructuralSurfaceMember](structuralsurfacemember.md) or for massive parts of structures with difficult geometry such as foundations. With StrucuralProxyElement all important parts of the structure can be transferred via SAF format no matter the complexity.
+StructuralProxyElements are solid objects described by their boundary representation (faces of objects). The common use for StructuralProxyElements can be found for complex part of structures (garage ramps for example), which are difficult to describe with [StructuralCurveMember](structuralcurvemember.md) and [StructuralSurfaceMember](structuralsurfacemember.md) or for massive parts of structures with difficult geometry such as foundations. With StructuralProxyElement all important parts of the structure can be transferred via SAF format no matter the complexity.
 
 ```{warning}
 Structural proxy element is not structural analysis object and will not be considered in structural analysis calculation. It is just a geometrical reference object.
@@ -12,7 +12,7 @@ Structural proxy element is not structural analysis object and will not be consi
 
 ## StructuralProxyElement
 
-Sheet StrucutralProxyElement is a list of all StructuralProxyElements defined in the SAF file. Every row represents one solid object.
+Sheet StructuralProxyElement is a list of all StructuralProxyElements defined in the SAF file. Every row represents one solid object.
 
 ### Specification in the excel
 
@@ -52,7 +52,7 @@ Sheet StructuralProxyElementFaces is used for defining faces of every Structural
 
 ## Notes
 
->Example of simple StrucutralProxyElement\
+>Example of simple StructuralProxyElement\
 >vertices:\
 >**v**0\[0,0,0], **v**1\[2,0,0], **v**2\[1,2,0], **v**3\[1,1,2]\
 >faces:\
