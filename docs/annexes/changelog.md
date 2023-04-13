@@ -2,6 +2,11 @@
 
 For release notes go to [Release Notes](release-notes.md). All the other (smaller) changes are documented here. This includes especially changes in wording and visuals. Improvements in the specification documented in changelog are not changing the functionality or compatibility of SAF. These changes only improve the understandability of SAF documentation.
 
+
+
+## 30.3.2023 Small description update
+   * Extending notes in [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md) nad [StructuralSurfaceMemberRegion](../structural-analysis-elements/structuralsurfacememberregion.md)
+   
 ## 27.2.2023 SAF implementation update
    * NextFEM now supports SAF 2.2.0 and two new objects
 
