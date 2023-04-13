@@ -7,9 +7,7 @@ SAF is an initiative from the Nemetschek Group to improve the collaboration betw
 
 The structural analysis software companies participating in this initiative today are presented in chapter ["Who supports SAF?"](who-supports-saf.md).
 
-The coordination is currently managed by SCIA. If you are interested in joining, please contact Herman Oogink, Director Product and Alliances at SCIA.
-
-Email: **h.oogink@scia.net**
+The coordination is currently managed by SCIA.
 
 **You can visit the free web app to test the import of your own SAF!**
 
